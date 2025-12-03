@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Network Evolution Viewer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: white;
+            color: #333;
+        }
+
+        .header {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .header h1 {
+            color: #2d3748;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            color: #4a5568;
+            font-size: 14px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            height: calc(100vh - 80px);
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .left-panel {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .right-panel {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 2fr 1fr; /* Top row larger than bottom */
+            grid-template-areas:
+                "network overall"
+                "metro periph";
+            gap: 10px;
+        }
+
+        .network-panel {
+            grid-area: network;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        /* Grid area assignments for charts */
+        .chart-panel.panel-overall { grid-area: overall; }
+        .chart-panel.panel-metro { grid-area: metro; }
+        .chart-panel.panel-periph { grid-area: periph; }
+
+        .chart-panel {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .panel-header {
+            background: #f7fafc;
+            padding: 12px 15px;
+            border-bottom: 1px solid #e2e8f0;
+            font-weight: 600;
+            color: #2d3748;
+            font-size: 14px;
+        }
+
+        .file-upload-section {
+            border: 2px dashed #cbd5e0;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .file-upload-section:hover {
+            border-color: #3182ce;
+            background: #f7fafc;
+        }
+
+        .file-upload-section.dragover {
+            border-color: #3182ce;
+            background: #ebf8ff;
+        }
+
+        #file-input {
+            display: none;
+        }
+
+        .upload-icon {
+            font-size: 48px;
+            color: #3182ce;
+            margin-bottom: 10px;
+        }
+
+        .upload-text {
+            font-size: 14px;
+            color: #4a5568;
+        }
+
+        .file-name {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #2d3748;
+            font-weight: 600;
+        }
+
+        .timeline-control {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 15px;
+        }
+
+        .timeline-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: #3182ce;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2c5aa0;
+        }
+
+        .btn-primary:disabled {
+            background: #cbd5e0;
+            cursor: not-allowed;
+        }
+
+        .btn-secondary {
+            background: #e2e8f0;
+            color: #4a5568;
+        }
+
+        .btn-secondary:hover {
+            background: #cbd5e0;
+        }
+
+        .timeline-slider {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .timeline-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #4a5568;
+            margin-bottom: 10px;
+        }
+
+        .speed-control {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .speed-control label {
+            font-size: 12px;
+            color: #4a5568;
+        }
+
+        .speed-control input {
+            flex: 1;
+        }
+
+        .statistics {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 15px;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            display: block;
+            font-size: 20px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: #4a5568;
+            margin-top: 2px;
+        }
+
+        .metro-oriented {
+            color: #3182ce;
+        }
+
+        .periph-oriented {
+            color: #e53e3e;
+        }
+
+        #network-visualization {
+            width: 100%;
+            height: 100%;
+        }
+
+        .chart-container {
+            flex: 1;
+            position: relative;
+            min-height: 200px;
+            display: flex;               /* center the svg within panel */
+            align-items: center;
+            justify-content: center;
+        }
+
+        .chart-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 11px;
+        }
+
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>City-based Transmission Network</h1>
+    </div>
+
+    <div class="container">
+        <div class="left-panel">
+            <!-- File Upload Section -->
+            <div class="file-upload-section" id="file-upload-area">
+                <div class="upload-icon">📁</div>
+                <div class="upload-text">
+                    Click to upload or drag & drop<br>
+                    <small>JSON file from simulation</small>
+                </div>
+                <div class="file-name" id="file-name"></div>
+                <input type="file" id="file-input" accept=".json">
+            </div>
+
+            <!-- Timeline Control -->
+            <div class="timeline-control">
+                <div class="timeline-buttons">
+                    <button class="btn btn-primary" id="play-btn" disabled>▶ Play</button>
+                    <button class="btn btn-secondary" id="reset-btn" disabled>↺ Reset</button>
+                </div>
+
+                <input type="range" class="timeline-slider" id="timeline-slider" min="0" max="100" value="0" disabled>
+
+                <div class="timeline-info">
+                    <span>Generation: <strong id="current-gen">0</strong></span>
+                    <span>Total: <strong id="total-gen">0</strong></span>
+                </div>
+
+                <div class="speed-control">
+                    <label>Speed:</label>
+                    <input type="range" id="speed-slider" min="10" max="1000" value="200" step="10">
+                    <span id="speed-value" style="font-size: 12px;">200ms</span>
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="statistics">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-value metro-oriented" id="metro-freq">0%</span>
+                        <span class="stat-label">Metro-Oriented</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value periph-oriented" id="periph-freq">0%</span>
+                        <span class="stat-label">Periph-Oriented</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value mixed-infection" id="mixed-freq" style="color: #805ad5;">0%</span>
+                        <span class="stat-label">Mixed Cities</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="diversity">0.00</span>
+                        <span class="stat-label">Shannon Diversity</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <div class="network-panel">
+                <div class="panel-header">City Network</div>
+                <div class="legend" style="padding: 8px; font-size: 11px;">
+                    <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #cbd5e0;"></div>
+                            <span>No Infection</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #3182ce;"></div>
+                            <span>Metro-Oriented</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #e53e3e;"></div>
+                            <span>Periph-Oriented</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #805ad5;"></div>
+                            <span>Mixed</span>
+                        </div>
+                    </div>
+                </div>
+                <svg id="network-visualization"></svg>
+            </div>
+
+            <div class="chart-panel panel-overall">
+                <div class="chart-title">Overall System</div>
+                <div class="chart-container">
+                    <svg id="overall-chart"></svg>
+                </div>
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #3182ce;"></div>
+                        <span>Metro-Oriented</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #e53e3e;"></div>
+                        <span>Periph-Oriented</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart-panel panel-metro">
+                <div class="chart-title">Metro Cities</div>
+                <div class="chart-container">
+                    <svg id="metro-chart"></svg>
+                </div>
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #3182ce;"></div>
+                        <span>Metro-Oriented</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #e53e3e;"></div>
+                        <span>Periph-Oriented</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart-panel panel-periph">
+                <div class="chart-title">Peripheral Cities</div>
+                <div class="chart-container">
+                    <svg id="periph-chart"></svg>
+                </div>
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #3182ce;"></div>
+                        <span>Metro-Oriented</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #e53e3e;"></div>
+                        <span>Periph-Oriented</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let simulationData = null;
+        let currentTimeStep = 0;
+        let isPlaying = false;
+        let playInterval = null;
+        let playSpeed = 200;
+
+        let networkSvg, metroSvg, periphSvg, overallSvg;
+
+        // File upload handlers
+        const fileUploadArea = document.getElementById('file-upload-area');
+        const fileInput = document.getElementById('file-input');
+        const fileName = document.getElementById('file-name');
+
+        fileUploadArea.addEventListener('click', () => fileInput.click());
+
+        fileUploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            fileUploadArea.classList.add('dragover');
+        });
+
+        fileUploadArea.addEventListener('dragleave', () => {
+            fileUploadArea.classList.remove('dragover');
+        });
+
+        fileUploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            fileUploadArea.classList.remove('dragover');
+            const file = e.dataTransfer.files[0];
+            if (file && file.type === 'application/json') {
+                loadJSONFile(file);
+            }
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                loadJSONFile(file);
+            }
+        });
+
+        function loadJSONFile(file) {
+            fileName.textContent = `Loading: ${file.name}`;
+            const reader = new FileReader();
+
+            reader.onload = (e) => {
+                try {
+                    simulationData = JSON.parse(e.target.result);
+                    fileName.textContent = `Loaded: ${file.name}`;
+                    
+                    // Debug: Log data structure
+                    console.log('Loaded simulation data structure:');
+                    console.log('Has time_series:', simulationData.time_series ? 'YES' : 'NO');
+                    if (simulationData.time_series) {
+                        console.log('Has overall_freqs:', simulationData.time_series.overall_freqs ? 'YES' : 'NO');
+                        console.log('Has metro_freqs:', simulationData.time_series.metro_freqs ? 'YES' : 'NO');
+                        console.log('Has periph_freqs:', simulationData.time_series.periph_freqs ? 'YES' : 'NO');
+                        console.log('Has hospital_freqs:', simulationData.time_series.hospital_freqs ? 'YES' : 'NO');
+                        if (simulationData.time_series.overall_freqs) {
+                            console.log('Time steps:', simulationData.time_series.overall_freqs.length);
+                        }
+                    }
+                    console.log('Has hospital_frequencies:', simulationData.hospital_frequencies ? 'YES' : 'NO');
+                    console.log('Has genotype_classification:', simulationData.genotype_classification ? 'YES' : 'NO');
+                    
+                    initializeVisualization();
+                    enableControls();
+                    updateVisualization(0);
+                } catch (error) {
+                    alert('Error parsing JSON file: ' + error.message);
+                    fileName.textContent = '';
+                }
+            };
+
+            reader.onerror = () => {
+                alert('Error reading file');
+                fileName.textContent = '';
+            };
+
+            reader.readAsText(file);
+        }
+
+        function enableControls() {
+            // Check if we have time_series data
+            if (simulationData.time_series && simulationData.time_series.overall_freqs) {
+                const totalSteps = simulationData.time_series.overall_freqs.length;
+                document.getElementById('total-gen').textContent = totalSteps - 1;
+                document.getElementById('timeline-slider').max = totalSteps - 1;
+
+                // Enable controls
+                document.getElementById('play-btn').disabled = false;
+                document.getElementById('reset-btn').disabled = false;
+                document.getElementById('timeline-slider').disabled = false;
+            } else {
+                // No time series, show only final state
+                document.getElementById('total-gen').textContent = 'final only';
+                document.getElementById('timeline-slider').max = 0;
+
+                // Disable play controls
+                document.getElementById('play-btn').disabled = true;
+                document.getElementById('reset-btn').disabled = true;
+                document.getElementById('timeline-slider').disabled = true;
+
+                alert('Note: This file contains only the final state (no time series data). Please re-run the simulation to generate complete evolution data.');
+            }
+        }
+
+        // 把离线 JSON（simulationData）在时间步 t 映射成 {nodes, links}
+        function toForceGraph(t) {
+        if (!simulationData) return { nodes: [], links: [] };
+
+        // 基因型分组（Python 导出的分类）
+        const metroIdx = (simulationData.genotype_classification?.metro_oriented_genotypes) || [];
+        const periphIdx = (simulationData.genotype_classification?.periph_oriented_genotypes) || [];
+
+        // 1) 先把“有哪些医院、类型、容量/度数、连接关系”整理出来
+        // 这些信息通常在 degree_stats（或 hospital_frequencies 的 type）里
+        const rawNodes = [];
+        const connMap = new Map(); // id -> Set(neighbors)
+
+        if (simulationData.degree_stats) {
+            Object.values(simulationData.degree_stats).forEach(d => {
+            const id = parseInt(d.hospital_id);
+            rawNodes.push({
+                id,
+                type: (d.type === 'metro') ? 'Large' : 'Small',
+                capacity: d.capacity ?? (300 + 20 * (d.degree ?? 5)),
+                degree: d.degree ?? (d.connections?.length || 0)
+            });
+            const neigh = new Set((d.connections || []).map(x => parseInt(x)));
+            connMap.set(id, neigh);
+            });
+        } else if (simulationData.hospital_frequencies) {
+            // 只有最终状态时，从这里取类型
+            Object.entries(simulationData.hospital_frequencies).forEach(([idStr, d]) => {
+            const id = parseInt(idStr);
+            rawNodes.push({
+                id,
+                type: (d.type === 'metro') ? 'Large' : 'Small',
+                capacity: d.capacity ?? 400,
+                degree: 0
+            });
+            });
+        }
+
+        // 2) 计算每家医院在时间步 t 的 2.5/2.4“流行度”
+        // 优先使用 time_series.hospital_freqs[t][hospital_id]；否则 fallback
+        const hospFreqs = simulationData.time_series?.hospital_freqs?.[t];
+        const overallFreqs = simulationData.time_series?.overall_freqs?.[t];
+
+        function sumByIdx(arr, idxList) {
+            if (!arr) return 0;
+            return idxList.reduce((s, i) => s + (arr[i] || 0), 0);
+        }
+
+        const nodes = rawNodes.map(n => {
+            let p25 = 0, p24 = 0;
+
+            if (hospFreqs && hospFreqs[n.id]) {
+            const f = hospFreqs[n.id];          // 该院该时刻的各基因型频率
+            p25 = sumByIdx(f, metroIdx);        // 用“metro 组”代表 2.5
+            p24 = sumByIdx(f, periphIdx);       // 用“periph 组”代表 2.4
+            } else if (simulationData.hospital_frequencies?.[n.id]?.genotype_freqs) {
+            // 只有最终状态
+            const f = simulationData.hospital_frequencies[n.id].genotype_freqs;
+            p25 = sumByIdx(f, metroIdx);
+            p24 = sumByIdx(f, periphIdx);
+            } else if (overallFreqs) {
+            // 再退一步：用整体频率给所有医院同一颜色（不理想，但能展示）
+            p25 = sumByIdx(overallFreqs, metroIdx);
+            p24 = sumByIdx(overallFreqs, periphIdx);
+            }
+
+            const total = p25 + p24;
+
+            // 颜色规则：低感染灰；差异小为紫；否则蓝=2.5 红=2.4
+            let color = '#cbd5e0';
+            const low = 0.10, eps = 0.05;
+            if (total >= low) {
+            if (Math.abs(p25 - p24) < eps) color = '#7e57c2';
+            else color = (p25 > p24) ? '#3182ce' : '#e53e3e';
+            }
+
+            return {
+            id: n.id,
+            type: n.type,          // 'Large' | 'Small'
+            capacity: n.capacity,
+            p25, p24, total,
+            color
+            };
+        });
+
+        // 3) 生成 links：优先用 degree_stats.connections；否则找 transfer_matrix
+        const links = [];
+        if (connMap.size > 0) {
+            const seen = new Set();
+            rawNodes.forEach(n => {
+            const neigh = connMap.get(n.id) || new Set();
+            neigh.forEach(m => {
+                const a = Math.min(n.id, m), b = Math.max(n.id, m);
+                const key = `${a}-${b}`;
+                if (!seen.has(key)) {
+                seen.add(key);
+                links.push({ source: a, target: b, weight: 1 });
+                }
+            });
+            });
+        } else if (Array.isArray(simulationData.time_series?.transfer_matrix?.[t])) {
+            const T = simulationData.time_series.transfer_matrix[t];
+            for (let i = 0; i < T.length; i++) {
+            for (let j = i + 1; j < T.length; j++) {
+                const w = (T[i][j] + T[j][i]) / 2;
+                if (w > 0) links.push({ source: i, target: j, weight: w });
+            }
+            }
+        }
+
+        // 4) 防御性日志，方便排错
+        if (nodes.length === 0) {
+            console.warn('[toForceGraph] 无节点：请检查 JSON 是否包含 degree_stats 或 hospital_frequencies。');
+        }
+        if (links.length === 0) {
+            console.warn('[toForceGraph] 无连边：请检查 degree_stats.connections 或 transfer_matrix。');
+        }
+
+        return { nodes, links };
+        }
+
+        function initializeVisualization() {
+            // Network visualization
+            const networkContainer = document.getElementById('network-visualization');
+            const networkRect = networkContainer.parentElement.getBoundingClientRect();
+
+            networkSvg = d3.select('#network-visualization')
+                .attr('width', networkRect.width)
+                .attr('height', networkRect.height - 80);
+
+            // Chart visualizations - larger on top row, smaller bottom row
+            const overallWidth = 420, overallHeight = 300;
+            const bottomWidth = 360, bottomHeight = 240;
+            
+            try {
+                overallSvg = d3.select('#overall-chart')
+                    .attr('width', overallWidth)
+                    .attr('height', overallHeight);
+
+                metroSvg = d3.select('#metro-chart')
+                    .attr('width', bottomWidth)
+                    .attr('height', bottomHeight);
+                    
+                periphSvg = d3.select('#periph-chart')
+                    .attr('width', bottomWidth)
+                    .attr('height', bottomHeight);
+                    
+                // Debug: Check if SVGs are properly initialized
+                console.log('SVG initialization:');
+                console.log('metroSvg:', metroSvg.empty() ? 'FAILED' : 'OK');
+                console.log('periphSvg:', periphSvg.empty() ? 'FAILED' : 'OK');
+                console.log('overallSvg:', overallSvg.empty() ? 'FAILED' : 'OK');
+            } catch (error) {
+                console.error('Error initializing SVGs:', error);
+            }
+        }
+
+        // Timeline controls
+        document.getElementById('play-btn').addEventListener('click', togglePlay);
+        document.getElementById('reset-btn').addEventListener('click', resetTimeline);
+        document.getElementById('timeline-slider').addEventListener('input', (e) => {
+            currentTimeStep = parseInt(e.target.value);
+            updateVisualization(currentTimeStep);
+        });
+        document.getElementById('speed-slider').addEventListener('input', (e) => {
+            playSpeed = parseInt(e.target.value);
+            document.getElementById('speed-value').textContent = playSpeed + 'ms';
+            if (isPlaying) {
+                stopPlay();
+                startPlay();
+            }
+        });
+
+        function togglePlay() {
+            if (isPlaying) {
+                stopPlay();
+            } else {
+                startPlay();
+            }
+        }
+
+        function startPlay() {
+            isPlaying = true;
+            document.getElementById('play-btn').textContent = '⏸ Pause';
+
+            playInterval = setInterval(() => {
+                const maxSteps = parseInt(document.getElementById('timeline-slider').max);
+                if (currentTimeStep < maxSteps) {
+                    currentTimeStep++;
+                    document.getElementById('timeline-slider').value = currentTimeStep;
+                    updateVisualization(currentTimeStep);
+                } else {
+                    stopPlay();
+                }
+            }, playSpeed);
+        }
+
+        function stopPlay() {
+            isPlaying = false;
+            document.getElementById('play-btn').textContent = '▶ Play';
+            if (playInterval) {
+                clearInterval(playInterval);
+                playInterval = null;
+            }
+        }
+
+        function resetTimeline() {
+            stopPlay();
+            currentTimeStep = 0;
+            document.getElementById('timeline-slider').value = 0;
+            updateVisualization(0);
+        }
+
+        function updateVisualization(timeStep) {
+            if (!simulationData) return;
+
+            document.getElementById('current-gen').textContent = timeStep;
+
+            // Update network
+            updateNetwork(timeStep);
+
+            // Update charts
+            updateCharts(timeStep);
+
+            // Update statistics
+            updateStatistics(timeStep);
+        }
+
+        /* ===== 全局缓存：只建一次图，后面复用 ===== */
+        const NET = {
+        inited: false,
+        svg: null,
+        g: null,
+        zoom: null,
+        sim: null,
+        nodesSel: null,
+        linksSel: null,
+        nodes: [],   // 当前节点对象（含 x,y,fx,fy）
+        links: [],   // 当前连边
+        transform: null  // 当前缩放位姿
+        };
+
+        /* ===== 第一次渲染：建图、跑力导向、锁定位置、记住缩放 ===== */
+        function initNetwork(graph) {
+        const svg = d3.select('#network-visualization');
+        const width = 900, height = 560;
+        svg.attr('viewBox', `0 0 ${width} ${height}`);
+
+        // 不要每帧重建：只建一个 <g>，后续套 transform
+        const g = svg.append('g');
+
+        // zoom：每次缩放更新 transform，并缓存到 NET.transform
+        const zoom = d3.zoom()
+            .scaleExtent([0.2, 5])
+            .on('zoom', (ev) => {
+            g.attr('transform', ev.transform);
+            NET.transform = ev.transform;
+            });
+        svg.call(zoom);
+
+        // 力导向只跑一次
+        const sim = d3.forceSimulation(graph.nodes)
+            .force('link', d3.forceLink(graph.links).id(d => d.id).distance(80).strength(0.2))
+            .force('charge', d3.forceManyBody().strength(-80))
+            .force('center', d3.forceCenter(width / 2, height / 2));
+
+        // 边
+        const linksSel = g.append('g')
+            .attr('stroke', '#a0aec0').attr('stroke-opacity', 0.6)
+            .selectAll('line')
+            .data(graph.links, d => `${d.source}-${d.target}`)
+            .join('line')
+            .attr('stroke-width', d => Math.max(1, Math.sqrt(d.weight || 1)));
+
+        // 点（方块=Large，圆=Small）
+        const nodesSel = g.selectAll('g.node')
+            .data(graph.nodes, d => d.id)
+            .join(enter => {
+            const ng = enter.append('g').attr('class', 'node')
+                .call(d3.drag()
+                .on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+                .on('drag',  (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
+                .on('end',   (ev, d) => { if (!ev.active) sim.alphaTarget(0); }));
+
+            ng.each(function (d) {
+                const sel = d3.select(this);
+                const size = Math.max(8, Math.min(18, 6 + Math.sqrt(d.capacity || 400) / 4));
+                if (d.type === 'Large') {
+                sel.append('rect')
+                    .attr('x', -size/2).attr('y', -size/2)
+                    .attr('width', size).attr('height', size).attr('rx', 2)
+                    .attr('stroke', '#2d3748').attr('stroke-width', 1);
+                } else {
+                sel.append('circle')
+                    .attr('r', size/2)
+                    .attr('stroke', '#2d3748').attr('stroke-width', 1);
+                }
+            });
+
+            // 颜色与 tooltip 初始
+            ng.attr('data-id', d => d.id)
+                .selectAll('rect,circle').attr('fill', d => d.color);
+            ng.append('title').text(d =>
+                `${d.type==='Large'?'Metro':'Peripheral'}\n2.5: ${(d.p25*100).toFixed(1)}%\n2.4: ${(d.p24*100).toFixed(1)}%`
+            );
+            return ng;
+            });
+
+        sim.on('tick', () => {
+            linksSel
+            .attr('x1', d => (d.source.x))
+            .attr('y1', d => (d.source.y))
+            .attr('x2', d => (d.target.x))
+            .attr('y2', d => (d.target.y));
+
+            nodesSel.attr('transform', d => `translate(${d.x},${d.y})`);
+        });
+
+        // 一次性稳定后，固定 fx/fy，停止仿真——后续帧不再重跑
+        sim.on('end', () => {
+            graph.nodes.forEach(d => { d.fx = d.x; d.fy = d.y; });
+        });
+        // 给一个有限时长以确保稳定（也可用 setTimeout 停）
+        setTimeout(() => { sim.alpha(0); sim.stop(); }, 1200);
+
+        // 把对象缓存下来
+        NET.inited = true;
+        NET.svg = svg; NET.g = g; NET.zoom = zoom; NET.sim = sim;
+        NET.nodesSel = nodesSel; NET.linksSel = linksSel;
+        NET.nodes = graph.nodes; NET.links = graph.links;
+
+        // 如果之前用户已经缩放过，恢复之
+        if (NET.transform) { g.attr('transform', NET.transform); }
+        }
+
+        /* ===== 后续每一帧：只改颜色/提示，不清空、不重排 ===== */
+        function updateNetwork(timeStep) {
+        const graphNow = toForceGraph(timeStep);
+
+        if (!NET.inited) {
+            initNetwork(graphNow);
+            return;
+        }
+
+        // 1) 用 id 对齐旧节点对象，只更新“业务字段”，保留 x,y,fx,fy
+        const byId = new Map(NET.nodes.map(d => [d.id, d]));
+        graphNow.nodes.forEach(n => {
+            const old = byId.get(n.id);
+            if (old) {
+            old.p25 = n.p25; old.p24 = n.p24; old.total = n.total;
+            old.color = n.color; old.capacity = n.capacity;
+            // 位置不动：old.x/y/fx/fy 保持
+            }
+        });
+
+        // 2) 更新颜色与 tooltip（不重建元素）
+        NET.nodesSel
+            .selectAll('rect,circle')
+            .attr('fill', d => d.color);
+
+        NET.nodesSel.select('title')
+            .text(d => `${d.type==='Large'?'Metro':'Peripheral'}\n2.5: ${(d.p25*100).toFixed(1)}%\n2.4: ${(d.p24*100).toFixed(1)}%`);
+
+        // 3) 如果拓扑恒定（推荐），下面这段可以不做任何事；
+        //    若你确实想按时间步改变连边，可最小化 diff：join 更新即可，切勿清空重建。
+        //    例：
+        // const linkKey = d => `${Math.min(d.source.id??d.source, d.target.id??d.target)}-${Math.max(d.source.id??d.source, d.target.id??d.target)}`;
+        // NET.linksSel = NET.g.selectAll('line').data(graphNow.links, linkKey)
+        //   .join(
+        //     enter => enter.append('line')
+        //       .attr('stroke', '#a0aec0').attr('stroke-opacity', 0.6)
+        //       .attr('stroke-width', d => Math.max(1, Math.sqrt(d.weight || 1))),
+        //     update => update,
+        //     exit => exit.remove()
+        //   );
+
+        // 4) 恢复缩放（用户拖拽过的 transform 始终不丢）
+        if (NET.transform) {
+            NET.g.attr('transform', NET.transform);
+        }
+        }
+
+        function addZoomControls(svg, zoom) {
+            const zoomControls = svg.append('g')
+                .attr('class', 'zoom-controls')
+                .attr('transform', 'translate(10, 10)');
+
+            // Zoom in
+            zoomControls.append('rect')
+                .attr('width', 25)
+                .attr('height', 25)
+                .attr('fill', '#4a5568')
+                .attr('stroke', '#2d3748')
+                .attr('rx', 3)
+                .style('cursor', 'pointer')
+                .on('click', function() {
+                    svg.transition().call(zoom.scaleBy, 1.5);
+                });
+
+            zoomControls.append('text')
+                .attr('x', 12.5)
+                .attr('y', 17)
+                .attr('text-anchor', 'middle')
+                .attr('fill', 'white')
+                .attr('font-size', '14px')
+                .attr('font-weight', 'bold')
+                .style('pointer-events', 'none')
+                .text('+');
+
+            // Zoom out
+            zoomControls.append('rect')
+                .attr('y', 30)
+                .attr('width', 25)
+                .attr('height', 25)
+                .attr('fill', '#4a5568')
+                .attr('stroke', '#2d3748')
+                .attr('rx', 3)
+                .style('cursor', 'pointer')
+                .on('click', function() {
+                    svg.transition().call(zoom.scaleBy, 0.75);
+                });
+
+            zoomControls.append('text')
+                .attr('x', 12.5)
+                .attr('y', 47)
+                .attr('text-anchor', 'middle')
+                .attr('fill', 'white')
+                .attr('font-size', '14px')
+                .attr('font-weight', 'bold')
+                .style('pointer-events', 'none')
+                .text('-');
+
+            // Reset
+            zoomControls.append('rect')
+                .attr('y', 60)
+                .attr('width', 25)
+                .attr('height', 25)
+                .attr('fill', '#4a5568')
+                .attr('stroke', '#2d3748')
+                .attr('rx', 3)
+                .style('cursor', 'pointer')
+                .on('click', function() {
+                    svg.transition().call(zoom.transform, d3.zoomIdentity);
+                });
+
+            zoomControls.append('text')
+                .attr('x', 12.5)
+                .attr('y', 77)
+                .attr('text-anchor', 'middle')
+                .attr('fill', 'white')
+                .attr('font-size', '10px')
+                .attr('font-weight', 'bold')
+                .style('pointer-events', 'none')
+                .text('R');
+        }
+
+        function updateCharts(timeStep) {
+            const metroGenotypes = simulationData.genotype_classification.metro_oriented_genotypes || [];
+            const periphGenotypes = simulationData.genotype_classification.periph_oriented_genotypes || [];
+
+            if (simulationData.time_series && simulationData.time_series.overall_freqs) {
+                // Has time series data - show evolution
+                const ts = simulationData.time_series;
+
+                // Prepare data up to current time step
+                const steps = Array.from({length: timeStep + 1}, (_, i) => i);
+
+                // Calculate metro/periph frequencies for each hospital type
+                const metroData = {
+                    steps: steps,
+                    metro_oriented: [],
+                    periph_oriented: []
+                };
+
+                const periphData = {
+                    steps: steps,
+                    metro_oriented: [],
+                    periph_oriented: []
+                };
+
+                const overallData = {
+                    steps: steps,
+                    metro_oriented: [],
+                    periph_oriented: []
+                };
+
+                for (let i = 0; i <= timeStep; i++) {
+                    const metroFreqs = ts.metro_freqs[i];
+                    const periphFreqs = ts.periph_freqs[i];
+                    const overallFreqs = ts.overall_freqs[i];
+
+                    // Sum up genotypes
+                    const metroMetro = metroGenotypes.reduce((sum, idx) => sum + (metroFreqs[idx] || 0), 0);
+                    const metroPeriph = periphGenotypes.reduce((sum, idx) => sum + (metroFreqs[idx] || 0), 0);
+
+                    const periphMetro = metroGenotypes.reduce((sum, idx) => sum + (periphFreqs[idx] || 0), 0);
+                    const periphPeriph = periphGenotypes.reduce((sum, idx) => sum + (periphFreqs[idx] || 0), 0);
+
+                    const overallMetro = metroGenotypes.reduce((sum, idx) => sum + (overallFreqs[idx] || 0), 0);
+                    const overallPeriph = periphGenotypes.reduce((sum, idx) => sum + (overallFreqs[idx] || 0), 0);
+
+                    metroData.metro_oriented.push(metroMetro);
+                    metroData.periph_oriented.push(metroPeriph);
+
+                    periphData.metro_oriented.push(periphMetro);
+                    periphData.periph_oriented.push(periphPeriph);
+
+                    overallData.metro_oriented.push(overallMetro);
+                    overallData.periph_oriented.push(overallPeriph);
+                }
+
+                updateLineChart(metroSvg, metroData);
+                updateLineChart(periphSvg, periphData);
+                updateLineChart(overallSvg, overallData);
+            } else if (simulationData.hospital_frequencies) {
+                // No time series - show only final state as bar chart
+                const metroHospitals = [];
+                const periphHospitals = [];
+
+                Object.entries(simulationData.hospital_frequencies).forEach(([id, data]) => {
+                    if (data.type === 'metro') {
+                        metroHospitals.push(data);
+                    } else {
+                        periphHospitals.push(data);
+                    }
+                });
+
+                // Calculate average frequencies
+                const calcAverage = (hospitals, genotypes) => {
+                    if (hospitals.length === 0) return 0;
+                    const sum = hospitals.reduce((total, h) => {
+                        return total + genotypes.reduce((s, idx) => s + (h.genotype_freqs[idx] || 0), 0);
+                    }, 0);
+                    return sum / hospitals.length;
+                };
+
+                const metroData = {
+                    steps: [0],
+                    metro_oriented: [calcAverage(metroHospitals, metroGenotypes)],
+                    periph_oriented: [calcAverage(metroHospitals, periphGenotypes)]
+                };
+
+                const periphData = {
+                    steps: [0],
+                    metro_oriented: [calcAverage(periphHospitals, metroGenotypes)],
+                    periph_oriented: [calcAverage(periphHospitals, periphGenotypes)]
+                };
+
+                const overallData = {
+                    steps: [0],
+                    metro_oriented: [calcAverage([...metroHospitals, ...periphHospitals], metroGenotypes)],
+                    periph_oriented: [calcAverage([...metroHospitals, ...periphHospitals], periphGenotypes)]
+                };
+
+                updateLineChart(metroSvg, metroData);
+                updateLineChart(periphSvg, periphData);
+                updateLineChart(overallSvg, overallData);
+            }
+        }
+
+        function updateLineChart(svg, data) {
+            if (!svg || !data || !data.steps || data.steps.length === 0) {
+                console.log('updateLineChart: Invalid parameters');
+                return;
+            }
+
+            svg.selectAll('*').remove();
+
+            const margin = { top: 20, right: 20, bottom: 30, left: 50 };
+            const width = +svg.attr('width') - margin.left - margin.right;
+            const height = +svg.attr('height') - margin.top - margin.bottom;
+
+            const g = svg.append('g')
+                .attr('transform', `translate(${margin.left},${margin.top})`);
+
+            const x = d3.scaleLinear()
+                .domain([0, d3.max(data.steps)])
+                .range([0, width]);
+
+            const maxY = Math.max(
+                d3.max(data.metro_oriented) || 0,
+                d3.max(data.periph_oriented) || 0,
+                1
+            );
+
+            const y = d3.scaleLinear()
+                .domain([0, maxY])
+                .range([height, 0]);
+
+            const line = d3.line()
+                .x((d, i) => x(data.steps[i]))
+                .y(d => y(d))
+                .curve(d3.curveMonotoneX);
+
+            // Add axes
+            g.append('g')
+                .attr('transform', `translate(0,${height})`)
+                .call(d3.axisBottom(x).ticks(5).tickFormat(d3.format('d')));
+
+            g.append('g')
+                .call(d3.axisLeft(y).ticks(5).tickFormat(d3.format('.0%')));
+
+            // Axis labels
+            g.append('text')
+                .attr('class', 'x-axis-label')
+                .attr('x', width / 2)
+                .attr('y', height + margin.bottom - 5)
+                .attr('text-anchor', 'middle')
+                .attr('fill', '#4a5568')
+                .style('font-size', '12px')
+                .text('Generation');
+
+            g.append('text')
+                .attr('class', 'y-axis-label')
+                .attr('transform', 'rotate(-90)')
+                .attr('x', -height / 2)
+                .attr('y', -margin.left + 12)
+                .attr('text-anchor', 'middle')
+                .attr('fill', '#4a5568')
+                .style('font-size', '12px')
+                .text('Prevalence');
+
+            // Add lines
+            g.append('path')
+                .datum(data.metro_oriented)
+                .attr('fill', 'none')
+                .attr('stroke', '#3182ce')
+                .attr('stroke-width', 2)
+                .attr('d', line);
+
+            g.append('path')
+                .datum(data.periph_oriented)
+                .attr('fill', 'none')
+                .attr('stroke', '#e53e3e')
+                .attr('stroke-width', 2)
+                .attr('d', line);
+        }
+
+        function updateStatistics(timeStep) {
+            const metroGenotypes = simulationData.genotype_classification.metro_oriented_genotypes || [];
+            const periphGenotypes = simulationData.genotype_classification.periph_oriented_genotypes || [];
+
+            let overallFreqs;
+
+            if (simulationData.time_series && simulationData.time_series.overall_freqs) {
+                // Has time series
+                overallFreqs = simulationData.time_series.overall_freqs[timeStep];
+            } else if (simulationData.hospital_frequencies) {
+                // No time series - calculate from final state
+                const numGenotypes = simulationData.genotype_classification.M_VALUES.length;
+                overallFreqs = new Array(numGenotypes).fill(0);
+                let hospitalCount = 0;
+
+                Object.values(simulationData.hospital_frequencies).forEach(hospital => {
+                    hospital.genotype_freqs.forEach((freq, idx) => {
+                        overallFreqs[idx] += freq;
+                    });
+                    hospitalCount++;
+                });
+
+                // Average
+                overallFreqs = overallFreqs.map(f => f / hospitalCount);
+            } else {
+                return;
+            }
+
+            const metroFreq = metroGenotypes.reduce((sum, idx) => sum + (overallFreqs[idx] || 0), 0);
+            const periphFreq = periphGenotypes.reduce((sum, idx) => sum + (overallFreqs[idx] || 0), 0);
+
+            // Calculate mixed hospitals percentage
+            let mixedHospitalsCount = 0;
+            let totalHospitals = 0;
+
+            if (simulationData.time_series && simulationData.time_series.hospital_freqs) {
+                const hospitalFreqsAtTime = simulationData.time_series.hospital_freqs[timeStep];
+                Object.keys(hospitalFreqsAtTime || {}).forEach(hospitalId => {
+                    const freqs = hospitalFreqsAtTime[hospitalId];
+                    const hospitalMetroFreq = metroGenotypes.reduce((sum, idx) => sum + (freqs[idx] || 0), 0);
+                    const hospitalPeriphFreq = periphGenotypes.reduce((sum, idx) => sum + (freqs[idx] || 0), 0);
+                    const hospitalTotalInfection = hospitalMetroFreq + hospitalPeriphFreq;
+                    
+                    totalHospitals++;
+                    
+                    // Same logic as node coloring for consistency
+                    if (hospitalTotalInfection >= 0.02) {
+                        if (!(hospitalMetroFreq > hospitalPeriphFreq * 1.5) && 
+                            !(hospitalPeriphFreq > hospitalMetroFreq * 1.5)) {
+                            mixedHospitalsCount++;
+                        }
+                    }
+                });
+            }
+
+            const mixedPercentage = totalHospitals > 0 ? (mixedHospitalsCount / totalHospitals) * 100 : 0;
+
+            document.getElementById('metro-freq').textContent = (metroFreq * 100).toFixed(1) + '%';
+            document.getElementById('periph-freq').textContent = (periphFreq * 100).toFixed(1) + '%';
+            document.getElementById('mixed-freq').textContent = mixedPercentage.toFixed(1) + '%';
+
+            // Calculate Shannon diversity
+            const diversity = -overallFreqs.reduce((sum, f) => {
+                if (f > 0) return sum + f * Math.log(f);
+                return sum;
+            }, 0);
+            document.getElementById('diversity').textContent = diversity.toFixed(3);
+
+            // FST (if available)
+            if (simulationData.fst_mean_weighted !== undefined) {
+                document.getElementById('fst').textContent = simulationData.fst_mean_weighted.toFixed(3);
+            }
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Handle window resize
+            window.addEventListener('resize', function() {
+                if (simulationData) {
+                    initializeVisualization();
+                    updateVisualization(currentTimeStep);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
