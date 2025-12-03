@@ -2,29 +2,6 @@
 
 Modular simulation framework for pathogen genotype dynamics across heterogeneous city networks. Models transmission of bacterial clades (e.g., *Acinetobacter baumannii*) with distinct transmission modes: outpatient colonization vs inpatient infection. Supports basic simulation, invasion scenario, and COVID-19 three-phase intervention.
 
-## Recent Updates
-### 2025-12-02
-- **Major refactor**: Replaced M/C parameters with τ/β transmission parameters
-  - `M_VALUES` → `TAU_VALUES` (τ: outpatient colonization capacity)
-  - `C_VALUES` → `BETA_VALUES` (β: inpatient infection capacity)
-  - Updated all visualizations to use τ/β notation
-  - Aligned code terminology with manuscript biological concepts
-- **Terminology update**: "Hospital Network" → "City Network" in visualization.html
-
-### 2025-11-29
-- **Update sensitivity analysis**: python sensitivity_oneway.py --output-dir sensitivity_results
-
-### 2025-11-18
-- **Reorganized outputs**
-- **Bug fixes**: Fixed import errors after code cleanup
-- **Parameter validation**: Added fail-fast validation for COVID and invasion scenarios (prevents runtime crashes from invalid time parameters)
-
-### 2025-11-12
-- **Random genotype generation**: Each seed generates unique τ/β genotype values by default
-- **Fixed G0 background**: Genotype 0 (G0) always neutral (τ=β=0.5) as susceptible background
-- **COVID three-phase plot**: Added Growth Rate and Resilience Score visualization
-- **Flexible genotype mode**: Use `--fixed-genotypes` to revert to config.py fixed values
-
 ## Quick Start
 
 Basic simulation:
