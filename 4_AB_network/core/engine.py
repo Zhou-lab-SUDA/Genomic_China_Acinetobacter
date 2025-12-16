@@ -12,7 +12,7 @@ import os
 
 # import config parameters
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from config import TAU_VALUES, BETA_VALUES
+from config import TAU_VALUES, BETA_VALUES, METRO_THRESHOLD, PERIPH_THRESHOLD
 
 
 def calculate_fitness(genotype: int, hospital_type: str, TAU_array, BETA_array, selection_strength: float = 0.1) -> float:
@@ -277,13 +277,13 @@ def initialize_simulation(n_hospitals: int,
             hospital_types.append('peripheral')
 
     # Determine which genotypes are seeds (initial infected)
-    # Use stricter thresholds to ensure clear separation between high-τ and high-β genotypes
-    tau_genotypes = [g for g in range(n_genotypes) if TAU_array[g] > 0.6]
-    beta_genotypes = [g for g in range(n_genotypes) if TAU_array[g] < 0.4]
+    # Use global thresholds from config.py
+    tau_genotypes = [g for g in range(n_genotypes) if TAU_array[g] > METRO_THRESHOLD]
+    beta_genotypes = [g for g in range(n_genotypes) if TAU_array[g] < PERIPH_THRESHOLD]
 
     # Select neutral genotype as background (uninfected state)
     # Choose genotype with τ value closest to 0.5 as "background" (susceptible, not occupied by any strategy group)
-    neutral_genotypes = [g for g in range(n_genotypes) if 0.4 <= TAU_array[g] <= 0.6]
+    neutral_genotypes = [g for g in range(n_genotypes) if PERIPH_THRESHOLD <= TAU_array[g] <= METRO_THRESHOLD]
     if len(neutral_genotypes) > 0:
         background_genotype = min(neutral_genotypes, key=lambda g: abs(TAU_array[g] - 0.5))
     else:
@@ -371,9 +371,9 @@ def initialize_simulation(n_hospitals: int,
         neutral_count = total_individuals - m_count - c_count
 
         print(f"\nInitialization completed:")
-        print(f"  High-τ genotypes (τ>0.6): {m_count}/{total_individuals} ({m_count/total_individuals:.1%})")
-        print(f"  High-β genotypes (τ<0.4): {c_count}/{total_individuals} ({c_count/total_individuals:.1%})")
-        print(f"  Neutral genotypes (0.4≤τ≤0.6): {neutral_count}/{total_individuals} ({neutral_count/total_individuals:.1%})")
+        print(f"  High-τ genotypes (τ>{METRO_THRESHOLD}): {m_count}/{total_individuals} ({m_count/total_individuals:.1%})")
+        print(f"  High-β genotypes (τ<{PERIPH_THRESHOLD}): {c_count}/{total_individuals} ({c_count/total_individuals:.1%})")
+        print(f"  Neutral genotypes ({PERIPH_THRESHOLD}≤τ≤{METRO_THRESHOLD}): {neutral_count}/{total_individuals} ({neutral_count/total_individuals:.1%})")
         print(f"  Background genotype ID: {background_genotype} (τ={TAU_array[background_genotype]:.2f})")
 
     return hospital_populations, hospital_types

@@ -34,6 +34,7 @@ from config import (
     DEFAULT_METRO_MIGRATION, DEFAULT_PERIPH_MIGRATION,
     DEFAULT_SELECTION_STRENGTH, DEFAULT_SPATIAL_SCALE,
     INVASION_DEFAULT_INTRODUCTION_TIME, INVASION_DEFAULT_DOSE, INVASION_DEFAULT_SITES,
+    METRO_THRESHOLD, PERIPH_THRESHOLD,
     classify_genotypes, get_timestamp, generate_random_genotype_values
 )
 
@@ -66,7 +67,8 @@ from utils.export import (
     export_network_analysis_json,
     export_transfer_matrix,
     export_results_csv,
-    export_run_config
+    export_run_config,
+    export_genotype_timeline_csv
 )
 
 from utils.statistics import calculate_fst_statistics
@@ -140,7 +142,7 @@ def introduce_m_genotypes(hospital_populations, introduction_sites, metro_indice
         Modified hospital_populations
     """
     if len(M_genotypes) == 0:
-        raise ValueError("No M-genotypes found (M > 0.6)!")
+        raise ValueError(f"No M-genotypes found (τ > {METRO_THRESHOLD})!")
 
     # Select hospitals for introduction (randomly chosen from metropolitan hospitals)
     n_sites = min(introduction_sites, len(metro_indices))
@@ -548,6 +550,14 @@ def run_invasion_scenario(args):
     timeline_path = f"{output_run_dir}/data/timeline.csv"
     timeline_df.to_csv(timeline_path, index=False)
     print(f"\nTimeline saved: {timeline_path}")
+
+    # Save genotype timeline (detailed per-genotype frequencies)
+    genotype_timeline_path = f"{output_run_dir}/data/genotype_timeline.csv"
+    export_genotype_timeline_csv(
+        time_series=time_series,
+        n_genotypes=args.genotypes,
+        output_path=genotype_timeline_path
+    )
 
     # Export transfer matrices (before/after invasion)
     print("\n[Transfer Matrices] Exporting before/after invasion...")

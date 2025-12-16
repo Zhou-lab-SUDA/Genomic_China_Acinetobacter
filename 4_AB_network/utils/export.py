@@ -16,6 +16,11 @@ import pandas as pd
 import json
 import os
 from datetime import datetime
+import sys
+
+# Import thresholds from config
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from config import METRO_THRESHOLD, PERIPH_THRESHOLD
 
 
 def classify_genotypes_by_strategy(TAU_VALUES):
@@ -28,9 +33,6 @@ def classify_genotypes_by_strategy(TAU_VALUES):
     Returns:
         tuple: (metro_genotypes, periph_genotypes) - lists of genotype indices
     """
-    METRO_THRESHOLD = 0.6
-    PERIPH_THRESHOLD = 0.4
-
     metro_genotypes = [g for g in range(len(TAU_VALUES)) if TAU_VALUES[g] > METRO_THRESHOLD]
     periph_genotypes = [g for g in range(len(TAU_VALUES)) if TAU_VALUES[g] < PERIPH_THRESHOLD]
 
@@ -143,10 +145,62 @@ def print_degree_statistics(degree_stats, hospital_types):
 # export_summary_text() - REMOVED (data already in results.csv)
 
 
+def export_genotype_timeline_csv(time_series, n_genotypes, output_path):
+    """
+    Export detailed genotype timeline CSV with per-genotype frequencies
+
+    Parameters:
+        time_series: dict containing 'overall_freqs', 'metro_freqs', 'periph_freqs' (numpy arrays)
+        n_genotypes: int, total number of genotypes
+        output_path: str, output file path
+
+    Output format:
+        CSV with columns: generation, metro_g0, metro_g1, ..., periph_g0, periph_g1, ..., overall_g0, overall_g1, ...
+
+    Note:
+        time_series contains data for EVERY generation (shape: n_generations x n_genotypes)
+        We sample every 10 generations to match timeline.csv format (generation 1, 10, 20, ...)
+    """
+    records = []
+
+    # time_series contains numpy arrays of shape (n_generations, n_genotypes)
+    overall_freqs = time_series['overall_freqs']  # shape: (n_generations, n_genotypes)
+    metro_freqs = time_series['metro_freqs']      # shape: (n_generations, n_genotypes)
+    periph_freqs = time_series['periph_freqs']    # shape: (n_generations, n_genotypes)
+
+    n_generations = len(overall_freqs)
+
+    # Sample every 10 generations: generation 1, 10, 20, 30, ...
+    for gen_idx in range(n_generations):
+        generation = gen_idx + 1  # Generation numbers start from 1
+
+        # Only export generation 1, 10, 20, 30, ... to match timeline.csv
+        if generation == 1 or generation % 10 == 0:
+            record = {'generation': generation}
+
+            # Add metro frequencies
+            for g in range(n_genotypes):
+                record[f'metro_g{g}'] = float(metro_freqs[gen_idx][g])
+
+            # Add peripheral frequencies
+            for g in range(n_genotypes):
+                record[f'periph_g{g}'] = float(periph_freqs[gen_idx][g])
+
+            # Add overall frequencies
+            for g in range(n_genotypes):
+                record[f'overall_g{g}'] = float(overall_freqs[gen_idx][g])
+
+            records.append(record)
+
+    df = pd.DataFrame(records)
+    df.to_csv(output_path, index=False)
+    print(f"Genotype timeline CSV saved: {output_path}")
+
+
 def export_results_csv(stats, metro_migration, periph_migration, output_path):
     """
     Export detailed results CSV (file3)
-    
+
     Parameters:
         stats: dict, statistics from calculate_fst_statistics
         metro_migration: float

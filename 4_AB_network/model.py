@@ -56,7 +56,8 @@ from utils.export import (
     export_results_csv,
     export_transfer_matrix,
     export_network_analysis_json,
-    export_run_config  # NEW: replaces file1 and records all parameters
+    export_run_config,  # NEW: replaces file1 and records all parameters
+    export_genotype_timeline_csv  # NEW: export detailed per-genotype timeline
 )
 
 
@@ -279,6 +280,14 @@ def run_basic_simulation(args):
     timeline_path = f"{output_run_dir}/data/timeline.csv"
     df.to_csv(timeline_path, index=False)
     print(f"\nTimeline saved to: {timeline_path}")
+
+    # Save genotype timeline (detailed per-genotype frequencies)
+    genotype_timeline_path = f"{output_run_dir}/data/genotype_timeline.csv"
+    export_genotype_timeline_csv(
+        time_series=time_series,
+        n_genotypes=args.genotypes,
+        output_path=genotype_timeline_path
+    )
 
     # Generate visualizations
     print("\n" + "="*70)
