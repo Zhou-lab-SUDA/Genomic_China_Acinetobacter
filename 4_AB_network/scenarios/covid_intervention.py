@@ -92,7 +92,8 @@ from utils.export import (
     export_network_analysis_json,
     export_transfer_matrix,
     export_results_csv,
-    export_run_config
+    export_run_config,
+    export_genotype_timeline_csv
 )
 
 from utils.statistics import calculate_fst_statistics
@@ -522,6 +523,14 @@ def run_covid_intervention_scenario(args):
     timeline_path = f"{output_run_dir}/data/timeline.csv"
     timeline_df.to_csv(timeline_path, index=False)
     print(f"\nTimeline saved: {timeline_path}")
+
+    # Save genotype timeline (detailed per-genotype frequencies)
+    genotype_timeline_path = f"{output_run_dir}/data/genotype_timeline.csv"
+    export_genotype_timeline_csv(
+        time_series=time_series,
+        n_genotypes=args.genotypes,
+        output_path=genotype_timeline_path
+    )
 
     print("\n" + "="*70)
     print("Generating Visualizations")

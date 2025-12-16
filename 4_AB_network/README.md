@@ -84,7 +84,7 @@ Wright-Fisher population genetics + spatial network migration:
 3. **Migration**: Patient transfers between cities with spatial decay and hierarchical bias
    - Transfer probability ∝ exp(-distance / decay_length)
    - Hierarchical flow: peripheral → metro cities (upward referral bias)
-   - Migration rates reflect O/I ratio differences (metro: 0.07, peripheral: 0.02)
+   - Migration rates reflect O/I ratio differences
 
 4. **Scenarios**:
    - **Basic**: Both clades compete from start

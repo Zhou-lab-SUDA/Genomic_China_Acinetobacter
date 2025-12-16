@@ -191,10 +191,12 @@ DEFAULT_METRO_CLOSURE = 0.7
 DEFAULT_PERIPH_CLOSURE = 0.5
 
 # ==================== Genotype Classification Thresholds ====================
-# Genotypes with M > METRO_THRESHOLD are considered "metro-oriented"
-METRO_THRESHOLD = 0.6
-# Genotypes with M < PERIPH_THRESHOLD are considered "periph-oriented"
-PERIPH_THRESHOLD = 0.4
+# Genotypes with τ > METRO_THRESHOLD are considered "metro-oriented"
+# Changed from 0.6 to 0.5 to include intermediate genotypes (2024-12-12)
+METRO_THRESHOLD = 0.5
+# Genotypes with τ < PERIPH_THRESHOLD are considered "periph-oriented"
+# Changed from 0.4 to 0.5 to include intermediate genotypes (2024-12-12)
+PERIPH_THRESHOLD = 0.5
 
 # ==================== Classification Function ====================
 def classify_genotypes(TAU_VALUES, exclude_neutral=True):
