@@ -1,0 +1,3307 @@
+City1	City2	Distance_km
+A Coruna	Athens	2757.569
+Athens	A Coruna	2757.569
+A Coruna	Basel	1328.142
+Basel	A Coruna	1328.142
+A Coruna	Belgrade	2299.512
+Belgrade	A Coruna	2299.512
+A Coruna	Berlin	1906.257
+Berlin	A Coruna	1906.257
+A Coruna	Besancon	1206.174
+Besancon	A Coruna	1206.174
+A Coruna	Birmingham	1123.016
+Birmingham	A Coruna	1123.016
+A Coruna	Bucharest	2747.726
+Bucharest	A Coruna	2747.726
+A Coruna	Budapest	2178.865
+Budapest	A Coruna	2178.865
+A Coruna	Cambridge	1170.129
+Cambridge	A Coruna	1170.129
+A Coruna	Ciudad Real	614.222
+Ciudad Real	A Coruna	614.222
+A Coruna	Cluj	2524.564
+Cluj	A Coruna	2524.564
+A Coruna	Copenhagen	2026.901
+Copenhagen	A Coruna	2026.901
+A Coruna	Debrecen	2372.950
+Debrecen	A Coruna	2372.950
+A Coruna	Frankfurt	1498.239
+Frankfurt	A Coruna	1498.239
+A Coruna	Galati	2880.806
+Galati	A Coruna	2880.806
+A Coruna	Geneva	1189.453
+Geneva	A Coruna	1189.453
+A Coruna	Gothenburg	2132.297
+Gothenburg	A Coruna	2132.297
+A Coruna	Heidelberg	1469.393
+Heidelberg	A Coruna	1469.393
+A Coruna	Larissa	2584.949
+Larissa	A Coruna	2584.949
+A Coruna	Leicester	1162.996
+Leicester	A Coruna	1162.996
+A Coruna	Lens	1158.720
+Lens	A Coruna	1158.720
+A Coruna	Lisbon	520.478
+Lisbon	A Coruna	520.478
+A Coruna	London	1098.413
+London	A Coruna	1098.413
+A Coruna	Maastricht	1349.917
+Maastricht	A Coruna	1349.917
+A Coruna	Madrid	509.006
+Madrid	A Coruna	509.006
+A Coruna	Marcy l'etoile	1071.910
+Marcy l'etoile	A Coruna	1071.910
+A Coruna	Marseille	1113.482
+Marseille	A Coruna	1113.482
+A Coruna	Milan	1414.501
+Milan	A Coruna	1414.501
+A Coruna	Moscow	3514.813
+Moscow	A Coruna	3514.813
+A Coruna	Murcia	856.287
+Murcia	A Coruna	856.287
+A Coruna	Munster	1529.532
+Munster	A Coruna	1529.532
+A Coruna	Naples	1883.785
+Naples	A Coruna	1883.785
+A Coruna	Nizhniy Novgorod	3912.634
+Nizhniy Novgorod	A Coruna	3912.634
+A Coruna	Nizhny Tagil	4849.155
+Nizhny Tagil	A Coruna	4849.155
+A Coruna	Ostergotland	2340.151
+Ostergotland	A Coruna	2340.151
+A Coruna	Paris	1028.821
+Paris	A Coruna	1028.821
+A Coruna	Piedmont	1281.171
+Piedmont	A Coruna	1281.171
+A Coruna	Porto	246.591
+Porto	A Coruna	246.591
+A Coruna	Praha	1885.397
+Praha	A Coruna	1885.397
+A Coruna	Pribram	1845.200
+Pribram	A Coruna	1845.200
+A Coruna	Rome	1713.580
+Rome	A Coruna	1713.580
+A Coruna	Rostov-on-Don	1352.695
+Rostov-on-Don	A Coruna	1352.695
+A Coruna	Rotterdam	3174.829
+Rotterdam	A Coruna	3174.829
+A Coruna	Saint-Petersburg	696.149
+Saint-Petersburg	A Coruna	696.149
+A Coruna	Santander	2099.718
+Santander	A Coruna	2099.718
+A Coruna	Sevilla	1999.105
+Sevilla	A Coruna	1999.105
+A Coruna	Skane	1456.605
+Skane	A Coruna	1456.605
+A Coruna	Split	1999.201
+Split	A Coruna	1999.201
+A Coruna	St. Gallen	1456.320
+St. Gallen	A Coruna	1456.320
+A Coruna	Stockholm	2524.542
+Stockholm	A Coruna	2524.542
+A Coruna	Strasbourg	1373.412
+Strasbourg	A Coruna	1373.412
+A Coruna	Targoviste	2688.351
+Targoviste	A Coruna	2688.351
+A Coruna	Thessaloniki	2592.488
+Thessaloniki	A Coruna	2592.488
+A Coruna	Utrecht	1398.158
+Utrecht	A Coruna	1398.158
+A Coruna	Valencia	797.413
+Valencia	A Coruna	797.413
+A Coruna	Warsaw	2387.343
+Warsaw	A Coruna	2387.343
+A Coruna	Zagreb	1942.799
+Zagreb	A Coruna	1942.799
+Athens	Basel	1688.936
+Basel	Athens	1688.936
+Athens	Belgrade	804.017
+Belgrade	Athens	804.017
+Athens	Berlin	1802.899
+Berlin	Athens	1802.899
+Athens	Besancon	1771.323
+Besancon	Athens	1771.323
+Athens	Birmingham	2550.468
+Birmingham	Athens	2550.468
+Athens	Bucharest	744.008
+Bucharest	Athens	744.008
+Athens	Budapest	1124.539
+Budapest	Athens	1124.539
+Athens	Cambridge	2416.368
+Cambridge	Athens	2416.368
+Athens	Ciudad Real	2400.629
+Ciudad Real	Athens	2400.629
+Athens	Cluj	976.688
+Cluj	Athens	976.688
+Athens	Copenhagen	2136.440
+Copenhagen	Athens	2136.440
+Athens	Debrecen	1075.350
+Debrecen	Athens	1075.350
+Athens	Frankfurt	1799.926
+Frankfurt	Athens	1799.926
+Athens	Galati	904.021
+Galati	Athens	904.021
+Athens	Geneva	1709.076
+Geneva	Athens	1709.076
+Athens	Gothenburg	2354.354
+Gothenburg	Athens	2354.354
+Athens	Heidelberg	1747.279
+Heidelberg	Athens	1747.279
+Athens	Larissa	216.871
+Larissa	Athens	216.871
+Athens	Leicester	2514.191
+Leicester	Athens	2514.191
+Athens	Lens	2152.375
+Lens	Athens	2152.375
+Athens	Lisbon	2851.889
+Lisbon	Athens	2851.889
+Athens	London	2391.218
+London	Athens	2391.218
+Athens	Maastricht	2014.323
+Maastricht	Athens	2014.323
+Athens	Madrid	2369.530
+Madrid	Athens	2369.530
+Athens	Marcy l'etoile	1791.235
+Marcy l'etoile	Athens	1791.235
+Athens	Marseille	1653.512
+Marseille	Athens	1653.512
+Athens	Milan	1462.043
+Milan	Athens	1462.043
+Athens	Moscow	2230.589
+Moscow	Athens	2230.589
+Athens	Murcia	2172.046
+Murcia	Athens	2172.046
+Athens	Munster	1995.759
+Munster	Athens	1995.759
+Athens	Naples	874.283
+Naples	Athens	874.283
+Athens	Nizhniy Novgorod	2531.279
+Nizhniy Novgorod	Athens	2531.279
+Athens	Nizhny Tagil	3422.939
+Nizhny Tagil	Athens	3422.939
+Athens	Ostergotland	2364.922
+Ostergotland	Athens	2364.922
+Athens	Paris	2095.889
+Paris	Athens	2095.889
+Athens	Piedmont	1557.780
+Piedmont	Athens	1557.780
+Athens	Porto	2778.185
+Porto	Athens	2778.185
+Athens	Praha	1533.305
+Praha	Athens	1533.305
+Athens	Pribram	1514.306
+Pribram	Athens	1514.306
+Athens	Rome	1050.918
+Rome	Athens	1050.918
+Athens	Rostov-on-Don	2153.118
+Rostov-on-Don	Athens	2153.118
+Athens	Rotterdam	2485.015
+Rotterdam	Athens	2485.015
+Athens	Saint-Petersburg	2603.439
+Saint-Petersburg	Athens	2603.439
+Athens	Santander	2139.390
+Santander	Athens	2139.390
+Athens	Sevilla	867.943
+Sevilla	Athens	867.943
+Athens	Skane	1569.417
+Skane	Athens	1569.417
+Athens	Split	867.822
+Split	Athens	867.822
+Athens	St. Gallen	1569.672
+St. Gallen	Athens	1569.672
+Athens	Stockholm	2407.583
+Stockholm	Athens	2407.583
+Athens	Strasbourg	1743.615
+Strasbourg	Athens	1743.615
+Athens	Targoviste	785.129
+Targoviste	Athens	785.129
+Athens	Thessaloniki	303.139
+Thessaloniki	Athens	303.139
+Athens	Utrecht	2131.951
+Utrecht	Athens	2131.951
+Athens	Valencia	2091.186
+Valencia	Athens	2091.186
+Athens	Warsaw	1598.049
+Warsaw	Athens	1598.049
+Athens	Zagreb	1080.339
+Zagreb	Athens	1080.339
+Basel	Belgrade	1037.399
+Belgrade	Basel	1037.399
+Basel	Berlin	690.778
+Berlin	Basel	690.778
+Basel	Besancon	121.994
+Besancon	Basel	121.994
+Basel	Birmingham	869.272
+Birmingham	Basel	869.272
+Basel	Bucharest	1469.372
+Bucharest	Basel	1469.372
+Basel	Budapest	860.217
+Budapest	Basel	860.217
+Basel	Cambridge	742.288
+Cambridge	Basel	742.288
+Basel	Ciudad Real	1329.837
+Ciudad Real	Basel	1329.837
+Basel	Cluj	1212.700
+Cluj	Basel	1212.700
+Basel	Copenhagen	965.667
+Copenhagen	Basel	965.667
+Basel	Debrecen	1053.211
+Debrecen	Basel	1053.211
+Basel	Frankfurt	295.164
+Frankfurt	Basel	295.164
+Basel	Galati	1579.918
+Galati	Basel	1579.918
+Basel	Geneva	185.685
+Geneva	Basel	185.685
+Basel	Gothenburg	1166.180
+Gothenburg	Basel	1166.180
+Basel	Heidelberg	221.510
+Heidelberg	Basel	221.510
+Basel	Larissa	1479.941
+Larissa	Basel	1479.941
+Basel	Leicester	838.421
+Leicester	Basel	838.421
+Basel	Lens	470.680
+Lens	Basel	470.680
+Basel	Lisbon	1669.383
+Lisbon	Basel	1669.383
+Basel	London	707.278
+London	Basel	707.278
+Basel	Maastricht	390.830
+Maastricht	Basel	390.830
+Basel	Madrid	1199.664
+Madrid	Basel	1199.664
+Basel	Marcy l'etoile	294.788
+Marcy l'etoile	Basel	294.788
+Basel	Marseille	504.081
+Marseille	Basel	504.081
+Basel	Milan	263.404
+Milan	Basel	263.404
+Basel	Moscow	2241.015
+Moscow	Basel	2241.015
+Basel	Murcia	1277.778
+Murcia	Basel	1277.778
+Basel	Munster	489.719
+Munster	Basel	489.719
+Basel	Naples	914.820
+Naples	Basel	914.820
+Basel	Nizhniy Novgorod	2642.775
+Nizhniy Novgorod	Basel	2642.775
+Basel	Nizhny Tagil	3606.548
+Nizhny Tagil	Basel	3606.548
+Basel	Ostergotland	1321.020
+Ostergotland	Basel	1321.020
+Basel	Paris	412.848
+Paris	Basel	412.848
+Basel	Piedmont	278.707
+Piedmont	Basel	278.707
+Basel	Porto	1466.821
+Porto	Basel	1466.821
+Basel	Praha	574.965
+Praha	Basel	574.965
+Basel	Pribram	528.927
+Pribram	Basel	528.927
+Basel	Rome	739.052
+Rome	Basel	739.052
+Basel	Rostov-on-Don	532.808
+Rostov-on-Don	Basel	532.808
+Basel	Rotterdam	2013.430
+Rotterdam	Basel	2013.430
+Basel	Saint-Petersburg	1581.352
+Saint-Petersburg	Basel	1581.352
+Basel	Santander	1024.134
+Santander	Basel	1024.134
+Basel	Sevilla	823.615
+Sevilla	Basel	823.615
+Basel	Skane	136.176
+Skane	Basel	136.176
+Basel	Split	823.734
+Split	Basel	823.734
+Basel	St. Gallen	135.878
+St. Gallen	Basel	135.878
+Basel	Stockholm	1477.991
+Stockholm	Basel	1477.991
+Basel	Strasbourg	114.687
+Strasbourg	Basel	114.687
+Basel	Targoviste	1402.760
+Targoviste	Basel	1402.760
+Basel	Thessaloniki	1444.039
+Thessaloniki	Basel	1444.039
+Basel	Utrecht	533.706
+Utrecht	Basel	533.706
+Basel	Valencia	1103.426
+Valencia	Basel	1103.426
+Basel	Warsaw	1091.464
+Warsaw	Basel	1091.464
+Basel	Zagreb	669.391
+Zagreb	Basel	669.391
+Belgrade	Berlin	1002.759
+Berlin	Belgrade	1002.759
+Belgrade	Besancon	1146.218
+Besancon	Belgrade	1146.218
+Belgrade	Birmingham	1841.744
+Birmingham	Belgrade	1841.744
+Belgrade	Bucharest	448.823
+Bucharest	Belgrade	448.823
+Belgrade	Budapest	320.605
+Budapest	Belgrade	320.605
+Belgrade	Cambridge	1702.138
+Cambridge	Belgrade	1702.138
+Belgrade	Ciudad Real	2109.930
+Ciudad Real	Belgrade	2109.930
+Belgrade	Cluj	328.382
+Cluj	Belgrade	328.382
+Belgrade	Copenhagen	1332.492
+Copenhagen	Belgrade	1332.492
+Belgrade	Debrecen	318.126
+Debrecen	Belgrade	318.126
+Belgrade	Frankfurt	1063.166
+Frankfurt	Belgrade	1063.166
+Belgrade	Galati	600.088
+Galati	Belgrade	600.088
+Belgrade	Geneva	1125.183
+Geneva	Belgrade	1125.183
+Belgrade	Gothenburg	1550.609
+Gothenburg	Belgrade	1550.609
+Belgrade	Heidelberg	1026.574
+Heidelberg	Belgrade	1026.574
+Belgrade	Larissa	594.150
+Larissa	Belgrade	594.150
+Belgrade	Leicester	1798.927
+Leicester	Belgrade	1798.927
+Belgrade	Lens	1457.912
+Lens	Belgrade	1457.912
+Belgrade	Lisbon	2530.834
+Lisbon	Belgrade	2530.834
+Belgrade	London	1691.841
+London	Belgrade	1691.841
+Belgrade	Maastricht	1288.892
+Maastricht	Belgrade	1288.892
+Belgrade	Madrid	2028.051
+Madrid	Belgrade	2028.051
+Belgrade	Marcy l'etoile	1235.269
+Marcy l'etoile	Belgrade	1235.269
+Belgrade	Marseille	1215.473
+Marseille	Belgrade	1215.473
+Belgrade	Milan	886.432
+Milan	Belgrade	886.432
+Belgrade	Moscow	1715.484
+Moscow	Belgrade	1715.484
+Belgrade	Murcia	1945.641
+Murcia	Belgrade	1945.641
+Belgrade	Munster	1235.688
+Munster	Belgrade	1235.688
+Belgrade	Naples	668.705
+Naples	Belgrade	668.705
+Belgrade	Nizhniy Novgorod	2083.175
+Nizhniy Novgorod	Belgrade	2083.175
+Belgrade	Nizhny Tagil	3047.908
+Nizhny Tagil	Belgrade	3047.908
+Belgrade	Ostergotland	1568.594
+Ostergotland	Belgrade	1568.594
+Belgrade	Paris	1445.856
+Paris	Belgrade	1445.856
+Belgrade	Piedmont	1018.343
+Piedmont	Belgrade	1018.343
+Belgrade	Porto	2386.291
+Porto	Belgrade	2386.291
+Belgrade	Praha	741.645
+Praha	Belgrade	741.645
+Belgrade	Pribram	730.270
+Pribram	Belgrade	730.270
+Belgrade	Rome	718.788
+Rome	Belgrade	718.788
+Belgrade	Rostov-on-Don	1416.551
+Rostov-on-Don	Belgrade	1416.551
+Belgrade	Rotterdam	1808.022
+Rotterdam	Belgrade	1808.022
+Belgrade	Saint-Petersburg	2350.432
+Saint-Petersburg	Belgrade	2350.432
+Belgrade	Santander	1335.749
+Santander	Belgrade	1335.749
+Belgrade	Sevilla	350.639
+Sevilla	Belgrade	350.639
+Belgrade	Skane	902.352
+Skane	Belgrade	902.352
+Belgrade	Split	350.600
+Split	Belgrade	350.600
+Belgrade	St. Gallen	902.646
+St. Gallen	Belgrade	902.646
+Belgrade	Stockholm	1624.986
+Stockholm	Belgrade	1624.986
+Belgrade	Strasbourg	1055.849
+Strasbourg	Belgrade	1055.849
+Belgrade	Targoviste	394.310
+Targoviste	Belgrade	394.310
+Belgrade	Thessaloniki	503.546
+Thessaloniki	Belgrade	503.546
+Belgrade	Utrecht	1388.066
+Utrecht	Belgrade	1388.066
+Belgrade	Valencia	1810.952
+Valencia	Belgrade	1810.952
+Belgrade	Warsaw	828.577
+Warsaw	Belgrade	828.577
+Belgrade	Zagreb	368.428
+Zagreb	Belgrade	368.428
+Berlin	Besancon	788.915
+Besancon	Berlin	788.915
+Berlin	Birmingham	1034.048
+Birmingham	Berlin	1034.048
+Berlin	Bucharest	1294.734
+Bucharest	Berlin	1294.734
+Berlin	Budapest	688.005
+Budapest	Berlin	688.005
+Berlin	Cambridge	901.361
+Cambridge	Berlin	901.361
+Berlin	Ciudad Real	2007.781
+Ciudad Real	Berlin	2007.781
+Berlin	Cluj	972.076
+Cluj	Berlin	972.076
+Berlin	Copenhagen	355.150
+Copenhagen	Berlin	355.150
+Berlin	Debrecen	806.809
+Debrecen	Berlin	806.809
+Berlin	Frankfurt	423.546
+Frankfurt	Berlin	423.546
+Berlin	Galati	1322.657
+Galati	Berlin	1322.657
+Berlin	Geneva	876.413
+Geneva	Berlin	876.413
+Berlin	Gothenburg	583.961
+Gothenburg	Berlin	583.961
+Berlin	Heidelberg	478.093
+Heidelberg	Berlin	478.093
+Berlin	Larissa	1588.598
+Larissa	Berlin	1588.598
+Berlin	Leicester	981.151
+Leicester	Berlin	981.151
+Berlin	Lens	767.255
+Lens	Berlin	767.255
+Berlin	Lisbon	2312.836
+Lisbon	Berlin	2312.836
+Berlin	London	930.852
+London	Berlin	930.852
+Berlin	Maastricht	562.890
+Maastricht	Berlin	562.890
+Berlin	Madrid	1869.105
+Madrid	Berlin	1869.105
+Berlin	Marcy l'etoile	979.290
+Marcy l'etoile	Berlin	979.290
+Berlin	Marseille	1186.009
+Marseille	Berlin	1186.009
+Berlin	Milan	842.036
+Milan	Berlin	842.036
+Berlin	Moscow	1608.706
+Moscow	Berlin	1608.706
+Berlin	Murcia	1968.300
+Murcia	Berlin	1968.300
+Berlin	Munster	398.172
+Munster	Berlin	398.172
+Berlin	Naples	1298.507
+Naples	Berlin	1298.507
+Berlin	Nizhniy Novgorod	2006.470
+Nizhniy Novgorod	Berlin	2006.470
+Berlin	Nizhny Tagil	2951.411
+Nizhny Tagil	Berlin	2951.411
+Berlin	Ostergotland	677.892
+Ostergotland	Berlin	677.892
+Berlin	Paris	877.459
+Paris	Berlin	877.459
+Berlin	Piedmont	935.051
+Piedmont	Berlin	935.051
+Berlin	Porto	2084.271
+Porto	Berlin	2084.271
+Berlin	Praha	281.130
+Praha	Berlin	281.130
+Berlin	Pribram	317.517
+Pribram	Berlin	317.517
+Berlin	Rome	1182.549
+Rome	Berlin	1182.549
+Berlin	Rostov-on-Don	610.347
+Rostov-on-Don	Berlin	610.347
+Berlin	Rotterdam	1324.813
+Rotterdam	Berlin	1324.813
+Berlin	Saint-Petersburg	2256.818
+Saint-Petersburg	Berlin	2256.818
+Berlin	Santander	386.073
+Santander	Berlin	386.073
+Berlin	Sevilla	1026.848
+Sevilla	Berlin	1026.848
+Berlin	Skane	635.507
+Skane	Berlin	635.507
+Berlin	Split	1026.949
+Split	Berlin	1026.949
+Berlin	St. Gallen	635.608
+St. Gallen	Berlin	635.608
+Berlin	Stockholm	810.523
+Stockholm	Berlin	810.523
+Berlin	Strasbourg	592.499
+Strasbourg	Berlin	592.499
+Berlin	Targoviste	1219.624
+Targoviste	Berlin	1219.624
+Berlin	Thessaloniki	1505.522
+Thessaloniki	Berlin	1505.522
+Berlin	Utrecht	564.888
+Utrecht	Berlin	564.888
+Berlin	Valencia	1793.437
+Valencia	Berlin	1793.437
+Berlin	Warsaw	517.146
+Warsaw	Berlin	517.146
+Berlin	Zagreb	768.602
+Zagreb	Berlin	768.602
+Besancon	Birmingham	811.883
+Birmingham	Besancon	811.883
+Besancon	Bucharest	1582.640
+Bucharest	Besancon	1582.640
+Besancon	Budapest	979.862
+Budapest	Besancon	979.862
+Besancon	Cambridge	694.778
+Cambridge	Besancon	694.778
+Besancon	Ciudad Real	1221.106
+Ciudad Real	Besancon	1221.106
+Besancon	Cluj	1331.370
+Cluj	Besancon	1331.370
+Besancon	Copenhagen	1040.078
+Copenhagen	Besancon	1040.078
+Besancon	Debrecen	1173.271
+Debrecen	Besancon	1173.271
+Besancon	Frankfurt	373.465
+Frankfurt	Besancon	373.465
+Besancon	Galati	1697.081
+Galati	Besancon	1697.081
+Besancon	Geneva	116.521
+Geneva	Besancon	116.521
+Besancon	Gothenburg	1229.576
+Gothenburg	Besancon	1229.576
+Besancon	Heidelberg	310.876
+Heidelberg	Besancon	310.876
+Besancon	Larissa	1565.829
+Larissa	Besancon	1565.829
+Besancon	Leicester	787.197
+Leicester	Besancon	787.197
+Besancon	Lens	423.735
+Lens	Besancon	423.735
+Besancon	Lisbon	1551.375
+Lisbon	Besancon	1551.375
+Besancon	London	649.045
+London	Besancon	649.045
+Besancon	Maastricht	401.297
+Maastricht	Besancon	401.297
+Besancon	Madrid	1087.067
+Madrid	Besancon	1087.067
+Besancon	Marcy l'etoile	191.596
+Marcy l'etoile	Besancon	191.596
+Besancon	Marseille	442.397
+Marseille	Besancon	442.397
+Besancon	Milan	313.811
+Milan	Besancon	313.811
+Besancon	Moscow	2356.468
+Moscow	Besancon	2356.468
+Besancon	Murcia	1183.168
+Murcia	Besancon	1183.168
+Besancon	Munster	536.759
+Munster	Besancon	536.759
+Besancon	Naples	967.254
+Naples	Besancon	967.254
+Besancon	Nizhniy Novgorod	2758.122
+Nizhniy Novgorod	Besancon	2758.122
+Besancon	Nizhny Tagil	3719.510
+Nizhny Tagil	Besancon	3719.510
+Besancon	Ostergotland	1395.495
+Ostergotland	Besancon	1395.495
+Besancon	Paris	325.841
+Paris	Besancon	325.841
+Besancon	Piedmont	270.093
+Piedmont	Besancon	270.093
+Besancon	Porto	1345.903
+Porto	Besancon	1345.903
+Besancon	Praha	693.121
+Praha	Besancon	693.121
+Besancon	Pribram	648.303
+Pribram	Besancon	648.303
+Besancon	Rome	784.712
+Rome	Besancon	784.712
+Besancon	Rostov-on-Don	530.702
+Rostov-on-Don	Besancon	530.702
+Besancon	Rotterdam	2113.727
+Rotterdam	Besancon	2113.727
+Besancon	Saint-Petersburg	1471.603
+Saint-Petersburg	Besancon	1471.603
+Besancon	Santander	1102.346
+Santander	Besancon	1102.346
+Besancon	Sevilla	912.982
+Sevilla	Besancon	912.982
+Besancon	Skane	253.670
+Skane	Besancon	253.670
+Besancon	Split	913.098
+Split	Besancon	913.098
+Besancon	St. Gallen	253.376
+St. Gallen	Besancon	253.376
+Besancon	Stockholm	1558.625
+Stockholm	Besancon	1558.625
+Besancon	Strasbourg	196.456
+Strasbourg	Besancon	196.456
+Besancon	Targoviste	1517.090
+Targoviste	Besancon	1517.090
+Besancon	Thessaloniki	1536.337
+Thessaloniki	Besancon	1536.337
+Besancon	Utrecht	542.251
+Utrecht	Besancon	542.251
+Besancon	Valencia	1007.131
+Valencia	Besancon	1007.131
+Besancon	Warsaw	1208.323
+Warsaw	Besancon	1208.323
+Besancon	Zagreb	777.832
+Zagreb	Besancon	777.832
+Birmingham	Bucharest	2232.649
+Bucharest	Birmingham	2232.649
+Birmingham	Budapest	1589.335
+Budapest	Birmingham	1589.335
+Birmingham	Cambridge	140.719
+Cambridge	Birmingham	140.719
+Birmingham	Ciudad Real	1508.673
+Ciudad Real	Birmingham	1508.673
+Birmingham	Cluj	1931.520
+Cluj	Birmingham	1931.520
+Birmingham	Copenhagen	1006.157
+Copenhagen	Birmingham	1006.157
+Birmingham	Debrecen	1759.721
+Debrecen	Birmingham	1759.721
+Birmingham	Frankfurt	780.680
+Frankfurt	Birmingham	780.680
+Birmingham	Galati	2302.080
+Galati	Birmingham	2302.080
+Birmingham	Geneva	908.104
+Geneva	Birmingham	908.104
+Birmingham	Gothenburg	1053.432
+Gothenburg	Birmingham	1053.432
+Birmingham	Heidelberg	815.894
+Heidelberg	Birmingham	815.894
+Birmingham	Larissa	2338.119
+Larissa	Birmingham	2338.119
+Birmingham	Leicester	54.198
+Leicester	Birmingham	54.198
+Birmingham	Lens	399.203
+Lens	Birmingham	399.203
+Birmingham	Lisbon	1629.212
+Lisbon	Birmingham	1629.212
+Birmingham	London	162.938
+London	Birmingham	162.938
+Birmingham	Maastricht	553.688
+Maastricht	Birmingham	553.688
+Birmingham	Madrid	1348.535
+Madrid	Birmingham	1348.535
+Birmingham	Marcy l'etoile	885.749
+Marcy l'etoile	Birmingham	885.749
+Birmingham	Marseille	1154.897
+Marseille	Birmingham	1154.897
+Birmingham	Milan	1121.742
+Milan	Birmingham	1121.742
+Birmingham	Moscow	2565.065
+Moscow	Birmingham	2565.065
+Birmingham	Murcia	1612.804
+Murcia	Birmingham	1612.804
+Birmingham	Munster	651.023
+Munster	Birmingham	651.023
+Birmingham	Naples	1777.831
+Naples	Birmingham	1777.831
+Birmingham	Nizhniy Novgorod	2944.943
+Nizhniy Novgorod	Birmingham	2944.943
+Birmingham	Nizhny Tagil	3831.233
+Nizhny Tagil	Birmingham	3831.233
+Birmingham	Ostergotland	1266.089
+Ostergotland	Birmingham	1266.089
+Birmingham	Paris	502.064
+Paris	Birmingham	502.064
+Birmingham	Piedmont	1074.576
+Piedmont	Birmingham	1074.576
+Birmingham	Porto	1358.159
+Porto	Birmingham	1358.159
+Birmingham	Praha	1164.704
+Praha	Birmingham	1164.704
+Birmingham	Pribram	1151.153
+Pribram	Birmingham	1151.153
+Birmingham	Rome	1596.395
+Rome	Birmingham	1596.395
+Birmingham	Rostov-on-Don	440.051
+Rostov-on-Don	Birmingham	440.051
+Birmingham	Rotterdam	2130.897
+Rotterdam	Birmingham	2130.897
+Birmingham	Saint-Petersburg	1708.530
+Saint-Petersburg	Birmingham	1708.530
+Birmingham	Santander	1077.085
+Santander	Birmingham	1077.085
+Birmingham	Sevilla	1682.528
+Sevilla	Birmingham	1682.528
+Birmingham	Skane	981.572
+Skane	Birmingham	981.572
+Birmingham	Split	1682.649
+Split	Birmingham	1682.649
+Birmingham	St. Gallen	981.324
+St. Gallen	Birmingham	981.324
+Birmingham	Stockholm	1450.646
+Stockholm	Birmingham	1450.646
+Birmingham	Strasbourg	806.872
+Strasbourg	Birmingham	806.872
+Birmingham	Targoviste	2159.665
+Targoviste	Birmingham	2159.665
+Birmingham	Thessaloniki	2292.027
+Thessaloniki	Birmingham	2292.027
+Birmingham	Utrecht	479.381
+Utrecht	Birmingham	479.381
+Birmingham	Valencia	1451.877
+Valencia	Birmingham	1451.877
+Birmingham	Warsaw	1549.718
+Warsaw	Birmingham	1549.718
+Birmingham	Zagreb	1490.966
+Zagreb	Birmingham	1490.966
+Bucharest	Budapest	643.422
+Budapest	Bucharest	643.422
+Bucharest	Cambridge	2091.939
+Cambridge	Bucharest	2091.939
+Bucharest	Ciudad Real	2550.181
+Ciudad Real	Bucharest	2550.181
+Bucharest	Cluj	324.643
+Cluj	Bucharest	324.643
+Bucharest	Copenhagen	1574.460
+Copenhagen	Bucharest	1574.460
+Bucharest	Debrecen	488.411
+Debrecen	Bucharest	488.411
+Bucharest	Frankfurt	1453.732
+Frankfurt	Bucharest	1453.732
+Bucharest	Galati	190.304
+Galati	Bucharest	190.304
+Bucharest	Geneva	1569.045
+Geneva	Bucharest	1569.045
+Bucharest	Gothenburg	1768.457
+Gothenburg	Bucharest	1768.457
+Bucharest	Heidelberg	1429.501
+Heidelberg	Bucharest	1429.501
+Bucharest	Larissa	613.481
+Larissa	Bucharest	613.481
+Bucharest	Leicester	2186.347
+Leicester	Bucharest	2186.347
+Bucharest	Lens	1863.844
+Lens	Bucharest	1863.844
+Bucharest	Lisbon	2975.806
+Lisbon	Bucharest	2975.806
+Bucharest	London	2090.738
+London	Bucharest	2090.738
+Bucharest	Maastricht	1680.476
+Maastricht	Bucharest	1680.476
+Bucharest	Madrid	2472.885
+Madrid	Bucharest	2472.885
+Bucharest	Marcy l'etoile	1681.144
+Marcy l'etoile	Bucharest	1681.144
+Bucharest	Marseille	1662.736
+Marseille	Bucharest	1662.736
+Bucharest	Milan	1333.716
+Milan	Bucharest	1333.716
+Bucharest	Moscow	1498.514
+Moscow	Bucharest	1498.514
+Bucharest	Murcia	2375.654
+Murcia	Bucharest	2375.654
+Bucharest	Munster	1598.507
+Munster	Bucharest	1598.507
+Bucharest	Naples	1047.120
+Naples	Bucharest	1047.120
+Bucharest	Nizhniy Novgorod	1822.468
+Nizhniy Novgorod	Bucharest	1822.468
+Bucharest	Nizhny Tagil	2752.646
+Nizhny Tagil	Bucharest	2752.646
+Bucharest	Ostergotland	1733.689
+Ostergotland	Bucharest	1733.689
+Bucharest	Paris	1870.313
+Paris	Bucharest	1870.313
+Bucharest	Piedmont	1466.686
+Piedmont	Bucharest	1466.686
+Bucharest	Porto	2834.743
+Porto	Bucharest	2834.743
+Bucharest	Praha	1079.375
+Praha	Bucharest	1079.375
+Bucharest	Pribram	1084.884
+Pribram	Bucharest	1084.884
+Bucharest	Rome	1137.549
+Rome	Bucharest	1137.549
+Bucharest	Rostov-on-Don	1796.367
+Rostov-on-Don	Bucharest	1796.367
+Bucharest	Rotterdam	1746.807
+Rotterdam	Bucharest	1746.807
+Bucharest	Saint-Petersburg	2787.441
+Saint-Petersburg	Bucharest	2787.441
+Bucharest	Santander	1558.224
+Santander	Bucharest	1558.224
+Bucharest	Sevilla	779.938
+Sevilla	Bucharest	779.938
+Bucharest	Skane	1333.228
+Skane	Bucharest	1333.228
+Bucharest	Split	779.872
+Split	Bucharest	779.872
+Bucharest	St. Gallen	1333.526
+St. Gallen	Bucharest	1333.526
+Bucharest	Stockholm	1742.964
+Stockholm	Bucharest	1742.964
+Bucharest	Strasbourg	1474.720
+Strasbourg	Bucharest	1474.720
+Bucharest	Targoviste	75.133
+Targoviste	Bucharest	75.133
+Bucharest	Thessaloniki	495.158
+Thessaloniki	Bucharest	495.158
+Bucharest	Utrecht	1762.410
+Utrecht	Bucharest	1762.410
+Bucharest	Valencia	2247.700
+Valencia	Bucharest	2247.700
+Bucharest	Warsaw	944.723
+Warsaw	Bucharest	944.723
+Bucharest	Zagreb	808.776
+Zagreb	Bucharest	808.776
+Budapest	Cambridge	1448.617
+Cambridge	Budapest	1448.617
+Budapest	Ciudad Real	2076.630
+Ciudad Real	Budapest	2076.630
+Budapest	Cluj	354.312
+Cluj	Budapest	354.312
+Budapest	Copenhagen	1012.284
+Copenhagen	Budapest	1012.284
+Budapest	Debrecen	194.086
+Debrecen	Budapest	194.086
+Budapest	Frankfurt	811.470
+Frankfurt	Budapest	811.470
+Budapest	Galati	726.072
+Galati	Budapest	726.072
+Budapest	Geneva	990.094
+Geneva	Budapest	990.094
+Budapest	Gothenburg	1230.010
+Gothenburg	Budapest	1230.010
+Budapest	Heidelberg	791.522
+Heidelberg	Budapest	791.522
+Budapest	Larissa	914.469
+Larissa	Budapest	914.469
+Budapest	Leicester	1542.928
+Leicester	Budapest	1542.928
+Budapest	Lens	1224.506
+Lens	Budapest	1224.506
+Budapest	Lisbon	2469.978
+Lisbon	Budapest	2469.978
+Budapest	London	1448.621
+London	Budapest	1448.621
+Budapest	Maastricht	1037.760
+Maastricht	Budapest	1037.760
+Budapest	Madrid	1974.098
+Madrid	Budapest	1974.098
+Budapest	Marcy l'etoile	1109.248
+Marcy l'etoile	Budapest	1109.248
+Budapest	Marseille	1163.092
+Marseille	Budapest	1163.092
+Budapest	Milan	786.676
+Milan	Budapest	786.676
+Budapest	Moscow	1568.814
+Moscow	Budapest	1568.814
+Budapest	Murcia	1948.468
+Murcia	Budapest	1948.468
+Budapest	Munster	957.242
+Munster	Budapest	957.242
+Budapest	Naples	831.244
+Naples	Budapest	831.244
+Budapest	Nizhniy Novgorod	1957.794
+Nizhniy Novgorod	Budapest	1957.794
+Budapest	Nizhny Tagil	2934.304
+Nizhny Tagil	Budapest	2934.304
+Budapest	Ostergotland	1252.046
+Ostergotland	Budapest	1252.046
+Budapest	Paris	1244.020
+Paris	Budapest	1244.020
+Budapest	Piedmont	925.582
+Piedmont	Budapest	925.582
+Budapest	Porto	2295.967
+Porto	Budapest	2295.967
+Budapest	Praha	442.377
+Praha	Budapest	442.377
+Budapest	Pribram	442.830
+Pribram	Budapest	442.830
+Budapest	Rome	808.497
+Rome	Budapest	808.497
+Budapest	Rostov-on-Don	1153.038
+Rostov-on-Don	Budapest	1153.038
+Budapest	Rotterdam	1564.496
+Rotterdam	Budapest	1564.496
+Budapest	Saint-Petersburg	2325.766
+Saint-Petersburg	Budapest	2325.766
+Budapest	Santander	1015.173
+Santander	Budapest	1015.173
+Budapest	Sevilla	487.660
+Sevilla	Budapest	487.660
+Budapest	Skane	726.223
+Skane	Budapest	726.223
+Budapest	Split	487.705
+Split	Budapest	487.705
+Budapest	St. Gallen	726.517
+St. Gallen	Budapest	726.517
+Budapest	Stockholm	1317.097
+Stockholm	Budapest	1317.097
+Budapest	Strasbourg	847.517
+Strasbourg	Budapest	847.517
+Budapest	Targoviste	570.341
+Targoviste	Budapest	570.341
+Budapest	Thessaloniki	823.356
+Thessaloniki	Budapest	823.356
+Budapest	Utrecht	1119.509
+Utrecht	Budapest	1119.509
+Budapest	Valencia	1795.931
+Valencia	Budapest	1795.931
+Budapest	Warsaw	544.698
+Warsaw	Budapest	544.698
+Budapest	Zagreb	299.442
+Zagreb	Budapest	299.442
+Cambridge	Ciudad Real	1502.687
+Ciudad Real	Cambridge	1502.687
+Cambridge	Cluj	1790.983
+Cluj	Cambridge	1790.983
+Cambridge	Copenhagen	899.742
+Copenhagen	Cambridge	899.742
+Cambridge	Debrecen	1619.210
+Debrecen	Cambridge	1619.210
+Cambridge	Frankfurt	640.323
+Frankfurt	Cambridge	640.323
+Cambridge	Galati	2161.721
+Galati	Cambridge	2161.721
+Cambridge	Geneva	797.269
+Geneva	Cambridge	797.269
+Cambridge	Gothenburg	970.439
+Gothenburg	Cambridge	970.439
+Cambridge	Heidelberg	677.149
+Heidelberg	Cambridge	677.149
+Cambridge	Larissa	2203.267
+Larissa	Cambridge	2203.267
+Cambridge	Leicester	97.872
+Leicester	Cambridge	97.872
+Cambridge	Lens	272.693
+Lens	Cambridge	272.693
+Cambridge	Lisbon	1661.870
+Lisbon	Cambridge	1661.870
+Cambridge	London	79.068
+London	Cambridge	79.068
+Cambridge	Maastricht	413.498
+Maastricht	Cambridge	413.498
+Cambridge	Madrid	1342.873
+Madrid	Cambridge	1342.873
+Cambridge	Marcy l'etoile	788.335
+Marcy l'etoile	Cambridge	788.335
+Cambridge	Marseille	1064.800
+Marseille	Cambridge	1064.800
+Cambridge	Milan	999.445
+Milan	Cambridge	999.445
+Cambridge	Moscow	2452.166
+Moscow	Cambridge	2452.166
+Cambridge	Murcia	1583.990
+Murcia	Cambridge	1583.990
+Cambridge	Munster	513.297
+Munster	Cambridge	513.297
+Cambridge	Naples	1655.387
+Naples	Cambridge	1655.387
+Cambridge	Nizhniy Novgorod	2836.173
+Nizhniy Novgorod	Cambridge	2836.173
+Cambridge	Nizhny Tagil	3734.544
+Nizhny Tagil	Cambridge	3734.544
+Cambridge	Ostergotland	1181.731
+Ostergotland	Cambridge	1181.731
+Cambridge	Paris	404.310
+Paris	Cambridge	404.310
+Cambridge	Piedmont	962.184
+Piedmont	Cambridge	962.184
+Cambridge	Porto	1395.944
+Porto	Cambridge	1395.944
+Cambridge	Praha	1024.601
+Praha	Cambridge	1024.601
+Cambridge	Pribram	1010.586
+Pribram	Cambridge	1010.586
+Cambridge	Rome	1476.081
+Rome	Cambridge	1476.081
+Cambridge	Rostov-on-Don	300.522
+Rostov-on-Don	Cambridge	300.522
+Cambridge	Rotterdam	2038.106
+Rotterdam	Cambridge	2038.106
+Cambridge	Saint-Petersburg	1715.400
+Saint-Petersburg	Cambridge	1715.400
+Cambridge	Santander	972.004
+Santander	Cambridge	972.004
+Cambridge	Sevilla	1548.688
+Sevilla	Cambridge	1548.688
+Cambridge	Skane	849.438
+Skane	Cambridge	849.438
+Cambridge	Split	1548.808
+Split	Cambridge	1548.808
+Cambridge	St. Gallen	849.198
+St. Gallen	Cambridge	849.198
+Cambridge	Stockholm	1366.986
+Stockholm	Cambridge	1366.986
+Cambridge	Strasbourg	673.427
+Strasbourg	Cambridge	673.427
+Cambridge	Targoviste	2018.946
+Targoviste	Cambridge	2018.946
+Cambridge	Thessaloniki	2155.337
+Thessaloniki	Cambridge	2155.337
+Cambridge	Utrecht	341.318
+Utrecht	Cambridge	341.318
+Cambridge	Valencia	1416.989
+Valencia	Cambridge	1416.989
+Cambridge	Warsaw	1418.193
+Warsaw	Cambridge	1418.193
+Cambridge	Zagreb	1353.031
+Zagreb	Cambridge	1353.031
+Ciudad Real	Cluj	2389.073
+Cluj	Ciudad Real	2389.073
+Ciudad Real	Copenhagen	2221.336
+Copenhagen	Ciudad Real	2221.336
+Ciudad Real	Debrecen	2263.248
+Debrecen	Ciudad Real	2263.248
+Ciudad Real	Frankfurt	1585.731
+Frankfurt	Ciudad Real	1585.731
+Ciudad Real	Galati	2710.000
+Galati	Ciudad Real	2710.000
+Ciudad Real	Geneva	1148.900
+Geneva	Ciudad Real	1148.900
+Ciudad Real	Gothenburg	2376.811
+Gothenburg	Ciudad Real	2376.811
+Ciudad Real	Heidelberg	1530.455
+Heidelberg	Ciudad Real	1530.455
+Ciudad Real	Larissa	2259.235
+Larissa	Ciudad Real	2259.235
+Ciudad Real	Leicester	1532.611
+Leicester	Ciudad Real	1532.611
+Ciudad Real	Lens	1378.947
+Lens	Ciudad Real	1378.947
+Ciudad Real	Lisbon	452.152
+Lisbon	Ciudad Real	452.152
+Ciudad Real	London	1423.646
+London	Ciudad Real	1423.646
+Ciudad Real	Maastricht	1518.400
+Maastricht	Ciudad Real	1518.400
+Ciudad Real	Madrid	160.207
+Madrid	Ciudad Real	160.207
+Ciudad Real	Marcy l'etoile	1035.066
+Marcy l'etoile	Ciudad Real	1035.066
+Ciudad Real	Marseille	913.538
+Marseille	Ciudad Real	913.538
+Ciudad Real	Milan	1295.962
+Milan	Ciudad Real	1295.962
+Ciudad Real	Moscow	3565.445
+Moscow	Ciudad Real	3565.445
+Ciudad Real	Murcia	267.750
+Murcia	Ciudad Real	267.750
+Ciudad Real	Munster	1696.498
+Munster	Ciudad Real	1696.498
+Ciudad Real	Naples	1560.984
+Naples	Ciudad Real	1560.984
+Ciudad Real	Nizhniy Novgorod	3966.995
+Nizhniy Novgorod	Ciudad Real	3966.995
+Ciudad Real	Nizhny Tagil	4934.751
+Nizhny Tagil	Ciudad Real	4934.751
+Ciudad Real	Ostergotland	2567.302
+Ostergotland	Ciudad Real	2567.302
+Ciudad Real	Paris	1206.305
+Paris	Ciudad Real	1206.305
+Ciudad Real	Piedmont	1159.552
+Piedmont	Ciudad Real	1159.552
+Ciudad Real	Porto	465.292
+Porto	Ciudad Real	465.292
+Ciudad Real	Praha	1898.757
+Praha	Ciudad Real	1898.757
+Ciudad Real	Pribram	1849.600
+Pribram	Ciudad Real	1849.600
+Ciudad Real	Rome	1424.880
+Rome	Ciudad Real	1424.880
+Ciudad Real	Rostov-on-Don	1578.446
+Rostov-on-Don	Ciudad Real	1578.446
+Ciudad Real	Rotterdam	3331.108
+Rotterdam	Ciudad Real	3331.108
+Ciudad Real	Saint-Petersburg	252.390
+Saint-Petersburg	Ciudad Real	252.390
+Ciudad Real	Santander	2289.786
+Santander	Ciudad Real	2289.786
+Ciudad Real	Sevilla	1770.401
+Sevilla	Ciudad Real	1770.401
+Ciudad Real	Skane	1425.777
+Skane	Ciudad Real	1425.777
+Ciudad Real	Split	1770.470
+Split	Ciudad Real	1770.470
+Ciudad Real	St. Gallen	1425.555
+St. Gallen	Ciudad Real	1425.555
+Ciudad Real	Stockholm	2742.645
+Stockholm	Ciudad Real	2742.645
+Ciudad Real	Strasbourg	1417.036
+Strasbourg	Ciudad Real	1417.036
+Ciudad Real	Targoviste	2502.838
+Targoviste	Ciudad Real	2502.838
+Ciudad Real	Thessaloniki	2293.004
+Thessaloniki	Ciudad Real	2293.004
+Ciudad Real	Utrecht	1615.778
+Utrecht	Ciudad Real	1615.778
+Ciudad Real	Valencia	310.744
+Valencia	Ciudad Real	310.744
+Ciudad Real	Warsaw	2415.098
+Warsaw	Ciudad Real	2415.098
+Ciudad Real	Zagreb	1795.845
+Zagreb	Ciudad Real	1795.845
+Cluj	Copenhagen	1250.518
+Copenhagen	Cluj	1250.518
+Cluj	Debrecen	171.891
+Debrecen	Cluj	171.891
+Cluj	Frankfurt	1159.220
+Frankfurt	Cluj	1159.220
+Cluj	Galati	372.955
+Galati	Cluj	372.955
+Cluj	Geneva	1335.239
+Geneva	Cluj	1335.239
+Cluj	Gothenburg	1447.267
+Gothenburg	Cluj	1447.267
+Cluj	Heidelberg	1143.566
+Heidelberg	Cluj	1143.566
+Cluj	Larissa	797.889
+Larissa	Cluj	797.889
+Cluj	Leicester	1883.634
+Leicester	Cluj	1883.634
+Cluj	Lens	1574.741
+Lens	Cluj	1574.741
+Cluj	Lisbon	2796.035
+Lisbon	Cluj	2796.035
+Cluj	London	1795.087
+London	Cluj	1795.087
+Cluj	Maastricht	1383.723
+Maastricht	Cluj	1383.723
+Cluj	Madrid	2295.907
+Madrid	Cluj	2295.907
+Cluj	Marcy l'etoile	1452.813
+Marcy l'etoile	Cluj	1452.813
+Cluj	Marseille	1479.859
+Marseille	Cluj	1479.859
+Cluj	Milan	1118.464
+Milan	Cluj	1118.464
+Cluj	Moscow	1391.205
+Moscow	Cluj	1391.205
+Cluj	Murcia	2241.003
+Murcia	Cluj	2241.003
+Cluj	Munster	1289.201
+Munster	Cluj	1289.201
+Cluj	Naples	996.387
+Naples	Cluj	996.387
+Cluj	Nizhniy Novgorod	1755.396
+Nizhniy Novgorod	Cluj	1755.396
+Cluj	Nizhny Tagil	2719.537
+Nizhny Tagil	Cluj	2719.537
+Cluj	Ostergotland	1421.715
+Ostergotland	Cluj	1421.715
+Cluj	Paris	1598.230
+Paris	Cluj	1598.230
+Cluj	Piedmont	1256.682
+Piedmont	Cluj	1256.682
+Cluj	Porto	2632.901
+Porto	Cluj	2632.901
+Cluj	Praha	768.977
+Praha	Cluj	768.977
+Cluj	Pribram	780.408
+Pribram	Cluj	780.408
+Cluj	Rome	1034.137
+Rome	Cluj	1034.137
+Cluj	Rostov-on-Don	1492.434
+Rostov-on-Don	Cluj	1492.434
+Cluj	Rotterdam	1528.768
+Rotterdam	Cluj	1528.768
+Cluj	Saint-Petersburg	2634.524
+Saint-Petersburg	Cluj	2634.524
+Cluj	Santander	1235.812
+Santander	Cluj	1235.812
+Cluj	Sevilla	667.968
+Sevilla	Cluj	667.968
+Cluj	Skane	1077.802
+Skane	Cluj	1077.802
+Cluj	Split	667.949
+Split	Cluj	667.949
+Cluj	St. Gallen	1078.098
+St. Gallen	Cluj	1078.098
+Cluj	Stockholm	1443.763
+Stockholm	Cluj	1443.763
+Cluj	Strasbourg	1201.807
+Strasbourg	Cluj	1201.807
+Cluj	Targoviste	250.212
+Targoviste	Cluj	250.212
+Cluj	Thessaloniki	683.343
+Thessaloniki	Cluj	683.343
+Cluj	Utrecht	1456.298
+Utrecht	Cluj	1456.298
+Cluj	Valencia	2097.927
+Valencia	Cluj	2097.927
+Cluj	Warsaw	635.431
+Warsaw	Cluj	635.431
+Cluj	Zagreb	594.893
+Zagreb	Cluj	594.893
+Copenhagen	Debrecen	1098.641
+Debrecen	Copenhagen	1098.641
+Copenhagen	Frankfurt	671.263
+Frankfurt	Copenhagen	671.263
+Copenhagen	Galati	1570.743
+Galati	Copenhagen	1570.743
+Copenhagen	Geneva	1144.213
+Geneva	Copenhagen	1144.213
+Copenhagen	Gothenburg	228.812
+Gothenburg	Copenhagen	228.812
+Copenhagen	Heidelberg	744.417
+Heidelberg	Copenhagen	744.417
+Copenhagen	Larissa	1924.743
+Larissa	Copenhagen	1924.743
+Copenhagen	Leicester	952.492
+Leicester	Copenhagen	952.492
+Copenhagen	Lens	872.249
+Lens	Copenhagen	872.249
+Copenhagen	Lisbon	2478.214
+Lisbon	Copenhagen	2478.214
+Copenhagen	London	954.852
+London	Copenhagen	954.852
+Copenhagen	Maastricht	704.336
+Maastricht	Copenhagen	704.336
+Copenhagen	Madrid	2072.611
+Madrid	Copenhagen	2072.611
+Copenhagen	Marcy l'etoile	1229.774
+Marcy l'etoile	Copenhagen	1229.774
+Copenhagen	Marseille	1469.592
+Marseille	Copenhagen	1469.592
+Copenhagen	Milan	1159.650
+Milan	Copenhagen	1159.650
+Copenhagen	Moscow	1560.377
+Moscow	Copenhagen	1560.377
+Copenhagen	Murcia	2216.700
+Murcia	Copenhagen	2216.700
+Copenhagen	Munster	524.839
+Munster	Copenhagen	524.839
+Copenhagen	Naples	1652.436
+Naples	Copenhagen	1652.436
+Copenhagen	Nizhniy Novgorod	1938.817
+Nizhniy Novgorod	Copenhagen	1938.817
+Copenhagen	Nizhny Tagil	2837.059
+Nizhny Tagil	Copenhagen	2837.059
+Copenhagen	Ostergotland	355.695
+Ostergotland	Copenhagen	355.695
+Copenhagen	Paris	1026.691
+Paris	Copenhagen	1026.691
+Copenhagen	Piedmont	1233.672
+Piedmont	Copenhagen	1233.672
+Copenhagen	Porto	2230.227
+Porto	Copenhagen	2230.227
+Copenhagen	Praha	635.205
+Praha	Copenhagen	635.205
+Copenhagen	Pribram	672.657
+Pribram	Copenhagen	672.657
+Copenhagen	Rome	1531.533
+Rome	Copenhagen	1531.533
+Copenhagen	Rostov-on-Don	674.441
+Rostov-on-Don	Copenhagen	674.441
+Copenhagen	Rotterdam	1148.414
+Rotterdam	Copenhagen	1148.414
+Copenhagen	Saint-Petersburg	2462.871
+Saint-Petersburg	Copenhagen	2462.871
+Copenhagen	Santander	73.053
+Santander	Copenhagen	73.053
+Copenhagen	Sevilla	1380.847
+Sevilla	Copenhagen	1380.847
+Copenhagen	Skane	943.537
+Skane	Copenhagen	943.537
+Copenhagen	Split	1380.947
+Split	Copenhagen	1380.947
+Copenhagen	St. Gallen	943.571
+St. Gallen	Copenhagen	943.571
+Copenhagen	Stockholm	522.139
+Stockholm	Copenhagen	522.139
+Copenhagen	Strasbourg	854.116
+Strasbourg	Copenhagen	854.116
+Copenhagen	Targoviste	1500.582
+Targoviste	Copenhagen	1500.582
+Copenhagen	Thessaloniki	1835.639
+Thessaloniki	Copenhagen	1835.639
+Copenhagen	Utrecht	629.609
+Utrecht	Copenhagen	629.609
+Copenhagen	Valencia	2039.690
+Valencia	Copenhagen	2039.690
+Copenhagen	Warsaw	671.648
+Warsaw	Copenhagen	671.648
+Copenhagen	Zagreb	1122.151
+Zagreb	Copenhagen	1122.151
+Debrecen	Frankfurt	988.509
+Frankfurt	Debrecen	988.509
+Debrecen	Galati	543.437
+Galati	Debrecen	543.437
+Debrecen	Geneva	1184.121
+Geneva	Debrecen	1184.121
+Debrecen	Gothenburg	1302.983
+Gothenburg	Debrecen	1302.983
+Debrecen	Heidelberg	974.761
+Heidelberg	Debrecen	974.761
+Debrecen	Larissa	879.409
+Larissa	Debrecen	879.409
+Debrecen	Leicester	1711.773
+Leicester	Debrecen	1711.773
+Debrecen	Lens	1404.609
+Lens	Debrecen	1404.609
+Debrecen	Lisbon	2660.818
+Lisbon	Debrecen	2660.818
+Debrecen	London	1623.800
+London	Debrecen	1623.800
+Debrecen	Maastricht	1212.476
+Maastricht	Debrecen	1212.476
+Debrecen	Madrid	2163.570
+Madrid	Debrecen	2163.570
+Debrecen	Marcy l'etoile	1303.167
+Marcy l'etoile	Debrecen	1303.167
+Debrecen	Marseille	1350.208
+Marseille	Debrecen	1350.208
+Debrecen	Milan	977.889
+Milan	Debrecen	977.889
+Debrecen	Moscow	1426.962
+Moscow	Debrecen	1426.962
+Debrecen	Murcia	2127.882
+Murcia	Debrecen	2127.882
+Debrecen	Munster	1117.443
+Munster	Debrecen	1117.443
+Debrecen	Naples	946.160
+Naples	Debrecen	946.160
+Debrecen	Nizhniy Novgorod	1807.069
+Nizhniy Novgorod	Debrecen	1807.069
+Debrecen	Nizhny Tagil	2780.382
+Nizhny Tagil	Debrecen	2780.382
+Debrecen	Ostergotland	1293.774
+Ostergotland	Debrecen	1293.774
+Debrecen	Paris	1432.213
+Paris	Debrecen	1432.213
+Debrecen	Piedmont	1116.821
+Piedmont	Debrecen	1116.821
+Debrecen	Porto	2489.183
+Porto	Debrecen	2489.183
+Debrecen	Praha	597.168
+Praha	Debrecen	597.168
+Debrecen	Pribram	608.688
+Pribram	Debrecen	608.688
+Debrecen	Rome	953.810
+Rome	Debrecen	953.810
+Debrecen	Rostov-on-Don	1320.562
+Rostov-on-Don	Debrecen	1320.562
+Debrecen	Rotterdam	1490.095
+Rotterdam	Debrecen	1490.095
+Debrecen	Saint-Petersburg	2511.314
+Saint-Petersburg	Debrecen	2511.314
+Debrecen	Santander	1089.227
+Santander	Debrecen	1089.227
+Debrecen	Sevilla	602.459
+Sevilla	Debrecen	602.459
+Debrecen	Skane	919.735
+Skane	Debrecen	919.735
+Debrecen	Split	602.470
+Split	Debrecen	602.470
+Debrecen	St. Gallen	920.027
+St. Gallen	Debrecen	920.027
+Debrecen	Stockholm	1332.355
+Stockholm	Debrecen	1332.355
+Debrecen	Strasbourg	1036.622
+Strasbourg	Debrecen	1036.622
+Debrecen	Targoviste	413.284
+Targoviste	Debrecen	413.284
+Debrecen	Thessaloniki	773.377
+Thessaloniki	Debrecen	773.377
+Debrecen	Utrecht	1284.412
+Utrecht	Debrecen	1284.412
+Debrecen	Valencia	1978.695
+Valencia	Debrecen	1978.695
+Debrecen	Warsaw	524.241
+Warsaw	Debrecen	524.241
+Debrecen	Zagreb	471.083
+Zagreb	Debrecen	471.083
+Frankfurt	Galati	1531.869
+Galati	Frankfurt	1531.869
+Frankfurt	Geneva	473.354
+Geneva	Frankfurt	473.354
+Frankfurt	Gothenburg	871.406
+Gothenburg	Frankfurt	871.406
+Frankfurt	Heidelberg	78.166
+Heidelberg	Frankfurt	78.166
+Frankfurt	Larissa	1584.139
+Larissa	Frankfurt	1584.139
+Frankfurt	Leicester	736.422
+Leicester	Frankfurt	736.422
+Frankfurt	Lens	417.102
+Lens	Frankfurt	417.102
+Frankfurt	Lisbon	1891.063
+Lisbon	Frankfurt	1891.063
+Frankfurt	London	637.165
+London	Frankfurt	637.165
+Frankfurt	Maastricht	227.084
+Maastricht	Frankfurt	227.084
+Frankfurt	Madrid	1445.854
+Madrid	Frankfurt	1445.854
+Frankfurt	Marcy l'etoile	565.018
+Marcy l'etoile	Frankfurt	565.018
+Frankfurt	Marseille	798.481
+Marseille	Frankfurt	798.481
+Frankfurt	Milan	517.745
+Milan	Frankfurt	517.745
+Frankfurt	Moscow	2020.968
+Moscow	Frankfurt	2020.968
+Frankfurt	Murcia	1556.536
+Murcia	Frankfurt	1556.536
+Frankfurt	Munster	218.722
+Munster	Frankfurt	218.722
+Frankfurt	Naples	1115.946
+Naples	Frankfurt	1115.946
+Frankfurt	Nizhniy Novgorod	2420.952
+Nizhniy Novgorod	Frankfurt	2420.952
+Frankfurt	Nizhny Tagil	3372.156
+Nizhny Tagil	Frankfurt	3372.156
+Frankfurt	Ostergotland	1026.886
+Ostergotland	Frankfurt	1026.886
+Frankfurt	Paris	477.882
+Paris	Frankfurt	477.882
+Frankfurt	Piedmont	569.215
+Piedmont	Frankfurt	569.215
+Frankfurt	Porto	1666.939
+Porto	Frankfurt	1666.939
+Frankfurt	Praha	410.508
+Praha	Frankfurt	410.508
+Frankfurt	Pribram	384.402
+Pribram	Frankfurt	384.402
+Frankfurt	Rome	958.702
+Rome	Frankfurt	958.702
+Frankfurt	Rostov-on-Don	355.239
+Rostov-on-Don	Frankfurt	355.239
+Frankfurt	Rotterdam	1745.409
+Rotterdam	Frankfurt	1745.409
+Frankfurt	Saint-Petersburg	1834.064
+Saint-Petersburg	Frankfurt	1834.064
+Frankfurt	Santander	731.206
+Santander	Frankfurt	731.206
+Frankfurt	Sevilla	940.956
+Sevilla	Frankfurt	940.956
+Frankfurt	Skane	303.030
+Skane	Frankfurt	303.030
+Frankfurt	Split	941.075
+Split	Frankfurt	941.075
+Frankfurt	St. Gallen	302.953
+St. Gallen	Frankfurt	302.953
+Frankfurt	Stockholm	1186.664
+Stockholm	Frankfurt	1186.664
+Frankfurt	Strasbourg	182.867
+Strasbourg	Frankfurt	182.867
+Frankfurt	Targoviste	1381.367
+Targoviste	Frankfurt	1381.367
+Frankfurt	Thessaloniki	1527.635
+Thessaloniki	Frankfurt	1527.635
+Frankfurt	Utrecht	332.026
+Utrecht	Frankfurt	332.026
+Frankfurt	Valencia	1380.333
+Valencia	Frankfurt	1380.333
+Frankfurt	Warsaw	890.101
+Warsaw	Frankfurt	890.101
+Frankfurt	Zagreb	722.807
+Zagreb	Frankfurt	722.807
+Galati	Geneva	1694.114
+Geneva	Galati	1694.114
+Galati	Gothenburg	1749.453
+Gothenburg	Galati	1749.453
+Galati	Heidelberg	1516.462
+Heidelberg	Galati	1516.462
+Galati	Larissa	793.346
+Larissa	Galati	793.346
+Galati	Leicester	2253.654
+Leicester	Galati	2253.654
+Galati	Lens	1947.638
+Lens	Galati	1947.638
+Galati	Lisbon	3129.283
+Lisbon	Galati	3129.283
+Galati	London	2167.170
+London	Galati	2167.170
+Galati	Maastricht	1755.878
+Maastricht	Galati	1755.878
+Galati	Madrid	2626.775
+Madrid	Galati	2626.775
+Galati	Marcy l'etoile	1809.592
+Marcy l'etoile	Galati	1809.592
+Galati	Marseille	1812.360
+Marseille	Galati	1812.360
+Galati	Milan	1467.621
+Milan	Galati	1467.621
+Galati	Moscow	1326.917
+Moscow	Galati	1326.917
+Galati	Murcia	2543.526
+Murcia	Galati	2543.526
+Galati	Munster	1656.844
+Munster	Galati	1656.844
+Galati	Naples	1228.620
+Naples	Galati	1228.620
+Galati	Nizhniy Novgorod	1640.035
+Nizhniy Novgorod	Galati	1640.035
+Galati	Nizhny Tagil	2564.256
+Nizhny Tagil	Galati	2564.256
+Galati	Ostergotland	1691.938
+Ostergotland	Galati	1691.938
+Galati	Paris	1969.860
+Paris	Galati	1969.860
+Galati	Piedmont	1603.733
+Piedmont	Galati	1603.733
+Galati	Porto	2978.608
+Porto	Galati	2978.608
+Galati	Praha	1137.766
+Praha	Galati	1137.766
+Galati	Pribram	1151.679
+Pribram	Galati	1151.679
+Galati	Rome	1309.126
+Rome	Galati	1309.126
+Galati	Rostov-on-Don	1862.419
+Rostov-on-Don	Galati	1862.419
+Galati	Rotterdam	1617.779
+Rotterdam	Galati	1617.779
+Galati	Saint-Petersburg	2950.350
+Saint-Petersburg	Galati	2950.350
+Galati	Santander	1545.890
+Santander	Galati	1545.890
+Galati	Sevilla	945.229
+Sevilla	Galati	945.229
+Galati	Skane	1444.239
+Skane	Galati	1444.239
+Galati	Split	945.174
+Split	Galati	945.174
+Galati	St. Gallen	1444.537
+St. Gallen	Galati	1444.537
+Galati	Stockholm	1681.164
+Stockholm	Galati	1681.164
+Galati	Strasbourg	1573.182
+Strasbourg	Galati	1573.182
+Galati	Targoviste	211.450
+Targoviste	Galati	211.450
+Galati	Thessaloniki	677.026
+Thessaloniki	Galati	677.026
+Galati	Utrecht	1825.370
+Utrecht	Galati	1825.370
+Galati	Valencia	2410.755
+Valencia	Galati	2410.755
+Galati	Warsaw	912.115
+Warsaw	Galati	912.115
+Galati	Zagreb	938.655
+Zagreb	Galati	938.655
+Geneva	Gothenburg	1338.652
+Gothenburg	Geneva	1338.652
+Geneva	Heidelberg	403.766
+Heidelberg	Geneva	403.766
+Geneva	Larissa	1508.256
+Larissa	Geneva	1508.256
+Geneva	Leicester	887.077
+Leicester	Geneva	887.077
+Geneva	Lens	529.872
+Lens	Geneva	529.872
+Geneva	Lisbon	1501.131
+Lisbon	Geneva	1501.131
+Geneva	London	746.325
+London	Geneva	746.325
+Geneva	Maastricht	517.789
+Maastricht	Geneva	517.789
+Geneva	Madrid	1022.788
+Madrid	Geneva	1022.788
+Geneva	Marcy l'etoile	120.604
+Marcy l'etoile	Geneva	120.604
+Geneva	Marseille	329.063
+Marseille	Geneva	329.063
+Geneva	Milan	249.861
+Milan	Geneva	249.861
+Geneva	Moscow	2417.785
+Moscow	Geneva	2417.785
+Geneva	Murcia	1092.098
+Murcia	Geneva	1092.098
+Geneva	Munster	649.277
+Munster	Geneva	649.277
+Geneva	Naples	882.558
+Naples	Geneva	882.558
+Geneva	Nizhniy Novgorod	2819.513
+Nizhniy Novgorod	Geneva	2819.513
+Geneva	Nizhny Tagil	3785.916
+Nizhny Tagil	Geneva	3785.916
+Geneva	Ostergotland	1499.907
+Ostergotland	Geneva	1499.907
+Geneva	Paris	409.755
+Paris	Geneva	409.755
+Geneva	Piedmont	166.724
+Piedmont	Geneva	166.724
+Geneva	Porto	1310.220
+Porto	Geneva	1310.220
+Geneva	Praha	750.368
+Praha	Geneva	750.368
+Geneva	Pribram	701.968
+Pribram	Geneva	701.968
+Geneva	Rome	697.117
+Rome	Geneva	697.117
+Geneva	Rostov-on-Don	646.582
+Rostov-on-Don	Geneva	646.582
+Geneva	Rotterdam	2198.991
+Rotterdam	Geneva	2198.991
+Geneva	Saint-Petersburg	1400.956
+Saint-Petersburg	Geneva	1400.956
+Geneva	Santander	1204.555
+Santander	Geneva	1204.555
+Geneva	Sevilla	864.351
+Sevilla	Geneva	864.351
+Geneva	Skane	280.796
+Skane	Geneva	280.796
+Geneva	Split	864.463
+Split	Geneva	864.463
+Geneva	St. Gallen	280.547
+St. Gallen	Geneva	280.547
+Geneva	Stockholm	1659.744
+Stockholm	Geneva	1659.744
+Geneva	Strasbourg	290.720
+Strasbourg	Geneva	290.720
+Geneva	Targoviste	1506.466
+Targoviste	Geneva	1506.466
+Geneva	Thessaloniki	1486.758
+Thessaloniki	Geneva	1486.758
+Geneva	Utrecht	658.727
+Utrecht	Geneva	658.727
+Geneva	Valencia	917.866
+Valencia	Geneva	917.866
+Geneva	Warsaw	1267.276
+Warsaw	Geneva	1267.276
+Geneva	Zagreb	760.285
+Zagreb	Geneva	760.285
+Gothenburg	Heidelberg	947.605
+Heidelberg	Gothenburg	947.605
+Gothenburg	Larissa	2144.275
+Larissa	Gothenburg	2144.275
+Gothenburg	Leicester	1002.796
+Leicester	Gothenburg	1002.796
+Gothenburg	Lens	1002.922
+Lens	Gothenburg	1002.922
+Gothenburg	Lisbon	2604.587
+Lisbon	Gothenburg	2604.587
+Gothenburg	London	1036.811
+London	Gothenburg	1036.811
+Gothenburg	Maastricht	863.533
+Maastricht	Gothenburg	863.533
+Gothenburg	Madrid	2223.896
+Madrid	Gothenburg	2223.896
+Gothenburg	Marcy l'etoile	1415.263
+Marcy l'etoile	Gothenburg	1415.263
+Gothenburg	Marseille	1667.036
+Marseille	Gothenburg	1667.036
+Gothenburg	Milan	1374.212
+Milan	Gothenburg	1374.212
+Gothenburg	Moscow	1569.931
+Moscow	Gothenburg	1569.931
+Gothenburg	Murcia	2391.008
+Murcia	Gothenburg	2391.008
+Gothenburg	Munster	696.294
+Munster	Gothenburg	696.294
+Gothenburg	Naples	1880.749
+Naples	Gothenburg	1880.749
+Gothenburg	Nizhniy Novgorod	1927.083
+Nizhniy Novgorod	Gothenburg	1927.083
+Gothenburg	Nizhny Tagil	2782.740
+Nizhny Tagil	Gothenburg	2782.740
+Gothenburg	Ostergotland	212.671
+Ostergotland	Gothenburg	212.671
+Gothenburg	Paris	1171.016
+Paris	Gothenburg	1171.016
+Gothenburg	Piedmont	1439.901
+Piedmont	Gothenburg	1439.901
+Gothenburg	Porto	2347.755
+Porto	Gothenburg	2347.755
+Gothenburg	Praha	863.761
+Praha	Gothenburg	863.761
+Gothenburg	Pribram	901.469
+Pribram	Gothenburg	901.469
+Gothenburg	Rome	1757.768
+Rome	Gothenburg	1757.768
+Gothenburg	Rostov-on-Don	801.283
+Rostov-on-Don	Gothenburg	801.283
+Gothenburg	Rotterdam	1080.997
+Rotterdam	Gothenburg	1080.997
+Gothenburg	Saint-Petersburg	2612.419
+Saint-Petersburg	Gothenburg	2612.419
+Gothenburg	Santander	215.067
+Santander	Gothenburg	215.067
+Gothenburg	Sevilla	1609.137
+Sevilla	Gothenburg	1609.137
+Gothenburg	Skane	1156.573
+Skane	Gothenburg	1156.573
+Gothenburg	Split	1609.237
+Split	Gothenburg	1609.237
+Gothenburg	St. Gallen	1156.584
+St. Gallen	Gothenburg	1156.584
+Gothenburg	Stockholm	397.396
+Stockholm	Gothenburg	397.396
+Gothenburg	Strasbourg	1052.345
+Strasbourg	Gothenburg	1052.345
+Gothenburg	Targoviste	1695.803
+Targoviste	Gothenburg	1695.803
+Gothenburg	Thessaloniki	2052.425
+Thessaloniki	Gothenburg	2052.425
+Gothenburg	Utrecht	761.797
+Utrecht	Gothenburg	761.797
+Gothenburg	Valencia	2214.064
+Valencia	Gothenburg	2214.064
+Gothenburg	Warsaw	837.855
+Warsaw	Gothenburg	837.855
+Gothenburg	Zagreb	1350.323
+Zagreb	Gothenburg	1350.323
+Heidelberg	Larissa	1532.394
+Larissa	Heidelberg	1532.394
+Heidelberg	Leicester	774.597
+Leicester	Heidelberg	774.597
+Heidelberg	Lens	434.426
+Lens	Heidelberg	434.426
+Heidelberg	Lisbon	1847.530
+Lisbon	Heidelberg	1847.530
+Heidelberg	London	665.437
+London	Heidelberg	665.437
+Heidelberg	Maastricht	267.349
+Maastricht	Heidelberg	267.349
+Heidelberg	Madrid	1393.689
+Madrid	Heidelberg	1393.689
+Heidelberg	Marcy l'etoile	501.739
+Marcy l'etoile	Heidelberg	501.739
+Heidelberg	Marseille	725.580
+Marseille	Heidelberg	725.580
+Heidelberg	Milan	439.795
+Milan	Heidelberg	439.795
+Heidelberg	Moscow	2059.660
+Moscow	Heidelberg	2059.660
+Heidelberg	Murcia	1492.513
+Murcia	Heidelberg	1492.513
+Heidelberg	Munster	293.785
+Munster	Heidelberg	293.785
+Heidelberg	Naples	1045.271
+Naples	Heidelberg	1045.271
+Heidelberg	Nizhniy Novgorod	2460.625
+Nizhniy Novgorod	Heidelberg	2460.625
+Heidelberg	Nizhny Tagil	3416.848
+Nizhny Tagil	Heidelberg	3416.848
+Heidelberg	Ostergotland	1099.619
+Ostergotland	Heidelberg	1099.619
+Heidelberg	Paris	465.085
+Paris	Heidelberg	465.085
+Heidelberg	Piedmont	492.353
+Piedmont	Heidelberg	492.353
+Heidelberg	Porto	1629.694
+Porto	Heidelberg	1629.694
+Heidelberg	Praha	419.481
+Praha	Heidelberg	419.481
+Heidelberg	Pribram	384.973
+Pribram	Heidelberg	384.973
+Heidelberg	Rome	885.073
+Rome	Heidelberg	885.073
+Heidelberg	Rostov-on-Don	406.639
+Rostov-on-Don	Heidelberg	406.639
+Heidelberg	Rotterdam	1802.885
+Rotterdam	Heidelberg	1802.885
+Heidelberg	Saint-Petersburg	1780.166
+Saint-Petersburg	Heidelberg	1780.166
+Heidelberg	Santander	802.624
+Santander	Heidelberg	802.624
+Heidelberg	Sevilla	883.668
+Sevilla	Heidelberg	883.668
+Heidelberg	Skane	226.287
+Skane	Heidelberg	226.287
+Heidelberg	Split	883.789
+Split	Heidelberg	883.789
+Heidelberg	St. Gallen	226.194
+St. Gallen	Heidelberg	226.194
+Heidelberg	Stockholm	1256.713
+Stockholm	Heidelberg	1256.713
+Heidelberg	Strasbourg	114.696
+Strasbourg	Heidelberg	114.696
+Heidelberg	Targoviste	1358.319
+Targoviste	Heidelberg	1358.319
+Heidelberg	Thessaloniki	1480.123
+Thessaloniki	Heidelberg	1480.123
+Heidelberg	Utrecht	389.861
+Utrecht	Heidelberg	389.861
+Heidelberg	Valencia	1316.962
+Valencia	Heidelberg	1316.962
+Heidelberg	Warsaw	919.282
+Warsaw	Heidelberg	919.282
+Heidelberg	Zagreb	676.301
+Zagreb	Heidelberg	676.301
+Larissa	Leicester	2301.129
+Leicester	Larissa	2301.129
+Larissa	Lens	1940.734
+Lens	Larissa	1940.734
+Larissa	Lisbon	2707.646
+Lisbon	Larissa	2707.646
+Larissa	London	2179.584
+London	Larissa	2179.584
+Larissa	Maastricht	1799.618
+Maastricht	Larissa	1799.618
+Larissa	Madrid	2217.131
+Madrid	Larissa	2217.131
+Larissa	Marcy l'etoile	1595.019
+Marcy l'etoile	Larissa	1595.019
+Larissa	Marseille	1473.976
+Marseille	Larissa	1473.976
+Larissa	Milan	1259.547
+Milan	Larissa	1259.547
+Larissa	Moscow	2111.656
+Moscow	Larissa	2111.656
+Larissa	Murcia	2042.205
+Murcia	Larissa	2042.205
+Larissa	Munster	1779.100
+Munster	Larissa	1779.100
+Larissa	Naples	705.814
+Naples	Larissa	705.814
+Larissa	Nizhniy Novgorod	2433.334
+Nizhniy Novgorod	Larissa	2433.334
+Larissa	Nizhny Tagil	3351.181
+Nizhny Tagil	Larissa	3351.181
+Larissa	Ostergotland	2160.986
+Ostergotland	Larissa	2160.986
+Larissa	Paris	1889.088
+Paris	Larissa	1889.088
+Larissa	Piedmont	1361.220
+Piedmont	Larissa	1361.220
+Larissa	Porto	2618.667
+Porto	Larissa	2618.667
+Larissa	Praha	1317.601
+Praha	Larissa	1317.601
+Larissa	Pribram	1297.947
+Pribram	Larissa	1297.947
+Larissa	Rome	871.453
+Rome	Larissa	871.453
+Larissa	Rostov-on-Don	1937.796
+Rostov-on-Don	Larissa	1937.796
+Larissa	Rotterdam	2322.785
+Rotterdam	Larissa	2322.785
+Larissa	Saint-Petersburg	2472.204
+Saint-Petersburg	Larissa	2472.204
+Larissa	Santander	1929.556
+Santander	Larissa	1929.556
+Larissa	Sevilla	656.711
+Sevilla	Larissa	656.711
+Larissa	Skane	1358.177
+Skane	Larissa	1358.177
+Larissa	Split	656.591
+Split	Larissa	656.591
+Larissa	St. Gallen	1358.436
+St. Gallen	Larissa	1358.436
+Larissa	Stockholm	2210.224
+Stockholm	Larissa	2210.224
+Larissa	Strasbourg	1531.346
+Strasbourg	Larissa	1531.346
+Larissa	Targoviste	638.336
+Targoviste	Larissa	638.336
+Larissa	Thessaloniki	119.399
+Thessaloniki	Larissa	119.399
+Larissa	Utrecht	1916.133
+Utrecht	Larissa	1916.133
+Larissa	Valencia	1948.523
+Valencia	Larissa	1948.523
+Larissa	Warsaw	1403.648
+Warsaw	Larissa	1403.648
+Larissa	Zagreb	863.738
+Zagreb	Larissa	863.738
+Leicester	Lens	367.911
+Lens	Leicester	367.911
+Leicester	Lisbon	1665.572
+Lisbon	Leicester	1665.572
+Leicester	London	143.157
+London	Leicester	143.157
+Leicester	Maastricht	510.040
+Maastricht	Leicester	510.040
+Leicester	Madrid	1372.405
+Madrid	Leicester	1372.405
+Leicester	Marcy l'etoile	871.619
+Marcy l'etoile	Leicester	871.619
+Leicester	Marseille	1144.703
+Marseille	Leicester	1144.703
+Leicester	Milan	1094.147
+Milan	Leicester	1094.147
+Leicester	Moscow	2511.110
+Moscow	Leicester	2511.110
+Leicester	Murcia	1628.692
+Murcia	Leicester	1628.692
+Leicester	Munster	600.334
+Munster	Leicester	600.334
+Leicester	Naples	1750.343
+Naples	Leicester	1750.343
+Leicester	Nizhniy Novgorod	2891.308
+Nizhniy Novgorod	Leicester	2891.308
+Leicester	Nizhny Tagil	3779.044
+Nizhny Tagil	Leicester	3779.044
+Leicester	Ostergotland	1215.379
+Ostergotland	Leicester	1215.379
+Leicester	Paris	486.453
+Paris	Leicester	486.453
+Leicester	Piedmont	1052.863
+Piedmont	Leicester	1052.863
+Leicester	Porto	1395.777
+Porto	Leicester	1395.777
+Leicester	Praha	1115.959
+Praha	Leicester	1115.959
+Leicester	Pribram	1103.531
+Pribram	Leicester	1103.531
+Leicester	Rome	1570.235
+Rome	Leicester	1570.235
+Leicester	Rostov-on-Don	391.252
+Rostov-on-Don	Leicester	391.252
+Leicester	Rotterdam	2079.122
+Rotterdam	Leicester	2079.122
+Leicester	Saint-Petersburg	1736.947
+Saint-Petersburg	Leicester	1736.947
+Leicester	Santander	1023.557
+Santander	Leicester	1023.557
+Leicester	Sevilla	1646.472
+Sevilla	Leicester	1646.472
+Leicester	Skane	946.917
+Skane	Leicester	946.917
+Leicester	Split	1646.593
+Split	Leicester	1646.593
+Leicester	St. Gallen	946.676
+St. Gallen	Leicester	946.676
+Leicester	Stockholm	1400.152
+Stockholm	Leicester	1400.152
+Leicester	Strasbourg	771.086
+Strasbourg	Leicester	771.086
+Leicester	Targoviste	2113.135
+Targoviste	Leicester	2113.135
+Leicester	Thessaloniki	2253.147
+Thessaloniki	Leicester	2253.147
+Leicester	Utrecht	429.215
+Utrecht	Leicester	429.215
+Leicester	Valencia	1465.328
+Valencia	Leicester	1465.328
+Leicester	Warsaw	1496.454
+Warsaw	Leicester	1496.454
+Leicester	Zagreb	1450.649
+Zagreb	Leicester	1450.649
+Lens	Lisbon	1607.282
+Lisbon	Lens	1607.282
+Lens	London	238.861
+London	Lens	238.861
+Lens	Maastricht	206.818
+Maastricht	Lens	206.818
+Lens	Madrid	1223.778
+Madrid	Lens	1223.778
+Lens	Marcy l'etoile	535.461
+Marcy l'etoile	Lens	535.461
+Lens	Marseille	816.434
+Marseille	Lens	816.434
+Lens	Milan	726.756
+Milan	Lens	726.756
+Lens	Moscow	2369.332
+Moscow	Lens	2369.332
+Lens	Murcia	1418.897
+Murcia	Lens	1418.897
+Lens	Munster	374.747
+Munster	Lens	374.747
+Lens	Naples	1382.761
+Naples	Lens	1382.761
+Lens	Nizhniy Novgorod	2763.491
+Nizhniy Novgorod	Lens	2763.491
+Lens	Nizhny Tagil	3691.643
+Nizhny Tagil	Lens	3691.643
+Lens	Ostergotland	1201.491
+Ostergotland	Lens	1201.491
+Lens	Paris	178.588
+Paris	Lens	178.588
+Lens	Piedmont	692.813
+Piedmont	Lens	692.813
+Lens	Porto	1358.009
+Porto	Lens	1358.009
+Lens	Praha	825.152
+Praha	Lens	825.152
+Lens	Pribram	801.353
+Pribram	Lens	801.353
+Lens	Rome	1203.418
+Rome	Lens	1203.418
+Lens	Rostov-on-Don	201.739
+Rostov-on-Don	Lens	201.739
+Lens	Rotterdam	2017.663
+Rotterdam	Lens	2017.663
+Lens	Saint-Petersburg	1610.767
+Saint-Petersburg	Lens	1610.767
+Lens	Santander	944.490
+Santander	Lens	944.490
+Lens	Sevilla	1284.515
+Sevilla	Lens	1284.515
+Lens	Skane	582.988
+Skane	Lens	582.988
+Lens	Split	1284.635
+Split	Lens	1284.635
+Lens	St. Gallen	582.735
+St. Gallen	Lens	582.735
+Lens	Stockholm	1382.512
+Stockholm	Lens	1382.512
+Lens	Strasbourg	409.853
+Strasbourg	Lens	409.853
+Lens	Targoviste	1792.484
+Targoviste	Lens	1792.484
+Lens	Thessaloniki	1897.245
+Thessaloniki	Lens	1897.245
+Lens	Utrecht	243.633
+Utrecht	Lens	243.633
+Lens	Valencia	1244.862
+Valencia	Lens	1244.862
+Lens	Warsaw	1275.212
+Warsaw	Lens	1275.212
+Lens	Zagreb	1100.382
+Zagreb	Lens	1100.382
+Lisbon	London	1586.428
+London	Lisbon	1586.428
+Lisbon	Maastricht	1779.723
+Maastricht	Lisbon	1779.723
+Lisbon	Madrid	502.921
+Madrid	Lisbon	502.921
+Lisbon	Marcy l'etoile	1381.197
+Marcy l'etoile	Lisbon	1381.197
+Lisbon	Marseille	1317.585
+Marseille	Lisbon	1317.585
+Lisbon	Milan	1683.305
+Milan	Lisbon	1683.305
+Lisbon	Moscow	3906.389
+Moscow	Lisbon	3906.389
+Lisbon	Murcia	702.864
+Murcia	Lisbon	702.864
+Lisbon	Munster	1962.170
+Munster	Lisbon	1962.170
+Lisbon	Naples	2006.368
+Naples	Lisbon	2006.368
+Lisbon	Nizhniy Novgorod	4307.714
+Nizhniy Novgorod	Lisbon	4307.714
+Lisbon	Nizhny Tagil	5263.184
+Nizhny Tagil	Lisbon	5263.184
+Lisbon	Ostergotland	2807.330
+Ostergotland	Lisbon	2807.330
+Lisbon	Paris	1453.709
+Paris	Lisbon	1453.709
+Lisbon	Piedmont	1544.397
+Piedmont	Lisbon	1544.397
+Lisbon	Porto	274.567
+Porto	Lisbon	274.567
+Lisbon	Praha	2244.161
+Praha	Lisbon	2244.161
+Lisbon	Pribram	2198.251
+Pribram	Lisbon	2198.251
+Lisbon	Rome	1863.297
+Rome	Lisbon	1863.297
+Lisbon	Rostov-on-Don	1808.015
+Rostov-on-Don	Lisbon	1808.015
+Lisbon	Rotterdam	3617.076
+Rotterdam	Lisbon	3617.076
+Lisbon	Saint-Petersburg	314.252
+Saint-Petersburg	Lisbon	314.252
+Lisbon	Santander	2549.850
+Santander	Lisbon	2549.850
+Lisbon	Sevilla	2198.710
+Sevilla	Lisbon	2198.710
+Lisbon	Skane	1781.809
+Skane	Lisbon	1781.809
+Lisbon	Split	2198.786
+Split	Lisbon	2198.786
+Lisbon	St. Gallen	1781.556
+St. Gallen	Lisbon	1781.556
+Lisbon	Stockholm	2989.369
+Stockholm	Lisbon	2989.369
+Lisbon	Strasbourg	1739.729
+Strasbourg	Lisbon	1739.729
+Lisbon	Targoviste	2925.085
+Targoviste	Lisbon	2925.085
+Lisbon	Thessaloniki	2738.162
+Thessaloniki	Lisbon	2738.162
+Lisbon	Utrecht	1850.906
+Utrecht	Lisbon	1850.906
+Lisbon	Valencia	760.715
+Valencia	Lisbon	760.715
+Lisbon	Warsaw	2759.660
+Warsaw	Lisbon	2759.660
+Lisbon	Zagreb	2201.205
+Zagreb	Lisbon	2201.205
+London	Maastricht	411.369
+Maastricht	London	411.369
+London	Madrid	1263.852
+Madrid	London	1263.852
+London	Marcy l'etoile	728.548
+Marcy l'etoile	London	728.548
+London	Marseille	1001.653
+Marseille	London	1001.653
+London	Milan	958.845
+Milan	London	958.845
+London	Moscow	2499.738
+Moscow	London	2499.738
+London	Murcia	1505.753
+Murcia	London	1505.753
+London	Munster	535.434
+Munster	London	535.434
+London	Naples	1614.903
+Naples	London	1614.903
+London	Nizhniy Novgorod	2886.473
+Nizhniy Novgorod	London	2886.473
+London	Nizhny Tagil	3791.779
+Nizhny Tagil	London	3791.779
+London	Ostergotland	1246.969
+Ostergotland	London	1246.969
+London	Paris	343.434
+Paris	London	343.434
+London	Piedmont	912.575
+Piedmont	London	912.575
+London	Porto	1321.725
+Porto	London	1321.725
+London	Praha	1033.701
+Praha	London	1033.701
+London	Pribram	1015.797
+Pribram	London	1015.797
+London	Rome	1433.479
+Rome	London	1433.479
+London	Rostov-on-Don	320.893
+Rostov-on-Don	London	320.893
+London	Rotterdam	2098.299
+Rotterdam	London	2098.299
+London	Saint-Petersburg	1636.843
+Saint-Petersburg	London	1636.843
+London	Santander	1027.620
+Santander	London	1027.620
+London	Sevilla	1523.373
+Sevilla	London	1523.373
+London	Skane	821.809
+Skane	London	821.809
+London	Split	1523.493
+Split	London	1523.493
+London	St. Gallen	821.555
+St. Gallen	London	821.555
+London	Stockholm	1432.115
+Stockholm	London	1432.115
+London	Strasbourg	648.502
+Strasbourg	London	648.502
+London	Targoviste	2018.499
+Targoviste	London	2018.499
+London	Thessaloniki	2135.593
+Thessaloniki	London	2135.593
+London	Utrecht	365.964
+Utrecht	London	365.964
+London	Valencia	1339.290
+Valencia	London	1339.290
+London	Warsaw	1447.772
+Warsaw	London	1447.772
+London	Zagreb	1337.077
+Zagreb	London	1337.077
+Maastricht	Madrid	1368.583
+Madrid	Maastricht	1368.583
+Maastricht	Marcy l'etoile	568.433
+Marcy l'etoile	Maastricht	568.433
+Maastricht	Marseille	840.424
+Marseille	Maastricht	840.424
+Maastricht	Milan	652.365
+Milan	Maastricht	652.365
+Maastricht	Moscow	2169.028
+Moscow	Maastricht	2169.028
+Maastricht	Murcia	1527.964
+Murcia	Maastricht	1527.964
+Maastricht	Munster	182.448
+Munster	Maastricht	182.448
+Maastricht	Naples	1291.953
+Naples	Maastricht	1291.953
+Maastricht	Nizhniy Novgorod	2564.858
+Nizhniy Novgorod	Maastricht	2564.858
+Maastricht	Nizhny Tagil	3499.692
+Nizhny Tagil	Maastricht	3499.692
+Maastricht	Ostergotland	1049.116
+Ostergotland	Maastricht	1049.116
+Maastricht	Paris	326.270
+Paris	Maastricht	326.270
+Maastricht	Piedmont	658.936
+Piedmont	Maastricht	658.936
+Maastricht	Porto	1539.014
+Porto	Maastricht	1539.014
+Maastricht	Praha	624.732
+Praha	Maastricht	624.732
+Maastricht	Pribram	604.862
+Pribram	Maastricht	604.862
+Maastricht	Rome	1122.543
+Rome	Maastricht	1122.543
+Maastricht	Rostov-on-Don	144.840
+Rostov-on-Don	Maastricht	144.840
+Maastricht	Rotterdam	1837.442
+Rotterdam	Maastricht	1837.442
+Maastricht	Saint-Petersburg	1758.738
+Saint-Petersburg	Maastricht	1758.738
+Maastricht	Santander	774.228
+Santander	Maastricht	774.228
+Maastricht	Sevilla	1149.506
+Sevilla	Maastricht	1149.506
+Maastricht	Skane	465.776
+Skane	Maastricht	465.776
+Maastricht	Split	1149.626
+Split	Maastricht	1149.626
+Maastricht	St. Gallen	465.587
+St. Gallen	Maastricht	465.587
+Maastricht	Stockholm	1224.493
+Stockholm	Maastricht	1224.493
+Maastricht	Strasbourg	292.251
+Strasbourg	Maastricht	292.251
+Maastricht	Targoviste	1607.927
+Targoviste	Maastricht	1607.927
+Maastricht	Thessaloniki	1747.299
+Thessaloniki	Maastricht	1747.299
+Maastricht	Utrecht	143.351
+Utrecht	Maastricht	143.351
+Maastricht	Valencia	1351.168
+Valencia	Maastricht	1351.168
+Maastricht	Warsaw	1068.532
+Warsaw	Maastricht	1068.532
+Maastricht	Zagreb	943.033
+Zagreb	Maastricht	943.033
+Madrid	Marcy l'etoile	905.695
+Marcy l'etoile	Madrid	905.695
+Madrid	Marseille	816.213
+Marseille	Madrid	816.213
+Madrid	Milan	1188.276
+Milan	Madrid	1188.276
+Madrid	Moscow	3440.102
+Moscow	Madrid	3440.102
+Madrid	Murcia	349.412
+Murcia	Madrid	349.412
+Madrid	Munster	1548.079
+Munster	Madrid	1548.079
+Madrid	Naples	1512.693
+Naples	Madrid	1512.693
+Madrid	Nizhniy Novgorod	3841.871
+Nizhniy Novgorod	Madrid	3841.871
+Madrid	Nizhny Tagil	4806.067
+Nizhny Tagil	Madrid	4806.067
+Madrid	Ostergotland	2416.397
+Ostergotland	Madrid	2416.397
+Madrid	Paris	1052.880
+Paris	Madrid	1052.880
+Madrid	Piedmont	1049.896
+Piedmont	Madrid	1049.896
+Madrid	Porto	421.169
+Porto	Madrid	421.169
+Madrid	Praha	1772.728
+Praha	Madrid	1772.728
+Madrid	Pribram	1724.705
+Pribram	Madrid	1724.705
+Madrid	Rome	1364.073
+Rome	Madrid	1364.073
+Madrid	Rostov-on-Don	1424.084
+Rostov-on-Don	Madrid	1424.084
+Madrid	Rotterdam	3189.769
+Rotterdam	Madrid	3189.769
+Madrid	Saint-Petersburg	390.347
+Saint-Petersburg	Madrid	390.347
+Madrid	Santander	2141.754
+Santander	Madrid	2141.754
+Madrid	Sevilla	1696.036
+Sevilla	Madrid	1696.036
+Madrid	Skane	1302.595
+Skane	Madrid	1302.595
+Madrid	Split	1696.112
+Split	Madrid	1696.112
+Madrid	St. Gallen	1302.359
+St. Gallen	Madrid	1302.359
+Madrid	Stockholm	2593.021
+Stockholm	Madrid	2593.021
+Madrid	Strasbourg	1281.515
+Strasbourg	Madrid	1281.515
+Madrid	Targoviste	2422.267
+Targoviste	Madrid	2422.267
+Madrid	Thessaloniki	2242.860
+Thessaloniki	Madrid	2242.860
+Madrid	Utrecht	1462.244
+Utrecht	Madrid	1462.244
+Madrid	Valencia	302.683
+Valencia	Madrid	302.683
+Madrid	Warsaw	2289.769
+Warsaw	Madrid	2289.769
+Madrid	Zagreb	1701.041
+Zagreb	Madrid	1701.041
+Marcy l'etoile	Marseille	281.286
+Marseille	Marcy l'etoile	281.286
+Marcy l'etoile	Milan	350.433
+Milan	Marcy l'etoile	350.433
+Marcy l'etoile	Moscow	2534.418
+Moscow	Marcy l'etoile	2534.418
+Marcy l'etoile	Murcia	991.572
+Murcia	Marcy l'etoile	991.572
+Marcy l'etoile	Munster	719.585
+Munster	Marcy l'etoile	719.585
+Marcy l'etoile	Naples	945.339
+Naples	Marcy l'etoile	945.339
+Marcy l'etoile	Nizhniy Novgorod	2936.190
+Nizhniy Novgorod	Marcy l'etoile	2936.190
+Marcy l'etoile	Nizhny Tagil	3901.029
+Nizhny Tagil	Marcy l'etoile	3901.029
+Marcy l'etoile	Ostergotland	1584.798
+Ostergotland	Marcy l'etoile	1584.798
+Marcy l'etoile	Paris	385.182
+Paris	Marcy l'etoile	385.182
+Marcy l'etoile	Piedmont	233.802
+Piedmont	Marcy l'etoile	233.802
+Marcy l'etoile	Porto	1189.726
+Porto	Marcy l'etoile	1189.726
+Marcy l'etoile	Praha	867.147
+Praha	Marcy l'etoile	867.147
+Marcy l'etoile	Pribram	819.540
+Pribram	Marcy l'etoile	819.540
+Marcy l'etoile	Rome	758.648
+Rome	Marcy l'etoile	758.648
+Marcy l'etoile	Rostov-on-Don	682.574
+Rostov-on-Don	Marcy l'etoile	682.574
+Marcy l'etoile	Rotterdam	2303.947
+Rotterdam	Marcy l'etoile	2303.947
+Marcy l'etoile	Saint-Petersburg	1286.569
+Saint-Petersburg	Marcy l'etoile	1286.569
+Marcy l'etoile	Santander	1292.817
+Santander	Marcy l'etoile	1292.817
+Marcy l'etoile	Sevilla	961.039
+Sevilla	Marcy l'etoile	961.039
+Marcy l'etoile	Skane	400.656
+Skane	Marcy l'etoile	400.656
+Marcy l'etoile	Split	961.147
+Split	Marcy l'etoile	961.147
+Marcy l'etoile	St. Gallen	400.401
+St. Gallen	Marcy l'etoile	400.401
+Marcy l'etoile	Stockholm	1749.281
+Stockholm	Marcy l'etoile	1749.281
+Marcy l'etoile	Strasbourg	387.055
+Strasbourg	Marcy l'etoile	387.055
+Marcy l'etoile	Targoviste	1619.722
+Targoviste	Marcy l'etoile	1619.722
+Marcy l'etoile	Thessaloniki	1579.730
+Thessaloniki	Marcy l'etoile	1579.730
+Marcy l'etoile	Utrecht	702.235
+Utrecht	Marcy l'etoile	702.235
+Marcy l'etoile	Valencia	815.571
+Valencia	Marcy l'etoile	815.571
+Marcy l'etoile	Warsaw	1384.181
+Warsaw	Marcy l'etoile	1384.181
+Marcy l'etoile	Zagreb	873.164
+Zagreb	Marcy l'etoile	873.164
+Marseille	Milan	387.752
+Milan	Marseille	387.752
+Marseille	Moscow	2672.670
+Moscow	Marseille	2672.670
+Marseille	Murcia	805.292
+Murcia	Marseille	805.292
+Marseille	Munster	978.214
+Munster	Marseille	978.214
+Marseille	Naples	780.753
+Naples	Marseille	780.753
+Marseille	Nizhniy Novgorod	3072.673
+Nizhniy Novgorod	Marseille	3072.673
+Marseille	Nizhny Tagil	4046.292
+Nizhny Tagil	Marseille	4046.292
+Marseille	Ostergotland	1825.049
+Ostergotland	Marseille	1825.049
+Marseille	Paris	660.495
+Paris	Marseille	660.495
+Marseille	Piedmont	259.583
+Piedmont	Marseille	259.583
+Marseille	Porto	1174.239
+Porto	Marseille	1174.239
+Marseille	Praha	1021.607
+Praha	Marseille	1021.607
+Marseille	Pribram	969.796
+Pribram	Marseille	969.796
+Marseille	Rome	603.316
+Rome	Marseille	603.316
+Marseille	Rostov-on-Don	960.943
+Rostov-on-Don	Marseille	960.943
+Marseille	Rotterdam	2497.962
+Rotterdam	Marseille	2497.962
+Marseille	Saint-Petersburg	1163.096
+Saint-Petersburg	Marseille	1163.096
+Marseille	Santander	1528.184
+Santander	Marseille	1528.184
+Marseille	Sevilla	893.906
+Sevilla	Marseille	893.906
+Marseille	Skane	555.296
+Skane	Marseille	555.296
+Marseille	Split	893.993
+Split	Marseille	893.993
+Marseille	St. Gallen	555.147
+St. Gallen	Marseille	555.147
+Marseille	Stockholm	1981.517
+Stockholm	Marseille	1981.517
+Marseille	Strasbourg	615.833
+Strasbourg	Marseille	615.833
+Marseille	Targoviste	1609.684
+Targoviste	Marseille	1609.684
+Marseille	Thessaloniki	1479.021
+Thessaloniki	Marseille	1479.021
+Marseille	Utrecht	978.071
+Utrecht	Marseille	978.071
+Marseille	Valencia	640.876
+Valencia	Marseille	640.876
+Marseille	Warsaw	1528.436
+Warsaw	Marseille	1528.436
+Marseille	Zagreb	885.114
+Zagreb	Marseille	885.114
+Milan	Moscow	2285.416
+Moscow	Milan	2285.416
+Milan	Murcia	1191.990
+Murcia	Milan	1191.990
+Milan	Munster	731.264
+Munster	Milan	731.264
+Milan	Naples	656.243
+Naples	Milan	656.243
+Milan	Nizhniy Novgorod	2685.167
+Nizhniy Novgorod	Milan	2685.167
+Milan	Nizhny Tagil	3659.255
+Nizhny Tagil	Milan	3659.255
+Milan	Ostergotland	1508.714
+Ostergotland	Milan	1508.714
+Milan	Paris	639.375
+Paris	Milan	639.375
+Milan	Piedmont	138.943
+Piedmont	Milan	138.943
+Milan	Porto	1514.454
+Porto	Milan	1514.454
+Milan	Praha	644.960
+Praha	Milan	644.960
+Milan	Pribram	592.387
+Pribram	Milan	592.387
+Milan	Rome	477.134
+Rome	Milan	477.134
+Milan	Rostov-on-Don	795.477
+Rostov-on-Don	Milan	795.477
+Milan	Rotterdam	2129.162
+Rotterdam	Milan	2129.162
+Milan	Saint-Petersburg	1547.071
+Saint-Petersburg	Milan	1547.071
+Milan	Santander	1209.908
+Santander	Milan	1209.908
+Milan	Sevilla	614.607
+Sevilla	Milan	614.607
+Milan	Skane	218.065
+Skane	Milan	218.065
+Milan	Split	614.718
+Split	Milan	614.718
+Milan	St. Gallen	218.074
+St. Gallen	Milan	218.074
+Milan	Stockholm	1651.574
+Stockholm	Milan	1651.574
+Milan	Strasbourg	363.387
+Strasbourg	Milan	363.387
+Milan	Targoviste	1273.852
+Targoviste	Milan	1273.852
+Milan	Thessaloniki	1236.908
+Thessaloniki	Milan	1236.908
+Milan	Utrecht	794.262
+Utrecht	Milan	794.262
+Milan	Valencia	1028.628
+Valencia	Milan	1028.628
+Milan	Warsaw	1143.667
+Warsaw	Milan	1143.667
+Milan	Zagreb	528.967
+Zagreb	Milan	528.967
+Moscow	Murcia	3477.391
+Murcia	Moscow	3477.391
+Moscow	Munster	1994.641
+Munster	Moscow	1994.641
+Moscow	Naples	2372.202
+Naples	Moscow	2372.202
+Moscow	Nizhniy Novgorod	401.774
+Nizhniy Novgorod	Moscow	401.774
+Moscow	Nizhny Tagil	1374.061
+Nizhny Tagil	Moscow	1374.061
+Moscow	Ostergotland	1377.961
+Ostergotland	Moscow	1377.961
+Moscow	Paris	2486.116
+Paris	Moscow	2486.116
+Moscow	Piedmont	2415.222
+Piedmont	Moscow	2415.222
+Moscow	Porto	3687.798
+Porto	Moscow	3687.798
+Moscow	Praha	1667.456
+Praha	Moscow	1667.456
+Moscow	Pribram	1716.017
+Pribram	Moscow	1716.017
+Moscow	Rome	2375.040
+Rome	Moscow	2375.040
+Moscow	Rostov-on-Don	2192.629
+Rostov-on-Don	Moscow	2192.629
+Moscow	Rotterdam	634.304
+Rotterdam	Moscow	634.304
+Moscow	Saint-Petersburg	3817.797
+Saint-Petersburg	Moscow	3817.797
+Moscow	Santander	1491.186
+Santander	Moscow	1491.186
+Moscow	Sevilla	2029.415
+Sevilla	Moscow	2029.415
+Moscow	Skane	2139.673
+Skane	Moscow	2139.673
+Moscow	Split	2029.426
+Split	Moscow	2029.426
+Moscow	St. Gallen	2139.896
+St. Gallen	Moscow	2139.896
+Moscow	Stockholm	1227.149
+Stockholm	Moscow	1227.149
+Moscow	Strasbourg	2166.660
+Strasbourg	Moscow	2166.660
+Moscow	Targoviste	1476.614
+Targoviste	Moscow	1476.614
+Moscow	Thessaloniki	1992.797
+Thessaloniki	Moscow	1992.797
+Moscow	Utrecht	2145.550
+Utrecht	Moscow	2145.550
+Moscow	Valencia	3312.913
+Valencia	Moscow	3312.913
+Moscow	Warsaw	1150.526
+Warsaw	Moscow	1150.526
+Moscow	Zagreb	1867.265
+Zagreb	Moscow	1867.265
+Murcia	Munster	1696.899
+Munster	Murcia	1696.899
+Murcia	Naples	1356.818
+Naples	Murcia	1356.818
+Murcia	Nizhniy Novgorod	3876.937
+Nizhniy Novgorod	Murcia	3876.937
+Murcia	Nizhny Tagil	4851.241
+Nizhny Tagil	Murcia	4851.241
+Murcia	Ostergotland	2569.856
+Ostergotland	Murcia	2569.856
+Murcia	Paris	1240.572
+Paris	Murcia	1240.572
+Murcia	Piedmont	1064.251
+Piedmont	Murcia	1064.251
+Murcia	Porto	730.957
+Porto	Murcia	730.957
+Murcia	Praha	1824.621
+Praha	Murcia	1824.621
+Murcia	Pribram	1773.272
+Pribram	Murcia	1773.272
+Murcia	Rome	1238.839
+Rome	Murcia	1238.839
+Murcia	Rostov-on-Don	1609.833
+Rostov-on-Don	Murcia	1609.833
+Murcia	Rotterdam	3290.828
+Rotterdam	Murcia	3290.828
+Murcia	Saint-Petersburg	431.396
+Saint-Petersburg	Murcia	431.396
+Murcia	Santander	2281.553
+Santander	Murcia	2281.553
+Murcia	Sevilla	1598.332
+Sevilla	Murcia	1598.332
+Murcia	Skane	1353.146
+Skane	Murcia	1353.146
+Murcia	Split	1598.388
+Split	Murcia	1598.388
+Murcia	St. Gallen	1352.965
+St. Gallen	Murcia	1352.965
+Murcia	Stockholm	2738.050
+Stockholm	Murcia	2738.050
+Murcia	Strasbourg	1377.886
+Strasbourg	Murcia	1377.886
+Murcia	Targoviste	2333.515
+Targoviste	Murcia	2333.515
+Murcia	Thessaloniki	2084.626
+Thessaloniki	Murcia	2084.626
+Murcia	Utrecht	1641.871
+Utrecht	Murcia	1641.871
+Murcia	Valencia	177.083
+Valencia	Murcia	177.083
+Murcia	Warsaw	2333.644
+Warsaw	Murcia	2333.644
+Murcia	Zagreb	1656.805
+Zagreb	Murcia	1656.805
+Munster	Naples	1333.799
+Naples	Munster	1333.799
+Munster	Nizhniy Novgorod	2388.795
+Nizhniy Novgorod	Munster	2388.795
+Munster	Nizhny Tagil	3319.623
+Nizhny Tagil	Munster	3319.623
+Munster	Ostergotland	873.900
+Ostergotland	Munster	873.900
+Munster	Paris	508.658
+Paris	Munster	508.658
+Munster	Piedmont	768.418
+Piedmont	Munster	768.418
+Munster	Porto	1720.978
+Porto	Munster	1720.978
+Munster	Praha	520.308
+Praha	Munster	520.308
+Munster	Pribram	514.417
+Pribram	Munster	514.417
+Munster	Rome	1177.424
+Rome	Munster	1177.424
+Munster	Rostov-on-Don	214.821
+Rostov-on-Don	Munster	214.821
+Munster	Rotterdam	1655.004
+Rotterdam	Munster	1655.004
+Munster	Saint-Petersburg	1938.401
+Saint-Petersburg	Munster	1938.401
+Munster	Santander	593.680
+Santander	Munster	593.680
+Munster	Sevilla	1146.196
+Sevilla	Munster	1146.196
+Munster	Skane	520.042
+Skane	Munster	520.042
+Munster	Split	1146.313
+Split	Munster	1146.313
+Munster	St. Gallen	519.946
+St. Gallen	Munster	519.946
+Munster	Stockholm	1046.490
+Stockholm	Munster	1046.490
+Munster	Strasbourg	375.831
+Strasbourg	Munster	375.831
+Munster	Targoviste	1524.339
+Targoviste	Munster	1524.339
+Munster	Thessaloniki	1715.926
+Thessaloniki	Munster	1715.926
+Munster	Utrecht	171.981
+Utrecht	Munster	171.981
+Munster	Valencia	1519.827
+Valencia	Munster	1519.827
+Munster	Warsaw	913.529
+Warsaw	Munster	913.529
+Munster	Zagreb	915.430
+Zagreb	Munster	915.430
+Naples	Nizhniy Novgorod	2747.190
+Nizhniy Novgorod	Naples	2747.190
+Naples	Nizhny Tagil	3715.159
+Nizhny Tagil	Naples	3715.159
+Naples	Ostergotland	1966.254
+Ostergotland	Naples	1966.254
+Naples	Paris	1289.616
+Paris	Naples	1289.616
+Naples	Piedmont	719.109
+Piedmont	Naples	719.109
+Naples	Porto	1912.855
+Porto	Naples	1912.855
+Naples	Praha	1025.239
+Praha	Naples	1025.239
+Naples	Pribram	982.423
+Pribram	Naples	982.423
+Naples	Rome	186.702
+Rome	Naples	186.702
+Naples	Rostov-on-Don	1436.787
+Rostov-on-Don	Naples	1436.787
+Naples	Rotterdam	2393.380
+Rotterdam	Naples	2393.380
+Naples	Saint-Petersburg	1782.239
+Saint-Petersburg	Naples	1782.239
+Naples	Santander	1683.484
+Santander	Naples	1683.484
+Naples	Sevilla	345.861
+Sevilla	Naples	345.861
+Naples	Skane	826.898
+Skane	Naples	826.898
+Naples	Split	345.833
+Split	Naples	345.833
+Naples	St. Gallen	827.070
+St. Gallen	Naples	827.070
+Naples	Stockholm	2071.304
+Stockholm	Naples	2071.304
+Naples	Strasbourg	1000.157
+Strasbourg	Naples	1000.157
+Naples	Targoviste	1017.985
+Targoviste	Naples	1017.985
+Naples	Thessaloniki	732.064
+Thessaloniki	Naples	732.064
+Naples	Utrecht	1428.810
+Utrecht	Naples	1428.810
+Naples	Valencia	1250.585
+Valencia	Naples	1250.585
+Naples	Warsaw	1364.964
+Warsaw	Naples	1364.964
+Naples	Zagreb	568.788
+Zagreb	Naples	568.788
+Nizhniy Novgorod	Nizhny Tagil	977.114
+Nizhny Tagil	Nizhniy Novgorod	977.114
+Nizhniy Novgorod	Ostergotland	1725.599
+Ostergotland	Nizhniy Novgorod	1725.599
+Nizhniy Novgorod	Paris	2883.818
+Paris	Nizhniy Novgorod	2883.818
+Nizhniy Novgorod	Piedmont	2815.686
+Piedmont	Nizhniy Novgorod	2815.686
+Nizhniy Novgorod	Porto	4087.889
+Porto	Nizhniy Novgorod	4087.889
+Nizhniy Novgorod	Praha	2069.205
+Praha	Nizhniy Novgorod	2069.205
+Nizhniy Novgorod	Pribram	2117.693
+Pribram	Nizhniy Novgorod	2117.693
+Nizhniy Novgorod	Rome	2759.780
+Rome	Nizhniy Novgorod	2759.780
+Nizhniy Novgorod	Rostov-on-Don	2583.441
+Rostov-on-Don	Nizhniy Novgorod	2583.441
+Nizhniy Novgorod	Rotterdam	895.999
+Rotterdam	Nizhniy Novgorod	895.999
+Nizhniy Novgorod	Saint-Petersburg	4219.361
+Saint-Petersburg	Nizhniy Novgorod	4219.361
+Nizhniy Novgorod	Santander	1867.946
+Santander	Nizhniy Novgorod	1867.946
+Nizhniy Novgorod	Sevilla	2407.792
+Sevilla	Nizhniy Novgorod	2407.792
+Nizhniy Novgorod	Skane	2541.255
+Skane	Nizhniy Novgorod	2541.255
+Nizhniy Novgorod	Split	2407.796
+Split	Nizhniy Novgorod	2407.796
+Nizhniy Novgorod	St. Gallen	2541.479
+St. Gallen	Nizhniy Novgorod	2541.479
+Nizhniy Novgorod	Stockholm	1560.644
+Stockholm	Nizhniy Novgorod	1560.644
+Nizhniy Novgorod	Strasbourg	2568.020
+Strasbourg	Nizhniy Novgorod	2568.020
+Nizhniy Novgorod	Targoviste	1810.943
+Targoviste	Nizhniy Novgorod	1810.943
+Nizhniy Novgorod	Thessaloniki	2316.458
+Thessaloniki	Nizhniy Novgorod	2316.458
+Nizhniy Novgorod	Utrecht	2536.401
+Utrecht	Nizhniy Novgorod	2536.401
+Nizhniy Novgorod	Valencia	3713.208
+Valencia	Nizhniy Novgorod	3713.208
+Nizhniy Novgorod	Warsaw	1552.239
+Warsaw	Nizhniy Novgorod	1552.239
+Nizhniy Novgorod	Zagreb	2257.115
+Zagreb	Nizhniy Novgorod	2257.115
+Nizhny Tagil	Ostergotland	2571.202
+Ostergotland	Nizhny Tagil	2571.202
+Nizhny Tagil	Paris	3823.581
+Paris	Nizhny Tagil	3823.581
+Nizhny Tagil	Piedmont	3788.408
+Piedmont	Nizhny Tagil	3788.408
+Nizhny Tagil	Porto	5035.048
+Porto	Nizhny Tagil	5035.048
+Nizhny Tagil	Praha	3036.117
+Praha	Nizhny Tagil	3036.117
+Nizhny Tagil	Pribram	3085.676
+Pribram	Nizhny Tagil	3085.676
+Nizhny Tagil	Rome	3734.051
+Rome	Nizhny Tagil	3734.051
+Nizhny Tagil	Rostov-on-Don	3502.918
+Rostov-on-Don	Nizhny Tagil	3502.918
+Nizhny Tagil	Rotterdam	1701.747
+Rotterdam	Nizhny Tagil	1701.747
+Nizhny Tagil	Saint-Petersburg	5186.871
+Saint-Petersburg	Nizhny Tagil	5186.871
+Nizhny Tagil	Santander	2764.204
+Santander	Nizhny Tagil	2764.204
+Nizhny Tagil	Sevilla	3378.827
+Sevilla	Nizhny Tagil	3378.827
+Nizhny Tagil	Skane	3509.671
+Skane	Nizhny Tagil	3509.671
+Nizhny Tagil	Split	3378.826
+Split	Nizhny Tagil	3378.826
+Nizhny Tagil	St. Gallen	3509.886
+St. Gallen	Nizhny Tagil	3509.886
+Nizhny Tagil	Stockholm	2390.346
+Stockholm	Nizhny Tagil	2390.346
+Nizhny Tagil	Strasbourg	3526.745
+Strasbourg	Nizhny Tagil	3526.745
+Nizhny Tagil	Targoviste	2750.799
+Targoviste	Nizhny Tagil	2750.799
+Nizhny Tagil	Thessaloniki	3238.140
+Thessaloniki	Nizhny Tagil	3238.140
+Nizhny Tagil	Utrecht	3456.405
+Utrecht	Nizhny Tagil	3456.405
+Nizhny Tagil	Valencia	4686.142
+Valencia	Nizhny Tagil	4686.142
+Nizhny Tagil	Warsaw	2520.702
+Warsaw	Nizhny Tagil	2520.702
+Nizhny Tagil	Zagreb	3233.712
+Zagreb	Nizhny Tagil	3233.712
+Ostergotland	Paris	1364.971
+Paris	Ostergotland	1364.971
+Ostergotland	Piedmont	1587.318
+Piedmont	Ostergotland	1587.318
+Ostergotland	Porto	2552.905
+Porto	Ostergotland	2552.905
+Ostergotland	Praha	941.297
+Praha	Ostergotland	941.297
+Ostergotland	Pribram	985.972
+Pribram	Ostergotland	985.972
+Ostergotland	Rome	1858.529
+Rome	Ostergotland	1858.529
+Ostergotland	Rostov-on-Don	999.961
+Rostov-on-Don	Ostergotland	999.961
+Ostergotland	Rotterdam	869.691
+Rotterdam	Ostergotland	869.691
+Ostergotland	Saint-Petersburg	2806.038
+Saint-Petersburg	Ostergotland	2806.038
+Ostergotland	Santander	298.955
+Santander	Ostergotland	298.955
+Ostergotland	Sevilla	1672.102
+Sevilla	Ostergotland	1672.102
+Ostergotland	Skane	1294.432
+Skane	Ostergotland	1294.432
+Ostergotland	Split	1672.192
+Split	Ostergotland	1672.192
+Ostergotland	St. Gallen	1294.483
+St. Gallen	Ostergotland	1294.483
+Ostergotland	Stockholm	185.255
+Stockholm	Ostergotland	185.255
+Ostergotland	Strasbourg	1209.751
+Strasbourg	Ostergotland	1209.751
+Ostergotland	Targoviste	1663.961
+Targoviste	Ostergotland	1663.961
+Ostergotland	Thessaloniki	2061.795
+Thessaloniki	Ostergotland	2061.795
+Ostergotland	Utrecht	958.327
+Utrecht	Ostergotland	958.327
+Ostergotland	Valencia	2392.781
+Valencia	Ostergotland	2392.781
+Ostergotland	Warsaw	788.970
+Warsaw	Ostergotland	788.970
+Ostergotland	Zagreb	1414.573
+Zagreb	Ostergotland	1414.573
+Paris	Piedmont	576.382
+Piedmont	Paris	576.382
+Paris	Porto	1213.160
+Porto	Paris	1213.160
+Paris	Praha	882.815
+Praha	Paris	882.815
+Paris	Pribram	849.982
+Pribram	Paris	849.982
+Paris	Rome	1105.279
+Rome	Paris	1105.279
+Paris	Rostov-on-Don	372.721
+Rostov-on-Don	Paris	372.721
+Paris	Rotterdam	2163.645
+Rotterdam	Paris	2163.645
+Paris	Saint-Petersburg	1441.667
+Saint-Petersburg	Paris	1441.667
+Paris	Santander	1097.613
+Santander	Paris	1097.613
+Paris	Sevilla	1234.111
+Sevilla	Paris	1234.111
+Paris	Skane	544.657
+Skane	Paris	544.657
+Paris	Split	1234.229
+Split	Paris	1234.229
+Paris	St. Gallen	544.368
+St. Gallen	Paris	544.368
+Paris	Stockholm	1543.556
+Stockholm	Paris	1543.556
+Paris	Strasbourg	396.755
+Strasbourg	Paris	396.755
+Paris	Targoviste	1801.619
+Targoviste	Paris	1801.619
+Paris	Thessaloniki	1856.039
+Thessaloniki	Paris	1856.039
+Paris	Utrecht	409.493
+Utrecht	Paris	409.493
+Paris	Valencia	1066.344
+Valencia	Paris	1066.344
+Paris	Warsaw	1366.521
+Warsaw	Paris	1366.521
+Paris	Zagreb	1079.321
+Zagreb	Paris	1079.321
+Piedmont	Porto	1376.533
+Porto	Piedmont	1376.533
+Piedmont	Praha	762.098
+Praha	Piedmont	762.098
+Piedmont	Pribram	710.235
+Pribram	Piedmont	710.235
+Piedmont	Rome	532.890
+Rome	Piedmont	532.890
+Piedmont	Rostov-on-Don	795.109
+Rostov-on-Don	Piedmont	795.109
+Piedmont	Rotterdam	2240.478
+Rotterdam	Piedmont	2240.478
+Piedmont	Saint-Petersburg	1411.132
+Saint-Petersburg	Piedmont	1411.132
+Piedmont	Santander	1288.759
+Santander	Piedmont	1288.759
+Piedmont	Sevilla	730.413
+Sevilla	Piedmont	730.413
+Piedmont	Skane	299.973
+Skane	Piedmont	299.973
+Piedmont	Split	730.519
+Split	Piedmont	730.519
+Piedmont	St. Gallen	299.854
+St. Gallen	Piedmont	299.854
+Piedmont	Stockholm	1738.053
+Stockholm	Piedmont	1738.053
+Piedmont	Strasbourg	393.030
+Strasbourg	Piedmont	393.030
+Piedmont	Targoviste	1408.117
+Targoviste	Piedmont	1408.117
+Piedmont	Thessaloniki	1346.800
+Thessaloniki	Piedmont	1346.800
+Piedmont	Utrecht	802.107
+Utrecht	Piedmont	802.107
+Piedmont	Valencia	897.742
+Valencia	Piedmont	897.742
+Piedmont	Warsaw	1269.449
+Warsaw	Piedmont	1269.449
+Piedmont	Zagreb	665.428
+Zagreb	Piedmont	665.428
+Porto	Praha	2037.160
+Praha	Porto	2037.160
+Porto	Pribram	1993.688
+Pribram	Porto	1993.688
+Porto	Rome	1754.671
+Rome	Porto	1754.671
+Porto	Rostov-on-Don	1556.759
+Rostov-on-Don	Porto	1556.759
+Porto	Rotterdam	3374.539
+Rotterdam	Porto	3374.539
+Porto	Saint-Petersburg	476.384
+Saint-Petersburg	Porto	476.384
+Porto	Santander	2302.498
+Santander	Porto	2302.498
+Porto	Sevilla	2067.938
+Sevilla	Porto	2067.938
+Porto	Skane	1587.529
+Skane	Porto	1587.529
+Porto	Split	2068.025
+Split	Porto	2068.025
+Porto	St. Gallen	1587.260
+St. Gallen	Porto	1587.260
+Porto	Stockholm	2736.147
+Stockholm	Porto	2736.147
+Porto	Strasbourg	1526.459
+Strasbourg	Porto	1526.459
+Porto	Targoviste	2779.539
+Targoviste	Porto	2779.539
+Porto	Thessaloniki	2637.595
+Thessaloniki	Porto	2637.595
+Porto	Utrecht	1600.849
+Utrecht	Porto	1600.849
+Porto	Valencia	722.686
+Valencia	Porto	722.686
+Porto	Warsaw	2548.106
+Warsaw	Porto	2548.106
+Porto	Zagreb	2041.574
+Zagreb	Porto	2041.574
+Praha	Pribram	52.693
+Pribram	Praha	52.693
+Praha	Rome	920.976
+Rome	Praha	920.976
+Praha	Rostov-on-Don	724.789
+Rostov-on-Don	Praha	724.789
+Praha	Rotterdam	1484.826
+Rotterdam	Praha	1484.826
+Praha	Saint-Petersburg	2150.987
+Saint-Petersburg	Praha	2150.987
+Praha	Santander	660.079
+Santander	Praha	660.079
+Praha	Sevilla	745.827
+Sevilla	Praha	745.827
+Praha	Skane	473.873
+Skane	Praha	473.873
+Praha	Split	745.928
+Split	Praha	745.928
+Praha	St. Gallen	474.080
+St. Gallen	Praha	474.080
+Praha	Stockholm	1054.701
+Stockholm	Praha	1054.701
+Praha	Strasbourg	512.330
+Strasbourg	Praha	512.330
+Praha	Targoviste	1004.922
+Targoviste	Praha	1004.922
+Praha	Thessaloniki	1239.796
+Thessaloniki	Praha	1239.796
+Praha	Utrecht	687.662
+Utrecht	Praha	687.662
+Praha	Valencia	1655.189
+Valencia	Praha	1655.189
+Praha	Warsaw	517.044
+Warsaw	Praha	517.044
+Praha	Zagreb	487.473
+Zagreb	Praha	487.473
+Pribram	Rome	873.757
+Rome	Pribram	873.757
+Pribram	Rostov-on-Don	712.547
+Rostov-on-Don	Pribram	712.547
+Pribram	Rotterdam	1537.515
+Rotterdam	Pribram	1537.515
+Pribram	Saint-Petersburg	2101.905
+Saint-Petersburg	Pribram	2101.905
+Pribram	Santander	701.118
+Santander	Pribram	701.118
+Pribram	Sevilla	711.799
+Sevilla	Pribram	711.799
+Pribram	Skane	423.998
+Skane	Pribram	423.998
+Pribram	Split	711.904
+Split	Pribram	711.904
+Pribram	St. Gallen	424.214
+St. Gallen	Pribram	424.214
+Pribram	Stockholm	1102.904
+Stockholm	Pribram	1102.904
+Pribram	Strasbourg	471.907
+Strasbourg	Pribram	471.907
+Pribram	Targoviste	1011.033
+Targoviste	Pribram	1011.033
+Pribram	Thessaloniki	1223.763
+Thessaloniki	Pribram	1223.763
+Pribram	Utrecht	677.653
+Utrecht	Pribram	677.653
+Pribram	Valencia	1604.229
+Valencia	Pribram	1604.229
+Pribram	Warsaw	565.523
+Warsaw	Pribram	565.523
+Pribram	Zagreb	455.302
+Zagreb	Pribram	455.302
+Rome	Rostov-on-Don	1267.016
+Rostov-on-Don	Rome	1267.016
+Rome	Rotterdam	2345.513
+Rotterdam	Rome	2345.513
+Rome	Saint-Petersburg	1655.513
+Saint-Petersburg	Rome	1655.513
+Rome	Santander	1568.461
+Santander	Rome	1568.461
+Rome	Sevilla	368.301
+Sevilla	Rome	368.301
+Rome	Skane	661.555
+Skane	Rome	661.555
+Rome	Split	368.335
+Split	Rome	368.335
+Rome	St. Gallen	661.698
+St. Gallen	Rome	661.698
+Rome	Stockholm	1975.564
+Stockholm	Rome	1975.564
+Rome	Strasbourg	830.345
+Strasbourg	Rome	830.345
+Rome	Targoviste	1098.040
+Targoviste	Rome	1098.040
+Rome	Thessaloniki	883.082
+Thessaloniki	Rome	883.082
+Rome	Utrecht	1261.853
+Utrecht	Rome	1261.853
+Rome	Valencia	1117.409
+Valencia	Rome	1117.409
+Rome	Warsaw	1314.968
+Warsaw	Rome	1314.968
+Rome	Zagreb	516.705
+Zagreb	Rome	516.705
+Rostov-on-Don	Rotterdam	1822.142
+Rotterdam	Rostov-on-Don	1822.142
+Rostov-on-Don	Saint-Petersburg	1811.747
+Saint-Petersburg	Rostov-on-Don	1811.747
+Rostov-on-Don	Santander	747.141
+Santander	Rostov-on-Don	747.141
+Rostov-on-Don	Sevilla	1290.308
+Sevilla	Rostov-on-Don	1290.308
+Rostov-on-Don	Skane	610.550
+Skane	Rostov-on-Don	610.550
+Rostov-on-Don	Split	1290.428
+Split	Rostov-on-Don	1290.428
+Rostov-on-Don	St. Gallen	610.363
+St. Gallen	Rostov-on-Don	610.363
+Rostov-on-Don	Stockholm	1181.389
+Stockholm	Rostov-on-Don	1181.389
+Rostov-on-Don	Strasbourg	436.922
+Strasbourg	Rostov-on-Don	436.922
+Rostov-on-Don	Targoviste	1722.900
+Targoviste	Rostov-on-Don	1722.900
+Rostov-on-Don	Thessaloniki	1882.688
+Thessaloniki	Rostov-on-Don	1882.688
+Rostov-on-Don	Utrecht	47.079
+Utrecht	Rostov-on-Don	47.079
+Rostov-on-Don	Valencia	1434.439
+Valencia	Rostov-on-Don	1434.439
+Rostov-on-Don	Warsaw	1127.025
+Warsaw	Rostov-on-Don	1127.025
+Rostov-on-Don	Zagreb	1077.818
+Zagreb	Rostov-on-Don	1077.818
+Rotterdam	Saint-Petersburg	3578.894
+Saint-Petersburg	Rotterdam	3578.894
+Rotterdam	Santander	1075.443
+Santander	Rotterdam	1075.443
+Rotterdam	Sevilla	2051.983
+Sevilla	Rotterdam	2051.983
+Rotterdam	Skane	1942.717
+Skane	Rotterdam	1942.717
+Rotterdam	Split	2052.031
+Split	Rotterdam	2052.031
+Rotterdam	St. Gallen	1942.870
+St. Gallen	Rotterdam	1942.870
+Rotterdam	Stockholm	690.597
+Stockholm	Rotterdam	690.597
+Rotterdam	Strasbourg	1917.308
+Strasbourg	Rotterdam	1917.308
+Rotterdam	Targoviste	1700.184
+Targoviste	Rotterdam	1700.184
+Rotterdam	Thessaloniki	2205.500
+Thessaloniki	Rotterdam	2205.500
+Rotterdam	Utrecht	1776.718
+Utrecht	Rotterdam	1776.718
+Rotterdam	Valencia	3116.848
+Valencia	Rotterdam	3116.848
+Rotterdam	Warsaw	1031.044
+Warsaw	Rotterdam	1031.044
+Rotterdam	Zagreb	1832.753
+Zagreb	Rotterdam	1832.753
+Saint-Petersburg	Santander	2532.079
+Santander	Saint-Petersburg	2532.079
+Saint-Petersburg	Sevilla	2007.644
+Sevilla	Saint-Petersburg	2007.644
+Saint-Petersburg	Skane	1678.124
+Skane	Saint-Petersburg	1678.124
+Saint-Petersburg	Split	2007.708
+Split	Saint-Petersburg	2007.708
+Saint-Petersburg	St. Gallen	1677.902
+St. Gallen	Saint-Petersburg	1677.902
+Saint-Petersburg	Stockholm	2983.071
+Stockholm	Saint-Petersburg	2983.071
+Saint-Petersburg	Strasbourg	1667.157
+Strasbourg	Saint-Petersburg	1667.157
+Saint-Petersburg	Targoviste	2742.016
+Targoviste	Saint-Petersburg	2742.016
+Saint-Petersburg	Thessaloniki	2512.327
+Thessaloniki	Saint-Petersburg	2512.327
+Saint-Petersburg	Utrecht	1850.622
+Utrecht	Saint-Petersburg	1850.622
+Saint-Petersburg	Valencia	539.784
+Valencia	Saint-Petersburg	539.784
+Saint-Petersburg	Warsaw	2667.416
+Warsaw	Saint-Petersburg	2667.416
+Saint-Petersburg	Zagreb	2042.651
+Zagreb	Saint-Petersburg	2042.651
+Santander	Sevilla	1402.509
+Sevilla	Santander	1402.509
+Santander	Skane	995.477
+Skane	Santander	995.477
+Santander	Split	1402.606
+Split	Santander	1402.606
+Santander	St. Gallen	995.528
+St. Gallen	Santander	995.528
+Santander	Stockholm	456.569
+Stockholm	Santander	456.569
+Santander	Strasbourg	913.922
+Strasbourg	Santander	913.922
+Santander	Targoviste	1485.071
+Targoviste	Santander	1485.071
+Santander	Thessaloniki	1837.393
+Thessaloniki	Santander	1837.393
+Santander	Utrecht	702.146
+Utrecht	Santander	702.146
+Santander	Valencia	2104.646
+Valencia	Santander	2104.646
+Santander	Warsaw	638.563
+Warsaw	Santander	638.563
+Santander	Zagreb	1143.585
+Zagreb	Santander	1143.585
+Sevilla	Skane	701.663
+Skane	Sevilla	701.663
+Sevilla	Split	0.121
+Split	Sevilla	0.121
+Sevilla	St. Gallen	701.921
+St. Gallen	Sevilla	701.921
+Sevilla	Stockholm	1762.655
+Stockholm	Sevilla	1762.655
+Sevilla	Strasbourg	875.693
+Strasbourg	Sevilla	875.693
+Sevilla	Targoviste	735.278
+Targoviste	Sevilla	735.278
+Sevilla	Thessaloniki	623.623
+Thessaloniki	Sevilla	623.623
+Sevilla	Utrecht	1271.891
+Utrecht	Sevilla	1271.891
+Sevilla	Valencia	1467.869
+Valencia	Sevilla	1467.869
+Sevilla	Warsaw	1027.425
+Warsaw	Sevilla	1027.425
+Sevilla	Zagreb	258.943
+Zagreb	Sevilla	258.943
+Skane	Split	701.784
+Split	Skane	701.784
+Skane	St. Gallen	0.298
+St. Gallen	Skane	0.298
+Skane	Stockholm	1441.176
+Stockholm	Skane	1441.176
+Skane	Strasbourg	176.933
+Strasbourg	Skane	176.933
+Skane	Targoviste	1266.585
+Targoviste	Skane	1266.585
+Skane	Thessaloniki	1317.712
+Thessaloniki	Skane	1317.712
+Skane	Utrecht	601.952
+Utrecht	Skane	601.952
+Skane	Valencia	1182.384
+Valencia	Skane	1182.384
+Skane	Warsaw	989.364
+Warsaw	Skane	989.364
+Skane	Zagreb	534.917
+Zagreb	Skane	534.917
+Split	St. Gallen	702.041
+St. Gallen	Split	702.041
+Split	Stockholm	1762.737
+Stockholm	Split	1762.737
+Split	Strasbourg	875.813
+Strasbourg	Split	875.813
+Split	Targoviste	735.220
+Targoviste	Split	735.220
+Split	Thessaloniki	623.508
+Thessaloniki	Split	623.508
+Split	Utrecht	1272.011
+Utrecht	Split	1272.011
+Split	Valencia	1467.934
+Valencia	Split	1467.934
+Split	Warsaw	1027.481
+Warsaw	Split	1027.481
+Split	Zagreb	259.041
+Zagreb	Split	259.041
+St. Gallen	Stockholm	1441.251
+Stockholm	St. Gallen	1441.251
+St. Gallen	Strasbourg	176.711
+Strasbourg	St. Gallen	176.711
+St. Gallen	Targoviste	1266.883
+Targoviste	St. Gallen	1266.883
+St. Gallen	Thessaloniki	1317.984
+Thessaloniki	St. Gallen	1317.984
+St. Gallen	Utrecht	601.784
+Utrecht	St. Gallen	601.784
+St. Gallen	Valencia	1182.195
+Valencia	St. Gallen	1182.195
+St. Gallen	Warsaw	989.583
+Warsaw	St. Gallen	989.583
+St. Gallen	Zagreb	535.209
+Zagreb	St. Gallen	535.209
+Stockholm	Strasbourg	1369.027
+Strasbourg	Stockholm	1369.027
+Stockholm	Targoviste	1676.726
+Targoviste	Stockholm	1676.726
+Stockholm	Thessaloniki	2105.712
+Thessaloniki	Stockholm	2105.712
+Stockholm	Utrecht	1138.969
+Utrecht	Stockholm	1138.969
+Stockholm	Valencia	2561.115
+Valencia	Stockholm	2561.115
+Stockholm	Warsaw	810.414
+Warsaw	Stockholm	810.414
+Stockholm	Zagreb	1509.237
+Zagreb	Stockholm	1509.237
+Strasbourg	Targoviste	1405.531
+Targoviste	Strasbourg	1405.531
+Strasbourg	Thessaloniki	1487.462
+Thessaloniki	Strasbourg	1487.462
+Strasbourg	Utrecht	432.131
+Utrecht	Strasbourg	432.131
+Strasbourg	Valencia	1202.284
+Valencia	Strasbourg	1202.284
+Strasbourg	Warsaw	1021.915
+Warsaw	Strasbourg	1021.915
+Strasbourg	Zagreb	693.488
+Zagreb	Strasbourg	693.488
+Targoviste	Thessaloniki	518.940
+Thessaloniki	Targoviste	518.940
+Targoviste	Utrecht	1688.660
+Utrecht	Targoviste	1688.660
+Targoviste	Valencia	2202.272
+Valencia	Targoviste	2202.272
+Targoviste	Warsaw	875.142
+Warsaw	Targoviste	875.142
+Targoviste	Zagreb	746.568
+Zagreb	Targoviste	746.568
+Thessaloniki	Utrecht	1858.707
+Utrecht	Thessaloniki	1858.707
+Thessaloniki	Valencia	1982.518
+Valencia	Thessaloniki	1982.518
+Thessaloniki	Warsaw	1296.974
+Warsaw	Thessaloniki	1296.974
+Thessaloniki	Zagreb	804.870
+Zagreb	Thessaloniki	804.870
+Utrecht	Valencia	1465.966
+Valencia	Utrecht	1465.966
+Utrecht	Warsaw	1081.850
+Warsaw	Utrecht	1081.850
+Utrecht	Zagreb	1054.180
+Zagreb	Utrecht	1054.180
+Valencia	Warsaw	2166.577
+Warsaw	Valencia	2166.577
+Valencia	Zagreb	1508.433
+Zagreb	Valencia	1508.433
+Warsaw	Zagreb	801.779
+Zagreb	Warsaw	801.779
