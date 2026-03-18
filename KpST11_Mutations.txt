@@ -1,0 +1,4605 @@
+all	kl64	kl47	product
+0	3	1	chromosomal replication initiator protein DnaA
+1	6	5	DNA polymerase III subunit beta
+2	8	9	DNA replication/repair protein RecF
+3	4	7	DNA topoisomerase (ATP-hydrolyzing) subunit B
+4	4	4	Non-coding region
+5	2	29	Non-coding region
+6	6	7	cytochrome b562
+7	5	4	ATP-binding cassette domain-containing protein
+8	11	9	Non-coding region
+9	14	18	putative solute-binding protein
+10	0	2	Non-coding region
+13	5	3	iron-sulfur cluster insertion protein ErpA
+14	26	24	anhydro-N-acetylmuramic acid kinase
+15	3	6	Non-coding region
+16	14	14	tyrosine--tRNA ligase
+17	6	5	Non-coding region
+18	8	10	Non-coding region
+19	29	26	Non-coding region
+20	9	11	Non-coding region
+21	13	11	Non-coding region
+22	12	11	Non-coding region
+23	13	17	glutathione S-transferase family protein
+24	7	6	TIGR04219 family outer membrane beta-barrel protein
+25	9	8	sodium-dependent transporter
+26	16	14	Non-coding region
+27	23	6	methionine/alanine import family NSS transporter small subunit
+28	10	10	methionyl-tRNA formyltransferase
+29	9	2	dihydroxy-acid dehydratase
+30	19	1	Non-coding region
+31	13	2	Non-coding region
+32	11	2	hypothetical protein
+33	16	7	sulfite exporter TauE/SafE family protein
+34	10	4	LysR family transcriptional regulator
+35	17	3	solute carrier family 23 protein
+36	8	5	phosphoenolpyruvate carboxylase
+37	16	4	Non-coding region
+38	17	8	Non-coding region
+39	9	9	TetR/AcrR family transcriptional regulator
+40	11	11	efflux RND transporter periplasmic adaptor subunit
+41	12	4	efflux RND transporter permease subunit
+42	22	0	Non-coding region
+43	46	4	Non-coding region
+44	17	3	hypothetical protein
+45	6	2	molecular chaperone DnaJ
+46	17	6	hypothetical protein
+47	30	5	START domain-containing protein
+48	24	3	MFS transporter
+49	35	4	2%2C5-didehydrogluconate reductase DkgB
+50	10	8	LysR family transcriptional regulator
+51	8	4	hypothetical protein
+52	3	0	PLP-dependent aminotransferase family protein
+53	7	5	NADPH-dependent aldehyde reductase Ahr
+54	10	4	DNA-3-methyladenine glycosylase I
+55	10	6	hypothetical protein
+56	4	5	Non-coding region
+57	10	2	HIT family protein
+58	12	4	DUF1328 domain-containing protein
+59	9	1	PQQ-dependent sugar dehydrogenase
+60	13	2	replication-associated recombination protein A
+61	13	1	Non-coding region
+62	14	4	formate/nitrite transporter family protein
+63	9	3	hypothetical protein
+64	8	7	hypothetical protein
+65	5	3	Non-coding region
+66	10	2	bifunctional nicotinamidase/pyrazinamidase
+67	12	2	MATE family efflux transporter
+68	7	4	Non-coding region
+69	13	5	DUF523 domain-containing protein
+70	11	5	4-hydroxyphenylpyruvate dioxygenase
+71	10	2	IclR family transcriptional regulator
+72	14	5	VOC family protein
+73	7	2	maleylacetoacetate isomerase
+74	12	3	Non-coding region
+75	27	5	amino acid permease
+76	21	2	D-Ala-D-Ala carboxypeptidase ZrlA
+77	14	7	zinc metallochaperone GTPase ZigA
+78	11	3	Non-coding region
+79	13	11	acyltransferase family protein
+80	9	8	histidine utilization repressor
+81	12	2	HutD/Ves family protein
+82	10	4	urocanate hydratase
+83	10	3	histidine ammonia-lyase
+84	27	6	Non-coding region
+85	26	5	amino acid permease
+86	11	4	imidazolonepropionase
+87	23	7	Non-coding region
+88	22	5	formimidoylglutamase
+89	7	4	DUF885 domain-containing protein
+90	16	5	Non-coding region
+91	17	4	HAD family hydrolase
+92	5	4	glutamine--fructose-6-phosphate transaminase (isomerizing)
+93	2	4	Non-coding region
+94	17	6	bifunctional UDP-N-acetylglucosamine diphosphorylase/glucosamine-1-phosphate N-acetyltransferase GlmU
+95	11	1	Non-coding region
+96	9	5	phosphatidylglycerophosphatase A family protein
+97	11	2	transcription antitermination factor NusB
+98	14	3	bifunctional 3%2C4-dihydroxy-2-butanone-4-phosphate synthase/GTP cyclohydrolase II
+99	3	1	hypothetical protein
+100	11	7	Non-coding region
+101	1	6	phosphoserine phosphatase SerB
+102	2	5	ciprofloxacin tolerance protein AciT
+103	12	5	hypothetical protein
+104	2	1	nicotinate phosphoribosyltransferase
+105	4	5	sulfurtransferase
+106	6	10	archaetidylserine decarboxylase
+107	9	6	acetamidase/formamidase family protein
+108	7	14	Non-coding region
+109	11	9	hypothetical protein
+110	3	3	alpha/beta fold hydrolase
+111	5	4	Non-coding region
+112	10	9	phosphate regulon sensor histidine kinase PhoR
+113	11	10	phosphate regulon transcriptional regulator PhoB
+114	7	8	TetR/AcrR family transcriptional regulator
+115	13	5	SDR family NAD(P)-dependent oxidoreductase
+116	12	13	MATE family efflux transporter
+117	19	16	pyridoxal phosphate-dependent aminotransferase
+118	10	9	DUF445 domain-containing protein
+119	1	4	Non-coding region
+120	25	25	CC0125/CC1285 family lipoprotein
+121	9	10	glutamate--cysteine ligase
+122	14	14	Non-coding region
+123	8	11	disulfide bond formation protein B
+124	2	5	Non-coding region
+125	8	8	Non-coding region
+126	5	10	Non-coding region
+127	16	7	LysM peptidoglycan-binding domain-containing protein
+128	4	1	Non-coding region
+129	10	6	hypothetical protein
+130	9	6	SH3 domain-containing protein
+131	9	10	alpha/beta fold hydrolase
+132	10	9	YqiA/YcfP family alpha/beta fold hydrolase
+133	8	2	DNA topoisomerase IV subunit B
+134	6	3	Non-coding region
+135	1	3	ureidoglycolate lyase
+136	8	3	Non-coding region
+137	10	1	FAD-dependent urate hydroxylase HpxO
+138	5	4	outer membrane protein OmpK
+139	14	3	nucleobase:cation symporter-2 family protein
+140	10	2	hydroxyisourate hydrolase
+141	11	2	allantoinase PuuE
+142	18	11	HPF/RaiA family ribosome-associated protein
+143	40	25	ankyrin repeat domain-containing protein
+144	13	4	protein-disulfide reductase DsbD
+145	22	1	Non-coding region
+146	15	4	GGDEF domain-containing protein
+147	9	5	alpha/beta hydrolase
+148	3	9	DUF2147 domain-containing protein
+149	8	4	arsenate reductase
+150	9	4	exodeoxyribonuclease III
+151	16	6	TonB-dependent receptor
+152	12	6	Non-coding region
+153	5	2	Non-coding region
+154	6	2	DUF1737 domain-containing protein
+155	5	2	undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase
+156	9	4	UDP-N-acetylmuramate--L-alanine ligase
+157	14	4	Non-coding region
+158	6	2	D-alanine--D-alanine ligase
+159	3	1	cell division protein FtsQ/DivIB
+160	5	1	cell division protein FtsA
+161	6	2	cell division protein FtsZ
+162	3	2	UDP-3-O-acyl-N-acetylglucosamine deacetylase
+163	5	2	DciA family protein
+164	4	3	M23 family metallopeptidase
+165	31	3	pyruvate dehydrogenase (acetyl-transferring)%2C homodimeric type
+166	6	10	Non-coding region
+167	10	5	2-oxo acid dehydrogenase subunit E2
+168	5	4	Non-coding region
+169	19	7	Non-coding region
+170	7	3	hypothetical protein
+171	11	4	TonB-dependent siderophore receptor
+172	23	1	Non-coding region
+173	15	4	MBL fold metallo-hydrolase
+174	15	10	YkgJ family cysteine cluster protein
+175	4	0	IMP dehydrogenase
+176	2	10	phosphoglucosamine mutase
+177	43	28	pyridoxamine 5'-phosphate oxidase
+178	32	27	single-stranded-DNA-specific exonuclease RecJ
+179	8	2	Non-coding region
+180	12	4	putative porin
+181	11	5	peptide chain release factor 2
+182	9	6	ArsR/SmtB family transcription factor
+183	11	6	alkene reductase
+184	9	3	3-deoxy-D-manno-octulosonic acid transferase
+185	10	5	16S rRNA (uracil(1498)-N(3))-methyltransferase
+186	8	2	mechanosensitive ion channel family protein
+187	14	7	DUF805 domain-containing protein
+188	6	6	acetate--CoA ligase
+189	13	3	Non-coding region
+190	8	5	cysteine hydrolase family protein
+191	8	5	dimethylsulfone monooxygenase SfnG
+192	5	9	FMN reductase
+193	15	3	response regulator
+194	11	4	hypothetical protein
+195	8	4	hybrid sensor histidine kinase/response regulator
+196	18	2	Non-coding region
+197	1	3	Non-coding region
+198	5	1	Non-coding region
+199	10	2	DUF485 domain-containing protein
+200	6	2	Non-coding region
+201	5	12	ion channel
+202	4	5	BCCT family transporter
+203	20	3	Non-coding region
+204	11	6	porin Omp33-36
+205	10	6	Non-coding region
+206	10	0	GGDEF domain-containing protein
+207	8	4	Non-coding region
+208	7	2	excinuclease ABC subunit UvrA
+209	7	5	Non-coding region
+210	13	2	Non-coding region
+211	11	4	TetR/AcrR family transcriptional regulator
+212	11	7	DUF1304 domain-containing protein
+213	15	1	GlpM family protein
+214	2	6	DUF475 domain-containing protein
+215	10	3	MFS transporter
+216	10	3	Non-coding region
+217	13	4	single-stranded DNA-binding protein
+218	11	2	AzlC family ABC transporter permease
+219	3	0	amino acid permease
+220	7	4	Non-coding region
+221	2	6	MocR-like pyridoxine biosynthesis transcription factor PdxR
+222	10	8	4-aminobutyrate--2-oxoglutarate transaminase
+223	119	70	Non-coding region
+225	3	1	LysR substrate-binding domain-containing protein
+226	4	4	isochorismate family cysteine hydrolase YcaC
+227	9	5	pirin family protein
+228	15	3	NAD(P)/FAD-dependent oxidoreductase
+229	5	2	Non-coding region
+230	8	3	SAM-dependent methyltransferase
+231	14	3	GFA family protein
+232	9	4	multidrug efflux MFS transporter SxtP
+233	8	4	multidrug efflux pump transcriptional activator SxtR
+234	28	8	DMT family transporter
+235	24	4	hypothetical protein
+236	12	6	hypothetical protein
+237	14	6	Non-coding region
+238	16	6	helix-turn-helix domain-containing protein
+239	10	4	Non-coding region
+240	8	4	TetR/AcrR family transcriptional regulator
+241	12	3	hypothetical protein
+242	11	7	hypothetical protein
+243	9	2	DUF6500 family protein
+244	10	6	AbaSI family restriction endonuclease
+245	7	2	hypothetical protein
+246	8	1	DHCW motif cupin fold protein
+247	5	8	Non-coding region
+248	9	9	hypothetical protein
+249	8	1	DNA/RNA non-specific endonuclease
+250	4	3	LysE family translocator
+251	6	2	hypothetical protein
+252	17	2	AraC family transcriptional regulator
+253	16	5	hypothetical protein
+254	9	1	imidazole glycerol phosphate synthase subunit HisF
+255	10	1	homoserine kinase
+256	12	4	DUF1294 domain-containing protein
+257	7	1	DMT family transporter
+258	12	4	helix-turn-helix domain-containing protein
+259	22	6	3'-5' exonuclease
+260	4	8	DUF805 domain-containing protein
+261	5	7	imidazole glycerol phosphate synthase subunit HisH
+262	13	4	GNAT family N-acetyltransferase
+263	11	3	GNAT family acetyltransferase
+264	13	8	Non-coding region
+265	9	2	ATP-binding protein
+266	11	5	Non-coding region
+267	12	8	osmolarity response regulator transcription factor OmpR
+268	7	8	Tex family protein
+269	10	3	Non-coding region
+270	19	6	Non-coding region
+271	11	6	bifunctional SulP family inorganic anion transporter/carbonic anhydrase
+272	4	2	Non-coding region
+273	10	3	SDR family NAD(P)-dependent oxidoreductase
+274	12	3	O-acetylhomoserine aminocarboxypropyltransferase/cysteine synthase family protein
+275	5	5	Non-coding region
+276	4	1	energy-dependent translational throttle protein EttA
+277	10	5	tetratricopeptide repeat protein
+278	12	4	hypothetical protein
+279	3	3	cation efflux protein%2C CzcI-like
+280	14	7	methyltransferase family protein
+281	19	5	cation efflux protein%2C CzcI-like
+282	9	5	Non-coding region
+283	4	6	efflux RND transporter periplasmic adaptor subunit
+284	4	5	efflux RND transporter permease subunit
+285	8	2	Non-coding region
+286	5	3	Non-coding region
+287	10	2	cation diffusion facilitator family transporter
+288	8	9	hypothetical protein
+289	9	2	hypothetical protein
+290	20	10	hypothetical protein
+291	12	6	amino acid permease
+292	5	5	Non-coding region
+293	13	3	glutamate--tRNA ligase
+294	13	1	hypothetical protein
+295	7	4	sulfate ABC transporter substrate-binding protein
+296	14	7	16S rRNA (cytosine(1402)-N(4))-methyltransferase RsmH
+297	15	1	cell division protein FtsL
+298	6	7	penicillin-binding protein PBP3
+299	4	6	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2%2C6-diaminopimelate ligase
+300	12	5	Non-coding region
+301	13	2	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+302	6	3	phospho-N-acetylmuramoyl-pentapeptide-transferase
+303	1	0	DUF7709 family protein
+304	17	9	putative RNA methyltransferase
+305	6	2	penicillin-binding protein PBP1a
+306	11	4	Non-coding region
+307	8	7	pilus assembly protein PilM
+308	10	0	PilN domain-containing protein
+309	14	0	type 4a pilus biogenesis protein PilO
+310	13	6	pilus assembly protein PilP
+311	8	4	Non-coding region
+312	6	3	Non-coding region
+313	6	7	shikimate kinase AroK
+314	6	2	hypothetical protein
+315	14	2	Non-coding region
+316	2	3	glutamate synthase large subunit
+317	5	1	Non-coding region
+318	22	6	Non-coding region
+319	23	4	Non-coding region
+320	18	1	FAD-dependent oxidoreductase
+321	20	5	Non-coding region
+322	86	37	metal-dependent hydrolase
+323	36	10	LemA family protein
+324	11	2	TPM domain-containing protein
+325	7	2	pilin
+326	3	4	PglL family O-oligosaccharyltransferase
+327	6	2	Non-coding region
+328	11	4	heteropolymeric bacterioferritin subunit Bfr
+329	15	3	RidA family protein
+330	10	3	Non-coding region
+331	12	1	hypothetical protein
+332	7	3	DNA-directed RNA polymerase subunit omega
+333	11	3	4-hydroxy-3-methylbut-2-enyl diphosphate reductase
+334	17	2	pilus assembly FimT family protein
+335	14	8	PilW family protein
+336	15	4	PilX N-terminal domain-containing pilus assembly protein
+337	15	9	PilC/PilY family type IV pilus protein
+338	12	8	Non-coding region
+339	11	10	Non-coding region
+340	8	4	Non-coding region
+341	12	3	type IV pilin protein
+342	4	2	30S ribosomal protein S16
+343	8	3	tRNA (guanosine(37)-N1)-methyltransferase TrmD
+344	9	7	lipase family alpha/beta hydrolase
+345	10	9	lipase secretion chaperone
+346	9	4	tRNA pseudouridine(55) synthase TruB
+347	7	1	sulfite exporter TauE/SafE family protein
+348	8	2	hemerythrin domain-containing protein
+349	9	5	EamA family transporter
+350	13	5	phosphoglycerate dehydrogenase
+351	3	3	Non-coding region
+352	3	4	FAD-binding oxidoreductase
+353	5	0	Non-coding region
+354	15	5	hypothetical protein
+355	4	3	hypothetical protein
+356	7	0	chloramphenicol efflux MFS transporter CraA
+357	5	3	YccS family putative transporter
+358	5	6	Non-coding region
+359	21	4	superoxide dismutase family protein
+360	79	18	AI-2E family transporter
+361	119	34	ParA family protein
+362	40	11	Holliday junction resolvase-like protein
+363	4	3	hypothetical protein
+364	5	4	class I SAM-dependent methyltransferase
+365	4	4	hypothetical protein
+366	7	5	Non-coding region
+367	9	1	amino acid permease
+368	10	1	Non-coding region
+369	14	12	Glu/Leu/Phe/Val family dehydrogenase
+370	13	4	aspartate aminotransferase family protein
+371	6	2	Non-coding region
+372	6	8	arginine N-succinyltransferase
+373	6	4	succinylglutamate-semialdehyde dehydrogenase
+374	11	15	N-succinylarginine dihydrolase
+375	10	5	Non-coding region
+376	12	8	succinylglutamate desuccinylase
+377	8	2	hypothetical protein
+378	14	6	hypothetical protein
+379	17	13	Non-coding region
+380	7	8	hypothetical protein
+381	9	2	LysR family transcriptional regulator
+382	7	2	DMT family transporter
+383	2	2	YciI family protein
+384	14	8	glycine--tRNA ligase subunit beta
+385	9	1	Non-coding region
+386	9	8	DUF6678 family protein
+387	5	1	glycine--tRNA ligase subunit alpha
+388	4	2	TCR/Tet family MFS transporter
+389	6	3	putative DNA modification/repair radical SAM protein
+390	5	2	Non-coding region
+391	7	3	TIGR03915 family putative DNA repair protein
+392	9	5	HPP family protein
+393	1	3	PspC domain-containing protein
+394	7	3	acyl-CoA dehydrogenase C-terminal domain-containing protein
+395	4	2	Non-coding region
+396	4	2	hypothetical protein
+397	2	1	Non-coding region
+398	2	5	shikimate dehydrogenase
+399	0	3	oxygen-dependent coproporphyrinogen oxidase
+400	9	8	GTP cyclohydrolase II
+401	14	4	1-deoxy-D-xylulose-5-phosphate synthase
+402	1	5	Non-coding region
+403	6	2	inositol monophosphatase family protein
+404	7	4	Non-coding region
+405	7	5	DEAD/DEAH box helicase
+406	8	5	Non-coding region
+407	7	13	hypothetical protein
+408	14	6	lipid asymmetry maintenance ABC transporter permease subunit MlaE
+409	13	3	MlaC/ttg2D family ABC transporter substrate-binding protein
+410	6	4	STAS domain-containing protein
+411	18	4	LOG family protein
+412	6	4	NUDIX hydrolase
+413	9	9	ATP-dependent DNA helicase RecG
+414	7	4	Non-coding region
+415	9	1	NAD-dependent epimerase/dehydratase family protein
+416	9	4	putative multidrug efflux protein AdeT2
+417	7	2	glycerol-3-phosphate 1-O-acyltransferase PlsB
+418	6	7	Non-coding region
+419	7	7	Non-coding region
+420	5	5	acyl-CoA thioesterase
+421	7	5	dicarboxylate/amino acid:cation symporter
+422	13	4	metal-dependent hydrolase
+423	5	3	ribosome biogenesis GTP-binding protein YihA/YsxC
+424	5	4	RrF2 family transcriptional regulator
+425	1	5	globin domain-containing protein
+426	3	2	helicase HerA-like domain-containing protein
+427	1	2	PLP-dependent transferase
+428	5	11	type 1 glutamine amidotransferase
+430	3	9	50S ribosomal protein L3
+431	22	6	50S ribosomal protein L23
+432	6	3	30S ribosomal protein S19
+433	1	3	50S ribosomal protein L22
+434	6	3	50S ribosomal protein L16
+435	7	3	50S ribosomal protein L14
+436	0	8	30S ribosomal protein S14
+437	4	8	50S ribosomal protein L6
+438	0	1	50S ribosomal protein L30
+439	0	1	preprotein translocase subunit SecY
+440	7	7	50S ribosomal protein L36
+441	5	5	30S ribosomal protein S11
+442	0	2	DNA-directed RNA polymerase subunit alpha
+443	3	4	50S ribosomal protein L17
+444	3	4	Non-coding region
+445	5	9	acyl-CoA dehydrogenase family protein
+446	8	4	FAD assembly factor SdhE
+447	5	5	Non-coding region
+448	18	5	hypothetical protein
+449	15	5	rhombosortase
+450	12	2	Non-coding region
+451	6	2	Non-coding region
+452	7	4	hypothetical protein
+453	11	0	Non-coding region
+454	4	3	Non-coding region
+455	10	4	ribonuclease R
+461	18	8	Non-coding region
+462	9	7	nitroreductase family protein
+463	11	2	YcxB family protein
+464	16	4	helix-turn-helix domain-containing protein
+465	7	3	DMT family transporter
+466	14	6	YihY family inner membrane protein
+467	5	12	NAD(P)H:quinone oxidoreductase
+468	2	2	xanthine phosphoribosyltransferase
+469	12	6	hypothetical protein
+470	6	5	energy transducer TonB
+471	4	4	rRNA maturation RNase YbeY
+472	5	3	PhoH family protein
+473	2	4	tRNA (N6-isopentenyl adenosine(37)-C2)-methylthiotransferase MiaB
+474	2	4	Non-coding region
+475	4	2	lytic transglycosylase domain-containing protein
+476	5	2	Non-coding region
+477	3	1	ribonuclease T2 family protein
+478	5	6	Non-coding region
+479	5	1	DUF2789 family protein
+480	5	4	23S rRNA (adenine(2030)-N(6))-methyltransferase RlmJ
+481	7	1	CDP-diacylglycerol--serine O-phosphatidyltransferase
+482	6	5	DUF6670 family protein
+483	4	4	Non-coding region
+484	6	1	Non-coding region
+485	14	1	Non-coding region
+486	14	7	Non-coding region
+487	0	6	Non-coding region
+488	13	3	Non-coding region
+489	4	0	putative signal transducing protein
+490	10	4	DUF4256 domain-containing protein
+491	6	5	TetR/AcrR family transcriptional regulator
+492	22	3	acyclic terpene utilization AtuA family protein
+493	4	3	Non-coding region
+494	5	7	SDR family oxidoreductase
+495	2	1	acyl-CoA carboxylase subunit beta
+496	5	3	Non-coding region
+497	3	2	acyl-CoA dehydrogenase family protein
+498	5	0	enoyl-CoA hydratase/isomerase family protein
+499	1	1	acetyl/propionyl/methylcrotonyl-CoA carboxylase subunit alpha
+500	5	6	Non-coding region
+501	3	3	hypothetical protein
+502	6	2	glutathione S-transferase N-terminal domain-containing protein
+503	3	2	30S ribosomal protein S9
+504	5	2	4-hydroxythreonine-4-phosphate dehydrogenase PdxA
+505	3	5	16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase RsmA
+506	5	2	DUF2147 domain-containing protein
+507	2	1	LrgB family protein
+508	1	2	hypothetical protein
+509	14	2	lysophospholipid acyltransferase family protein
+510	6	4	phospholipase D family protein
+511	2	2	Non-coding region
+512	3	7	metallophosphoesterase
+513	3	5	OmpA family protein
+514	5	0	diguanylate cyclase domain-containing protein
+515	2	2	YfiR family protein
+516	6	5	Non-coding region
+517	6	3	Non-coding region
+518	0	4	Non-coding region
+519	5	3	Non-coding region
+520	2	4	Non-coding region
+521	2	5	dihydrolipoyl dehydrogenase
+522	3	4	Non-coding region
+523	2	6	hypothetical protein
+524	3	2	Non-coding region
+525	0	1	TIGR01244 family sulfur transferase
+526	4	10	thioredoxin TrxC
+527	4	3	acyl-CoA thioesterase
+528	6	4	YajQ family cyclic di-GMP-binding protein
+529	5	2	Non-coding region
+530	13	9	hypothetical protein
+531	4	5	YciI family protein
+532	3	7	PHP domain-containing protein
+533	4	5	bestrophin family protein
+534	5	4	RadC family protein
+535	3	1	Non-coding region
+536	1	6	protein translocase subunit SecF
+537	6	1	protein translocase subunit SecD
+538	4	3	Non-coding region
+539	1	2	preprotein translocase subunit YajC
+540	3	5	LemA family protein
+541	3	5	hypothetical protein
+542	2	4	tRNA preQ1(34) S-adenosylmethionine ribosyltransferase-isomerase QueA
+543	2	3	Non-coding region
+544	2	1	tyrosine recombinase XerC
+545	4	5	hypothetical protein
+546	9	7	putative phage abortive infection protein
+547	1	3	Non-coding region
+548	5	4	hypothetical protein
+549	6	8	sensor histidine kinase
+550	1	2	Non-coding region
+551	7	1	bifunctional [glutamate--ammonia ligase]-adenylyl-L-tyrosine phosphorylase/[glutamate--ammonia-ligase] adenylyltransferase
+552	3	1	Non-coding region
+553	2	6	branched-chain amino acid transaminase
+554	5	5	mitochondrial fission ELM1 family protein
+555	5	2	glycosyltransferase family protein
+556	2	4	polysaccharide deacetylase family protein
+557	5	1	glycosyltransferase family 2 protein
+558	2	3	glycosyltransferase
+559	4	0	glycosyl hydrolase Ghy
+560	4	4	glycosyltransferase family 25 protein
+561	2	5	lipooligosaccharide outer core biosynthesis glycosyltransferase GtrOC6
+562	6	5	hypothetical protein
+563	2	5	aspartate--tRNA ligase
+564	0	2	Non-coding region
+565	10	5	DUF4184 family protein
+566	2	3	zinc piracy TonB-dependent receptor ZnuD
+567	2	1	Non-coding region
+568	2	3	phospholipase D family protein
+569	1	0	Non-coding region
+570	3	5	hypothetical protein
+571	1	3	phosphate-starvation-inducible protein PsiE
+572	6	1	Non-coding region
+573	0	2	acyl-CoA dehydrogenase C-terminal domain-containing protein
+574	3	5	Non-coding region
+575	1	8	hypothetical protein
+576	1	2	sensor histidine kinase efflux regulator BaeS
+577	2	8	Non-coding region
+578	1	2	response regulator
+579	4	7	Non-coding region
+580	2	3	acyl-CoA desaturase
+581	1	1	META domain-containing protein
+582	1	2	glycerophosphodiester phosphodiesterase
+583	8	4	cob(I)yrinic acid a%2Cc-diamide adenosyltransferase
+584	4	5	Non-coding region
+585	4	7	Non-coding region
+586	6	6	phosphoribosylanthranilate isomerase
+587	0	2	DUF1543 domain-containing protein
+588	3	2	DUF2804 domain-containing protein
+589	3	7	metal-dependent hydrolase
+590	3	2	AraC family transcriptional regulator
+591	3	8	tryptophan synthase subunit alpha
+592	5	10	acetyl-CoA carboxylase%2C carboxyltransferase subunit beta
+593	2	1	bifunctional tetrahydrofolate synthase/dihydrofolate synthase
+594	5	2	SPOR domain-containing protein
+595	3	7	dual specificity protein phosphatase family protein
+596	2	4	MBL fold metallo-hydrolase
+597	8	13	peroxiredoxin
+598	6	3	preprotein translocase subunit SecA
+599	4	2	Non-coding region
+600	6	3	Non-coding region
+601	5	5	hypothetical protein
+602	11	13	Non-coding region
+603	4	5	PAQR family membrane homeostasis protein TrhA
+604	5	2	class I SAM-dependent methyltransferase
+605	1	3	GNAT family N-acetyltransferase
+606	3	6	hypothetical protein
+607	2	1	3-hydroxyacyl-CoA dehydrogenase NAD-binding domain-containing protein
+608	2	3	Non-coding region
+609	3	10	acetyl-CoA C-acetyltransferase
+610	33	34	AraC family transcriptional regulator
+611	3	6	CaiB/BaiF CoA transferase family protein
+612	3	1	Non-coding region
+613	2	18	carbohydrate porin
+614	1	3	glucose/quinate/shikimate family membrane-bound PQQ-dependent dehydrogenase
+615	5	3	Non-coding region
+616	2	7	Non-coding region
+617	2	3	nitrite/sulfite reductase
+618	6	4	DUF934 domain-containing protein
+619	6	10	DMT family transporter
+620	6	14	thiolase family protein
+621	11	33	GspH/FimT family pseudopilin
+622	7	4	outer membrane protein Omp38
+623	0	3	hypothetical protein
+624	4	4	Non-coding region
+625	5	3	amino acid permease
+626	4	3	methyltransferase
+627	7	5	uracil-xanthine permease family protein
+628	1	3	Non-coding region
+629	1	4	translational GTPase TypA
+630	3	5	Non-coding region
+631	3	2	large conductance mechanosensitive channel protein MscL
+632	13	3	gamma-glutamylcyclotransferase family protein
+633	13	1	DNA-3-methyladenine glycosylase
+634	12	3	TonB-dependent receptor family protein
+635	39	5	Non-coding region
+636	24	4	NADH:flavin oxidoreductase/NADH oxidase
+637	28	5	AEC family transporter
+638	63	2	tetratricopeptide repeat protein
+639	29	20	DsbC family protein
+640	8	7	CAF17-like 4Fe-4S cluster assembly/insertion protein YgfZ
+641	20	6	SRPBCC family protein
+642	15	3	zinc ribbon domain-containing protein YjdM
+643	15	9	proline--tRNA ligase
+644	11	2	Non-coding region
+645	17	6	efflux RND transporter permease subunit
+646	13	3	Non-coding region
+647	9	2	Non-coding region
+648	6	4	efflux RND transporter periplasmic adaptor subunit
+649	5	3	hypothetical protein
+650	2	5	twitching motility response regulator PilG
+651	6	3	chemotaxis protein CheW
+652	11	8	Non-coding region
+653	12	1	Non-coding region
+654	21	4	Hpt domain-containing protein
+655	19	18	Non-coding region
+656	17	6	Non-coding region
+657	9	9	Non-coding region
+658	16	4	hypothetical protein
+659	8	4	succinyl-diaminopimelate desuccinylase
+660	7	5	entericidin A/B family lipoprotein
+661	7	8	YbaN family protein
+662	3	7	cell wall-recycling L%2CD-carboxypeptidase ElsL
+663	13	8	YdcF family protein
+664	4	7	PepSY domain-containing protein
+665	5	2	Non-coding region
+666	15	5	Non-coding region
+667	14	7	SdpI family protein
+668	9	5	Non-coding region
+669	10	6	Non-coding region
+670	16	6	multidrug effflux MFS transporter
+671	7	4	nitroreductase
+672	9	0	hypothetical protein
+673	5	6	hypothetical protein
+674	6	3	patatin-like phospholipase family protein
+675	4	0	Non-coding region
+676	6	3	threonine ammonia-lyase
+677	13	2	peptide antibiotic transporter SbmA
+678	6	2	Non-coding region
+679	6	3	M13 family metallopeptidase
+680	12	4	Non-coding region
+681	12	8	DUF4850 domain-containing protein
+682	10	2	DUF1176 domain-containing protein
+683	12	5	hypothetical protein
+684	14	4	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB
+685	8	3	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA
+686	7	0	Non-coding region
+687	8	5	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatC
+688	9	2	Non-coding region
+689	8	2	rod shape-determining protein MreC
+690	5	3	Maf-like protein
+691	5	3	ribonuclease G
+692	11	1	PA1571 family protein
+693	7	4	Non-coding region
+694	24	4	phosphoadenylyl-sulfate reductase
+695	6	4	bifunctional phosphoserine phosphatase/homoserine phosphotransferase ThrH
+696	10	4	Non-coding region
+697	8	3	Non-coding region
+698	6	5	NAD(P)H-dependent oxidoreductase
+699	9	4	fatty acid desaturase family protein
+700	11	3	Non-coding region
+701	12	3	PaaX family transcriptional regulator C-terminal domain-containing protein
+702	0	3	undecaprenyl-diphosphate phosphatase
+703	13	7	AraC family transcriptional regulator
+704	4	3	NAD(P)H-quinone oxidoreductase
+705	14	6	glyoxalase III HchA
+706	7	8	amino acid permease
+707	11	3	Non-coding region
+708	2	5	2-methylaconitate cis-trans isomerase PrpF
+709	8	9	polyprenyl synthetase family protein
+710	7	5	MmcQ/YjbR family DNA-binding protein
+711	12	2	NfeD family protein
+712	4	2	patatin-like phospholipase family protein
+713	8	2	lysophospholipid acyltransferase family protein
+714	5	2	MFS transporter
+715	7	6	DcaP family trimeric outer membrane transporter
+716	8	4	Non-coding region
+717	6	10	phosphoethanolamine transferase
+718	12	4	Non-coding region
+719	4	5	response regulator transcription factor
+720	8	3	Non-coding region
+721	13	10	phosphatase PAP2 family protein
+722	4	5	Non-coding region
+723	9	5	LysR family transcriptional regulator
+724	7	4	AEC family transporter
+725	7	3	hypothetical protein
+726	7	7	methyltransferase domain-containing protein
+727	9	7	valine--tRNA ligase
+728	9	8	Non-coding region
+729	15	7	Non-coding region
+730	6	3	hypothetical protein
+731	9	6	nuclear transport factor 2 family protein
+732	6	4	YbjQ family protein
+733	5	3	multidrug efflux RND transporter outer membrane channel subunit AdeK
+734	12	4	multidrug efflux RND transporter permease subunit AdeJ
+735	5	6	Non-coding region
+736	19	8	Non-coding region
+737	14	8	multidrug efflux RND transporter periplasmic adaptor subunit AdeI
+738	11	6	Non-coding region
+739	9	4	phosphatase PAP2 family protein
+740	15	2	Non-coding region
+741	3	4	All-trans-nonaprenyl-diphosphate synthase
+742	2	4	Non-coding region
+743	111	164	hypothetical protein
+744	5	2	outer membrane lipoprotein chaperone LolA
+745	5	4	RsiV family protein
+746	3	0	Non-coding region
+747	3	3	siroheme synthase CysG
+748	8	4	tRNA (cytidine(34)-2'-O)-methyltransferase
+749	4	4	winged helix-turn-helix transcriptional regulator
+750	8	8	APC family permease
+751	6	7	Non-coding region
+752	5	4	iron-containing alcohol dehydrogenase
+753	5	3	hypothetical protein
+754	3	2	YbeD family protein
+755	3	2	RNA polymerase sigma factor RpoD
+756	4	3	Non-coding region
+757	5	5	PA3496 family putative envelope integrity protein
+758	8	5	oxygen-dependent tRNA uridine(34) hydroxylase TrhO
+759	5	3	DUF1289 domain-containing protein
+760	5	4	Non-coding region
+761	6	4	Non-coding region
+762	6	4	succinate dehydrogenase%2C cytochrome b556 subunit
+763	5	4	Non-coding region
+764	2	5	succinate dehydrogenase iron-sulfur subunit
+765	3	0	hypothetical protein
+766	8	4	Non-coding region
+767	6	5	Non-coding region
+768	6	5	2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase
+769	4	3	Non-coding region
+770	2	2	dihydrolipoyl dehydrogenase
+771	3	5	ADP-forming succinate--CoA ligase subunit beta
+772	5	3	succinate--CoA ligase subunit alpha
+773	7	5	Non-coding region
+774	18	34	tryptophan--tRNA ligase
+775	11	6	DUF808 domain-containing protein
+776	5	16	KPN_02809 family neutral zinc metallopeptidase
+777	10	4	cation:proton antiporter
+778	4	4	Non-coding region
+779	3	9	Ig-like domain-containing protein
+780	5	11	Non-coding region
+781	4	3	Non-coding region
+782	11	7	Non-coding region
+783	4	3	Non-coding region
+784	5	7	Non-coding region
+785	4	3	Ig-like domain-containing protein
+786	5	4	hypothetical protein
+787	4	6	Non-coding region
+788	13	2	Non-coding region
+789	9	9	Ig-like domain-containing protein
+790	3	2	BapA/Bap/LapF family large adhesin
+791	5	0	Non-coding region
+792	5	2	Non-coding region
+793	1	4	Non-coding region
+794	7	6	Non-coding region
+795	6	8	Non-coding region
+796	6	1	Non-coding region
+797	4	9	Non-coding region
+798	4	7	Non-coding region
+799	6	1	Non-coding region
+800	14	4	Non-coding region
+801	25	5	poly alpha-glucosyltransferase
+802	10	7	Non-coding region
+803	8	6	CapA family protein
+804	6	5	Non-coding region
+805	5	4	metalloprotease
+806	11	2	MGMT family protein
+807	2	2	RidA family protein
+808	17	4	TetR/AcrR family transcriptional regulator
+809	5	1	carbamoyl-phosphate synthase large subunit
+810	6	6	Non-coding region
+811	10	5	Non-coding region
+812	14	11	glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit
+813	9	5	Non-coding region
+814	2	4	hypothetical protein
+815	5	1	ribosome assembly RNA-binding protein YhbY
+816	3	3	ATP-dependent zinc metalloprotease FtsH
+817	10	3	Non-coding region
+818	9	4	dihydropteroate synthase
+819	14	10	DUF5713 family protein
+820	2	3	hypothetical protein
+821	3	4	Non-coding region
+822	6	3	bifunctional methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase FolD
+823	7	7	Non-coding region
+824	4	2	class I SAM-dependent methyltransferase
+825	33	7	MFS transporter
+826	15	9	glycerol kinase GlpK
+827	14	1	Non-coding region
+828	3	5	glycerol-3-phosphate dehydrogenase
+829	17	6	Non-coding region
+830	28	3	phosphoenolpyruvate carboxykinase (GTP)
+831	8	8	Non-coding region
+832	7	4	diacylglycerol/lipid kinase family protein
+833	4	5	metallophosphoesterase family protein
+834	13	3	biofilm-associated Ig-like repeat protein Blp1
+835	10	8	Non-coding region
+836	4	1	Non-coding region
+837	10	4	Non-coding region
+838	5	2	Non-coding region
+839	18	5	Non-coding region
+840	39	2	Non-coding region
+842	14	7	Non-coding region
+843	8	7	Non-coding region
+844	8	11	co-chaperone GroES
+845	6	11	Non-coding region
+846	2	3	diacylglycerol kinase
+847	4	4	MBL fold metallo-hydrolase
+848	6	5	glycerophosphodiester phosphodiesterase
+849	8	9	multidrug efflux RND transporter permease subunit
+850	10	9	Non-coding region
+851	7	7	Non-coding region
+852	9	6	DUF4112 domain-containing protein
+853	5	3	protease HtpX
+854	7	5	lytic transglycosylase domain-containing protein
+855	5	3	tRNA 2-thiocytidine(32) synthetase TtcA
+856	3	3	SCP2 sterol-binding domain-containing protein
+857	2	4	transglycosylase SLT domain-containing protein
+858	9	8	transcription elongation factor GreB
+859	11	4	Non-coding region
+860	14	7	PucR family transcriptional regulator
+861	5	2	NAD(P)/FAD-dependent oxidoreductase
+862	8	3	Non-coding region
+863	13	4	cupin domain-containing protein
+864	11	1	Non-coding region
+865	9	3	amino acid permease
+866	16	5	Non-coding region
+867	17	5	Non-coding region
+868	23	6	hypothetical protein
+869	30	7	hypothetical protein
+870	13	3	Non-coding region
+871	6	3	helix-turn-helix transcriptional regulator
+872	7	4	YagK/YfjJ domain-containing protein
+873	7	1	hypothetical protein
+874	7	8	hypothetical protein
+875	4	6	nucleoid-associated protein
+876	7	5	hypothetical protein
+877	16	21	Non-coding region
+878	6	5	hypothetical protein
+879	5	8	Non-coding region
+880	6	5	hypothetical protein
+881	12	4	hypothetical protein
+882	2	6	hypothetical protein
+883	11	7	YqaJ-like viral recombinase
+884	24	18	UvrD-helicase domain-containing protein
+885	9	6	Non-coding region
+886	4	5	Non-coding region
+887	5	2	hypothetical protein
+888	9	9	TetR/AcrR family transcriptional regulator
+889	10	9	Non-coding region
+890	9	3	Non-coding region
+891	8	19	T6SS immunity protein Tli4 family protein
+892	7	6	esterase/lipase family protein
+893	4	5	Non-coding region
+894	5	12	VENN motif pre-toxin domain-containing protein
+895	6	6	AraC family transcriptional regulator
+896	1	8	Non-coding region
+897	6	6	1-aminocyclopropane-1-carboxylate deaminase/D-cysteine desulfhydrase
+898	11	8	restriction endonuclease
+899	10	8	DUF6388 family protein
+900	4	3	hypothetical protein
+901	7	5	citrulline utilization hydrolase CtlX
+902	8	2	amino acid permease
+903	13	6	Glu/Leu/Phe/Val family dehydrogenase
+904	35	25	Non-coding region
+905	6	7	aspartate aminotransferase family protein
+906	5	5	arginine N-succinyltransferase
+907	1	4	succinylglutamate-semialdehyde dehydrogenase
+908	6	6	Non-coding region
+909	4	4	succinylglutamate desuccinylase
+910	117	123	MFS transporter
+911	8	6	class II aldolase/adducin family protein
+912	6	2	2-hydroxyacid dehydrogenase
+913	8	4	Zn-dependent hydrolase
+914	7	2	histone deacetylase family protein
+915	8	15	LysR family transcriptional regulator
+916	26	14	helix-turn-helix transcriptional regulator
+917	12	22	hypothetical protein
+918	8	9	hypothetical protein
+919	11	16	transposase
+920	7	11	hypothetical protein
+921	31	59	hypothetical protein
+922	5	18	asparaginase
+923	9	12	nuclear transport factor 2 family protein
+924	14	25	helix-turn-helix domain-containing protein
+925	11	22	Non-coding region
+926	6	12	FAD-dependent monooxygenase
+927	5	9	aldehyde dehydrogenase family protein
+928	8	9	NAD(P)-dependent alcohol dehydrogenase
+929	4	7	tyrosine-type recombinase/integrase
+930	43	21	Non-coding region
+931	13	14	SgcJ/EcaC family oxidoreductase
+932	7	12	delta-poly-L-ornithine synthetase PosA
+933	15	15	Non-coding region
+934	11	12	Non-coding region
+935	6	7	Non-coding region
+936	31	24	GNAT family N-acetyltransferase
+937	23	16	YjhX family toxin
+938	8	5	hypothetical protein
+939	8	9	hypothetical protein
+940	10	10	hypothetical protein
+941	3	3	IS3 family transposase
+942	16	5	transposase
+943	11	7	metal-dependent hydrolase
+944	7	3	TetR/AcrR family transcriptional regulator
+945	14	15	nitroreductase family protein
+946	6	6	TetR/AcrR family transcriptional regulator
+947	12	6	glycerate kinase
+948	12	18	FdhF/YdeP family oxidoreductase
+949	5	8	Non-coding region
+950	11	6	Non-coding region
+951	5	3	formate dehydrogenase accessory sulfurtransferase FdhD
+952	13	13	YkvA family protein
+953	6	4	EF-P lysine aminoacylase EpmA
+954	15	10	Tim44 domain-containing protein
+955	10	12	Non-coding region
+956	6	6	DNA repair protein RadA
+957	4	6	amino acid permease
+958	8	10	Non-coding region
+959	13	8	LPS translocon maturation chaperone LptM
+960	7	9	diaminopimelate epimerase
+961	11	8	ADP-ribosylglycohydrolase family protein
+962	14	13	alpha/beta fold hydrolase
+963	6	3	LysE family translocator
+964	5	2	site-specific tyrosine recombinase/integron integrase
+965	4	3	electron transfer flavoprotein subunit beta/FixA family protein
+966	7	7	electron transfer flavoprotein subunit alpha/FixB family protein
+967	5	2	DNA gyrase subunit A
+968	16	14	Non-coding region
+969	18	5	Non-coding region
+970	6	6	ArnT family glycosyltransferase
+971	13	9	Non-coding region
+972	2	10	GtrA family protein
+973	4	9	ChbG/HpnK family deacetylase
+974	6	7	A1S_2622 family ABC transporter permease subunit
+975	20	15	ABC transporter permease
+976	12	9	HlyD family secretion protein
+977	4	6	TolC family protein
+978	20	17	Non-coding region
+979	7	3	3-phosphoserine/phosphohydroxythreonine transaminase
+980	3	32	hypothetical protein
+981	3	7	hypothetical protein
+982	17	17	YaiI/YqxD family protein
+983	8	4	PilZ domain-containing protein
+984	26	30	Non-coding region
+985	11	10	lipoprotein-releasing ABC transporter ATP-binding protein LolD
+986	15	22	Non-coding region
+987	9	18	Non-coding region
+988	7	21	lysophospholipid acyltransferase family protein
+989	16	27	signal peptide peptidase SppA
+990	9	14	alpha/beta fold hydrolase
+991	7	15	phosphoribosylglycinamide formyltransferase
+992	9	9	Non-coding region
+993	7	5	chloramphenicol efflux transporter CxpE
+994	7	15	DnaA regulatory inactivator Hda
+995	7	12	rhombotarget A
+996	4	14	Non-coding region
+997	8	19	CSLREA domain-containing protein
+998	9	7	Non-coding region
+999	6	15	DUF3106 domain-containing protein
+1000	11	11	hypothetical protein
+1001	9	13	TrmH family RNA methyltransferase
+1002	7	10	class 1 fructose-bisphosphatase
+1003	17	10	NF038105 family protein
+1004	12	15	Tol-Pal system beta propeller repeat protein TolB
+1005	17	19	cell envelope integrity protein TolA
+1006	11	10	protein TolR
+1007	13	19	protein TolQ
+1008	8	9	M20 family metallopeptidase
+1009	9	14	Non-coding region
+1010	13	11	Holliday junction branch migration DNA helicase RuvB
+1011	8	3	Holliday junction branch migration protein RuvA
+1012	11	5	Non-coding region
+1013	10	9	phosphoribosylformylglycinamidine synthase
+1014	8	7	Non-coding region
+1015	8	11	Non-coding region
+1016	8	10	Non-coding region
+1017	21	22	multidrug effflux MFS transporter
+1018	7	15	KGW motif small protein
+1019	11	10	NIF3 1
+1020	11	11	nicotinate-nicotinamide nucleotide adenylyltransferase
+1021	13	8	peroxiredoxin
+1022	66	106	Dph6-related ATP pyrophosphatase
+1023	25	16	7-cyano-7-deazaguanine synthase QueC
+1024	12	14	2%2C3%2C4%2C5-tetrahydropyridine-2%2C6-dicarboxylate N-succinyltransferase
+1025	18	11	ornithine uptake porin CarO type 1
+1026	8	9	CysB family HTH-type transcriptional regulator
+1027	9	15	sulfate/molybdate ABC transporter ATP-binding protein
+1028	5	10	sulfate ABC transporter permease subunit CysW
+1029	5	8	sulfate ABC transporter permease subunit CysT
+1030	24	7	RBBP9/YdeN family alpha/beta hydrolase
+1031	35	19	sulfate ABC transporter substrate-binding protein
+1032	33	7	aminodeoxychorismate lyase
+1033	33	8	endolytic transglycosylase MltG
+1034	26	6	dTMP kinase
+1035	66	78	PaaI family thioesterase
+1036	14	11	Non-coding region
+1037	14	14	Do family serine endopeptidase
+1038	18	13	acyl-CoA thioesterase
+1039	8	6	GNAT family N-acetyltransferase
+1040	7	12	translation elongation factor 4
+1041	7	2	Non-coding region
+1042	17	12	signal peptidase I
+1043	7	9	ribonuclease III
+1044	8	10	Non-coding region
+1045	8	11	NF038104 family lipoprotein
+1046	11	31	tRNA-(ms[2]io[6]A)-hydroxylase
+1047	8	8	SDR family oxidoreductase
+1048	7	13	hypothetical protein
+1049	6	18	PaaI family thioesterase
+1050	5	12	Hsp70 family protein
+1051	6	4	Non-coding region
+1052	8	6	hypothetical protein
+1053	16	27	Non-coding region
+1054	9	8	pyridoxal phosphate-dependent aminotransferase
+1055	7	14	Non-coding region
+1056	8	7	hypothetical protein
+1057	13	8	A1S_2505 family phage non-structural protein
+1058	9	17	excinuclease ABC subunit UvrB
+1059	8	5	Non-coding region
+1060	6	3	lipocalin family protein
+1061	8	10	EamA family transporter RarD
+1062	5	3	glyceraldehyde-3-phosphate dehydrogenase
+1063	5	0	Non-coding region
+1064	10	15	hypothetical protein
+1065	10	6	hypothetical protein
+1066	12	11	Obg family GTPase CgtA
+1067	18	14	glutamate 5-kinase
+1068	1	7	HAD-IB family hydrolase
+1069	7	8	DUF1615 domain-containing protein
+1070	6	6	tRNA dihydrouridine synthase DusB
+1071	8	10	NAD(P)H-dependent flavin oxidoreductase
+1072	16	9	VIT1/CCC1 transporter family protein
+1073	3	5	tetratricopeptide repeat protein
+1074	5	3	non-hydrolyzing UDP-N-acetylglucosamine 2-epimerase
+1075	2	2	hypothetical protein
+1076	6	4	hypothetical protein
+1077	11	20	Non-coding region
+1078	13	7	glycosyltransferase family 2 protein
+1079	10	13	hypothetical protein
+1080	13	14	hypothetical protein
+1081	8	13	cryptochrome/photolyase family protein
+1082	12	11	Non-coding region
+1083	8	8	FKBP-type peptidyl-prolyl cis-trans isomerase
+1084	8	5	Non-coding region
+1085	10	8	D-alanyl-D-alanine carboxypeptidase PBP6B
+1086	18	18	M61 family metallopeptidase
+1087	12	12	Non-coding region
+1088	10	32	NADP-dependent isocitrate dehydrogenase
+1089	11	8	Non-coding region
+1090	11	10	Non-coding region
+1091	15	12	rRNA large subunit pseudouridine synthase E
+1092	8	5	NADP-dependent isocitrate dehydrogenase
+1093	12	9	hypothetical protein
+1094	7	3	hypothetical protein
+1095	6	9	Non-coding region
+1096	7	3	LysR family transcriptional regulator
+1097	11	6	L-cystine transporter
+1098	11	13	PhzF family phenazine biosynthesis protein
+1099	10	14	M16 family metallopeptidase
+1100	8	6	Non-coding region
+1101	7	6	Non-coding region
+1102	16	14	DUF3144 domain-containing protein
+1103	10	21	CYTH and CHAD domain-containing protein
+1104	12	22	Non-coding region
+1105	12	25	DUF962 domain-containing protein
+1106	6	9	glutamate-1-semialdehyde 2%2C1-aminomutase
+1107	19	22	phosphopantetheine-binding protein
+1108	17	18	RluA family pseudouridine synthase
+1109	16	23	RNA polymerase-associated protein RapA
+1110	10	15	Non-coding region
+1111	8	14	Non-coding region
+1112	17	22	AI-2E family transporter
+1113	18	30	HTH-type transcriptional repressor FabR
+1114	14	21	ferredoxin reductase
+1115	10	15	fatty acid desaturase family protein
+1116	7	9	NAD(P)H-dependent oxidoreductase
+1117	19	22	LysR family transcriptional regulator
+1118	8	14	SIMPL domain-containing protein
+1119	21	24	diaminobutyrate--2-oxoglutarate transaminase
+1120	4	6	pyridoxal phosphate-dependent decarboxylase family protein
+1121	10	17	Non-coding region
+1122	4	8	aldehyde dehydrogenase family protein
+1123	11	4	Non-coding region
+1124	13	4	Lrp/AsnC family transcriptional regulator
+1125	16	22	Non-coding region
+1126	12	13	amino acid permease
+1127	16	15	Non-coding region
+1128	15	10	substrate-binding domain-containing protein
+1129	21	19	phosphate ABC transporter permease subunit PstC
+1130	25	19	phosphate ABC transporter permease PstA
+1131	7	9	Non-coding region
+1132	4	43	phosphate ABC transporter ATP-binding protein PstB
+1133	8	39	protease SohB
+1134	6	16	Ig-like repeat protein Blp2
+1135	11	10	Non-coding region
+1136	9	5	DUF2238 domain-containing protein
+1137	16	6	adenylosuccinate lyase
+1138	12	10	Non-coding region
+1139	11	10	high frequency lysogenization protein HflD
+1140	15	18	NUDIX hydrolase
+1141	11	12	gamma carbonic anhydrase family protein
+1142	5	8	D-alanyl-D-alanine carboxypeptidase PBP5/6
+1143	2	8	MCR_0457 family protein
+1144	7	12	5'/3'-nucleotidase SurE
+1145	7	4	peptidoglycan DD-metalloendopeptidase family protein
+1146	14	17	LysR family transcriptional regulator
+1147	11	10	Lon protease family protein
+1148	12	15	Non-coding region
+1149	13	11	Non-coding region
+1150	10	9	AmpG family muropeptide MFS transporter
+1151	17	13	Non-coding region
+1152	13	14	lactoylglutathione lyase
+1153	19	12	50S ribosomal protein L31
+1154	27	21	EAL domain-containing protein
+1155	9	10	Non-coding region
+1156	7	9	hypothetical protein
+1157	7	7	Non-coding region
+1158	9	10	EF-P beta-lysylation protein EpmB
+1159	11	16	elongation factor P
+1160	6	6	Non-coding region
+1161	7	11	Non-coding region
+1162	5	2	YbdD/YjiX family protein
+1163	12	8	Non-coding region
+1164	17	10	Non-coding region
+1165	17	8	Non-coding region
+1166	9	4	PaaX family transcriptional regulator C-terminal domain-containing protein
+1167	4	2	SDR family oxidoreductase
+1168	13	4	fatty acid desaturase family protein
+1169	9	1	fatty acid desaturase family protein
+1170	4	4	metal-dependent hydrolase
+1171	5	2	hydrolase
+1172	5	4	LysR substrate-binding domain-containing protein
+1173	5	11	S1 family peptidase
+1174	54	48	flavin-containing monooxygenase
+1175	12	9	alpha/beta fold hydrolase
+1176	7	2	metal-dependent hydrolase
+1177	3	20	NAD-dependent epimerase/dehydratase family protein
+1178	4	7	Non-coding region
+1179	9	2	AraC family transcriptional regulator
+1180	8	2	hypothetical protein
+1181	7	7	hypothetical protein
+1182	12	8	Non-coding region
+1183	11	10	TetR/AcrR family transcriptional regulator
+1184	7	9	hypothetical protein
+1185	12	9	threo-3-hydroxy-L-aspartate ammonia-lyase
+1186	13	18	Non-coding region
+1187	6	8	helix-turn-helix transcriptional regulator
+1188	14	16	acinetobactin non-ribosomal peptide synthetase subunit BasA
+1189	5	4	Non-coding region
+1190	8	6	acinetobactin non-ribosomal peptide synthetase subunit BasB
+1191	3	12	Non-coding region
+1192	9	7	Non-coding region
+1193	9	9	ferric acinetobactin ABC transporter permease subunit BauD
+1194	15	15	ferric acinetobactin ABC transporter permease subunit BauC
+1195	8	8	ferric acinetobactin ABC transporter ATP-binding protein BauE
+1196	8	10	siderophore-binding periplasmic lipoprotein BauB
+1197	8	9	TonB-dependent receptor
+1198	13	7	Non-coding region
+1199	7	4	putative histamine N-monooxygenase
+1200	11	4	acinetobactin non-ribosomal peptide synthetase subunit BasD
+1201	9	6	Non-coding region
+1202	5	11	Non-coding region
+1203	14	8	Non-coding region
+1204	10	24	(2%2C3-dihydroxybenzoyl)adenylate synthase BasE
+1205	15	17	acinetobactin biosynthesis bifunctional isochorismatase/aryl carrier protein BasF
+1206	19	15	acinetobactin biosynthesis histidine decarboxylase BasG
+1272	25	10	translation elongation factor Ts
+1273	26	3	DUF3465 domain-containing protein
+1274	7	8	AzlC family ABC transporter permease
+1275	9	6	AzlD domain-containing protein
+1276	5	3	septal ring lytic transglycosylase RlpA family protein
+1277	7	3	lytic murein transglycosylase B
+1278	10	3	rod shape-determining protein RodA
+1279	8	5	Non-coding region
+1280	8	2	hypothetical protein
+1281	5	3	ABC transporter permease
+1282	4	7	ABC transporter ATP-binding protein
+1283	8	2	site-specific integrase
+1284	9	5	hypothetical protein
+1285	6	7	hypothetical protein
+1286	20	17	RecT family recombinase
+1287	47	30	hypothetical protein
+1288	23	15	hypothetical protein
+1289	27	5	hypothetical protein
+1290	38	1	Cro/CI family transcriptional regulator
+1291	49	4	HNH endonuclease
+1292	3	2	ATP-binding protein
+1293	6	8	hypothetical protein
+1294	4	6	hypothetical protein
+1295	9	1	hypothetical protein
+1296	3	3	hypothetical protein
+1297	9	12	Non-coding region
+1298	7	5	Bbp19 family protein
+1299	5	5	hypothetical protein
+1304	11	8	methyl-coenzyme M reductase
+1305	6	8	Non-coding region
+1306	10	3	lytic transglycosylase domain-containing protein
+1307	8	2	Non-coding region
+1308	3	4	Non-coding region
+1309	11	2	hypothetical protein
+1310	4	4	Non-coding region
+1311	3	3	hypothetical protein
+1312	10	4	DUF1974 domain-containing protein
+1313	4	5	Non-coding region
+1314	8	13	SGNH/GDSL hydrolase family protein
+1315	6	3	Non-coding region
+1316	3	7	hypothetical protein
+1317	13	2	holin
+1318	30	11	hypothetical protein
+1319	4	4	putative quorum-sensing-regulated virulence factor
+1320	9	9	alpha/beta fold hydrolase
+1321	1	5	Non-coding region
+1322	5	2	hypothetical protein
+1323	3	0	multidrug efflux RND transporter outer membrane subunit AdeH
+1324	11	5	multidrug efflux RND transporter permease subunit AdeG
+1325	11	3	Non-coding region
+1326	4	4	Non-coding region
+1327	13	5	Non-coding region
+1328	3	0	multidrug efflux RND transporter periplasmic adaptor subunit AdeF
+1373	4	8	SixA phosphatase family protein
+1374	10	5	type II secretion system protein GspL
+1375	7	2	type II secretion system protein GspM
+1376	13	10	CvpA family protein
+1377	14	2	amidophosphoribosyltransferase
+1378	3	3	M48 family metalloprotease
+1379	8	4	Non-coding region
+1380	5	2	hypothetical protein
+1381	22	20	2-hydroxyacid dehydrogenase
+1382	12	7	M48 family metalloprotease
+1383	14	3	Non-coding region
+1384	5	4	GatB/YqeY domain-containing protein
+1385	5	5	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex transferase subunit TsaD
+1386	6	4	DUF6670 family protein
+1387	9	2	ATP-binding protein
+1388	9	9	DUF3336 domain-containing protein
+1389	3	7	protein kinase domain-containing protein
+1390	7	2	Non-coding region
+1391	11	2	ShlB/FhaC/HecB family hemolysin secretion/activation protein
+1392	9	6	Non-coding region
+1393	13	4	two-partner secretion domain-containing protein
+1394	5	6	Non-coding region
+1395	9	7	Non-coding region
+1396	16	6	Non-coding region
+1397	8	5	Non-coding region
+1398	7	7	Non-coding region
+1399	17	5	Non-coding region
+1400	10	13	Non-coding region
+1401	5	6	Non-coding region
+1402	8	7	Non-coding region
+1403	3	4	Non-coding region
+1404	5	2	Non-coding region
+1405	3	4	hypothetical protein
+1406	4	7	hypothetical protein
+1407	7	4	hypothetical protein
+1408	3	3	hypothetical protein
+1409	10	10	Non-coding region
+1410	10	13	hypothetical protein
+1411	18	10	hypothetical protein
+1412	7	4	hypothetical protein
+1413	8	8	transposase
+1414	3	14	Non-coding region
+1415	7	24	TetR/AcrR family transcriptional regulator
+1416	22	20	aspartate aminotransferase family protein
+1417	28	86	Non-coding region
+1418	10	30	CoA-acylating methylmalonate-semialdehyde dehydrogenase
+1419	9	9	Non-coding region
+1420	14	7	amino acid permease
+1421	3	4	DUF2171 domain-containing protein
+1422	3	7	acyl-CoA dehydrogenase
+1423	7	9	PIG-L deacetylase family protein
+1424	4	1	glycosyltransferase
+1425	5	4	NirD/YgiW/YdeI family stress tolerance protein
+1426	2	8	hypothetical protein
+1427	4	6	LysE family translocator
+1428	14	4	alpha/beta fold hydrolase
+1429	14	4	Non-coding region
+1430	7	9	sodium/glutamate symporter
+1431	6	5	ATP-binding protein
+1432	11	6	FadR/GntR family transcriptional regulator
+1433	11	4	hypothetical protein
+1434	2	5	Csu fimbrial major subunit CsuAB
+1435	7	4	Csu fimbrial biogenesis protein CsuA
+1477	4	16	methionine ABC transporter permease
+1478	7	11	methionine ABC transporter ATP-binding protein
+1479	1	6	MetQ/NlpA family ABC transporter substrate-binding protein
+1480	12	8	phosphoribosylamine--glycine ligase
+1481	6	1	bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase
+1482	10	2	Non-coding region
+1483	9	14	DNA-binding transcriptional regulator Fis
+1484	4	3	zinc-ribbon and DUF3426 domain-containing protein
+1485	2	8	hypothetical protein
+1486	7	14	tRNA uridine-5-carboxymethylaminomethyl(34) synthesis enzyme MnmG
+1487	1	3	Non-coding region
+1488	7	1	helix-turn-helix transcriptional regulator
+1489	9	5	circularly permuted type 2 ATP-grasp protein
+1490	4	6	Non-coding region
+1491	8	9	alpha-E domain-containing protein
+1492	6	3	transglutaminase family protein
+1493	14	5	alanine racemase
+1494	6	5	replicative DNA helicase
+1495	3	8	Non-coding region
+1496	5	7	50S ribosomal protein L9
+1497	8	4	30S ribosomal protein S6
+1498	10	6	cytochrome o ubiquinol oxidase subunit IV
+1499	11	2	cytochrome o ubiquinol oxidase subunit I
+1500	11	4	Non-coding region
+1501	1	4	ubiquinol oxidase subunit II
+1502	6	5	RDD family protein
+1503	6	4	phosphoenolpyruvate synthase
+1504	5	2	Non-coding region
+1505	6	5	Non-coding region
+1506	15	3	posphoenolpyruvate synthetase regulatory kinase/phosphorylase PpsR
+1507	14	6	poly-beta-1%2C6 N-acetyl-D-glucosamine exporter porin PgaA
+1508	16	6	Non-coding region
+1509	8	2	poly-beta-1%2C6-N-acetyl-D-glucosamine N-deacetylase PgaB
+1510	5	7	Non-coding region
+1511	9	7	poly-beta-1%2C6-N-acetyl-D-glucosamine synthase
+1512	6	4	poly-beta-1%2C6-N-acetyl-D-glucosamine biosynthesis protein PgaD
+1513	5	8	hypothetical protein
+1514	7	5	LLM class flavin-dependent oxidoreductase
+1515	12	7	hypothetical protein
+1516	7	4	glycine zipper domain-containing protein
+1517	5	3	type 1 glutamine amidotransferase domain-containing protein
+1518	4	6	peptide chain release factor 1
+1519	6	5	peptide chain release factor N(5)-glutamine methyltransferase
+1520	10	4	ABC transporter permease
+1521	6	4	aliphatic sulfonate ABC transporter substrate-binding protein
+1522	21	8	AraC family transcriptional regulator
+1523	11	4	3-hydroxyacyl-CoA dehydrogenase
+1524	8	5	acyl-CoA dehydrogenase family protein
+1525	5	9	Non-coding region
+1526	14	4	AMP-binding protein
+1527	12	5	flavin reductase family protein
+1528	13	5	HesA/MoeB/ThiF family protein
+1529	11	8	ABC1 kinase family protein
+1530	9	6	dihydroneopterin aldolase
+1531	13	6	potassium-transporting ATPase subunit KdpA
+1532	11	3	Non-coding region
+1533	12	7	potassium-transporting ATPase subunit KdpB
+1534	7	3	Non-coding region
+1535	12	6	potassium-transporting ATPase subunit KdpC
+1536	8	6	sensor histidine kinase
+1537	7	8	Non-coding region
+1538	7	8	response regulator
+1539	3	2	glutamine synthetase family protein
+1540	8	3	Non-coding region
+1541	3	3	DUF2799 domain-containing protein
+1542	5	8	MFS transporter
+1543	18	6	Non-coding region
+1544	4	10	autotransporter assembly complex protein TamA
+1545	6	1	Non-coding region
+1546	6	3	translocation/assembly module TamB domain-containing protein
+1547	8	1	Non-coding region
+1548	15	4	Non-coding region
+1549	17	4	Non-coding region
+1550	11	4	Non-coding region
+1551	12	10	hypothetical protein
+1552	5	2	bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase
+1553	8	3	Non-coding region
+1554	2	6	hypothetical protein
+1555	10	2	ion transporter
+1556	9	6	MFS transporter
+1557	5	6	membrane protein
+1558	16	1	DUF4198 domain-containing protein
+1559	8	5	LysR family transcriptional regulator
+1560	8	2	DUF441 domain-containing protein
+1561	9	8	hypothetical protein
+1562	60	62	GNAT family N-acetyltransferase
+1563	4	3	pseudouridine synthase
+1564	7	9	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex ATPase subunit type 1 TsaE
+1565	73	53	Non-coding region
+1566	6	11	tRNA (adenosine(37)-N6)-dimethylallyltransferase MiaA
+1567	15	11	RNA chaperone Hfq
+1568	11	7	DMT family transporter
+1569	13	7	oxygen-insensitive NAD(P)H nitroreductase
+1570	22	24	hypothetical protein
+1571	23	9	peptidylprolyl isomerase
+1572	20	11	Non-coding region
+1573	14	8	glutamine amidotransferase
+1574	10	7	ethanolamine ammonia-lyase subunit EutC
+1575	14	15	ethanolamine ammonia-lyase subunit EutB
+1576	8	7	ethanolamine permease
+1577	11	11	Non-coding region
+1578	7	6	acetaldehyde dehydrogenase ExaC
+1579	13	5	Non-coding region
+1580	17	10	helix-turn-helix domain-containing protein
+1581	13	6	alpha/beta hydrolase
+1582	7	7	iron-dependent methanol dehydrogenase
+1583	26	15	Non-coding region
+1584	24	5	AAA family ATPase
+1585	32	13	5-carboxymethyl-2-hydroxymuconate Delta-isomerase
+1586	11	8	hydroxyethylthiazole kinase
+1587	8	4	hypothetical protein
+1588	4	3	hypothetical protein
+1589	8	13	aminopeptidase N
+1590	8	4	Non-coding region
+1591	8	2	Non-coding region
+1592	5	11	Csu type fimbrial protein
+1593	10	4	fimbria/pilus outer membrane usher protein
+1594	7	7	Non-coding region
+1595	13	5	Csu type fimbrial protein
+1596	1	4	Non-coding region
+1597	3	3	glutathione S-transferase family protein
+1598	8	8	SDR family NAD(P)-dependent oxidoreductase
+1599	6	3	chorismate mutase
+1600	6	4	Lrp/AsnC family transcriptional regulator
+1601	3	6	hypothetical protein
+1602	3	3	IS3 family transposase
+1603	10	2	TetR/AcrR family transcriptional regulator
+1604	10	4	TonB-dependent receptor
+1605	10	7	Non-coding region
+1606	48	3	Non-coding region
+1607	5	7	mechanosensitive ion channel family protein
+1608	3	3	hypothetical protein
+1609	4	4	hypothetical protein
+1610	7	5	hypothetical protein
+1611	7	6	TonB-dependent siderophore receptor
+1612	6	17	Non-coding region
+1613	2	4	Non-coding region
+1614	4	3	OmpW/AlkL family protein
+1615	7	19	hypothetical protein
+1616	10	38	ATP-binding cassette domain-containing protein
+1617	3	23	Non-coding region
+1618	20	7	universal stress protein
+1619	8	16	hypothetical protein
+1620	11	10	hypothetical protein
+1621	11	7	Non-coding region
+1622	12	8	Non-coding region
+1623	5	9	MgtC/SapB family protein
+1624	7	5	benzoate/H(+) symporter BenE family transporter
+1625	3	8	Lrp/AsnC family transcriptional regulator
+1626	2	6	leucine efflux protein LeuE
+1627	8	6	Non-coding region
+1628	2	5	HTH-type transcriptional regulator AceR
+1629	4	9	chlorhexidine efflux PACE transporter AceI
+1630	4	10	Non-coding region
+1631	7	6	3-oxoacyl-ACP reductase
+1632	10	12	MaoC family dehydratase
+1633	10	14	serine hydrolase domain-containing protein
+1634	14	1	Non-coding region
+1635	16	5	TetR family transcriptional regulator
+1636	10	16	Non-coding region
+1637	5	4	DNA polymerase III subunit gamma/tau
+1638	1	2	Non-coding region
+1639	9	12	phosphocholine-specific phospholipase C
+1640	6	6	Non-coding region
+1641	1	6	Non-coding region
+1642	6	3	acyl-CoA thioesterase
+1643	12	7	lactonase family protein
+1644	8	8	Non-coding region
+1645	4	7	low molecular weight protein-tyrosine-phosphatase
+1646	10	5	UDP-N-acetylmuramate dehydrogenase
+1647	5	1	YdcF family protein
+1648	30	5	alpha/beta hydrolase
+1649	6	12	hypothetical protein
+1650	7	1	Non-coding region
+1651	10	15	FMN-binding glutamate synthase family protein
+1652	13	7	PepSY-associated TM helix domain-containing protein
+1653	14	9	Non-coding region
+1654	13	7	TetR/AcrR family transcriptional regulator
+1655	8	4	iron-containing redox enzyme family protein
+1656	11	6	MFS transporter
+1657	70	6	Non-coding region
+1658	39	8	hypothetical protein
+1659	10	3	Non-coding region
+1660	18	12	acetyl-CoA carboxylase biotin carboxyl carrier protein
+1661	16	4	Y-family DNA polymerase
+1662	5	5	hypothetical protein
+1663	11	5	ABC transporter substrate-binding protein
+1664	13	12	ANTAR domain-containing response regulator
+1665	11	6	hypothetical protein
+1666	17	4	Non-coding region
+1667	11	4	nitrite reductase small subunit NirD
+1668	24	3	Non-coding region
+1669	15	5	nitrate reductase
+1670	25	8	Non-coding region
+1671	19	6	Non-coding region
+1672	33	9	molybdenum cofactor guanylyltransferase
+1673	58	34	molybdopterin-dependent oxidoreductase
+1674	38	7	Non-coding region
+1675	29	3	GTP 3'%2C8-cyclase MoaA
+1676	15	8	MoaD/ThiS family protein
+1677	18	7	bifunctional molybdenum cofactor biosynthesis protein MoaC/MoaB
+1678	14	5	molybdopterin molybdotransferase MoeA
+1679	20	3	winged helix-turn-helix transcriptional regulator
+1680	15	7	aminotransferase-like domain-containing protein
+1681	14	28	DMT family transporter
+1682	11	5	TusE/DsrC/DsvC family sulfur relay protein
+1683	6	6	hypothetical protein
+1684	18	9	UDP-glucose 4-epimerase GalE
+1685	14	15	class II fumarate hydratase
+1686	30	18	hypothetical protein
+1687	6	3	hypothetical protein
+1688	8	10	hypothetical protein
+1689	19	10	Non-coding region
+2230	4	20	crossover junction endodeoxyribonuclease RuvC
+2231	6	15	Non-coding region
+2232	11	25	tRNA epoxyqueuosine(34) reductase QueG
+2233	11	12	biotin synthase BioB
+2234	4	19	hypothetical protein
+2235	7	10	fimbrial protein
+2236	6	25	fimbrial biogenesis chaperone
+2237	4	13	Non-coding region
+2238	4	11	Non-coding region
+2239	2	12	fimbrial protein
+2240	7	22	hypothetical protein
+2241	4	22	LysR family transcriptional regulator
+2242	1	19	DMT family transporter
+2243	5	12	hypothetical protein
+2244	3	19	Non-coding region
+2245	5	5	PACE efflux transporter
+2246	5	5	Non-coding region
+2247	8	15	integrase family protein
+2248	15	7	Non-coding region
+2249	46	13	hypothetical protein
+2250	9	41	TetR/AcrR family transcriptional regulator
+2251	11	58	YebC/PmpR family DNA-binding transcriptional regulator
+2252	3	6	Lrp/AsnC family transcriptional regulator
+2253	4	11	DcaP family trimeric outer membrane transporter
+2254	6	10	amino acid ABC transporter ATP-binding protein
+2255	11	11	amino acid ABC transporter permease
+2256	6	9	amino acid ABC transporter permease
+2257	3	17	Non-coding region
+2258	0	5	glutathione S-transferase family protein
+2259	2	4	SfnB family sulfur acquisition oxidoreductase
+2260	6	9	SfnB family sulfur acquisition oxidoreductase
+2261	1	6	Non-coding region
+2262	5	17	LLM class flavin-dependent oxidoreductase
+2263	2	13	MetQ/NlpA family ABC transporter substrate-binding protein
+2264	3	7	MetQ/NlpA family ABC transporter substrate-binding protein
+2265	4	23	methionine ABC transporter ATP-binding protein
+2266	8	28	methionine ABC transporter permease
+2267	2	12	Non-coding region
+2268	3	22	Mpo1 family 2-hydroxy fatty acid dioxygenase
+2269	10	33	hypothetical protein
+2270	6	10	AzlC family ABC transporter permease
+2271	9	26	L-valine transporter subunit YgaH
+2272	2	24	formate-dependent phosphoribosylglycinamide formyltransferase
+2273	7	18	[protein-PII] uridylyltransferase
+2274	4	17	Non-coding region
+2275	5	41	Non-coding region
+2276	5	30	succinyldiaminopimelate transaminase
+2277	6	25	LysE family translocator
+2278	5	20	AraC family transcriptional regulator
+2279	3	33	peptide-methionine (R)-S-oxide reductase MsrB
+2280	12	17	pyridoxal phosphate-dependent aminotransferase
+2281	8	46	dicarboxylate/amino acid:cation symporter
+2282	6	23	Non-coding region
+2283	2	18	type II asparaginase
+2284	3	9	Non-coding region
+2285	5	14	DNA polymerase III subunit alpha
+2286	2	12	Non-coding region
+2287	4	19	Non-coding region
+2288	8	45	RNA methyltransferase
+2289	6	34	serine O-acetyltransferase
+2290	6	37	ABUW_2363 family tetratricopeptide repeat lipoprotein
+2291	10	100	esterase/lipase family protein
+2292	4	65	Non-coding region
+2293	1	40	alkyl hydroperoxide reductase subunit F
+2294	2	40	Non-coding region
+2295	2	20	chromate transporter
+2296	3	25	LysR family transcriptional regulator
+2297	5	73	ACR3 family arsenite efflux transporter
+2298	8	16	ArsR/SmtB family transcription factor
+2299	7	10	arsenate reductase (glutaredoxin)
+2300	7	14	Non-coding region
+2301	2	16	hydrolase
+2302	11	27	LysR family transcriptional regulator
+2303	31	42	GntR family transcriptional regulator
+2304	30	53	NCS1 family nucleobase:cation symporter-1
+2305	29	48	Non-coding region
+2306	19	23	aspartate/glutamate racemase family protein
+2307	12	29	taurine dioxygenase
+2308	9	20	taurine ABC transporter ATP-binding protein
+2309	8	12	taurine ABC transporter substrate-binding protein
+2310	3	12	Non-coding region
+2311	6	16	hypothetical protein
+2312	5	18	MFS transporter
+2313	6	15	Non-coding region
+2314	5	19	LLM class flavin-dependent oxidoreductase
+2315	5	20	acyl-CoA dehydrogenase family protein
+2316	9	26	Non-coding region
+2317	7	27	hypothetical protein
+2318	5	32	cytochrome ubiquinol oxidase subunit I
+2319	2	37	cytochrome d ubiquinol oxidase subunit II
+2320	7	35	hypothetical protein
+2321	8	26	aminotransferase-like domain-containing protein
+2322	2	21	LysR family transcriptional regulator
+2323	10	110	malonate transporter subunit MadM
+2324	5	52	malonate transporter subunit MadL
+2325	6	23	malonate decarboxylase holo-ACP synthase
+2326	5	41	biotin-independent malonate decarboxylase subunit gamma
+2327	10	44	biotin-independent malonate decarboxylase subunit beta
+2328	13	26	malonate decarboxylase subunit delta
+2329	15	30	malonate decarboxylase subunit alpha
+2330	10	39	Non-coding region
+2331	9	18	transcriptional regulator GcvA
+2332	13	34	cupin domain-containing protein
+2333	6	35	Non-coding region
+2334	3	63	GNAT family N-acetyltransferase
+2335	2	77	MocR-like pyridoxine biosynthesis transcription factor PdxR
+2336	2	24	Non-coding region
+2337	2	35	LrgB family protein
+2338	9	16	LysR family transcriptional regulator
+2339	14	32	glutathione transferase
+2340	2	29	LysR family transcriptional regulator
+2341	4	24	SDR family oxidoreductase
+2342	3	28	rhodanese-like domain-containing protein
+2343	6	34	serine O-acetyltransferase EpsC
+2344	5	41	family 2A encapsulin nanocompartment shell protein
+2345	2	52	family 2A encapsulin nanocompartment cargo protein cysteine desulfurase
+2346	7	28	Non-coding region
+2347	3	11	LysE family translocator
+2348	4	13	LysR family transcriptional regulator
+2349	5	22	cysteine ABC transporter substrate-binding protein
+2350	1	15	transporter substrate-binding domain-containing protein
+2351	7	18	amino acid ABC transporter ATP-binding protein
+2352	4	28	amino acid ABC transporter permease
+2353	5	23	hypothetical protein
+2354	6	14	response regulator transcription factor
+2355	3	21	hybrid sensor histidine kinase/response regulator
+2356	7	34	Non-coding region
+2357	4	66	Non-coding region
+2358	4	26	purine-cytosine permease family protein
+2359	13	21	Non-coding region
+2360	3	31	Lrp/AsnC family transcriptional regulator
+2361	6	32	LysE family translocator
+2362	8	44	hypothetical protein
+2363	3	38	Non-coding region
+2364	7	18	DUF6367 family protein
+2365	6	6	SDR family oxidoreductase
+2366	6	7	catalase HPII
+2367	5	15	Non-coding region
+2368	4	25	iron-containing redox enzyme family protein
+2369	7	20	Non-coding region
+2370	9	13	CinA family protein
+2371	14	43	surface antigen protein 1
+2372	2	37	hypothetical protein
+2373	5	15	IS3 family transposase
+2374	3	59	transposase
+2375	5	22	hypothetical protein
+2376	26	14	SGNH/GDSL hydrolase family protein
+2377	3	5	DcaP family trimeric outer membrane transporter
+2378	2	3	Non-coding region
+2379	18	7	class I SAM-dependent methyltransferase
+2380	10	1	AMP-binding protein
+2382	0	3	isovaleryl-CoA dehydrogenase
+2383	3	9	carboxyl transferase domain-containing protein
+2384	2	15	Non-coding region
+2385	3	18	enoyl-CoA hydratase/isomerase family protein
+2386	6	21	acetyl/propionyl/methylcrotonyl-CoA carboxylase subunit alpha
+2387	5	52	Non-coding region
+2388	5	18	hydroxymethylglutaryl-CoA lyase
+2389	6	11	LysR family transcriptional regulator
+2390	5	4	indolepyruvate ferredoxin oxidoreductase family protein
+2391	2	15	Non-coding region
+2392	10	18	Non-coding region
+2393	5	13	Non-coding region
+2394	6	20	thioesterase family protein
+2395	8	9	acyl-CoA dehydrogenase C-terminal domain-containing protein
+2396	6	17	Non-coding region
+2397	6	12	PaaI family thioesterase
+2398	4	15	outer membrane trimeric porin-like protein DcaP
+2399	12	22	Non-coding region
+2400	4	18	3-oxoacid CoA-transferase subunit B
+2401	2	28	MFS transporter
+2402	3	12	acyl-CoA dehydrogenase family protein
+2403	5	13	Non-coding region
+2404	6	13	enoyl-CoA hydratase
+2405	4	16	SDR family oxidoreductase
+2406	5	73	3-hydroxyacyl-CoA dehydrogenase
+2407	11	79	3-oxoadipyl-CoA thiolase
+2408	6	34	IclR family transcriptional regulator
+2409	9	33	MFS transporter
+2410	3	27	Non-coding region
+2411	10	54	NAD(P)H-dependent flavin oxidoreductase
+2412	4	62	enoyl-CoA hydratase
+2413	1	2	IclR family transcriptional regulator
+2414	1	0	CaiB/BaiF CoA transferase family protein
+2415	3	7	acyl-CoA dehydrogenase family protein
+2416	4	3	MFS transporter
+2417	2	21	Non-coding region
+2418	4	19	phosphonoacetaldehyde hydrolase
+2419	8	15	2-aminoethylphosphonate--pyruvate transaminase
+2420	8	29	TIGR03364 family FAD-dependent oxidoreductase
+2421	2	28	putative 2-aminoethylphosphonate ABC transporter permease subunit
+2422	8	24	Non-coding region
+2423	6	36	ABC transporter ATP-binding protein
+2424	3	19	putative 2-aminoethylphosphonate ABC transporter substrate-binding protein
+2425	3	27	UTRA domain-containing protein
+2426	4	18	4-hydroxybenzoate 3-monooxygenase
+2427	6	41	Non-coding region
+2428	6	22	IclR family transcriptional regulator PobR
+2429	5	29	LysR family transcriptional regulator
+2430	5	13	carboxymuconolactone decarboxylase family protein
+2431	3	14	Non-coding region
+2432	9	38	hypothetical protein
+2433	9	38	purine-cytosine permease family protein
+2434	2	22	Non-coding region
+2435	6	11	hypothetical protein
+2436	8	75	flavin-dependent trigonelline monooxygenase oxygenase component
+2437	29	55	flavin-dependent trigonelline monooxygenase reductase component
+2438	11	22	alpha/beta fold hydrolase
+2439	7	15	amino acid synthesis family protein
+2440	3	14	GntR family transcriptional regulator
+2441	4	10	DUF1330 domain-containing protein
+2442	1	13	catalase family peroxidase
+2443	1	14	MFS transporter
+2444	4	10	Non-coding region
+2445	5	10	hydroxymethylglutaryl-CoA lyase
+2446	5	11	Non-coding region
+2447	3	8	LysR family transcriptional regulator
+2448	4	76	alpha/beta hydrolase
+2449	9	21	AraC family transcriptional regulator
+2450	8	14	hypothetical protein
+2451	3	13	TetR/AcrR family transcriptional regulator
+2452	4	3	DUF3732 domain-containing protein
+2453	6	11	Non-coding region
+2454	8	14	three component ABC system middle component
+2455	4	17	Non-coding region
+2456	6	14	PaaI family thioesterase
+2457	3	14	phenylacetic acid degradation operon negative regulatory protein PaaX
+2458	5	15	phenylacetate--CoA ligase PaaK
+2459	8	7	3-oxoadipyl-CoA thiolase
+2460	8	21	3-hydroxyacyl-CoA dehydrogenase
+2461	5	16	Non-coding region
+2462	1	8	2-(1%2C2-epoxy-1%2C2-dihydrophenyl)acetyl-CoA isomerase PaaG
+2463	0	7	enoyl-CoA hydratase-related protein
+2464	6	9	1%2C2-phenylacetyl-CoA epoxidase subunit PaaE
+2465	2	6	1%2C2-phenylacetyl-CoA epoxidase subunit PaaD
+2466	5	10	1%2C2-phenylacetyl-CoA epoxidase subunit PaaB
+2467	6	12	phenylacetic acid degradation bifunctional protein PaaZ
+2468	4	10	Non-coding region
+2469	8	10	Non-coding region
+2470	8	16	L-serine ammonia-lyase
+2471	6	8	APC family permease
+2472	1	1	Non-coding region
+2473	1	2	aldehyde dehydrogenase (NADP(+))
+2474	7	5	Non-coding region
+2475	7	8	fosfomycin efflux MFS transporter AbaF
+2476	6	4	AraC family transcriptional regulator
+2477	8	6	NAD(P)/FAD-dependent oxidoreductase
+2478	5	11	(2Fe-2S)-binding protein
+2479	6	10	NAD(P)/FAD-dependent oxidoreductase
+2480	4	10	4-hydroxyproline epimerase
+2481	7	17	GntR family transcriptional regulator
+2482	5	26	DMT family transporter
+2483	3	23	dihydrodipicolinate synthase family protein
+2484	7	14	Non-coding region
+2485	4	16	I78 family peptidase inhibitor
+2486	4	27	hypothetical protein
+2487	7	27	epoxyqueuosine reductase QueH
+2488	7	28	GNAT family N-acetyltransferase
+2489	7	9	cyanate transporter
+2490	5	24	Non-coding region
+2491	9	15	nucleoside deaminase
+2492	5	18	LysR family transcriptional regulator
+2493	5	23	M15 family metallopeptidase
+2494	5	18	hypothetical protein
+2495	4	19	type VI secretion system baseplate subunit TssK
+2496	4	7	type VI secretion system protein TssA
+2497	6	17	Non-coding region
+2498	2	10	type VI secretion system ATPase TssH
+2499	9	22	Non-coding region
+2500	4	22	Non-coding region
+2501	3	28	PAAR domain-containing protein
+2502	4	13	type VI secretion system-associated protein TagF
+2503	4	14	type VI secretion system membrane subunit TssM
+2504	4	21	Non-coding region
+2505	7	14	Non-coding region
+2506	3	11	hypothetical protein
+2507	3	11	Non-coding region
+2508	3	25	type VI secretion system baseplate subunit TssG
+2509	1	25	type VI secretion system baseplate subunit TssF
+2510	8	13	Non-coding region
+2511	4	23	type VI secretion system baseplate subunit TssE
+2512	4	16	type VI secretion system contractile sheath large subunit
+2513	6	20	type VI secretion system contractile sheath small subunit
+2514	6	9	hypothetical protein
+2515	6	8	hypothetical protein
+2516	2	11	ABC transporter permease
+2517	9	7	ABC transporter ATP-binding protein
+2518	3	13	ABC transporter substrate-binding protein
+2519	4	21	allophanate hydrolase
+2520	7	22	Non-coding region
+2521	2	21	CopG family ribbon-helix-helix protein
+2522	6	19	NAD(P)H-dependent oxidoreductase
+2523	8	15	Non-coding region
+2524	2	21	Non-coding region
+2525	4	19	Non-coding region
+2526	9	23	urea amidolyase associated protein UAAP2
+2527	4	22	urea amidolyase associated protein UAAP1
+2528	6	32	zinc-dependent alcohol dehydrogenase
+2529	3	27	SRPBCC family protein
+2530	9	28	TetR/AcrR family transcriptional regulator
+2531	4	23	hypothetical protein
+2532	2	18	Non-coding region
+2533	3	16	SMI1/KNR4 family protein
+2534	8	19	Non-coding region
+2535	8	9	Non-coding region
+2536	5	8	Non-coding region
+2537	3	6	Non-coding region
+2538	2	14	Non-coding region
+2539	5	13	ShlB/FhaC/HecB family hemolysin secretion/activation protein
+2540	10	10	Non-coding region
+2541	3	27	chloride channel protein
+2542	4	17	acetyl/propionyl/methylcrotonyl-CoA carboxylase subunit alpha
+2543	7	13	Non-coding region
+2544	6	20	5-oxoprolinase subunit B/C family protein
+2545	1	24	Non-coding region
+2546	14	15	putative hydro-lyase
+2547	4	23	LamB/YcsF family protein
+2548	5	5	Non-coding region
+2549	2	14	LysR family transcriptional regulator MumR
+2550	7	12	hypothetical protein
+2551	10	7	immunity protein Imm33 domain-containing protein
+2552	8	19	hypothetical protein
+2553	4	11	hypothetical protein
+2554	10	20	RHS repeat-associated core domain-containing protein
+2555	7	12	Non-coding region
+2556	6	11	Non-coding region
+2557	7	17	Non-coding region
+2558	5	14	Non-coding region
+2559	29	44	type VI secretion system Vgr family protein
+2560	7	9	Non-coding region
+2561	8	13	Non-coding region
+2562	14	11	serine hydrolase
+2563	7	9	Non-coding region
+2564	5	15	GNAT family N-acetyltransferase
+2565	5	8	hypothetical protein
+2566	7	10	Non-coding region
+2567	3	7	DUF1826 domain-containing protein
+2568	5	16	WD40/YVTN/BNR-like repeat-containing protein
+2569	8	11	DMT family transporter
+2570	6	12	amidohydrolase family protein
+2571	4	13	LysR substrate-binding domain-containing protein
+2572	10	16	MerR family transcriptional regulator
+2573	3	13	Non-coding region
+2574	1	39	DUF2147 domain-containing protein
+2575	3	10	taurine ABC transporter substrate-binding protein
+2576	5	53	ABC transporter permease
+2577	5	18	ABC transporter ATP-binding protein
+2578	4	7	aspartate/glutamate racemase family protein
+2579	2	12	MFS transporter
+2580	4	17	Non-coding region
+2581	3	15	TetR/AcrR family transcriptional regulator
+2582	5	21	hypothetical protein
+2583	4	25	CorA family divalent cation transporter
+2584	4	26	LpxL/LpxP family acyltransferase
+2585	5	18	EAL domain-containing protein
+2586	6	15	EamA family transporter
+2587	6	15	Lrp/AsnC family transcriptional regulator
+2588	8	39	DNA mismatch repair protein MutS
+2589	5	30	Non-coding region
+2590	4	19	Non-coding region
+2591	9	19	GNAT family N-acetyltransferase
+2592	5	13	ferredoxin FdxA
+2593	11	20	O-methyltransferase
+2594	4	10	universal stress protein
+2595	6	12	chloramphenicol acetyltransferase CAT
+2596	10	15	HlyD family type I secretion periplasmic adaptor subunit
+2597	7	43	type I secretion system permease/ATPase
+2598	8	51	Non-coding region
+2599	5	31	TolC family protein
+2600	8	54	Non-coding region
+2601	2	21	LPS export ABC transporter ATP-binding protein
+2602	4	15	lipopolysaccharide transport periplasmic protein LptA
+2603	6	11	KdsC family phosphatase
+2604	10	30	KpsF/GutQ family sugar-phosphate isomerase
+2605	4	31	cysteine--tRNA ligase
+2606	11	51	Non-coding region
+2608	4	39	DUF4142 domain-containing protein
+2609	2	20	hypothetical protein
+2610	3	23	winged helix-turn-helix transcriptional regulator
+2611	9	22	minor capsid protein
+2612	6	14	Non-coding region
+2613	5	32	hypothetical protein
+2614	7	19	hypothetical protein
+2615	8	21	Non-coding region
+2616	9	15	hypothetical protein
+2617	6	35	LysE family translocator
+2618	0	13	hypothetical protein
+2619	1	21	XRE family transcriptional regulator
+2620	5	26	transposase
+2621	5	18	Non-coding region
+2622	7	21	exodeoxyribonuclease VII small subunit
+2623	2	10	hypothetical protein
+2624	5	17	four-helix bundle copper-binding protein
+2625	5	5	GFA family protein
+2626	11	9	Cu(I)-responsive transcriptional regulator
+2627	1	11	Non-coding region
+2628	10	2	Non-coding region
+2629	7	11	heavy-metal-associated domain-containing protein
+2630	3	9	Non-coding region
+2631	4	33	phenol hydroxylase subunit
+2632	3	25	MmoB/DmpM family protein
+2633	8	31	aromatic/alkene/methane monooxygenase hydroxylase/oxygenase subunit alpha
+2634	7	20	phenol hydroxylase subunit P4
+2635	5	16	NADH:ubiquinone reductase (Na(+)-transporting) subunit F
+2636	9	4	SphA family protein
+2637	6	16	LysR family transcriptional regulator
+2638	7	15	hypothetical protein
+2639	2	20	benzoate 1%2C2-dioxygenase small subunit
+2640	5	19	benzoate 1%2C2-dioxygenase electron transfer component BenC
+2641	5	53	1%2C6-dihydroxycyclohexa-2%2C4-diene-1-carboxylate dehydrogenase
+2642	8	44	benzoate/H(+) symporter BenE
+2643	14	48	Non-coding region
+2644	8	21	aromatic acid/H+ symport family MFS transporter
+2645	4	14	OprD family outer membrane porin
+2646	3	28	beta-ketoacyl-ACP synthase III
+2647	10	5	Non-coding region
+2648	4	18	ATP-dependent RNA helicase HrpA
+2649	6	36	Non-coding region
+2650	5	45	Non-coding region
+2651	5	31	Non-coding region
+2652	12	57	alkyl hydroperoxide reductase subunit C
+2653	11	38	KTSC domain-containing protein
+2654	3	44	alkyl hydroperoxide reductase subunit F
+2655	6	12	Non-coding region
+2656	1	12	hypothetical protein
+2657	2	14	ExeM/NucH family extracellular endonuclease
+2658	7	27	Non-coding region
+2659	5	27	tRNA (guanosine(46)-N7)-methyltransferase TrmB
+2660	8	21	putative Ig domain-containing protein
+2661	16	32	Non-coding region
+2662	7	23	Non-coding region
+2663	7	27	Non-coding region
+2664	9	32	Non-coding region
+2665	10	21	Non-coding region
+2666	1	22	Non-coding region
+2667	9	47	Non-coding region
+2668	11	86	Non-coding region
+2669	9	54	hypothetical protein
+2670	7	88	hypothetical protein
+2671	6	61	hypothetical protein
+2672	8	70	glutathione S-transferase family protein
+2673	10	76	Rossmann-like and DUF2520 domain-containing protein
+2674	9	51	OmpA family protein
+2675	5	33	dihydroorotase
+2676	3	5	aspartate carbamoyltransferase catalytic subunit
+2677	5	40	Non-coding region
+2678	8	56	hypothetical protein
+2679	4	49	Non-coding region
+2680	8	69	hypothetical protein
+2681	12	79	CinA family protein
+2682	9	91	ATP-dependent chaperone ClpB
+2683	10	85	Non-coding region
+2684	9	41	Non-coding region
+2685	5	22	M23 family metallopeptidase
+2686	9	26	OsmC family protein
+2687	4	37	cAMP-activated global transcriptional regulator CRP
+2688	7	71	NADP(H)-dependent aldo-keto reductase
+2689	9	86	M48 family metallopeptidase
+2690	11	86	hypothetical protein
+2691	8	86	ATP phosphoribosyltransferase regulatory subunit
+2692	3	70	Non-coding region
+2693	8	65	hypothetical protein
+2694	9	89	type I glyceraldehyde-3-phosphate dehydrogenase
+2695	4	99	alanine--tRNA ligase
+2696	4	55	Non-coding region
+2697	9	51	Non-coding region
+2698	6	83	aspartate kinase
+2699	7	21	Non-coding region
+2700	13	16	carbon storage regulator CsrA
+2701	6	27	cytochrome b
+2702	14	25	adenosine deaminase
+2703	9	24	NCS2 family permease
+2704	10	24	hypothetical protein
+2705	11	54	flavin-containing monooxygenase
+2706	5	100	Non-coding region
+2707	4	44	SDR family NAD(P)-dependent oxidoreductase
+2708	2	24	metal-dependent hydrolase
+2709	3	57	pirin family protein
+2710	6	44	TetR/AcrR family transcriptional regulator
+2711	7	46	metal-dependent hydrolase
+2712	8	24	SDR family NAD(P)-dependent oxidoreductase
+2713	5	22	flavin-containing monooxygenase
+2714	9	23	class I SAM-dependent methyltransferase
+2715	3	11	AraC family transcriptional regulator
+2716	6	15	flavin-containing monooxygenase
+2717	4	53	Non-coding region
+2718	3	36	SDR family NAD(P)-dependent oxidoreductase
+2719	7	13	alpha/beta hydrolase
+2720	5	12	GMC family oxidoreductase
+2721	6	8	Non-coding region
+2722	8	7	OprD family outer membrane porin
+2723	6	8	MFS transporter
+2724	13	9	Non-coding region
+2725	2	4	arylsulfatase
+2726	7	4	formylglycine-generating enzyme family protein
+2727	3	5	OprD family outer membrane porin
+2728	8	10	Non-coding region
+2729	4	4	aromatic ring-hydroxylating dioxygenase subunit alpha
+2730	7	7	PDR/VanB family oxidoreductase
+2731	2	3	GntR family transcriptional regulator
+2732	4	12	MarR family winged helix-turn-helix transcriptional regulator
+2733	3	8	Non-coding region
+2734	12	15	p-hydroxycinnamoyl CoA hydratase/lyase
+2735	6	21	aldehyde dehydrogenase
+2736	4	2	feruloyl-CoA synthase
+2737	2	1	Non-coding region
+2738	11	12	acyl-CoA dehydrogenase family protein
+2739	5	25	OprD family porin
+2740	11	10	Non-coding region
+2741	1	8	DUF3237 domain-containing protein
+2742	10	12	tannase/feruloyl esterase family alpha/beta hydrolase
+2743	10	6	FadR/GntR family transcriptional regulator
+2744	12	17	aldehyde dehydrogenase (NADP(+))
+2745	6	32	Non-coding region
+2746	11	31	5-dehydro-4-deoxyglucarate dehydratase
+2747	19	81	glucarate dehydratase
+2748	12	40	Non-coding region
+2749	20	31	MFS transporter
+2750	18	43	galactarate dehydratase
+2751	5	1	Non-coding region
+2752	42	20	DMT family transporter
+2753	11	11	AraC family transcriptional regulator
+2754	7	6	coniferyl aldehyde dehydrogenase
+2755	5	53	SMI1/KNR4 family protein
+2756	6	15	hypothetical protein
+2757	3	28	hypothetical protein
+2758	14	65	amino acid permease
+2759	2	7	arginine N-succinyltransferase
+2760	4	20	aspartate aminotransferase family protein
+2761	12	10	Non-coding region
+2762	13	8	Lrp/AsnC family transcriptional regulator
+2763	6	13	gamma-aminobutyraldehyde dehydrogenase
+2764	6	13	nuclear transport factor 2 family protein
+2765	7	16	FadR/GntR family transcriptional regulator
+2766	5	16	cache domain-containing protein
+2767	9	29	APC family permease
+2768	6	19	NAD(P)/FAD-dependent oxidoreductase
+2769	6	15	amino acid permease
+2770	4	14	Non-coding region
+2771	7	11	hypothetical protein
+2772	1	22	DEAD/DEAH box helicase
+2773	4	12	Non-coding region
+2774	5	16	Non-coding region
+2775	6	13	hypothetical protein
+2776	11	17	hypothetical protein
+2777	5	46	hypothetical protein
+2778	6	13	Non-coding region
+2779	5	15	Non-coding region
+2780	5	18	Non-coding region
+2781	20	36	Non-coding region
+2782	6	12	type VI secretion system Vgr family protein
+2783	6	49	Non-coding region
+2784	5	20	Non-coding region
+2785	4	15	Non-coding region
+2786	5	11	TetR/AcrR family transcriptional regulator
+2787	1	25	transposase
+2788	4	9	hypothetical protein
+2789	6	17	Non-coding region
+2790	6	42	YjgN family protein
+2791	3	29	M48 family metallopeptidase
+2792	8	30	Non-coding region
+2793	9	27	NADPH-dependent 2%2C4-dienoyl-CoA reductase
+2794	12	55	Non-coding region
+2795	6	40	hypothetical protein
+2796	12	12	Non-coding region
+2797	7	20	GGDEF domain-containing protein
+2798	8	52	dihydroorotase
+2799	12	14	ribonuclease T
+2800	5	27	TonB-dependent siderophore receptor
+2801	4	27	Non-coding region
+2802	14	57	NADH:flavin oxidoreductase/NADH oxidase family protein
+2803	4	36	Non-coding region
+2804	6	30	ABC transporter ATP-binding protein
+2805	5	20	ABC transporter permease
+2806	3	22	microcin C ABC transporter permease YejB
+2807	4	30	Non-coding region
+2808	7	27	extracellular solute-binding protein
+2809	5	29	lytic transglycosylase
+2810	4	34	Non-coding region
+2811	3	33	Non-coding region
+2812	7	41	Non-coding region
+2813	6	19	DNA polymerase III subunit epsilon
+2814	3	23	hypothetical protein
+2815	7	31	Non-coding region
+2816	3	10	NAD(+) diphosphatase
+2817	5	11	alpha/beta hydrolase
+2818	6	18	BON domain-containing protein
+2819	14	40	16S rRNA (cytidine(1402)-2'-O)-methyltransferase
+2820	8	21	hypothetical protein
+2821	13	19	LysE/ArgO family amino acid transporter
+2822	13	9	cation transporter
+2823	4	8	MerR family transcriptional regulator
+2824	8	12	FAD-dependent monooxygenase
+2825	7	18	FAD-dependent monooxygenase
+2826	15	15	Xaa-Pro aminopeptidase
+2827	4	7	UPF0149 family protein
+2828	4	16	hypothetical protein
+2829	6	10	cell division protein ZapA
+2830	9	10	Non-coding region
+2831	6	6	SH3 domain-containing protein
+2832	4	8	phosphoethanolamine transferase
+2833	5	36	Non-coding region
+2834	18	29	COG4705 family protein
+2835	4	9	LexA family protein
+2836	4	11	Y-family DNA polymerase
+2837	4	10	hypothetical protein
+2838	9	10	glycoside hydrolase family 108 protein
+2839	6	11	host specificity factor TipJ family phage tail protein
+2840	4	9	Non-coding region
+2841	8	5	Non-coding region
+2842	9	9	hypothetical protein
+2843	6	9	hypothetical protein
+2844	7	8	tape measure protein
+2845	4	15	Non-coding region
+2846	7	11	Non-coding region
+2847	5	18	Non-coding region
+2848	7	10	Non-coding region
+2849	5	16	hypothetical protein
+2850	5	16	energy transducer TonB family protein
+2851	3	28	protein-export chaperone SecB
+2852	4	19	hypothetical protein
+2853	3	20	hypothetical protein
+2854	6	14	phage tail tube protein
+2855	6	7	phage tail fiber protein
+2856	3	9	hypothetical protein
+2857	4	10	hypothetical protein
+2858	7	11	hypothetical protein
+2859	5	13	glutamate 5-kinase
+2860	2	8	HeH/LEM domain-containing protein
+2861	10	16	hypothetical protein
+2862	8	11	Gp49 family protein
+2863	3	22	Non-coding region
+2864	1	17	DUF4055 domain-containing protein
+2869	11	14	hypothetical protein
+2870	4	12	hypothetical protein
+2871	10	5	hypothetical protein
+2872	6	20	hypothetical protein
+2873	11	16	DUF559 domain-containing protein
+2874	2	3	hypothetical protein
+2875	1	9	Cro/CI family transcriptional regulator
+2876	4	15	AAA family ATPase
+2877	10	15	S8 family peptidase
+2878	8	26	Non-coding region
+2879	7	25	Non-coding region
+2880	3	14	hypothetical protein
+2881	7	13	hypothetical protein
+2882	6	17	hypothetical protein
+2883	6	10	5-formyltetrahydrofolate cyclo-ligase
+2884	6	10	trimeric autotransporter adhesin/peptidogylcan-associated protein TpgA
+2885	2	17	Non-coding region
+2886	5	27	Non-coding region
+2887	5	1	Non-coding region
+2898	6	9	NADP-specific glutamate dehydrogenase
+2899	9	2	RnfABCDGE type electron transport complex subunit B
+2900	8	12	endonuclease III
+2901	7	7	hypothetical protein
+2902	2	15	membrane protein
+2903	4	9	hypothetical protein
+2904	4	14	penicillin-binding protein 2
+2905	2	10	Non-coding region
+2906	5	15	16S rRNA (guanine(966)-N(2))-methyltransferase RsmD
+2907	7	11	urease accessory protein UreG
+2908	5	7	urease accessory protein UreF
+2909	8	12	urease subunit alpha
+2910	3	7	Non-coding region
+2911	5	8	urease subunit beta
+2912	6	10	hypothetical protein
+2913	4	14	copper resistance protein NlpE
+2914	6	6	Non-coding region
+2915	6	10	Non-coding region
+2916	10	39	LysR family transcriptional regulator
+2917	8	13	hemolysin family protein
+2918	1	13	Non-coding region
+2919	2	16	CitMHS family transporter
+2920	10	12	hypothetical protein
+2921	6	8	DUF2239 family protein
+2922	7	14	Non-coding region
+2923	3	17	sulfate adenylyltransferase subunit CysD
+2924	3	14	hypothetical protein
+2925	6	11	Non-coding region
+2926	7	29	lysine--tRNA ligase
+2927	6	10	Non-coding region
+2928	8	9	YqiA/YcfP family alpha/beta fold hydrolase
+2929	5	9	rubredoxin RubA
+2930	6	18	Non-coding region
+2931	5	13	esterase EstB
+2932	8	10	LysR family transcriptional regulator OxyR
+2933	4	6	hypothetical protein
+2934	7	28	Non-coding region
+2935	5	20	Non-coding region
+2936	2	17	monofunctional biosynthetic peptidoglycan transglycosylase
+2937	4	15	ABC transporter permease
+2938	8	8	Non-coding region
+2939	14	11	Non-coding region
+2940	5	8	ABC transporter ATP-binding protein
+2941	4	15	carbonic anhydrase
+2942	6	24	alpha/beta fold hydrolase
+2943	5	9	hypothetical protein
+2944	4	11	TonB-dependent siderophore receptor
+2945	13	9	Non-coding region
+2946	4	9	Fe-S biogenesis protein NfuA
+2947	5	12	rhomboid family intramembrane serine protease
+2948	4	10	arylsulfatase
+2949	7	14	Non-coding region
+2950	6	10	formylglycine-generating enzyme family protein
+2951	4	10	hypothetical protein
+2952	3	5	Non-coding region
+2953	3	5	D-serine ammonia-lyase
+2954	7	9	Non-coding region
+2955	7	9	inorganic phosphate transporter
+2956	6	17	Non-coding region
+2957	4	14	methionine synthase
+2958	8	14	Non-coding region
+2959	4	10	Non-coding region
+2960	9	10	transketolase family protein
+2961	4	4	transketolase
+2962	10	5	MFS transporter
+2963	5	10	Non-coding region
+2964	3	12	SDR family NAD(P)-dependent oxidoreductase
+2965	4	9	LysR substrate-binding domain-containing protein
+2966	7	7	aldose epimerase family protein
+2967	3	13	MFS transporter
+2968	3	16	Non-coding region
+2969	6	3	AraC family transcriptional regulator
+2970	11	3	Non-coding region
+2971	3	4	peptide deformylase
+2972	5	12	MFS transporter
+2973	5	13	hypothetical protein
+2974	6	15	thiamine pyrophosphate-binding protein
+2975	2	8	Non-coding region
+2976	9	17	aldehyde dehydrogenase
+2977	7	10	aspartate dehydrogenase
+2978	7	15	SDR family oxidoreductase
+2979	14	20	alpha/beta fold hydrolase
+2980	0	8	cupin domain-containing protein
+2981	5	11	Non-coding region
+2982	11	13	NAD(P)/FAD-dependent oxidoreductase
+2983	8	1	VOC family protein
+2984	5	9	SDR family oxidoreductase
+2985	2	14	aromatic ring-hydroxylating oxygenase subunit alpha
+2986	4	11	recombinase-like helix-turn-helix domain-containing protein
+2987	3	5	IclR family transcriptional regulator
+2988	5	3	hypothetical protein
+2989	6	15	crotonase/enoyl-CoA hydratase family protein
+2990	7	13	poly-beta-1%2C6-N-acetyl-D-glucosamine biosynthesis protein PgaD
+2991	1	8	poly-beta-1%2C6-N-acetyl-D-glucosamine N-deacetylase PgaB
+2992	2	8	Non-coding region
+2993	2	6	Non-coding region
+2994	8	5	FKBP-type peptidyl-prolyl cis-trans isomerase
+2995	4	8	C4-dicarboxylate transporter DctA
+2996	3	3	CobW family GTP-binding protein
+2997	8	9	Non-coding region
+2998	2	2	hypothetical protein
+2999	5	2	MarC family protein
+3000	2	19	Non-coding region
+3001	2	5	BCCT family transporter
+3002	3	3	Non-coding region
+3003	7	9	transcriptional regulator BetI
+3004	8	3	betaine-aldehyde dehydrogenase
+3005	2	6	Non-coding region
+3006	7	3	choline dehydrogenase
+3007	9	6	Non-coding region
+3008	0	6	malate dehydrogenase (quinone)
+3009	7	3	hypothetical protein
+3010	7	8	homocysteine S-methyltransferase family protein
+3011	6	2	basic amino acid/polyamine antiporter
+3012	6	3	lipase family alpha/beta hydrolase
+3013	8	7	Non-coding region
+3014	4	5	YoaK family protein
+3015	8	13	hypothetical protein
+3016	8	6	YbaN family protein
+3017	4	7	energy transducer TonB
+3018	9	5	porin family protein
+3019	2	6	Slam-dependent surface lipoprotein
+3020	10	6	TonB-dependent receptor domain-containing protein
+3021	7	11	Non-coding region
+3022	9	4	Non-coding region
+3023	4	7	Non-coding region
+3024	1	4	FecR family protein
+3025	6	6	sigma-70 family RNA polymerase sigma factor
+3026	4	7	dihydrodipicolinate synthase family protein
+3027	7	8	MFS transporter
+3028	3	4	Non-coding region
+3029	4	8	OprD family outer membrane porin
+3030	6	5	Non-coding region
+3031	8	8	hypothetical protein
+3032	5	5	Non-coding region
+3033	3	6	hypothetical protein
+3034	4	3	N-6 DNA methylase
+3035	5	7	Non-coding region
+3036	5	10	type I restriction endonuclease subunit R
+3037	2	6	Non-coding region
+3038	8	5	Non-coding region
+3039	6	11	DUF2939 domain-containing protein
+3040	6	10	restriction endonuclease subunit S
+3041	6	5	type I restriction-modification system subunit M
+3042	6	7	Non-coding region
+3043	1	7	gamma-glutamyltransferase
+3044	5	5	Non-coding region
+3045	6	3	DHA2 family efflux MFS transporter permease subunit
+3046	13	10	Non-coding region
+3047	9	5	EmrA/EmrK family multidrug efflux transporter periplasmic adaptor subunit
+3048	13	9	thioesterase family protein
+3049	9	1	porphobilinogen synthase
+3050	6	10	NAD(P)/FAD-dependent oxidoreductase
+3051	7	7	TIGR01777 family oxidoreductase
+3052	5	2	ABZJ_00895 family protein
+3053	13	11	VOC family protein
+3054	8	9	exonuclease SbcCD subunit D
+3055	8	4	AAA family ATPase
+3056	10	6	Non-coding region
+3057	6	10	Non-coding region
+3058	10	5	Non-coding region
+3059	6	8	YggS family pyridoxal phosphate-dependent enzyme
+3060	8	3	type IV pilus twitching motility protein PilT
+3061	6	4	PilT/PilU family type 4a pilus ATPase
+3062	6	8	ferric iron uptake transcriptional regulator
+3063	3	5	outer membrane protein assembly factor BamE
+3064	23	36	hypothetical protein
+3065	10	7	bacteriohemerythrin
+3066	7	5	GNAT family N-acetyltransferase
+3067	5	8	acetylglutamate kinase
+3068	8	6	phosphomannomutase/phosphoglucomutase
+3069	15	4	Non-coding region
+3070	6	8	dUTP diphosphatase
+3071	11	3	Non-coding region
+3072	7	6	Non-coding region
+3073	9	10	OmpA family protein
+3074	6	4	hypothetical protein
+3075	11	5	Non-coding region
+3076	19	23	septum site-determining protein MinC
+3079	7	14	DNA translocase FtsK
+3080	8	12	Non-coding region
+3081	5	7	Non-coding region
+3082	2	7	thioredoxin-disulfide reductase
+3083	6	7	leucyl/phenylalanyl-tRNA--protein transferase
+3084	6	8	arginyltransferase
+3085	4	2	ribosomal protein S18-alanine N-acetyltransferase
+3086	34	3	metal-dependent hydrolase
+3087	9	5	elongation factor Tu
+3088	4	5	Non-coding region
+3089	8	8	elongation factor G
+3090	4	3	Non-coding region
+3091	6	0	30S ribosomal protein S7
+3093	2	3	Non-coding region
+3095	1	2	protoporphyrinogen oxidase HemJ
+3097	0	9	hypothetical protein
+3098	5	25	NAD+ synthase
+3099	1	5	hypothetical protein
+3100	13	16	Non-coding region
+3101	56	33	carnitine monooxygenase%2C reductase subunit CntB
+3102	45	38	NAD-dependent succinate-semialdehyde dehydrogenase
+3103	5	15	carnitine monooxygenase subunit alpha
+3104	29	10	alpha/beta hydrolase
+3105	33	2	BCCT family carnitine transporter
+3106	1	6	Non-coding region
+3107	21	3	tartrate dehydrogenase
+3108	8	0	LysR family transcriptional regulator
+3109	3	73	porin
+3110	11	10	Non-coding region
+3111	46	43	YfhL family 4Fe-4S dicluster ferredoxin
+3112	41	55	SsrA-binding protein SmpB
+3113	29	27	peptidoglycan editing factor PgeF
+3114	40	50	23S rRNA pseudouridine(1911/1915/1917) synthase RluD
+3115	46	49	outer membrane protein assembly factor BamD
+3116	37	44	DNA primase
+3117	57	15	Non-coding region
+3118	17	31	glutamyl-tRNA reductase
+3119	28	3	Non-coding region
+3120	5	244	tetratricopeptide repeat protein
+3121	5	32	lipoprotein insertase outer membrane protein LolB
+3122	4	4	4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase
+3123	5	8	ribose-phosphate pyrophosphokinase
+3124	4	8	50S ribosomal protein L25
+3125	4	3	aminoacyl-tRNA hydrolase
+3126	9	4	GDYXXLXY domain-containing protein
+3127	9	3	Non-coding region
+3128	3	4	3%2C4-dihydroxy-2-butanone-4-phosphate synthase
+3129	0	2	HAD-IA family hydrolase
+3130	4	2	hydroxymethylpyrimidine/phosphomethylpyrimidine kinase
+3131	2	5	peptidoglycan-binding protein LysM
+3132	4	3	3-oxoacyl-ACP reductase FabG
+3133	2	4	Non-coding region
+3134	8	6	50S ribosomal protein L32
+3135	5	2	elongation factor P hydroxylase
+3136	4	3	segregation and condensation protein A
+3137	6	6	SMC-Scp complex subunit ScpB
+3138	2	4	23S rRNA pseudouridine(2605) synthase RluB
+3139	4	5	dethiobiotin synthase
+3140	3	4	8-amino-7-oxononanoate synthase
+3141	4	8	adenosylmethionine--8-amino-7-oxononanoate transaminase
+3142	5	1	alpha/beta fold hydrolase
+3143	3	3	Non-coding region
+3144	2	5	trehalose-phosphatase
+3145	2	12	Non-coding region
+3146	6	9	MFS transporter
+3147	6	4	heteropolymeric bacterioferritin subunit Ftn
+3148	7	3	NAD-dependent DNA ligase LigA
+3149	0	1	Non-coding region
+3150	9	8	cell division protein ZipA C-terminal FtsZ-binding domain-containing protein
+3151	2	3	chromosome segregation protein SMC
+3152	0	6	Non-coding region
+3153	2	4	Non-coding region
+3154	1	4	Non-coding region
+3155	6	5	GntR family transcriptional regulator
+3156	2	3	sulfite exporter TauE/SafE family protein
+3157	11	4	biotin--[acetyl-CoA-carboxylase] ligase
+3158	1	5	signal recognition particle protein
+3159	8	8	Non-coding region
+3160	8	2	cytochrome C assembly family protein
+3161	7	12	tRNA dihydrouridine synthase
+3162	4	7	DUF6160 family protein
+3163	7	10	DUF6160 family protein
+3164	3	4	Non-coding region
+3165	6	6	DUF6160 family protein
+3166	8	4	hypothetical protein
+3167	9	5	Non-coding region
+3168	4	5	hypothetical protein
+3169	5	7	Non-coding region
+3198	2	2	NADH-quinone oxidoreductase subunit NuoG
+3199	6	3	Non-coding region
+3200	1	4	Non-coding region
+3201	3	8	NADH-quinone oxidoreductase subunit NuoF
+3202	10	11	NADH-quinone oxidoreductase subunit NuoE
+3203	7	5	NADH-quinone oxidoreductase subunit C/D
+3204	9	5	Non-coding region
+3205	7	2	NuoB/complex I 20 kDa subunit family protein
+3206	5	4	GGDEF domain-containing protein
+3207	5	2	Non-coding region
+3208	1	5	hypothetical protein
+3209	4	10	Non-coding region
+3210	5	6	response regulator transcription factor BfmR
+3211	4	4	hypothetical protein
+3212	4	4	Non-coding region
+3213	0	1	Non-coding region
+3214	8	6	hypothetical protein
+3215	9	2	Non-coding region
+3216	3	9	DMT family transporter
+3217	6	4	2-keto-4-pentenoate hydratase
+3218	2	8	flavin reductase
+3219	1	6	LLM class flavin-dependent oxidoreductase
+3220	4	3	aldehyde dehydrogenase (NADP(+))
+3221	6	0	Non-coding region
+3222	3	5	NUDIX hydrolase
+3223	9	9	IclR family transcriptional regulator
+3224	5	3	MFS transporter
+3225	6	9	Non-coding region
+3226	10	4	hypothetical protein
+3227	10	2	SDR family NAD(P)-dependent oxidoreductase
+3228	6	6	type II toxin-antitoxin system Phd/YefM family antitoxin
+3229	4	6	beta strand repeat-containing protein
+3230	6	2	Non-coding region
+3231	5	6	Non-coding region
+3232	2	5	TetR/AcrR family transcriptional regulator
+3233	3	5	darcynin family protein
+3234	1	3	His-Xaa-Ser system radical SAM maturase HxsC
+3235	4	4	His-Xaa-Ser system radical SAM maturase HxsB
+3236	4	3	hypothetical protein
+3237	5	2	TetR/AcrR family transcriptional regulator
+3238	7	7	flavin reductase
+3239	6	5	methionine synthase
+3240	6	2	DUF1852 domain-containing protein
+3241	10	0	LysR family transcriptional regulator
+3242	5	7	LysE family translocator
+3243	11	6	fatty acid desaturase
+3244	6	9	AraC family transcriptional regulator
+3245	4	4	M20 family metallopeptidase
+3246	3	7	Non-coding region
+3247	9	4	long-chain fatty acid transporter
+3248	6	6	LysR family transcriptional regulator
+3249	7	22	Non-coding region
+3250	7	5	MFS transporter
+3251	7	5	substrate-binding domain-containing protein
+3252	1	2	LysR family transcriptional regulator
+3253	4	8	FAD-dependent tricarballylate dehydrogenase TcuA
+3254	7	4	tricarballylate utilization 4Fe-4S protein TcuB
+3255	6	6	Non-coding region
+3256	2	8	CaiB/BaiF CoA transferase family protein
+3257	4	9	MFS transporter
+3258	11	2	acyl-CoA dehydrogenase
+3259	1	6	Non-coding region
+3260	7	9	LysR substrate-binding domain-containing protein
+3261	4	2	zinc-binding dehydrogenase
+3262	3	4	Non-coding region
+3263	2	11	adenosine deaminase
+3264	5	6	quinolinate synthase NadA
+3265	2	7	bifunctional glutamate N-acetyltransferase/amino-acid acetyltransferase ArgJ
+3266	2	5	Non-coding region
+3267	6	8	methylated-DNA--[protein]-cysteine S-methyltransferase
+3268	5	3	cation transporter
+3269	5	6	copper resistance protein B
+3270	8	6	copper resistance system multicopper oxidase
+3271	2	0	Non-coding region
+3272	2	1	hypothetical protein
+3273	3	5	ribulose-phosphate 3-epimerase
+3274	21	4	DUF2218 domain-containing protein
+3275	11	6	C13 family peptidase
+3276	10	2	Non-coding region
+3277	12	4	class I SAM-dependent methyltransferase
+3278	3	3	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex dimerization subunit type 1 TsaB
+3279	12	4	CoA pyrophosphatase
+3280	13	7	NUDIX hydrolase
+3281	18	6	Non-coding region
+3282	7	5	putative pilus assembly protein FilE
+3283	4	5	Non-coding region
+3284	4	2	putative pilus system OmpP1/FadL family transporter FilD
+3285	2	3	putative pilus system protein FilC
+3286	4	7	putative pilus system C39 family peptidase FilB
+3287	5	4	Non-coding region
+3288	4	3	putative pilus system protein FilA
+3289	3	0	anthranilate synthase component I family protein
+3290	3	7	histidinol-phosphate transaminase
+3291	46	13	histidinol dehydrogenase
+3293	3	4	ATP phosphoribosyltransferase
+3294	3	4	Non-coding region
+3295	9	7	BolA family iron metabolism protein IbaG
+3296	6	4	RNA polymerase factor sigma-54
+3297	7	3	Non-coding region
+3299	4	2	Non-coding region
+3300	1	4	Non-coding region
+3301	4	4	Non-coding region
+3302	2	7	Non-coding region
+3303	4	6	MlaA family lipoprotein
+3304	3	6	RsbU family protein phosphatase GigA
+3305	4	11	anti-anti-sigma factor GigB
+3306	9	8	carbon-nitrogen hydrolase family protein
+3307	8	9	DUF4951 domain-containing protein
+3308	7	5	organic hydroperoxide resistance protein
+3309	4	6	Non-coding region
+3310	6	6	hypothetical protein
+3311	5	0	mechanosensitive ion channel family protein
+3312	7	4	DUF2339 domain-containing protein
+3313	5	11	Non-coding region
+3314	7	4	Non-coding region
+3315	1	4	DNA polymerase I
+3316	2	7	Non-coding region
+3317	1	7	YggT family protein
+3318	7	6	pyrroline-5-carboxylate reductase
+3319	6	6	tRNA lysidine(34) synthetase TilS
+3320	8	4	acetyl-CoA carboxylase carboxyltransferase subunit alpha
+3321	7	10	exopolyphosphatase
+3322	11	7	Non-coding region
+3323	8	9	thioredoxin
+3324	5	2	Non-coding region
+3325	6	4	hypothetical protein
+3326	1	1	phenylalanine--tRNA ligase subunit beta
+3328	5	7	phenylalanine--tRNA ligase subunit alpha
+3329	8	10	hypothetical protein
+3330	6	7	GNAT family N-acetyltransferase
+3331	8	4	NADAR family protein
+3332	5	3	50S ribosomal protein L20
+3333	2	3	Non-coding region
+3334	1	16	YqaA family protein
+3335	4	6	translation initiation factor IF-3
+3336	5	3	threonine--tRNA ligase
+3337	7	3	Non-coding region
+3338	4	3	acyl-CoA synthetase
+3339	5	8	Non-coding region
+3340	7	8	ribosome biogenesis factor YjgA
+3341	4	4	pantoate--beta-alanine ligase
+3342	3	4	3-methyl-2-oxobutanoate hydroxymethyltransferase
+3343	9	8	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase
+3344	12	5	Non-coding region
+3345	4	4	ComEA family DNA-binding protein
+3346	2	3	SDR family oxidoreductase
+3347	3	10	RelA/SpoT family protein
+3348	4	3	Non-coding region
+3349	4	8	23S rRNA (uracil(1939)-C(5))-methyltransferase RlmD
+3350	1	5	Non-coding region
+3351	4	4	3'-5' exonuclease
+3352	3	5	cysteine synthase CysM
+3353	5	11	GacS-like sensor histidine kinase
+3354	7	9	Non-coding region
+3355	7	7	Non-coding region
+3356	2	5	crotonase/enoyl-CoA hydratase family protein
+3357	3	8	hydroxypyruvate isomerase family protein
+3358	6	2	ribosome silencing factor
+3414	1	0	LPS-assembly lipoprotein LptE
+3415	3	6	MacA family efflux pump subunit
+3416	2	4	MacB family efflux pump subunit
+3417	3	2	Non-coding region
+3418	2	7	efflux transporter outer membrane subunit
+3419	3	1	Non-coding region
+3420	6	1	enoyl-ACP reductase FabI
+3421	12	5	Bax inhibitor-1/YccA family protein
+3422	15	19	oligoribonuclease
+3423	8	12	Non-coding region
+3424	0	7	rhodanese-like domain-containing protein
+3425	4	9	4'-phosphopantetheinyl transferase family protein
+3426	6	8	ribosome biogenesis GTPase Der
+3427	2	8	outer membrane protein assembly factor BamB
+3428	3	10	YfgM family protein
+3429	4	6	histidine--tRNA ligase
+3430	4	12	flavodoxin-dependent (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase
+3431	4	14	Non-coding region
+3432	6	6	helix-turn-helix domain-containing protein
+3433	7	9	23S rRNA (adenine(2503)-C(2))-methyltransferase RlmN
+3434	3	8	nucleoside-diphosphate kinase
+3435	6	5	Fe-S cluster assembly protein IscX
+3436	3	9	glycosyltransferase family 4 protein
+3437	4	12	carboxy terminal-processing peptidase
+3438	3	8	Non-coding region
+3439	1	8	Non-coding region
+3440	4	7	beta-N-acetylhexosaminidase
+3441	5	5	class I SAM-dependent methyltransferase
+3442	2	6	alpha/beta fold hydrolase
+3443	4	11	Non-coding region
+3444	13	12	glutamate-5-semialdehyde dehydrogenase
+3445	7	12	NADP-dependent glyceraldehyde-3-phosphate dehydrogenase
+3446	5	8	Non-coding region
+3447	5	14	gluconokinase
+3448	5	5	Non-coding region
+3449	3	9	bifunctional 4-hydroxy-2-oxoglutarate aldolase/2-dehydro-3-deoxy-phosphogluconate aldolase
+3450	4	8	Non-coding region
+3451	6	5	Non-coding region
+3452	9	8	acetate/propionate family kinase
+3453	4	8	phosphate acetyltransferase
+3454	7	5	Non-coding region
+3455	10	8	Non-coding region
+3456	10	24	fumarate hydratase
+3457	5	8	DUF2059 domain-containing protein
+3458	6	9	DUF2846 domain-containing protein
+3459	3	4	ATP-dependent Clp protease ATP-binding subunit ClpX
+3460	3	9	ATP-dependent Clp endopeptidase proteolytic subunit ClpP
+3461	1	6	trigger factor
+3462	3	6	Non-coding region
+3463	1	7	TonB-dependent receptor
+3464	5	8	Non-coding region
+3465	4	6	Fe2+-dependent dioxygenase
+3466	11	10	2-isopropylmalate synthase
+3467	3	11	Non-coding region
+3468	3	5	homoserine O-succinyltransferase MetX
+3469	6	4	methionine biosynthesis protein MetW
+3470	2	4	tetratricopeptide repeat protein
+3471	4	6	RdgB/HAM1 family non-canonical purine NTP pyrophosphatase
+3472	2	18	Sec-independent protein translocase subunit TatA
+3473	6	8	Sec-independent protein translocase protein TatB
+3474	8	16	PhoX family protein
+3475	1	13	Non-coding region
+3476	3	9	PhoX family protein
+3477	6	8	Non-coding region
+3478	4	10	Non-coding region
+3479	0	6	NRDE family protein
+3480	4	7	prolipoprotein diacylglyceryl transferase
+3481	1	4	hypothetical protein
+3482	13	7	dihydrofolate reductase
+3483	3	4	DUF4105 domain-containing protein
+3484	5	10	peptide-methionine (S)-S-oxide reductase MsrA
+3485	6	3	ExbD/TolR family protein
+3486	6	3	energy transducer TonB
+3487	10	13	formyltetrahydrofolate deformylase
+3488	4	5	TetR/AcrR family transcriptional regulator
+3489	11	11	coniferyl aldehyde dehydrogenase
+3490	5	8	50S ribosomal protein L28
+3491	4	5	cation:proton antiporter
+3492	8	5	Non-coding region
+3493	4	5	hypothetical protein
+3494	3	5	ASCH domain-containing protein
+3495	3	8	Non-coding region
+3496	6	9	HdeD family acid-resistance protein
+3497	6	7	hypothetical protein
+3498	9	9	type I DNA topoisomerase
+3499	93	53	Non-coding region
+3500	29	4	hypothetical protein
+3501	24	12	winged helix-turn-helix transcriptional regulator
+3502	10	14	SlyX family protein
+3503	4	4	ATP-binding cassette domain-containing protein
+3504	4	7	Non-coding region
+3505	9	3	LysE family translocator
+3506	5	5	LpxL/LpxP family Kdo(2)-lipid IV(A) lauroyl/palmitoleoyl acyltransferase
+3507	4	5	glycosyltransferase family 4 protein
+3508	4	8	glutamate/aspartate:proton symporter GltP
+3509	8	8	Non-coding region
+3510	8	6	endonuclease/exonuclease/phosphatase family protein
+3511	7	2	aspartate-semialdehyde dehydrogenase
+3512	9	2	type IV pilus assembly protein FimV
+3513	4	7	Non-coding region
+3514	6	7	hypothetical protein
+3515	3	13	asparaginase
+3516	4	4	tRNA pseudouridine(38-40) synthase TruA
+3517	7	6	AraC family transcriptional regulator
+3518	2	2	translation initiation factor IF-1
+3519	8	3	lysozyme inhibitor LprI family protein
+3520	5	3	3-isopropylmalate dehydrogenase
+3521	3	5	hypothetical protein
+3522	6	4	3-isopropylmalate dehydratase large subunit
+3523	5	8	Non-coding region
+3524	6	7	DUF2061 domain-containing protein
+3525	3	7	hypothetical protein
+3526	6	5	HAD family hydrolase
+3527	3	3	RNA pyrophosphohydrolase
+3528	6	6	Non-coding region
+3529	1	3	Non-coding region
+3530	3	9	catalase/peroxidase HPI
+3531	8	10	Non-coding region
+3532	10	9	MBL fold metallo-hydrolase
+3533	6	9	Non-coding region
+3534	8	6	DNA-binding transcriptional regulator HcaR
+3535	6	2	DUF1345 domain-containing protein
+3536	4	4	glutathione S-transferase family protein
+3537	3	7	helix-turn-helix transcriptional regulator
+3538	4	7	RluA family pseudouridine synthase
+3539	18	22	Non-coding region
+3540	13	7	Rne/Rng family ribonuclease
+3541	4	4	Non-coding region
+3542	4	4	Non-coding region
+3543	7	5	long-chain-acyl-CoA synthetase
+3544	5	5	Non-coding region
+3545	3	19	Non-coding region
+3546	10	2	LysR family transcriptional regulator
+3547	3	6	SDR family oxidoreductase
+3548	6	3	Non-coding region
+3549	6	5	DMT family transporter
+3550	2	36	Non-coding region
+3551	4	5	acyl-CoA dehydrogenase family protein
+3552	6	6	SfnB family sulfur acquisition oxidoreductase
+3553	6	3	ABC1 kinase family protein
+3554	4	4	Non-coding region
+3555	3	5	type B 50S ribosomal protein L31
+3556	6	3	fluoride efflux transporter CrcB
+3557	3	2	GFA family protein
+3558	4	2	SAM-dependent methyltransferase
+3559	4	6	DNA gyrase inhibitor YacG
+3560	3	14	ferrochelatase
+3561	23	34	DUF4062 domain-containing protein
+3562	3	5	glutamate racemase
+3563	5	4	DUF1285 domain-containing protein
+3564	4	2	electron transfer flavoprotein-ubiquinone oxidoreductase
+3565	5	5	Non-coding region
+3566	5	5	hypothetical protein
+3567	7	2	HlyC/CorC family transporter
+3568	3	3	apolipoprotein N-acyltransferase
+3569	3	2	tRNA-binding protein
+3570	3	1	hypothetical protein
+3571	2	4	type II secretion system inner membrane protein GspF
+3572	4	4	primosomal protein N'
+3573	3	6	Non-coding region
+3574	6	9	monovalent cation:proton antiporter-2 (CPA2) family protein
+3575	4	5	Non-coding region
+3576	6	5	Hsp33 family molecular chaperone HslO
+3577	6	6	LysE family translocator
+3578	10	2	DnaJ C-terminal domain-containing protein
+3579	6	5	chaperone modulator CbpM
+3580	6	11	magnesium transporter CorA family protein
+3581	4	3	polyribonucleotide nucleotidyltransferase
+3582	3	5	Non-coding region
+3583	2	5	30S ribosomal protein S15
+3584	4	5	serine hydrolase domain-containing protein
+3585	1	5	Non-coding region
+3586	4	4	exodeoxyribonuclease V subunit alpha
+3587	5	7	Non-coding region
+3588	4	1	UvrD-helicase domain-containing protein
+3589	5	5	Non-coding region
+3590	9	8	Non-coding region
+3591	1	5	exodeoxyribonuclease V subunit gamma
+3592	10	56	Non-coding region
+3593	4	45	Non-coding region
+3594	2	3	Non-coding region
+3595	5	1	hypothetical protein
+3596	4	3	polyphosphate:AMP phosphotransferase
+3597	2	2	FFLEELY motif protein
+3598	4	4	bifunctional demethylmenaquinone methyltransferase/2-methoxy-6-polyprenyl-1%2C4-benzoquinol methylase UbiE
+3599	2	6	ubiquinone biosynthesis accessory factor UbiJ
+3600	6	1	ABC1 kinase family protein
+3601	1	1	Non-coding region
+3602	4	3	FAD-dependent oxidoreductase
+3603	3	3	bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP diphosphatase HisIE
+3604	2	6	UvrD-helicase domain-containing protein
+3605	5	5	AAA family ATPase
+3606	5	3	Non-coding region
+3607	5	2	monovalent cation/H+ antiporter subunit A
+3608	5	5	Non-coding region
+3609	5	4	Non-coding region
+3610	3	3	Na+/H+ antiporter subunit C
+3611	2	3	Non-coding region
+3612	2	1	Na+/H+ antiporter subunit E
+3613	5	9	monovalent cation/H+ antiporter subunit F
+3614	6	19	translation initiation factor IF-2
+3615	1	8	Non-coding region
+3616	1	2	Non-coding region
+3617	8	2	transcription termination factor NusA
+3618	5	2	ribosome maturation factor RimP
+3619	5	3	preprotein translocase subunit SecG
+3620	1	6	triose-phosphate isomerase
+3621	6	7	type IV-A pilus assembly ATPase PilB
+3622	3	3	type II secretion system F family protein
+3623	4	2	Non-coding region
+3624	6	9	prepilin peptidase
+3625	5	3	dephospho-CoA kinase
+3626	3	4	23S rRNA (guanosine(2251)-2'-O)-methyltransferase RlmB
+3627	5	3	pyrimidine/purine nucleoside phosphorylase
+3628	3	6	Non-coding region
+3629	6	7	DNA repair protein RecN
+3630	2	7	Non-coding region
+3631	7	12	YqgE/AlgH family protein
+3632	5	14	HlyD family secretion protein
+3633	2	10	DUF1656 domain-containing protein
+3634	2	6	Non-coding region
+3635	4	3	IclR family transcriptional regulator
+3636	4	7	alpha-ketoglutarate-dependent dioxygenase AlkB family protein
+3637	4	4	methylated-DNA--[protein]-cysteine S-methyltransferase
+3638	4	1	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+3639	5	5	thioesterase family protein
+3640	108	180	excinuclease ABC subunit UvrC
+3641	4	7	Non-coding region
+3642	3	3	CHAP domain-containing protein
+3643	1	5	Non-coding region
+3644	2	4	fatty acid oxidation complex subunit alpha FadB
+3645	4	2	Non-coding region
+3646	0	6	acetyl-CoA C-acyltransferase FadA
+3647	7	9	hypothetical protein
+3648	3	3	hypothetical protein
+3649	0	3	RBBP9/YdeN family alpha/beta hydrolase
+3650	4	4	hypothetical protein
+3651	6	2	DsbA family oxidoreductase
+3652	5	9	hypothetical protein
+3653	6	4	hypothetical protein
+3654	4	0	molecular chaperone HtpG
+3655	5	7	Non-coding region
+3656	11	5	lysozyme inhibitor LprI family protein
+3657	8	3	OmpW/AlkL family protein
+3658	2	3	Non-coding region
+3659	2	7	alpha/beta fold hydrolase
+3660	2	5	DUF4442 domain-containing protein
+3661	8	4	YMGG-like glycine zipper-containing protein
+3662	6	4	DNA-directed RNA polymerase subunit beta'
+3663	3	6	Non-coding region
+3664	6	0	Non-coding region
+3665	4	6	Non-coding region
+3666	3	6	DNA-directed RNA polymerase subunit beta
+3667	4	5	Non-coding region
+3668	8	1	Non-coding region
+3669	5	6	Non-coding region
+3670	8	4	50S ribosomal protein L7/L12
+3671	12	0	50S ribosomal protein L10
+3672	3	2	50S ribosomal protein L1
+3673	3	5	transcription termination/antitermination protein NusG
+3674	6	8	elongation factor Tu
+3675	6	1	Non-coding region
+3676	12	8	anthranilate synthase component I
+3677	7	2	phosphoglycolate phosphatase
+3678	6	6	FHA domain-containing protein
+3679	7	5	type II secretion system secretin GspD
+3680	2	7	Non-coding region
+3681	4	6	type II secretion system protein N
+3682	3	5	type II secretion system protein N
+3683	5	10	H-NS histone family protein
+3684	7	5	acyl-CoA thioesterase
+3685	4	4	hypothetical protein
+3686	6	1	uroporphyrinogen-III synthase
+3687	6	8	hydroxymethylbilane synthase
+3688	2	6	LytR/AlgR family response regulator transcription factor
+3689	26	68	sensor histidine kinase
+3690	75	69	argininosuccinate lyase
+3691	9	10	oxidative damage protection protein
+3707	80	102	FeoA family protein
+3708	42	80	DsbC family protein
+3709	51	107	Non-coding region
+3710	34	57	homoserine dehydrogenase
+3711	66	60	threonine synthase
+3712	89	32	D-alanyl-D-alanine endopeptidase PBP7/8
+3725	21	36	hypothetical protein
+3726	65	157	DNA adenine methylase
+3727	5	4	bifunctional diaminohydroxyphosphoribosylaminopyrimidine deaminase/5-amino-6-(5-phosphoribosylamino)uracil reductase RibD
+3728	2	7	transcriptional regulator NrdR
+3729	4	2	ammonium transporter
+3730	4	4	P-II family nitrogen regulator
+3731	8	4	accessory factor UbiK family protein
+3732	5	3	Non-coding region
+3733	1	1	PLP-dependent aminotransferase family protein
+3734	10	13	aldolase
+3735	9	12	dihydrodipicolinate synthase family protein
+3736	4	7	TorF family putative porin
+3737	3	6	hypothetical protein
+3738	18	15	OprD family outer membrane porin
+3739	1	3	inorganic diphosphatase
+3740	6	1	MAPEG family protein
+3741	10	8	long-chain-fatty-acid--CoA ligase
+3742	15	13	Non-coding region
+3743	3	9	DNA topoisomerase IV subunit A
+3744	2	10	Non-coding region
+3745	1	6	niacin transporter NiaP
+3746	5	1	Non-coding region
+3747	3	9	trimeric intracellular cation channel family protein
+3748	4	7	TerC family protein
+3749	8	7	Non-coding region
+3750	4	6	LOG family protein
+3751	2	2	Non-coding region
+3752	0	4	glycoside hydrolase family 25 protein
+3753	4	2	DNA polymerase IV
+3754	6	5	hypothetical protein
+3755	5	9	DUF2726 domain-containing protein
+3756	5	4	Non-coding region
+3757	13	9	Non-coding region
+3758	3	5	esterase-like activity of phytase family protein
+3759	2	2	helix-turn-helix domain-containing protein
+3760	5	3	DUF2938 domain-containing protein
+3761	16	8	lytic transglycosylase domain-containing protein
+3762	1	3	cysteine synthase A
+3763	5	5	GNAT family N-acetyltransferase
+3764	2	3	Non-coding region
+3765	9	2	Non-coding region
+3766	6	5	Non-coding region
+3767	4	2	Non-coding region
+3768	7	4	Non-coding region
+3769	2	0	Non-coding region
+3770	6	2	TetR/AcrR family transcriptional regulator
+3771	1	3	Non-coding region
+3772	5	8	hypothetical protein
+3773	7	2	Non-coding region
+3774	3	5	DUF2946 family protein
+3775	4	7	peptide deformylase
+3776	3	3	DNA-processing protein DprA
+3777	7	6	Non-coding region
+3778	3	3	L-threonylcarbamoyladenylate synthase
+3779	14	4	DMT family transporter
+3780	4	4	TetR/AcrR family transcriptional regulator
+3781	4	10	Non-coding region
+3782	7	11	AraC family transcriptional regulator
+3783	4	4	hypothetical protein
+3784	1	8	F0F1 ATP synthase subunit epsilon
+3785	5	7	Non-coding region
+3786	1	5	F0F1 ATP synthase subunit gamma
+3787	1	4	F0F1 ATP synthase subunit alpha
+3788	6	6	F0F1 ATP synthase subunit delta
+3789	7	4	F0F1 ATP synthase subunit B
+3790	4	5	F0F1 ATP synthase subunit A
+3791	2	6	ATP synthase subunit I
+3792	8	10	transcriptional repressor
+3793	4	9	zinc ABC transporter ATP-binding protein ZnuC
+3794	4	5	LysE family transporter
+3795	3	6	Dyp-type peroxidase
+3796	9	4	NAD-dependent malic enzyme
+3797	1	4	Non-coding region
+3798	4	6	arginine--tRNA ligase
+3799	2	6	Non-coding region
+3800	3	8	SPOR domain-containing protein
+3801	5	2	glutathione S-transferase
+3802	38	10	OsmC family protein
+3803	7	5	DUF3861 domain-containing protein
+3804	4	7	ANT(3'')-II family aminoglycoside nucleotidyltransferase
+3805	6	8	glutamine-hydrolyzing GMP synthase
+3806	2	7	Non-coding region
+3807	4	3	DUF445 domain-containing protein
+3808	4	1	DoxX family protein
+3809	6	6	DedA family protein
+3810	14	19	LysE family translocator
+3811	3	1	ParA family protein
+3812	1	4	SirB2 family protein
+3813	7	8	4'-phosphopantetheinyl transferase family protein
+3814	3	1	alpha/beta fold hydrolase
+3815	4	5	Non-coding region
+3816	2	4	DUF1302 family protein
+3817	6	8	outer membrane lipoprotein-sorting protein
+3818	7	4	Non-coding region
+3819	7	9	Non-coding region
+3820	17	14	Non-coding region
+3821	7	5	non-ribosomal peptide synthetase
+3822	8	5	Non-coding region
+3823	4	4	Non-coding region
+3824	7	2	acyl carrier protein
+3825	7	6	acyl-CoA dehydrogenase
+3826	3	0	Non-coding region
+3827	4	4	fatty acyl-AMP ligase
+3828	2	6	Non-coding region
+3829	4	10	LuxR family transcriptional regulator AbaR
+3830	8	4	Non-coding region
+3831	4	9	DUF4902 domain-containing protein
+3832	7	8	MFS transporter
+3833	2	3	enoyl-CoA hydratase/isomerase family protein
+3834	8	11	enoyl-CoA hydratase
+3835	5	1	acyl-CoA dehydrogenase family protein
+3836	77	115	AMP-binding protein
+3837	0	3	Non-coding region
+3838	6	3	3-hydroxyisobutyrate dehydrogenase
+3839	4	4	CoA-acylating methylmalonate-semialdehyde dehydrogenase
+3840	14	4	LysR family transcriptional regulator
+3841	5	5	amino acid permease
+3842	3	7	Non-coding region
+3843	7	7	amino acid permease
+3844	8	6	Non-coding region
+3845	7	4	RidA family protein
+3846	6	4	D-amino acid dehydrogenase
+3847	6	2	Non-coding region
+3848	7	2	Lrp/AsnC ligand binding domain-containing protein
+3849	3	4	TonB-dependent receptor
+3850	3	6	Non-coding region
+3851	4	3	Non-coding region
+3852	4	8	nuclear transport factor 2 family protein
+3853	5	6	DUF1003 domain-containing protein
+3854	8	2	Non-coding region
+3855	26	100	SDR family NAD(P)-dependent oxidoreductase
+3856	16	59	DUF4844 domain-containing protein
+3857	2	4	Non-coding region
+3858	1	2	hypothetical protein
+3859	9	4	GNAT family N-acetyltransferase
+3860	4	3	DUF4126 domain-containing protein
+3861	2	4	hypothetical protein
+3862	6	6	STAS-like domain-containing protein
+3863	4	3	Fe/S-dependent 2-methylisocitrate dehydratase AcnD
+3864	1	2	Non-coding region
+3865	9	9	Non-coding region
+3866	5	7	bifunctional 2-methylcitrate synthase/citrate synthase
+3867	3	6	methylisocitrate lyase
+3868	2	3	GntR family transcriptional regulator
+3869	5	3	amino acid aminotransferase
+3870	2	5	D-lactate dehydrogenase
+3871	2	2	Non-coding region
+3872	2	3	FMN-dependent L-lactate dehydrogenase LldD
+3873	3	3	transcriptional regulator LldR
+3874	3	5	L-lactate permease
+3875	3	3	Non-coding region
+3876	6	7	phosphomannomutase
+3877	2	0	Non-coding region
+3878	4	5	UDP-glucose 4-epimerase GalE
+3879	7	4	glucose-6-phosphate isomerase
+3880	3	4	nucleotide sugar dehydrogenase
+3881	20	8	Non-coding region
+3882	23	2	UTP--glucose-1-phosphate uridylyltransferase GalU
+3883	2	4	sugar transferase
+3884	3	4	glycosyltransferase
+3885	5	10	glycosyltransferase
+3886	7	3	EpsG family protein
+3887	8	10	glycosyltransferase family 52
+3888	3	6	oligosaccharide flippase family protein
+3889	7	2	acylneuraminate cytidylyltransferase family protein
+3890	4	5	nucleotidyltransferase family protein
+3891	4	6	PglD-related sugar-binding protein
+3892	5	7	UDP-N-acetylglucosamine 2-epimerase
+3893	11	4	Non-coding region
+3894	3	4	LegC family aminotransferase
+3895	4	6	UDP-N-acetylglucosamine 4%2C6-dehydratase
+3896	2	2	Vi polysaccharide biosynthesis UDP-N-acetylglucosamine C-6 dehydrogenase TviB
+3897	3	3	Non-coding region
+3898	2	0	polysaccharide biosynthesis/export family protein
+3899	3	6	low molecular weight protein-tyrosine-phosphatase
+3900	6	3	Non-coding region
+3901	3	4	Non-coding region
+3902	4	8	FKBP-type peptidyl-prolyl cis-trans isomerase
+3903	4	3	murein biosynthesis integral membrane protein MurJ
+3904	8	5	Non-coding region
+3905	2	2	1%2C6-anhydro-N-acetylmuramyl-L-alanine amidase AmpD
+3906	2	14	ABZJ_00068 family colistin stress protein
+3907	1	4	phosphocholine-specific phospholipase C
+3908	9	11	Non-coding region
+3909	10	8	hypothetical protein
+3910	6	7	fatty acid desaturase family protein
+3911	4	6	ferredoxin reductase
+3912	6	10	TetR family transcriptional regulator
+3913	3	5	TetR/AcrR family transcriptional regulator
+3914	12	15	thiol:disulfide interchange protein DsbA/DsbL
+3915	126	73	bifunctional 2-polyprenyl-6-hydroxyphenol methylase/3-demethylubiquinol 3-O-methyltransferase UbiG
+3916	9	15	YciK family oxidoreductase
+3917	7	3	RcnB family protein
+3918	2	10	RcnB family protein
+3919	3	3	Non-coding region
+3920	4	7	sulfonate ABC transporter substrate-binding protein
+3921	2	15	sulfonate ABC transporter substrate-binding protein
+3922	1	6	FMNH2-dependent alkanesulfonate monooxygenase
+3923	4	12	aliphatic sulfonate ABC transporter permease SsuC
+3924	9	9	ABC transporter ATP-binding protein
+3925	1	9	TetR/AcrR family transcriptional regulator
+3926	5	6	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase family protein
+3927	7	3	Non-coding region
+3928	1	5	bifunctional riboflavin kinase/FAD synthetase
+3929	3	8	isoleucine--tRNA ligase
+3930	1	2	Non-coding region
+3931	5	1	Non-coding region
+3932	1	3	signal peptidase II
+3933	4	5	NADPH-dependent FMN reductase
+3934	3	4	Non-coding region
+3935	5	4	Non-coding region
+3936	8	6	Non-coding region
+3937	3	3	Non-coding region
+3938	7	6	Non-coding region
+3939	5	11	Non-coding region
+3940	4	5	peptidylprolyl isomerase
+3941	5	6	Non-coding region
+3942	7	16	hypothetical protein
+3943	1	3	MBL fold metallo-hydrolase
+3944	3	3	LysR family transcriptional regulator
+3945	2	7	nucleotide exchange factor GrpE
+3946	3	4	Non-coding region
+3947	7	2	Non-coding region
+3948	4	10	matrixin family metalloprotease
+3949	4	9	M57 family metalloprotease
+3950	4	5	hypothetical protein
+3951	7	4	Non-coding region
+3952	3	1	5-(carboxyamino)imidazole ribonucleotide synthase
+3953	6	2	5-(carboxyamino)imidazole ribonucleotide mutase
+3954	2	1	DMT family protein
+3955	7	3	UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase
+3956	8	11	low temperature requirement protein A
+3957	3	7	undecaprenyl-diphosphatase
+3958	3	8	TerC family protein
+3959	9	8	Non-coding region
+3960	10	16	hypothetical protein
+3961	7	11	aromatic ring-hydroxylating oxygenase subunit alpha
+3962	11	22	guanine deaminase
+3963	4	29	Non-coding region
+3964	4	12	hypoxanthine phosphoribosyltransferase
+3965	14	6	GlsB/YeaQ/YmgE family stress response membrane protein
+3966	6	5	CDF family Co(II)/Ni(II) efflux transporter DmeF
+3967	4	6	metal/formaldehyde-sensitive transcriptional repressor
+3968	4	3	Non-coding region
+3969	3	6	membrane protein insertase YidC
+3970	3	2	membrane protein insertion efficiency factor YidD
+3971	9	4	ribonuclease P protein component
+3972	8	3	Non-coding region
+3973	6	9	Non-coding region
+3974	13	5	Non-coding region
+3975	7	3	Non-coding region
+3976	10	6	Non-coding region
+3977	9	6	Non-coding region
+3978	3	9	Non-coding region
+3979	2	12	Non-coding region
+3980	5	0	Non-coding region
+3981	4	4	Non-coding region
+3982	5	15	Non-coding region
+3983	4	6	Non-coding region
+3984	3	4	Non-coding region
+3985	3	5	Non-coding region
+3986	5	7	Non-coding region
+3987	7	4	Non-coding region
+3988	2	8	Non-coding region
+3989	6	1	Non-coding region
+3990	8	6	Non-coding region
+3991	3	4	Non-coding region
+3992	3	4	Non-coding region
+3993	2	6	Non-coding region
+3994	3	7	Non-coding region
+3995	4	4	Non-coding region
+3996	2	5	Non-coding region
+3997	4	4	Non-coding region
+3998	6	7	Non-coding region
+3999	2	3	Non-coding region
+4000	7	3	Non-coding region
+4001	4	8	Non-coding region
+4002	27	44	Non-coding region
+4003	8	7	Non-coding region
+4004	13	7	Non-coding region
+4005	2	1	Non-coding region
+4006	4	3	Non-coding region
+4007	4	3	Non-coding region
+4008	6	1	Non-coding region
+4009	4	1	Non-coding region
+4010	4	4	Non-coding region
+4011	11	15	Non-coding region
+4012	7	15	Non-coding region
+4013	5	3	Non-coding region
+4014	3	6	Non-coding region
+4015	2	10	Non-coding region
+4016	6	3	Non-coding region
+4017	2	8	Non-coding region
+4018	5	6	Non-coding region
+4019	6	5	Non-coding region
+4020	5	6	Non-coding region
+4021	9	5	Non-coding region
+4022	3	6	Non-coding region
+4023	3	7	Non-coding region
+4024	8	6	Non-coding region
+4025	7	7	Non-coding region
+4026	11	3	Non-coding region
+4027	10	5	Non-coding region
+4028	5	4	Non-coding region
+4029	0	3	Non-coding region
+4030	7	7	Non-coding region
+4031	5	2	Non-coding region
+4032	5	2	Non-coding region
+4033	6	5	Non-coding region
+4034	6	4	Non-coding region
+4035	1	4	Non-coding region
+4036	8	2	Non-coding region
+4037	5	4	Non-coding region
+4038	9	4	Non-coding region
+4039	6	9	Non-coding region
+4040	6	0	Non-coding region
+4041	8	10	Non-coding region
+4042	6	25	Non-coding region
+4043	11	8	Non-coding region
+4044	8	2	Non-coding region
+4045	6	3	Non-coding region
+4046	6	4	Non-coding region
+4047	2	7	Non-coding region
+4048	4	6	Non-coding region
+4049	4	5	Non-coding region
+4050	5	6	Non-coding region
+4051	4	3	Non-coding region
+4052	9	1	Non-coding region
+4053	4	5	Non-coding region
+4054	3	4	Non-coding region
+4055	2	0	Non-coding region
+4059	1	3	Non-coding region
+4060	0	1	Non-coding region
+4061	4	1	Non-coding region
+4067	6	5	Non-coding region
+4068	2	2	Non-coding region
+4069	2	6	Non-coding region
+4070	8	4	Non-coding region
+4071	3	8	Non-coding region
+4072	6	6	Non-coding region
+4073	2	1	Non-coding region
+4074	2	6	Non-coding region
+4075	6	8	Non-coding region
+4076	0	16	Non-coding region
+4077	6	30	Non-coding region
+4078	6	4	Non-coding region
+4079	3	10	Non-coding region
+4080	5	32	Non-coding region
+4081	7	12	Non-coding region
+4082	7	5	Non-coding region
+4083	0	4	Non-coding region
+4084	0	13	Non-coding region
+4085	2	6	Non-coding region
+4086	3	7	Non-coding region
+4087	4	8	Non-coding region
+4088	2	12	Non-coding region
+4089	4	8	Non-coding region
+4090	9	8	Non-coding region
+4091	4	6	Non-coding region
+4092	6	16	Non-coding region
+4093	6	17	Non-coding region
+4094	1	5	Non-coding region
+4095	4	8	Non-coding region
+4096	0	9	Non-coding region
+4097	6	20	Non-coding region
+4098	0	7	Non-coding region
+4099	4	2	Non-coding region
+4100	3	11	Non-coding region
+4101	7	14	Non-coding region
+4102	3	2	Non-coding region
+4103	4	5	Non-coding region
+4104	9	4	Non-coding region
+4105	5	1	Non-coding region
+4106	3	2	Non-coding region
+4107	10	7	Non-coding region
+4108	5	5	Non-coding region
+4109	3	2	Non-coding region
+4110	6	11	Non-coding region
+4111	7	7	Non-coding region
+4112	7	4	Non-coding region
+4113	6	6	Non-coding region
+4114	2	7	Non-coding region
+4115	4	12	Non-coding region
+4116	6	4	Non-coding region
+4117	8	2	Non-coding region
+4118	1	9	Non-coding region
+4119	5	4	Non-coding region
+4120	2	7	Non-coding region
+4121	5	7	Non-coding region
+4122	6	4	Non-coding region
+4123	10	6	Non-coding region
+4124	5	2	Non-coding region
+4125	8	3	Non-coding region
+4126	8	17	Non-coding region
+4127	5	4	Non-coding region
+4128	5	1	Non-coding region
+4129	4	3	Non-coding region
+4130	4	11	Non-coding region
+4131	25	23	Non-coding region
+4132	21	18	Non-coding region
+4133	23	29	Non-coding region
+4134	12	6	Non-coding region
+4135	5	8	Non-coding region
+4136	8	18	Non-coding region
+4137	8	21	Non-coding region
+4138	5	7	Non-coding region
+4139	4	20	Non-coding region
+4140	8	6	Non-coding region
+4141	4	10	Non-coding region
+4142	4	11	Non-coding region
+4143	2	24	Non-coding region
+4144	1	13	Non-coding region
+4145	3	6	Non-coding region
+4146	1	7	Non-coding region
+4147	7	1	Non-coding region
+4148	2	13	Non-coding region
+4149	6	3	Non-coding region
+4150	2	10	Non-coding region
+4151	15	26	Non-coding region
+4152	27	16	Non-coding region
+4153	3	6	Non-coding region
+4154	6	15	Non-coding region
+4155	6	5	Non-coding region
+4156	3	6	Non-coding region
+4157	9	4	Non-coding region
+4158	6	2	Non-coding region
+4159	4	7	Non-coding region
+4160	9	9	Non-coding region
+4161	12	7	Non-coding region
+4162	6	3	Non-coding region
+4163	5	3	Non-coding region
+4164	3	4	Non-coding region
+4165	3	6	Non-coding region
+4166	2	3	Non-coding region
+4167	3	8	Non-coding region
+4168	4	4	Non-coding region
+4169	6	5	Non-coding region
+4170	7	5	Non-coding region
+4171	4	5	Non-coding region
+4172	3	4	Non-coding region
+4173	2	4	Non-coding region
+4174	6	8	Non-coding region
+4175	7	2	Non-coding region
+4176	6	4	Non-coding region
+4177	3	2	Non-coding region
+4178	5	6	Non-coding region
+4179	4	5	Non-coding region
+4180	5	3	Non-coding region
+4181	2	4	Non-coding region
+4182	5	1	Non-coding region
+4183	6	5	Non-coding region
+4184	3	3	Non-coding region
+4185	4	2	Non-coding region
+4186	2	2	Non-coding region
+4187	6	12	Non-coding region
+4188	3	5	Non-coding region
+4189	2	4	Non-coding region
+4190	3	2	Non-coding region
+4191	6	3	Non-coding region
+4192	4	3	Non-coding region
+4193	4	4	Non-coding region
+4194	4	1	Non-coding region
+4195	4	3	Non-coding region
+4196	2	9	Non-coding region
+4197	1	4	Non-coding region
+4198	4	2	Non-coding region
+4199	0	5	Non-coding region
+4200	12	6	Non-coding region
+4201	3	0	Non-coding region
+4202	2	4	Non-coding region
+4203	7	10	Non-coding region
+4204	5	5	Non-coding region
+4205	2	11	Non-coding region
+4206	6	7	Non-coding region
+4207	2	17	Non-coding region
+4208	0	5	Non-coding region
+4209	3	21	Non-coding region
+4210	1	9	Non-coding region
+4211	12	2	Non-coding region
+4212	17	0	Non-coding region
+4213	7	6	Non-coding region
+4214	2	10	Non-coding region
+4215	5	9	Non-coding region
+4216	10	3	Non-coding region
+4217	2	1	Non-coding region
+4218	2	0	Non-coding region
+4219	2	8	Non-coding region
+4220	9	6	Non-coding region
+4221	10	19	Non-coding region
+4222	2	8	Non-coding region
+4223	4	3	Non-coding region
+4224	4	4	Non-coding region
+4225	2	5	Non-coding region
+4226	6	6	Non-coding region
+4227	7	3	Non-coding region
+4228	6	2	Non-coding region
+4229	15	10	Non-coding region
+4230	7	13	Non-coding region
+4231	3	2	Non-coding region
+4232	14	8	Non-coding region
+4233	7	7	Non-coding region
+4234	15	20	Non-coding region
+4235	5	7	Non-coding region
+4236	12	5	Non-coding region
+4237	3	6	Non-coding region
+4238	4	4	Non-coding region
+4239	2	4	Non-coding region
+4240	6	5	Non-coding region
+4241	3	3	Non-coding region
+4242	6	1	Non-coding region
+4243	6	3	Non-coding region
+4244	5	4	Non-coding region
+4245	1	4	Non-coding region
+4246	9	4	Non-coding region
+4247	3	5	Non-coding region
+4248	5	5	Non-coding region
+4249	8	4	Non-coding region
+4250	5	2	Non-coding region
+4251	6	3	Non-coding region
+4252	2	8	Non-coding region
+4253	1	1	Non-coding region
+4254	2	4	Non-coding region
+4255	7	8	Non-coding region
+4256	9	4	Non-coding region
+4257	4	7	Non-coding region
+4258	4	7	Non-coding region
+4259	2	4	Non-coding region
+4260	4	11	Non-coding region
+4261	2	6	Non-coding region
+4262	2	4	Non-coding region
+4263	5	3	Non-coding region
+4264	7	7	Non-coding region
+4265	2	3	Non-coding region
+4266	8	6	Non-coding region
+4267	4	2	Non-coding region
+4268	3	3	Non-coding region
+4269	4	2	Non-coding region
+4270	10	10	Non-coding region
+4271	3	16	Non-coding region
+4272	7	7	Non-coding region
+4273	12	12	Non-coding region
+4274	6	4	Non-coding region
+4275	9	16	Non-coding region
+4276	8	1	Non-coding region
+4277	8	4	Non-coding region
+4278	5	12	Non-coding region
+4279	6	6	Non-coding region
+4280	5	1	Non-coding region
+4281	4	10	Non-coding region
+4282	0	10	Non-coding region
+4283	3	9	Non-coding region
+4284	3	12	Non-coding region
+4285	3	3	Non-coding region
+4286	2	3	Non-coding region
+4287	5	3	Non-coding region
+4288	4	6	Non-coding region
+4289	6	6	Non-coding region
+4290	5	4	Non-coding region
+4291	2	1	Non-coding region
+4292	6	3	Non-coding region
+4293	6	5	Non-coding region
+4294	9	7	Non-coding region
+4295	9	2	Non-coding region
+4296	4	6	Non-coding region
+4297	3	0	Non-coding region
+4298	2	2	Non-coding region
+4299	2	2	Non-coding region
+4300	4	2	Non-coding region
+4301	2	7	Non-coding region
+4302	5	6	Non-coding region
+4303	2	7	Non-coding region
+4304	4	5	Non-coding region
+4305	1	4	Non-coding region
+4306	1	4	Non-coding region
+4307	4	2	Non-coding region
+4308	5	8	Non-coding region
+4309	8	4	Non-coding region
+4310	4	5	Non-coding region
+4311	6	8	Non-coding region
+4312	3	2	Non-coding region
+4313	4	2	Non-coding region
+4314	8	5	Non-coding region
+4315	2	5	Non-coding region
+4316	3	4	Non-coding region
+4317	3	3	Non-coding region
+4318	5	6	Non-coding region
+4319	7	8	Non-coding region
+4320	6	2	Non-coding region
+4321	3	5	Non-coding region
+4322	4	9	Non-coding region
+4323	2	3	Non-coding region
+4324	6	11	Non-coding region
+4325	5	4	Non-coding region
+4326	2	3	Non-coding region
+4327	7	6	Non-coding region
+4328	1	8	Non-coding region
+4329	3	0	Non-coding region
+4330	5	3	Non-coding region
+4331	3	3	Non-coding region
+4332	3	6	Non-coding region
+4333	6	3	Non-coding region
+4334	1	4	Non-coding region
+4335	5	6	Non-coding region
+4336	4	6	Non-coding region
+4337	7	4	Non-coding region
+4338	3	6	Non-coding region
+4339	30	18	Non-coding region
+4340	7	6	Non-coding region
+4341	10	7	Non-coding region
+4342	5	2	Non-coding region
+4343	11	2	Non-coding region
+4344	5	4	Non-coding region
+4345	5	10	Non-coding region
+4346	4	7	Non-coding region
+4347	6	3	Non-coding region
+4348	3	8	Non-coding region
+4349	6	7	Non-coding region
+4350	2	1	Non-coding region
+4351	3	1	Non-coding region
+4352	8	4	Non-coding region
+4353	8	2	Non-coding region
+4354	5	3	Non-coding region
+4355	9	7	Non-coding region
+4356	18	9	Non-coding region
+4357	7	7	Non-coding region
+4358	11	5	Non-coding region
+4359	2	7	Non-coding region
+4360	7	12	Non-coding region
+4361	1	6	Non-coding region
+4362	10	14	Non-coding region
+4363	7	14	Non-coding region
+4364	2	4	Non-coding region
+4365	6	7	Non-coding region
+4366	7	3	Non-coding region
+4367	8	6	Non-coding region
+4368	5	2	Non-coding region
+4369	7	6	Non-coding region
+4370	6	5	Non-coding region
+4371	7	10	Non-coding region
+4372	8	5	Non-coding region
+4373	4	10	Non-coding region
+4374	3	7	Non-coding region
+4375	157	60	Non-coding region
+4376	33	20	Non-coding region
+4377	1	1	Non-coding region
+4378	3	2	Non-coding region
+4379	2	3	Non-coding region
+4380	7	2	Non-coding region
+4381	2	1	Non-coding region
+4382	8	5	Non-coding region
+4383	19	17	Non-coding region
+4384	9	5	Non-coding region
+4385	12	6	Non-coding region
+4386	4	2	Non-coding region
+4388	7	27	Non-coding region
+4389	71	39	Non-coding region
+4390	275	171	Non-coding region
+4391	115	14	Non-coding region
+4392	10	5	Non-coding region
+4393	3	5	Non-coding region
+4394	17	2	Non-coding region
+4395	3	3	Non-coding region
+4396	4	3	Non-coding region
+4397	10	9	Non-coding region
+4398	2	3	Non-coding region
+4399	12	6	Non-coding region
+4400	3	2	Non-coding region
+4401	7	3	Non-coding region
+4402	2	6	Non-coding region
+4403	4	3	Non-coding region
+4404	0	4	Non-coding region
+4405	5	3	Non-coding region
+4406	4	2	Non-coding region
+4407	6	1	Non-coding region
+4408	5	4	Non-coding region
+4409	4	3	Non-coding region
+4410	6	4	Non-coding region
+4411	16	13	Non-coding region
+4412	4	6	Non-coding region
+4413	9	9	Non-coding region
+4414	5	0	Non-coding region
+4415	2	4	Non-coding region
+4416	4	5	Non-coding region
+4417	4	3	Non-coding region
+4418	1	5	Non-coding region
+4419	4	4	Non-coding region
+4420	2	10	Non-coding region
+4421	4	3	Non-coding region
+4422	2	4	Non-coding region
+4423	4	4	Non-coding region
+4424	2	7	Non-coding region
+4425	29	46	Non-coding region
+4426	4	7	Non-coding region
+4427	5	0	Non-coding region
+4428	1	3	Non-coding region
+4429	4	3	Non-coding region
+4430	4	5	Non-coding region
+4431	6	7	Non-coding region
+4432	3	2	Non-coding region
+4433	2	3	Non-coding region
+4434	5	6	Non-coding region
+4435	5	1	Non-coding region
+4436	6	4	Non-coding region
+4437	5	4	Non-coding region
+4438	4	6	Non-coding region
+4439	8	1	Non-coding region
+4440	5	4	Non-coding region
+4441	4	1	Non-coding region
+4442	2	8	Non-coding region
+4443	2	2	Non-coding region
+4444	2	4	Non-coding region
+4445	5	5	Non-coding region
+4446	3	2	Non-coding region
+4447	2	5	Non-coding region
+4448	7	8	Non-coding region
+4449	0	1	Non-coding region
+4455	3	2	Non-coding region
+4456	2	3	Non-coding region
+4457	3	2	Non-coding region
+4458	3	4	Non-coding region
+4459	3	2	Non-coding region
+4460	1	0	Non-coding region
+4461	5	4	Non-coding region
+4462	4	4	Non-coding region
+4463	4	1	Non-coding region
+4464	3	6	Non-coding region
+4465	6	1	Non-coding region
+4466	9	4	Non-coding region
+4467	2	2	Non-coding region
+4468	3	15	Non-coding region
+4469	3	1	Non-coding region
+4470	3	6	Non-coding region
+4471	6	5	Non-coding region
+4472	4	2	Non-coding region
+4473	4	7	Non-coding region
+4474	5	8	Non-coding region
+4475	0	6	Non-coding region
+4476	1	6	Non-coding region
+4477	0	7	Non-coding region
+4478	2	15	Non-coding region
+4479	2	8	Non-coding region
+4480	2	6	Non-coding region
+4481	2	6	Non-coding region
+4482	5	10	Non-coding region
+4483	3	7	Non-coding region
+4484	8	7	Non-coding region
+4485	13	7	Non-coding region
+4486	0	1	Non-coding region
+4487	3	2	Non-coding region
+4488	3	0	Non-coding region
+4489	1	4	Non-coding region
+4490	0	4	Non-coding region
+4491	3	4	Non-coding region
+4492	3	4	Non-coding region
+4493	3	1	Non-coding region
+4494	4	6	Non-coding region
+4495	6	1	Non-coding region
+4496	1	4	Non-coding region
+4497	2	4	Non-coding region
+4498	2	6	Non-coding region
+4499	10	2	Non-coding region
+4500	7	3	Non-coding region
+4501	7	5	Non-coding region
+4502	5	5	Non-coding region
+4503	1	4	Non-coding region
+4504	2	4	Non-coding region
+4505	3	3	Non-coding region
+4506	2	3	Non-coding region
+4507	10	6	Non-coding region
+4508	4	7	Non-coding region
+4509	8	17	Non-coding region
+4510	4	2	Non-coding region
+4511	5	1	Non-coding region
+4512	2	4	Non-coding region
+4513	4	7	Non-coding region
+4514	3	7	Non-coding region
+4515	2	3	Non-coding region
+4516	2	3	Non-coding region
+4517	6	3	Non-coding region
+4518	1	2	Non-coding region
+4519	1	2	Non-coding region
+4520	7	4	Non-coding region
+4521	1	7	Non-coding region
+4522	8	6	Non-coding region
+4523	5	1	Non-coding region
+4524	3	7	Non-coding region
+4525	12	4	Non-coding region
+4526	3	5	Non-coding region
+4527	3	1	Non-coding region
+4528	8	14	Non-coding region
+4529	3	12	Non-coding region
+4530	8	10	Non-coding region
+4531	4	11	Non-coding region
+4532	7	8	Non-coding region
+4533	11	2	Non-coding region
+4534	8	7	Non-coding region
+4535	1	10	Non-coding region
+4536	7	8	Non-coding region
+4537	2	8	Non-coding region
+4538	2	7	Non-coding region
+4539	4	9	Non-coding region
+4540	6	5	Non-coding region
+4541	1	3	Non-coding region
+4542	4	4	Non-coding region
+4543	0	2	Non-coding region
+4544	5	4	Non-coding region
+4545	2	6	Non-coding region
+4546	2	9	Non-coding region
+4547	3	10	Non-coding region
+4548	6	9	Non-coding region
+4549	4	13	Non-coding region
+4550	3	7	Non-coding region
+4551	4	3	Non-coding region
+4552	6	7	Non-coding region
+4553	12	5	Non-coding region
+4554	1	6	Non-coding region
+4555	0	7	Non-coding region
+4556	1	4	Non-coding region
+4557	4	5	Non-coding region
+4558	2	5	Non-coding region
+4559	7	3	Non-coding region
+4560	3	3	Non-coding region
+4561	4	3	Non-coding region
+4562	5	6	Non-coding region
+4563	3	8	Non-coding region
+4564	1	4	Non-coding region
+4565	3	1	Non-coding region
+4566	4	7	Non-coding region
+4567	0	3	Non-coding region
+4568	9	20	Non-coding region
+4569	6	4	Non-coding region
+4570	4	8	Non-coding region
+4571	4	9	Non-coding region
+4572	6	9	Non-coding region
+4573	3	13	Non-coding region
+4574	5	2	Non-coding region
+4575	3	10	Non-coding region
+4576	8	5	Non-coding region
+4577	6	12	Non-coding region
+4578	7	19	Non-coding region
+4579	6	3	Non-coding region
+4580	3	7	Non-coding region
+4581	7	8	Non-coding region
+4582	1	10	Non-coding region
+4583	1	4	Non-coding region
+4584	1	9	Non-coding region
+4585	7	11	Non-coding region
+4586	2	5	Non-coding region
+4587	4	6	Non-coding region
+4588	3	5	Non-coding region
+4589	1	5	Non-coding region
+4590	5	8	Non-coding region
+4591	1	12	Non-coding region
+4592	0	3	Non-coding region
+4593	6	7	Non-coding region
+4594	3	4	Non-coding region
+4595	5	13	Non-coding region
+4596	5	6	Non-coding region
+4597	2	7	Non-coding region
+4598	2	9	Non-coding region
+4599	2	9	Non-coding region
+4600	12	7	Non-coding region
+4601	5	26	Non-coding region
+4602	1	6	Non-coding region
+4603	2	2	Non-coding region
+4604	0	14	Non-coding region
+4605	3	7	Non-coding region
+4606	2	3	Non-coding region
+4607	0	4	Non-coding region
+4608	2	8	Non-coding region
+4609	9	10	Non-coding region
+4610	0	5	Non-coding region
+4611	2	4	Non-coding region
+4612	3	3	Non-coding region
+4613	4	9	Non-coding region
+4614	5	19	Non-coding region
+4615	4	11	Non-coding region
+4616	3	9	Non-coding region
+4617	1	7	Non-coding region
+4618	6	7	Non-coding region
+4619	6	14	Non-coding region
+4620	10	12	Non-coding region
+4621	2	12	Non-coding region
+4622	3	2	Non-coding region
+4623	6	10	Non-coding region
+4624	4	19	Non-coding region
+4625	9	8	Non-coding region
+4626	6	8	Non-coding region
+4627	4	10	Non-coding region
+4628	3	7	Non-coding region
+4629	4	5	Non-coding region
+4630	10	11	Non-coding region
+4631	3	7	Non-coding region
+4632	5	7	Non-coding region
+4633	4	5	Non-coding region
+4634	5	7	Non-coding region
+4635	10	16	Non-coding region
+4636	5	4	Non-coding region
+4637	1	4	Non-coding region
+4638	2	3	Non-coding region
+4639	6	4	Non-coding region
+4640	5	10	Non-coding region
+4641	5	3	Non-coding region
+4642	4	5	Non-coding region
+4643	8	5	Non-coding region
+4644	6	14	Non-coding region
+4645	6	6	Non-coding region
+4646	3	7	Non-coding region
+4647	0	7	Non-coding region
+4648	4	3	Non-coding region
+4649	8	13	Non-coding region
+4650	6	7	Non-coding region
+4651	3	5	Non-coding region
+4652	3	2	Non-coding region
+4653	2	5	Non-coding region
+4654	7	25	Non-coding region
+4655	24	28	Non-coding region
+4656	2	18	Non-coding region
+4657	5	21	Non-coding region
+4658	8	13	Non-coding region
+4659	1	7	Non-coding region
+4660	3	9	Non-coding region
+4661	4	11	Non-coding region
+4662	17	22	Non-coding region
+4663	17	22	Non-coding region
+4664	3	3	Non-coding region
+4665	5	7	Non-coding region
+4666	2	3	Non-coding region
+4667	1	7	Non-coding region
+4668	2	4	Non-coding region
+4669	3	3	Non-coding region
+4670	1	5	Non-coding region
+4671	3	6	Non-coding region
+4672	5	6	Non-coding region
+4673	5	6	Non-coding region
+4674	6	3	Non-coding region
+4675	2	11	Non-coding region
+4676	5	18	Non-coding region
+4677	4	14	Non-coding region
+4678	8	34	Non-coding region
+4679	4	6	Non-coding region
+4680	2	7	Non-coding region
+4681	1	9	Non-coding region
+4682	3	12	Non-coding region
+4683	2	2	Non-coding region
+4684	5	3	Non-coding region
+4685	2	8	Non-coding region
+4686	7	13	Non-coding region
+4687	3	13	Non-coding region
+4688	6	9	Non-coding region
+4689	5	6	Non-coding region
+4690	3	12	Non-coding region
+4691	7	8	Non-coding region
+4692	5	10	Non-coding region
+4693	4	7	Non-coding region
+4694	1	13	Non-coding region
+4695	2	9	Non-coding region
+4696	2	7	Non-coding region
+4697	2	11	Non-coding region
+4698	5	14	Non-coding region
+4699	3	12	Non-coding region
+4700	2	2	Non-coding region
+4701	4	6	Non-coding region
+4702	2	3	Non-coding region
+4703	2	4	Non-coding region
+4704	2	16	Non-coding region
+4705	2	22	Non-coding region
+4706	0	5	Non-coding region
+4707	2	6	Non-coding region
+4708	5	10	Non-coding region
+4709	4	3	Non-coding region
+4710	3	7	Non-coding region
+4711	16	10	Non-coding region
+4712	8	9	Non-coding region
+4713	4	6	Non-coding region
+4714	6	2	Non-coding region
+4715	3	4	Non-coding region
+4716	3	4	Non-coding region
+4717	5	11	Non-coding region
+4718	4	9	Non-coding region
+4719	4	8	Non-coding region
+4720	1	5	Non-coding region
+4721	3	9	Non-coding region
+4722	1	2	Non-coding region
+4723	2	5	Non-coding region
+4724	2	10	Non-coding region
+4725	3	8	Non-coding region
+4726	3	2	Non-coding region
+4727	3	10	Non-coding region
+4728	1	22	Non-coding region
+4729	2	17	Non-coding region
+4730	5	4	Non-coding region
+4731	6	7	Non-coding region
+4732	0	6	Non-coding region
+4733	3	6	Non-coding region
+4734	8	17	Non-coding region
+4735	4	10	Non-coding region
+4736	14	6	Non-coding region
+4737	76	103	Non-coding region
+4738	5	9	Non-coding region
+4739	6	4	Non-coding region
+4740	8	10	Non-coding region
+4741	9	8	Non-coding region
+4742	4	10	Non-coding region
+4743	2	6	Non-coding region
+4744	8	11	Non-coding region
+4745	10	7	Non-coding region
+4746	3	7	Non-coding region
+4747	3	4	Non-coding region
+4748	1	10	Non-coding region
+4749	4	5	Non-coding region
+4750	3	5	Non-coding region
+4751	4	6	Non-coding region
+4752	2	7	Non-coding region
+4753	4	6	Non-coding region
+4754	3	12	Non-coding region
+4755	3	13	Non-coding region
+4756	5	11	Non-coding region
+4757	1	12	Non-coding region
+4758	2	5	Non-coding region
+4759	5	12	Non-coding region
+4760	8	13	Non-coding region
+4761	3	2	Non-coding region
+4762	9	8	Non-coding region
+4763	11	5	Non-coding region
+4764	4	10	Non-coding region
+4765	6	6	Non-coding region
+4766	5	8	Non-coding region
+4767	4	7	Non-coding region
+4768	4	21	Non-coding region
+4769	6	8	Non-coding region
+4770	1	23	Non-coding region
+4771	1	6	Non-coding region
+4772	3	8	Non-coding region
+4773	3	24	Non-coding region
+4774	3	14	Non-coding region
+4775	5	10	Non-coding region
+4776	6	25	Non-coding region
+4777	3	20	Non-coding region
+4778	3	17	Non-coding region
+4779	4	12	Non-coding region
+4780	5	18	Non-coding region
+4781	5	11	Non-coding region
+4782	3	26	Non-coding region
+4783	5	10	Non-coding region
+4784	2	27	Non-coding region
+4785	3	14	Non-coding region
+4786	0	40	Non-coding region
+4787	1	6	Non-coding region
+4788	9	10	Non-coding region
+4789	5	24	Non-coding region
+4790	3	12	Non-coding region
+4791	1	8	Non-coding region
+4792	1	4	Non-coding region
+4793	2	9	Non-coding region
+4794	2	16	Non-coding region
+4795	2	3	Non-coding region
+4796	4	30	Non-coding region
+4797	7	17	Non-coding region
+4798	0	14	Non-coding region
+4799	5	36	Non-coding region
+4800	2	9	Non-coding region
+4801	7	12	Non-coding region
+4802	1	24	Non-coding region
+4803	0	11	Non-coding region
+4804	5	22	Non-coding region
+4805	6	10	Non-coding region
+4806	5	8	Non-coding region
+4807	1	11	Non-coding region
+4808	5	15	Non-coding region
+4809	8	5	Non-coding region
+4810	8	6	Non-coding region
+4811	6	14	Non-coding region
+4812	3	11	Non-coding region
+4813	6	12	Non-coding region
+4814	3	5	Non-coding region
+4815	1	14	Non-coding region
+4816	6	13	Non-coding region
+4817	8	19	Non-coding region
+4818	2	21	Non-coding region
+4819	5	28	Non-coding region
+4820	3	33	Non-coding region
+4821	8	21	Non-coding region
+4827	5	9	Non-coding region
+4828	2	6	Non-coding region
+4829	7	16	Non-coding region
+4830	1	34	Non-coding region
+4831	3	22	Non-coding region
+4832	4	31	Non-coding region
+4833	8	33	Non-coding region
+4834	4	21	Non-coding region
+4835	3	27	Non-coding region
+4836	4	13	Non-coding region
+4837	3	16	Non-coding region
+4838	8	9	Non-coding region
+4839	5	31	Non-coding region
+4840	6	11	Non-coding region
+4841	4	8	Non-coding region
+4842	4	23	Non-coding region
+4843	1	33	Non-coding region
+4844	5	49	Non-coding region
+4845	3	31	Non-coding region
+4846	7	24	Non-coding region
+4847	1	1	Non-coding region
+4848	1	14	Non-coding region
+4849	4	19	Non-coding region
+4850	7	30	Non-coding region
+4851	2	8	Non-coding region
+4852	5	17	Non-coding region
+4853	4	20	Non-coding region
+4854	0	16	Non-coding region
+4855	8	1	Non-coding region
+4856	2	4	Non-coding region
+4857	6	7	Non-coding region
+4858	0	7	Non-coding region
+4859	2	1	Non-coding region
+4860	18	24	Non-coding region
+4861	1	3	Non-coding region
+4862	0	1	Non-coding region
+4863	2	14	Non-coding region
+4864	5	2	Non-coding region
+4872	3	1	Non-coding region
+4873	13	6	Non-coding region
+4874	3	27	Non-coding region
+4875	4	31	Non-coding region
+4876	8	20	Non-coding region
+4877	5	24	Non-coding region
+4878	3	18	Non-coding region
+4879	0	12	Non-coding region
+4880	5	27	Non-coding region
+4881	5	59	Non-coding region
+4882	5	64	Non-coding region
+4883	4	15	Non-coding region
+4884	1	14	Non-coding region
+4885	3	16	Non-coding region
+4886	3	13	Non-coding region
+4887	10	21	Non-coding region
+4888	9	8	Non-coding region
+4889	2	14	Non-coding region
+4890	3	11	Non-coding region
+4891	49	23	Non-coding region
+4893	6	21	Non-coding region
+4894	3	12	Non-coding region
+4895	4	14	Non-coding region
+4896	6	12	Non-coding region
+4897	7	9	Non-coding region
+4898	4	4	Non-coding region
+4899	3	1	Non-coding region
+4900	2	6	Non-coding region
+4901	3	5	Non-coding region
+4902	1	13	Non-coding region
+4903	5	6	Non-coding region
+4904	0	10	Non-coding region
+4905	6	27	Non-coding region
+4906	6	10	Non-coding region
+4907	6	18	Non-coding region
+4908	3	7	Non-coding region
+4909	2	6	Non-coding region
+4910	2	0	Non-coding region
+4911	3	2	Non-coding region
+4912	7	4	Non-coding region
+4913	5	7	Non-coding region
+4914	4	4	Non-coding region
+4915	2	7	Non-coding region
+4916	7	3	Non-coding region
+4917	2	15	Non-coding region
+4918	2	12	Non-coding region
+4919	2	13	Non-coding region
+4920	7	7	Non-coding region
+4921	4	8	Non-coding region
+4922	6	13	Non-coding region
+4923	1	16	Non-coding region
+4924	2	7	Non-coding region
+4925	5	8	Non-coding region
+4926	9	26	Non-coding region
+4927	3	7	Non-coding region
+4928	7	15	Non-coding region
+4929	8	12	Non-coding region
+4930	10	7	Non-coding region
+4931	1	8	Non-coding region
+4932	7	45	Non-coding region
+4933	5	10	Non-coding region
+4934	2	16	Non-coding region
+4935	2	15	Non-coding region
+4936	1	12	Non-coding region
+4937	2	30	Non-coding region
+4938	2	27	Non-coding region
+4939	4	7	Non-coding region
+4940	7	17	Non-coding region
+4941	6	19	Non-coding region
+4942	4	9	Non-coding region
+4943	6	20	Non-coding region
+4944	5	2	Non-coding region
+4945	144	64	Non-coding region
+4946	8	33	Non-coding region
+4947	6	20	Non-coding region
+4948	2	10	Non-coding region
+4949	7	14	Non-coding region
+4950	3	13	Non-coding region
+4951	3	5	Non-coding region
+4952	5	11	Non-coding region
+4953	2	16	Non-coding region
+4954	6	16	Non-coding region
+4955	3	7	Non-coding region
+4956	4	6	Non-coding region
+4957	3	8	Non-coding region
+4958	2	1	Non-coding region
+4959	5	5	Non-coding region
+4960	3	16	Non-coding region
+4961	0	27	Non-coding region
+4962	3	11	Non-coding region
+4963	7	10	Non-coding region
+4964	6	7	Non-coding region
+4965	2	13	Non-coding region
+4966	1	7	Non-coding region
+4967	3	6	Non-coding region
+4968	2	6	Non-coding region
+4969	3	14	Non-coding region
+4970	1	5	Non-coding region
+4971	6	14	Non-coding region
+4972	6	14	Non-coding region
+4973	2	24	Non-coding region
+4974	7	10	Non-coding region
+4975	1	7	Non-coding region
+4976	5	8	Non-coding region
+4977	1	3	Non-coding region
+4978	1	8	Non-coding region
+4979	1	5	Non-coding region
+4980	4	6	Non-coding region
+4981	3	8	Non-coding region
+4982	5	14	Non-coding region
+4983	4	15	Non-coding region
+4984	8	12	Non-coding region
+4985	3	8	Non-coding region
+4986	13	16	Non-coding region
+4987	3	7	Non-coding region
+4988	8	12	Non-coding region
+4989	2	14	Non-coding region
+4990	4	11	Non-coding region
+4991	3	10	Non-coding region
+4992	1	12	Non-coding region
+4993	2	7	Non-coding region
+4994	2	6	Non-coding region
+4995	2	5	Non-coding region
+4996	1	5	Non-coding region
+4997	2	6	Non-coding region
+4998	1	14	Non-coding region
+4999	1	7	Non-coding region
+5000	2	1	Non-coding region
+5001	1	7	Non-coding region
+5002	0	6	Non-coding region
+5003	0	8	Non-coding region
+5004	2	15	Non-coding region
+5005	4	17	Non-coding region
+5006	1	7	Non-coding region
+5007	2	20	Non-coding region
+5008	6	8	Non-coding region
+5009	36	46	Non-coding region
+5010	32	40	Non-coding region
+5011	4	7	Non-coding region
+5012	7	10	Non-coding region
+5013	2	8	Non-coding region
+5014	1	9	Non-coding region
+5015	7	7	Non-coding region
+5016	6	9	Non-coding region
+5017	1	7	Non-coding region
+5018	5	16	Non-coding region
+5019	3	5	Non-coding region
+5020	1	6	Non-coding region
+5021	2	10	Non-coding region
+5022	2	11	Non-coding region
+5023	6	16	Non-coding region
+5024	5	14	Non-coding region
+5025	0	9	Non-coding region
+5026	4	27	Non-coding region
+5027	6	15	Non-coding region
+5028	4	14	Non-coding region
+5029	2	29	Non-coding region
+5030	4	51	Non-coding region
+5031	2	4	Non-coding region
+5032	0	4	Non-coding region
+5036	2	1	Non-coding region
+5037	2	5	Non-coding region
+5038	4	16	Non-coding region
+5039	4	10	Non-coding region
+5040	0	9	Non-coding region
+5041	6	9	Non-coding region
+5042	4	13	Non-coding region
+5043	4	3	Non-coding region
+5044	4	9	Non-coding region
+5045	3	6	Non-coding region
+5046	4	20	Non-coding region
+5047	2	5	Non-coding region
+5048	4	15	Non-coding region
+5049	4	3	Non-coding region
+5050	4	15	Non-coding region
+5051	6	15	Non-coding region
+5052	1	12	Non-coding region
+5053	22	22	Non-coding region
+5054	6	7	Non-coding region
+5055	1	16	Non-coding region
+5056	5	16	Non-coding region
+5057	4	11	Non-coding region
+5058	2	11	Non-coding region
+5059	3	7	Non-coding region
+5060	4	7	Non-coding region
+5061	3	6	Non-coding region
+5062	5	9	Non-coding region
+5063	2	10	Non-coding region
+5172	1	4	Non-coding region
+5173	5	5	Non-coding region
+5174	6	26	Non-coding region
+5175	3	13	Non-coding region
+5176	5	14	Non-coding region
+5177	5	9	Non-coding region
+5178	8	11	Non-coding region
+5179	2	6	Non-coding region
+5180	7	25	Non-coding region
+5181	3	9	Non-coding region
+5182	1	9	Non-coding region
+5183	6	20	Non-coding region
+5184	3	7	Non-coding region
+5185	4	9	Non-coding region
+5186	4	6	Non-coding region
+5187	1	7	Non-coding region
+5188	4	15	Non-coding region
+5189	4	15	Non-coding region
+5190	4	12	Non-coding region
+5191	4	11	Non-coding region
+5192	3	13	Non-coding region
+5193	2	3	Non-coding region
+5194	4	11	Non-coding region
+5195	3	10	Non-coding region
+5196	2	27	Non-coding region
+5197	1	9	Non-coding region
+5198	1	7	Non-coding region
+5199	5	8	Non-coding region
+5200	1	14	Non-coding region
+5201	3	24	Non-coding region
+5202	3	12	Non-coding region
+5203	0	2	Non-coding region
+5204	16	19	Non-coding region
+5205	3	6	Non-coding region
+5206	5	4	Non-coding region
+5207	2	10	Non-coding region
+5208	9	10	Non-coding region
+5209	3	20	Non-coding region
+5210	3	19	Non-coding region
+5211	3	20	Non-coding region
+5212	1	6	Non-coding region
+5213	1	15	Non-coding region
+5214	8	16	Non-coding region
+5215	0	5	Non-coding region
+5216	3	5	Non-coding region
+5217	3	7	Non-coding region
+5218	5	5	Non-coding region
+5219	1	3	Non-coding region
+5220	6	9	Non-coding region
+5221	18	8	Non-coding region
+5222	2	9	Non-coding region
+5223	4	8	Non-coding region
+5224	1	13	Non-coding region
+5225	6	10	Non-coding region
+5226	7	6	Non-coding region
+5227	6	10	Non-coding region
+5228	5	6	Non-coding region
+5229	3	5	Non-coding region
+5230	2	9	Non-coding region
+5231	4	28	Non-coding region
+5232	0	20	Non-coding region
+5233	2	17	Non-coding region
+5234	1	17	Non-coding region
+5235	5	2	Non-coding region
+5236	1	5	Non-coding region
+5237	2	7	Non-coding region
+5238	2	17	Non-coding region
+5239	3	12	Non-coding region
+5240	6	16	Non-coding region
+5241	3	7	Non-coding region
+5242	1	5	Non-coding region
+5243	1	2	Non-coding region
+5244	2	12	Non-coding region
+5245	2	20	Non-coding region
+5246	6	7	Non-coding region
+5247	1	11	Non-coding region
+5248	6	18	Non-coding region
+5249	7	13	Non-coding region
+5250	2	4	Non-coding region
+5251	4	7	Non-coding region
+5252	4	10	Non-coding region
+5253	5	8	Non-coding region
+5254	4	6	Non-coding region
+5255	3	4	Non-coding region
+5256	2	4	Non-coding region
+5257	0	6	Non-coding region
+5258	1	4	Non-coding region
+5259	0	3	Non-coding region
+5260	3	10	Non-coding region
+5261	9	19	Non-coding region
+5262	4	1	Non-coding region
+5263	4	9	Non-coding region
+5264	56	15	Non-coding region
+5265	7	8	Non-coding region
+5266	9	8	Non-coding region
+5267	3	9	Non-coding region
+5268	7	11	Non-coding region
+5269	7	11	Non-coding region
+5270	4	8	Non-coding region
+5271	7	14	Non-coding region
+5272	5	21	Non-coding region
+5273	4	10	Non-coding region
+5274	4	19	Non-coding region
+5275	3	4	Non-coding region
+5276	1	3	Non-coding region
+5277	7	2	Non-coding region
+5278	5	3	Non-coding region
+5279	2	8	Non-coding region
+5280	3	5	Non-coding region
+5281	3	18	Non-coding region
+5282	7	3	Non-coding region
+5283	2	5	Non-coding region
+5284	4	2	Non-coding region
+5285	4	2	Non-coding region
+5286	8	8	Non-coding region
+5287	5	2	Non-coding region
+5288	7	5	Non-coding region
+5289	5	15	Non-coding region
+5290	1	22	Non-coding region
+5291	3	6	Non-coding region
+5292	3	8	Non-coding region
+5293	3	13	Non-coding region
+5294	7	9	Non-coding region
+5295	3	7	Non-coding region
+5296	2	10	Non-coding region
+5297	4	10	Non-coding region
+5298	3	10	Non-coding region
+5299	4	4	Non-coding region
+5300	3	17	Non-coding region
+5301	6	8	Non-coding region
+5307	2	9	Non-coding region
+5308	3	3	Non-coding region
+5309	1	14	Non-coding region
+5310	2	24	Non-coding region
+5311	3	22	Non-coding region
+5312	3	14	Non-coding region
+5313	2	7	Non-coding region
+5314	6	7	Non-coding region
+5315	0	4	Non-coding region
+5316	3	24	Non-coding region
+5317	1	7	Non-coding region
+5318	4	7	Non-coding region
+5319	4	10	Non-coding region
+5320	4	17	Non-coding region
+5321	3	12	Non-coding region
+5322	2	39	Non-coding region
+5323	4	17	Non-coding region
+5324	2	13	Non-coding region
+5325	4	18	Non-coding region
+5326	3	10	Non-coding region
+5327	2	5	Non-coding region
+5328	5	12	Non-coding region
+5329	1	3	Non-coding region
+5330	1	1	Non-coding region
+5331	4	2	Non-coding region
+5332	2	5	Non-coding region
+5333	1	3	Non-coding region
+5334	1	8	Non-coding region
+5335	21	18	Non-coding region
+5336	5	4	Non-coding region
+5337	3	7	Non-coding region
+5338	5	3	Non-coding region
+5339	3	7	Non-coding region
+5340	2	12	Non-coding region
+5341	1	2	Non-coding region
+5342	5	2	Non-coding region
+5343	6	6	Non-coding region
+5344	5	9	Non-coding region
+5345	2	8	Non-coding region
+5346	3	4	Non-coding region
+5352	3	4	Non-coding region
+5353	6	10	Non-coding region
+5354	4	5	Non-coding region
+5355	3	11	Non-coding region
+5356	8	9	Non-coding region
+5357	2	15	Non-coding region
+5358	1	8	Non-coding region
+5359	3	4	Non-coding region
+5360	3	8	Non-coding region
+5361	18	19	Non-coding region
+5362	13	7	Non-coding region
+5363	5	9	Non-coding region
+5364	2	4	Non-coding region
+5365	7	3	Non-coding region
+5366	9	7	Non-coding region
+5367	3	4	Non-coding region
+5368	9	9	Non-coding region
+5369	6	5	Non-coding region
+5370	27	28	Non-coding region
+5371	10	14	Non-coding region
+5372	6	7	Non-coding region
+5373	6	10	Non-coding region
+5374	8	11	Non-coding region
+5375	5	6	Non-coding region
+5376	4	9	Non-coding region
+5377	7	4	Non-coding region
+5378	10	8	Non-coding region
+5379	11	11	Non-coding region
+5380	7	8	Non-coding region
+5381	12	13	Non-coding region
+5382	3	7	Non-coding region
+5383	7	8	Non-coding region
+5384	4	13	Non-coding region
+5385	13	13	Non-coding region
+5386	5	4	Non-coding region
+5387	6	5	Non-coding region
+5388	6	8	Non-coding region
+5389	13	9	Non-coding region
+5390	12	4	Non-coding region
+5391	3	4	Non-coding region
+5392	8	8	Non-coding region
+5393	6	6	Non-coding region
+5394	5	6	Non-coding region
+5395	4	3	Non-coding region
+5396	7	7	Non-coding region
+5397	5	7	Non-coding region
+5398	9	8	Non-coding region
+5399	13	10	Non-coding region
+5400	11	12	Non-coding region
+5401	7	5	Non-coding region
+5402	16	17	Non-coding region
+5403	6	14	Non-coding region
+5404	5	9	Non-coding region
+5405	12	18	Non-coding region
+5406	8	4	Non-coding region
+5407	5	3	Non-coding region
+5408	3	6	Non-coding region
+5409	6	17	Non-coding region
+5410	7	16	Non-coding region
+5411	7	4	Non-coding region
+5412	6	13	Non-coding region
+5413	2	0	Non-coding region
+5414	11	11	Non-coding region
+5415	10	10	Non-coding region
+5416	5	8	Non-coding region
+5417	4	6	Non-coding region
+5418	3	13	Non-coding region
+5419	8	6	Non-coding region
+5420	9	8	Non-coding region
+5421	1	7	Non-coding region
+5422	16	10	Non-coding region
+5423	8	21	Non-coding region
+5424	11	15	Non-coding region
+5425	5	11	Non-coding region
+5426	4	11	Non-coding region
+5427	5	13	Non-coding region
+5428	8	15	Non-coding region
+5429	8	11	Non-coding region
+5430	11	23	Non-coding region
+5431	5	13	Non-coding region
+5432	6	4	Non-coding region
+5433	7	9	Non-coding region
+5434	7	12	Non-coding region
+5435	6	14	Non-coding region
+5436	14	13	Non-coding region
+5437	6	13	Non-coding region
+5438	10	10	Non-coding region
+5444	10	17	Non-coding region
+5445	10	8	Non-coding region
+5446	15	29	Non-coding region
+5447	14	24	Non-coding region
+5448	3	9	Non-coding region
+5449	1	5	Non-coding region
+5450	1	6	Non-coding region
+5451	2	11	Non-coding region
+5452	6	10	Non-coding region
+5453	8	7	Non-coding region
+5454	50	50	Non-coding region
+5455	29	28	Non-coding region
+5456	25	24	Non-coding region
+5457	25	24	Non-coding region
+5458	6	6	Non-coding region
+5459	8	6	Non-coding region
+5460	14	14	Non-coding region
+5461	8	11	Non-coding region
+5462	10	10	Non-coding region
+5463	8	8	Non-coding region
+5464	8	9	Non-coding region
+5465	12	10	Non-coding region
+5466	15	19	Non-coding region
+5467	13	8	Non-coding region
+5468	16	10	Non-coding region
+5469	8	9	Non-coding region
+5470	5	9	Non-coding region
+5471	1	5	Non-coding region
+5472	8	3	Non-coding region
+5473	4	2	Non-coding region
+5474	5	5	Non-coding region
+5475	4	5	Non-coding region
+5476	8	12	Non-coding region
+5477	3	5	Non-coding region
+5478	2	9	Non-coding region
+5479	7	9	Non-coding region
+5480	7	7	Non-coding region
+5481	8	11	Non-coding region
+5482	6	5	Non-coding region
+5483	7	5	Non-coding region
+5484	9	7	Non-coding region
+5485	8	5	Non-coding region
+5486	5	18	Non-coding region
+5487	7	11	Non-coding region
+5488	5	9	Non-coding region
+5489	7	13	Non-coding region
+5490	8	10	Non-coding region
+5491	4	10	Non-coding region
+5492	8	5	Non-coding region
+5493	6	9	Non-coding region
+5494	6	8	Non-coding region
+5495	14	7	Non-coding region
+5496	4	3	Non-coding region
+5497	7	8	Non-coding region
+5498	8	12	Non-coding region
+5499	13	7	Non-coding region
+5500	15	15	Non-coding region
+5501	9	9	Non-coding region
+5502	12	12	Non-coding region
+5503	11	12	Non-coding region
+5504	9	11	Non-coding region
+5505	13	16	Non-coding region
+5506	22	10	Non-coding region
+5507	15	15	Non-coding region
+5508	9	7	Non-coding region
+5509	7	3	Non-coding region
+5510	3	6	Non-coding region
+5511	7	4	Non-coding region
+5512	9	2	Non-coding region
+5513	8	10	Non-coding region
+5514	16	12	Non-coding region
+5515	4	5	Non-coding region
+5516	25	30	Non-coding region
+5517	7	7	Non-coding region
+5518	9	7	Non-coding region
+5519	2	2	Non-coding region
+5520	8	9	Non-coding region
+5521	3	1	Non-coding region
+5522	18	22	Non-coding region
+5523	7	3	Non-coding region
+5524	9	8	Non-coding region
+5525	7	8	Non-coding region
+5526	8	11	Non-coding region
+5527	6	7	Non-coding region
+5528	0	3	Non-coding region
+5529	7	8	Non-coding region
+5530	10	4	Non-coding region
+5531	9	5	Non-coding region
+5532	8	5	Non-coding region
+5533	6	6	Non-coding region
+5534	6	4	Non-coding region
+5535	13	11	Non-coding region
+5536	5	5	Non-coding region
+5537	11	12	Non-coding region
+5538	9	7	Non-coding region
+5539	7	3	Non-coding region
+5540	9	7	Non-coding region
+5541	5	4	Non-coding region
+5542	9	7	Non-coding region
+5543	1	1	Non-coding region
+5548	3	4	Non-coding region
+5549	7	6	Non-coding region
+5550	4	10	Non-coding region
+5551	8	5	Non-coding region
+5552	9	16	Non-coding region
+5553	14	8	Non-coding region
+5554	8	10	Non-coding region
+5555	11	8	Non-coding region
+5556	6	16	Non-coding region
+5557	7	10	Non-coding region
+5558	6	6	Non-coding region
+5559	9	3	Non-coding region
+5560	12	7	Non-coding region
+5561	6	7	Non-coding region
+5562	8	9	Non-coding region
+5563	13	9	Non-coding region
+5564	5	3	Non-coding region
+5565	9	10	Non-coding region
+5566	4	6	Non-coding region
+5567	7	12	Non-coding region
+5568	14	15	Non-coding region
+5569	1	1	Non-coding region
+5570	4	6	Non-coding region
+5571	4	4	Non-coding region
+5572	4	4	Non-coding region
+5573	1	4	Non-coding region
+5574	6	11	Non-coding region
+5575	7	4	Non-coding region
+5576	9	9	Non-coding region
+5577	6	10	Non-coding region
+5578	8	8	Non-coding region
+5579	9	9	Non-coding region
+5580	14	14	Non-coding region
+5581	9	9	Non-coding region
+5582	8	5	Non-coding region
+5583	6	3	Non-coding region
+5584	6	9	Non-coding region
+5585	8	13	Non-coding region
+5586	4	7	Non-coding region
+5587	20	19	Non-coding region
+5588	7	4	Non-coding region
+5589	7	4	Non-coding region
+5590	4	8	Non-coding region
+5591	6	4	Non-coding region
+5592	5	5	Non-coding region
+5593	8	5	Non-coding region
+5594	17	17	Non-coding region
+5595	3	4	Non-coding region
+5596	4	6	Non-coding region
+5597	1	3	Non-coding region
+5598	5	7	Non-coding region
