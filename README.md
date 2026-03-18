@@ -16,8 +16,6 @@ The main folders correspond to the core components of the paper, while the final
 1. **Phylogenomics and Transmission Inference**  
    This folder contains scripts and processed inputs used for genomic data integration, lineage assignment, time-resolved phylogenetic reconstruction, ancestral geographic-state inference, and city-level transmission network analysis.  
    Major analyses include:
-   - genome metadata parsing and curation
-   - lineage / ESL assignment
    - time-calibrated phylogeny construction
    - geographic transmission inference
    - transmission-module identification
