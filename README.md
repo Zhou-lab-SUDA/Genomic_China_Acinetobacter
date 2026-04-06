@@ -110,7 +110,7 @@ This analysis produces two key outputs:
 These results form the core of **Figure 2 (China panel)**.
 
 <p align="left">
-  <img src="images/figure2.png" width="600" alt="F2">
+  <img src="1_Phylogenomics_and_Transmission_Inference/F2.png" width="600" alt="F2">
 </p>
 
 ---
