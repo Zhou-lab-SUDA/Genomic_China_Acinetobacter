@@ -71,17 +71,18 @@ This script applies the **Louvain community detection algorithm** (equivalent to
 - assess hierarchical structure of dissemination  
 
 In addition, cities were stratified into hierarchical categories  
-(e.g., mega cities, provincial capitals, non-provincial cities),  
+(mega cities, provincial capitals, non-provincial cities, [Source from China government](https://www.ndrc.gov.cn/xwdt/ztzl/xxczhjs/ghzc/201605/t20160509_971910.html)),  
 and their relative contributions to transmission were quantified.
 
 These analyses constitute the majority of **Extended Data Figure 3**.
+
 <p align="center">
   <img src="images/figure1.png" width="600" alt="EDF3">
 </p>
 
 ### Dissemination distance and velocity estimation
 
-Spatial dissemination dynamics were estimated following a phylogeny-based framework inspired by recent work on bacterial transmission dynamics (Nature, 2024).
+Spatial dissemination dynamics were estimated following a phylogeny-based framework inspired by recent work from Belman et al. on bacterial transmission dynamics ([Nature, 2024](https://doi.org/10.1038/s41586-024-07626-3)).
 
 For each phylogenetic branch associated with a geographic transition,  
 transmission velocity was conservatively defined as:
@@ -89,11 +90,11 @@ transmission velocity was conservatively defined as:
 - geographic distance between inferred locations  
 - divided by the temporal interval between nodes  
 
-Geographic distances between cities were obtained via the Baidu Map API, a publicly accessible data source available upon application.
+Geographic distances between cities were obtained via [the Baidu Map API](https://lbs.baidu.com/), a publicly accessible data source available upon application, and can be found in [PairwiseChinaCities.distance](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/PairwiseChinaCities.distance).
 
 We employed the script:
 
-- `Speed.py`
+- [`Speed.py`]()
 
 to implement a phylogeny-informed estimation framework that:
 
@@ -108,6 +109,9 @@ This analysis produces two key outputs:
 
 These results form the core of **Figure 2 (China panel)**.
 
+<p align="center">
+  <img src="images/figure2.png" width="600" alt="F2">
+</p>
 
 ---
 
@@ -125,50 +129,47 @@ Major components include:
 
 ### Network connectivity and clade prevalence
 
-Using the transmission network (`China_Transmission_Normalization.tsv`),  
+Using the transmission network ([`China_Transmission_Normalization.tsv`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/China_Transmission_Normalization.tsv)
+),  
 we quantified the relationship between city connectivity and clade prevalence using:
 
-- `Degree.py`
+- [`Degree.py`]()
 
 This analysis evaluates:
 
 - correlation between node degree and detection rate of ESL2.4 and ESL2.5  
 - association between clade prevalence and healthcare mobility indices  
 
-Healthcare mobility data were derived from large-scale analyses of patient movement patterns in China (Nature, 2024).
+Healthcare mobility data were derived from large-scale analyses of patient movement patterns in China by Zhao et al.([Nature cities, 2024](https://doi.org/10.1038/s44284-024-00185-8)).
 
-These analyses correspond to **Figure 3a–c**.
+These analyses correspond to **Figure 3a-c**.
 
+<p align="center">
+  <img src="images/figure3.png" width="600" alt="F31">
+</p>
 
 ### Urban attributes and multivariate modelling
 
-City-level metadata were compiled from national statistical yearbooks and healthcare reports,  
-and are provided in:
+We downloaded and manually curated a set of data most relevant to the local healthcare environment from [the China Statistical Yearbook](https://www.stats.gov.cn/zs/tjwh/tjkw/tjzl/202302/t20230220_1913734.html) and [the China Health Statistics Yearbook](https://www.nhc.gov.cn/mohwsbwstjxxzx/tjtjnj/202501/8193a8edda0f49df80eb5a8ef5e2547c.shtml), which are available in the file [`City_attribution.tsv`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/2_Evolutionary_Signatures/ChinaCityInfo.xlsx). Because more than half of the municipal health departments lack published statistics, we aggregated the number of inpatients and outpatient visits only at the provincial level ([`True_World_OI.tsv`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/2_Evolutionary_Signatures/TrueValueOI.xlsx)).
 
-- `City_attribution.tsv`  
-- `True_World_OI.tsv`
+The outpatient/inpatient ratio (**O/I ratio**) is a key concept in our study. The **O/I ratio** indicates the extent to which a region acts as a destination for cross-regional healthcare-seeking mobility. Using OI_dev.py, we show that the **O/I ratio** is strongly correlated with per capita GDP, as expected. Owing to China’s universal health insurance policy and the concentration of high-level medical resources, most patients tend to seek care at the best local hospitals or nearby regional medical centers rather than nearby general clinics, even for non‑severe conditions. 
 
-A key variable in this study is the **outpatient-to-inpatient ratio (O/I ratio)**,  
-which serves as a proxy for healthcare system centrality and patient mobility.
+Consequently, first‑tier cities and provincial capitals bear a much higher outpatient burden, a considerable proportion of which consists of cross‑regional patients.
+As noted earlier, lineage 2.5 was more likely to be detected in highly connected cities. We therefore used [`City_Attr.py`]() to evaluate the Spearman correlation between the detection of 2.5 and various city attributes. Furthermore, we applied redundancy analysis (RDA) and structural equation modeling (SEM) to assess the effects of different factors on the detection rate of 2.5 across cities.
 
-We used:
+These analyses constitute **Figure 3d-g**.
 
-- `OI_dev.py` to evaluate relationships between O/I ratio and economic indicators (e.g., GDP)  
-- `City_Attr.py` to assess correlations between ESL2.5 prevalence and urban attributes  
-
-Further, we applied:
-
-- redundancy analysis (RDA)  
-- structural equation modelling (SEM)  
-
-to quantify the relative contributions of socioeconomic and healthcare variables to clade prevalence.
-
-These analyses constitute **Figure 3d–g**.
-
+<p align="center">
+  <img src="images/figure4.png" width="600" alt="F32">
+</p>
 
 ### Pseudogene identification and enrichment analysis
 
-Pan-genome reconstruction was performed using **PEPPAN (vX.X.X)**.
+Pan-genome reconstruction was performed using **PEPPAN (v1.0.5)** via following commands:
+
+```
+PEPPAN -P GCF_000187205.gff --min_cds 80 --nucl *.gff
+```
 
 Putative gene disruptions (pseudogenes) were classified based on structural criteria, including:
 
@@ -183,7 +184,7 @@ Pseudogenes enriched in ESL2.5 were defined using a frequency-based criterion:
 
 Results are provided in:
 
-- `Pseudogenes.tsv`
+- [`Pseudogenes.tsv`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/2_Evolutionary_Signatures/ESL2.5_Pseudogenes.txt)
 
 Functional enrichment (COG and KEGG) was performed based on these gene sets.
 
@@ -192,15 +193,17 @@ Functional enrichment (COG and KEGG) was performed based on these gene sets.
 
 Genomes were aligned to the MDR-TJ reference using EToKi (minimap2 backend).
 
-SNP density was calculated using sliding windows across the genome,  
-and hotspots were defined as regions exceeding the 95th percentile of SNP density.
+SNP density per Kb was calculated using sliding windows across the genome, and hotspots were defined as regions exceeding the 95th percentile of SNP density.
 
 Results are provided in:
 
-- `Mutations_hotspot.tsv`
+- [`Mutations_hotspot.tsv`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/2_Evolutionary_Signatures/ESL2.5_Mutations.txt)
 
-These analyses form **Figure 4a–c**.
+These analyses form **Figure 4a-c**.
 
+<p align="center">
+  <img src="images/figure5.png" width="600" alt="F4">
+</p>
 
 ---
 
