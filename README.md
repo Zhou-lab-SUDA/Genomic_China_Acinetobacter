@@ -94,7 +94,7 @@ Geographic distances between cities were obtained via [the Baidu Map API](https:
 
 We employed the script:
 
-- [`Speed.py`]()
+- [`Speed.py`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/Speed.py)
 
 to implement a phylogeny-informed estimation framework that:
 
