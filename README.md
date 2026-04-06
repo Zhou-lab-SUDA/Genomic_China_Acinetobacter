@@ -35,12 +35,12 @@ TreeTime outputs an annotated Nexus file ([`treetime.annotated.nexus`](https://g
 - inferred geographic states  
 - posterior probabilities of ancestral locations  
 
-This file can be directly visualized in iTOL for inspection of temporal and spatial evolutionary patterns.
+This file can be directly visualized in [iTOL](https://itol.embl.de/) for inspection of temporal and spatial evolutionary patterns.
 
 
 ### Transmission inference
 
-Transmission dynamics were inferred using the discrete trait reconstruction framework implemented in TreeTime.  
+Transmission dynamics were inferred using the discrete trait reconstruction framework implemented in TreeTime mugration module.  
 
 In brief, each branch in the phylogeny was evaluated for changes in geographic state between parent and descendant nodes.  
 Branches associated with state transitions were interpreted as putative transmission events between locations.
@@ -53,16 +53,16 @@ By aggregating these events across the phylogeny, we constructed a city-level tr
 
 The resulting network is provided as:
 
-- `China_Transmission_Normalization.tsv`
+- [`China_Transmission_Normalization.tsv`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/China_Transmission_Normalization.tsv)
 
-This file can be directly imported into network analysis platforms (e.g., Gephi) for visualization and further exploration.
+This file can be directly imported into network analysis platforms (e.g., [Gephi](https://gephi.org/)) for visualization and further exploration.
 
 
 ### Network modularity and transmission structure
 
 Based on the transmission network, we identified higher-order transmission structure using the script:
 
-- `Network.py`
+- [`Network.py`]()
 
 This script applies the **Louvain community detection algorithm** (equivalent to that implemented in Gephi) to:
 
@@ -75,7 +75,9 @@ In addition, cities were stratified into hierarchical categories
 and their relative contributions to transmission were quantified.
 
 These analyses constitute the majority of **Extended Data Figure 3**.
-
+<p align="center">
+  <img src="images/figure1.png" width="600" alt="EDF3">
+</p>
 
 ### Dissemination distance and velocity estimation
 
