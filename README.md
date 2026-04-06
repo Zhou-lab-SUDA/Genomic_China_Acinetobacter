@@ -62,7 +62,7 @@ This file can be directly imported into network analysis platforms (e.g., [Gephi
 
 Based on the transmission network, we identified higher-order transmission structure using the script:
 
-- [`Network.py`]()
+- [`Network.py`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/Network.py)
 
 This script applies the **Louvain community detection algorithm** (equivalent to that implemented in Gephi) to:
 
@@ -76,8 +76,8 @@ and their relative contributions to transmission were quantified.
 
 These analyses constitute the majority of **Extended Data Figure 3**.
 
-<p align="center">
-  <img src="[images/figure1.png](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/Figure_module_scan_connection_and_city_level.png)" width="600" alt="EDF3">
+<p align="left">
+  <img src="1_Phylogenomics_and_Transmission_Inference/Figure_module_scan_connection_and_city_level.png" width="600" alt="EDF3">
 </p>
 
 ### Dissemination distance and velocity estimation
@@ -109,7 +109,7 @@ This analysis produces two key outputs:
 
 These results form the core of **Figure 2 (China panel)**.
 
-<p align="center">
+<p align="left">
   <img src="images/figure2.png" width="600" alt="F2">
 </p>
 
@@ -133,7 +133,7 @@ Using the transmission network ([`China_Transmission_Normalization.tsv`](https:/
 ),  
 we quantified the relationship between city connectivity and clade prevalence using:
 
-- [`Degree.py`]()
+- [`Degree.py`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/2_Evolutionary_Signatures/Degree.py)
 
 This analysis evaluates:
 
@@ -144,8 +144,8 @@ Healthcare mobility data were derived from large-scale analyses of patient movem
 
 These analyses correspond to **Figure 3a-c**.
 
-<p align="center">
-  <img src="images/figure3.png" width="600" alt="F31">
+<p align="left">
+  <img src="2_Evolutionary_Signatures/F31.png" width="600" alt="F31">
 </p>
 
 ### Urban attributes and multivariate modelling
@@ -159,8 +159,8 @@ As noted earlier, lineage 2.5 was more likely to be detected in highly connected
 
 These analyses constitute **Figure 3d-g**.
 
-<p align="center">
-  <img src="images/figure4.png" width="600" alt="F32">
+<p align="left">
+  <img src="2_Evolutionary_Signatures/F32.png" width="600" alt="F32">
 </p>
 
 ### Pseudogene identification and enrichment analysis
@@ -201,8 +201,8 @@ Results are provided in:
 
 These analyses form **Figure 4a-c**.
 
-<p align="center">
-  <img src="images/figure5.png" width="600" alt="F4">
+<p align="left">
+  <img src="2_Evolutionary_Signatures/F4.png" width="600" alt="F4">
 </p>
 
 ---
