@@ -26,10 +26,10 @@ Major analytical components include:
 
 ### Time-resolved phylogenetic reconstruction
 
-Time-scaled phylogenies were reconstructed using **BEAST2 (v2.6.6)** and **TreeTime (v0.11.4)**.  
+Time-scaled phylogenies were reconstructed using **[BEAST2 (v2.6.6)](https://www.beast2.org/)** and **[TreeTime (v0.11.4)](https://github.com/neherlab/treetime)**.  
 Sampling dates and geographic metadata were obtained from the accompanying metadata table.
 
-TreeTime outputs an annotated Nexus file (`treetime.annotated_2.nexus`) containing:
+TreeTime outputs an annotated Nexus file ([`treetime.annotated.nexus`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/treetime.annotated.nexus)) containing:
 
 - node dates (tMRCA estimates)  
 - inferred geographic states  
@@ -87,13 +87,13 @@ transmission velocity was conservatively defined as:
 - geographic distance between inferred locations  
 - divided by the temporal interval between nodes  
 
-Geographic distances between cities were obtained via the Baidu Map API.
+Geographic distances between cities were obtained via the Baidu Map API, a publicly accessible data source available upon application.
 
-The script:
+We employed the script:
 
 - `Speed.py`
 
-implements a phylogeny-informed estimation framework that:
+to implement a phylogeny-informed estimation framework that:
 
 - reconstructs time-resolved dissemination distance  
 - estimates annual transmission velocity trajectories  
