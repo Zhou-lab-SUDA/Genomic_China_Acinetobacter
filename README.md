@@ -77,7 +77,7 @@ and their relative contributions to transmission were quantified.
 These analyses constitute the majority of **Extended Data Figure 3**.
 
 <p align="center">
-  <img src="images/figure1.png" width="600" alt="EDF3">
+  <img src="[images/figure1.png](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/Figure_module_scan_connection_and_city_level.png)" width="600" alt="EDF3">
 </p>
 
 ### Dissemination distance and velocity estimation
