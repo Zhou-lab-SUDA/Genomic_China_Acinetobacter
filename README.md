@@ -1,285 +1,110 @@
-# *Healthcare Infrastructure Shapes Evolutionary Trade-offs and Geographic Dissemination of Multidrug-Resistant Acinetobacter baumannii*
+# Healthcare Infrastructure Shapes Evolutionary Trade-offs and Geographic Dissemination of Multidrug-Resistant *Acinetobacter baumannii*
 
-## Overview
+This repository contains the analysis code, processed data and model implementation accompanying the study **Healthcare Infrastructure Shapes Evolutionary Trade-offs and Geographic Dissemination of Multidrug-Resistant *Acinetobacter baumannii***.
 
-This repository contains the code, intermediate resources, and source data accompanying the paper:
+The study combines phylogenomics, phylogeography, sampling-sensitivity analyses, urban healthcare indicators, lineage-associated genomic variation, phenotype experiments and a spatial population-genetic model to examine the dissemination and ecological differentiation of the major ESL2 lineages in China.
 
-**Healthcare Infrastructure Shapes Evolutionary Trade-offs and Geographic Dissemination of Multidrug-Resistant *Acinetobacter baumannii***
+## Repository map
 
-The repository is organized around the major analytical components of the study, following the structure of the manuscript. In brief, the study integrates large-scale phylogenomics, transmission-network reconstruction, urban metadata analysis, comparative genomics, experimental validation, and mechanistic simulation to investigate how healthcare-system architecture shapes the evolution and dissemination of multidrug-resistant *A. baumannii*.
+| Section | Scope | Main entry point |
+| --- | --- | --- |
+| 1. Phylogenomics and transmission inference | Dated phylogeny, empirical city network, dissemination distance and velocity, temporal-signal tests, recombination masking and sampling sensitivity | [`1_Phylogenomics_and_Transmission_Inference/`](1_Phylogenomics_and_Transmission_Inference/) |
+| 2. Evolutionary signatures and phenotypes | City-level associations, lineage-associated SNP-density peaks, antimicrobial susceptibility and experimental phenotypes | [`2_Evolutionary_Signatures/`](2_Evolutionary_Signatures/) |
+| 3. Spatial transmission model | Synthetic city-network model of genotype competition, invasion and mobility intervention | [`3_AB_network/`](3_AB_network/) |
 
-The main folders correspond to the core components of the paper, while the final folder contains source data used for figure generation.
+Each analysis directory separates `data/` from `code/` where possible. Its local README identifies the input tables, derived outputs, statistical unit and interpretation limits.
 
-## Repository structure
+## 1. Phylogenomics and transmission inference
 
-## 1. Phylogenomics and Transmission Inference
+The [phylogenomics module](1_Phylogenomics_and_Transmission_Inference/) contains the shared genome metadata, dated tree, normalized city-to-city transmission table and the analyses used to assess their robustness.
 
-This folder contains scripts and processed inputs for reconstructing the evolutionary history and transmission dynamics of *Acinetobacter baumannii* across China.
+| Analysis | Contents |
+| --- | --- |
+| [Temporal signal](1_Phylogenomics_and_Transmission_Inference/temporal_signal/) | Root-to-tip regression for the combined collection and individual ESL2 lineages; 10 date permutations, each evaluated through 10 independent subsamples |
+| [Temporal-signal sampling sensitivity](1_Phylogenomics_and_Transmission_Inference/temporal_signal/sampling_sensitivity/) | Random, population-weighted, year-balanced, city-balanced and combined city/year-balanced sampling |
+| [Recombination](1_Phylogenomics_and_Transmission_Inference/recombination/) | RecHMM, Gubbins and ClonalFrameML profiles; low-recombination block coordinates; SNP counts before and after masking |
+| [SNP-distance validation](1_Phylogenomics_and_Transmission_Inference/snp_distance_validation/) | Pairwise recombination-masked SNP distance versus divergence time and geographic spread |
+| [Network sensitivity](1_Phylogenomics_and_Transmission_Inference/network_sensitivity/) | Five sampling strategies, replicate networks, normalized mutual information and adjusted Rand index |
+| [Clade-prevalence sensitivity](1_Phylogenomics_and_Transmission_Inference/clade_prevalence_sensitivity/) | Annual and overall lineage proportions under four metadata-resampling schemes |
 
-Major analytical components include:
+The empirical transmission network is inferred from changes in reconstructed geographic state along the dated phylogeny. Its nodes are sampled cities and its edges are inferred intercity transitions; it is not a directly observed hospital-transfer network. [`Network.py`](1_Phylogenomics_and_Transmission_Inference/Network.py) evaluates network community structure, while [`Speed.py`](1_Phylogenomics_and_Transmission_Inference/Speed.py) summarizes phylogeny-based dissemination distance and velocity.
 
-- time-calibrated phylogeny reconstruction  
-- phylogeographic transmission inference  
-- transmission-module identification  
-- dissemination distance and velocity estimation  
+## 2. Evolutionary signatures and phenotype experiments
 
+The [evolutionary-signatures module](2_Evolutionary_Signatures/) links city characteristics and genomic measurements to observed lineage distributions, and provides the experimental measurements used to compare ESL2.4 and ESL2.5.
 
-### Time-resolved phylogenetic reconstruction
+### Urban and genomic analyses
 
-Time-scaled phylogenies were reconstructed using **[BEAST2 (v2.6.6)](https://www.beast2.org/)** and **[TreeTime (v0.11.4)](https://github.com/neherlab/treetime)**.  
-Sampling dates and geographic metadata were obtained from the accompanying metadata table.
+- [City-level associations](2_Evolutionary_Signatures/city_associations/) retain permutation-based Spearman tests for 22 city variables and Storey FDR estimates. The marginal tests are documented separately from multivariate RDA and SEM.
+- [Lineage-associated SNP density](2_Evolutionary_Signatures/snp_density/) provides annotated 10-kb profiles for all SNPs and the nonsynonymous subset. These are reported as SNP-density peaks, with residual recombination considered for the exceptional high-synonymous peak.
+- [`Degree.py`](2_Evolutionary_Signatures/Degree.py) evaluates the association between empirical city-network connectivity and lineage prevalence.
+- The top-level tables in this module contain the city covariates, outpatient/inpatient indicators, pseudogene calls and lineage-associated mutation annotations used by the corresponding analyses.
 
-TreeTime outputs an annotated Nexus file ([`treetime.annotated.nexus`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/treetime.annotated.nexus)) containing:
+### Phenotype experiments
 
-- node dates (tMRCA estimates)  
-- inferred geographic states  
-- posterior probabilities of ancestral locations  
+The [phenotype-experiment section](2_Evolutionary_Signatures/phenotype_experiments/) is organized by assay:
 
-This file can be directly visualized in [iTOL](https://itol.embl.de/) for inspection of temporal and spatial evolutionary patterns.
+| Experiment | Available material |
+| --- | --- |
+| [Antimicrobial susceptibility](2_Evolutionary_Signatures/phenotype_experiments/antimicrobial_susceptibility/) | Isolate-level S/I/R calls, drug-level comparisons and FDR-adjusted statistics |
+| [Capsular polysaccharide](2_Evolutionary_Signatures/phenotype_experiments/capsular_polysaccharide/) | Uronic-acid measurements, isolate summaries and lineage/KL-type comparisons |
+| [Gene-expression qPCR](2_Evolutionary_Signatures/phenotype_experiments/gene_expression_qpcr/) | Technical Ct replicates, isolate-level normalization and target-wise comparisons |
+| [A549-cell adhesion](2_Evolutionary_Signatures/phenotype_experiments/a549_adhesion/) | Source plate counts, focused isolate comparison and isolate-level statistics |
+| [Mouse nasal colonisation](2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/) | Longitudinal mouse-level bacterial loads and time-point-specific comparisons |
+| [Systemic-infection survival](2_Evolutionary_Signatures/phenotype_experiments/systemic_infection_survival/) | Mouse-level event data, Kaplan-Meier estimates, log-rank analysis and subset-selection record |
+| [Transmission electron microscopy](2_Evolutionary_Signatures/phenotype_experiments/transmission_electron_microscopy/) | Experimental method; quantitative micrograph measurements are not available |
+| [Nasal secretory IgA](2_Evolutionary_Signatures/phenotype_experiments/secretory_iga/) | Experimental method; the quantitative source table is not available |
 
+The independent experimental unit is defined in each assay README. In particular, A549 comparisons use the isolate mean, qPCR technical replicates are averaged within isolates, and longitudinal colonisation measurements retain the mouse as the unit. These experiments establish measured associations in representative isolates; they do not by themselves establish that capsule type or a particular gene disruption causes a lineage-level phenotype.
 
-### Transmission inference
+## 3. Spatial transmission model
 
-Transmission dynamics were inferred using the discrete trait reconstruction framework implemented in TreeTime mugration module.  
+[`3_AB_network/`](3_AB_network/) contains a synthetic population-genetic simulation of competing transmission strategies across a heterogeneous city network. It supports basic, invasion and three-phase mobility-intervention scenarios.
 
-In brief, each branch in the phylogeny was evaluated for changes in geographic state between parent and descendant nodes.  
-Branches associated with state transitions were interpreted as putative transmission events between locations.
+The simulated network is conceptually motivated by the contrast between metropolitan and peripheral healthcare environments but is not fitted to the empirical genomic network or to direct patient-transfer data. See the [model README](3_AB_network/README.md) for commands, parameters and output formats.
 
-By aggregating these events across the phylogeny, we constructed a city-level transmission network, in which:
+## Reproducing an analysis
 
-- nodes represent cities  
-- edges represent inferred transmission links  
-- edge weights reflect normalized transmission intensity  
+There is no single top-level driver because the repository combines phylogenetic software, statistical summaries, experimental assays and simulation. For a specific result:
 
-The resulting network is provided as:
+1. Open the relevant module README from the map above.
+2. Check the stated source table, statistical unit and assumptions.
+3. Run the script from its analysis directory so that its relative `data/` paths resolve correctly.
+4. Compare the regenerated table with the included derived output before recreating a figure.
 
-- [`China_Transmission_Normalization.tsv`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/China_Transmission_Normalization.tsv)
+Large raw sequencing files and the low-recombination-block FASTA are not stored in this repository. Processed inputs needed for the documented downstream analyses are included where redistribution is possible. Figure image files are included only for analyses already represented in the repository; additional panels can be regenerated from the corresponding source tables and scripts.
 
-This file can be directly imported into network analysis platforms (e.g., [Gephi](https://gephi.org/)) for visualization and further exploration.
+## Software requirements
 
+Most tabular analyses use Python 3.10 or later. Common packages are:
 
-### Network modularity and transmission structure
+- NumPy, pandas and SciPy
+- Matplotlib and seaborn
+- openpyxl
+- NetworkX, python-louvain and ETE Toolkit
+- Plotly for interactive model output
 
-Based on the transmission network, we identified higher-order transmission structure using the script:
+The phenotype module provides its [Python dependency declaration](2_Evolutionary_Signatures/phenotype_experiments/#python-dependencies), and the simulation has a separate [`requirements.txt`](3_AB_network/requirements.txt). Individual scripts may use only a subset of these packages.
 
-- [`Network.py`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/Network.py)
+Upstream phylogenomic reconstruction additionally used EToKi, IQ-TREE 2, RecHMM, Gubbins, ClonalFrameML, TempEst, TreeTime and BEAST 2. Selected multivariate analyses use R. These external tools are not bundled here.
 
-This script applies the **Louvain community detection algorithm** (equivalent to that implemented in Gephi) to:
+## Data interpretation
 
-- identify transmission modules across resolution parameters  
-- quantify intra- and inter-module transmission intensity  
-- assess hierarchical structure of dissemination  
-
-In addition, cities were stratified into hierarchical categories  
-(mega cities, provincial capitals, non-provincial cities, [Source from China government](https://www.ndrc.gov.cn/xwdt/ztzl/xxczhjs/ghzc/201605/t20160509_971910.html)),  
-and their relative contributions to transmission were quantified.
-
-These analyses constitute the majority of **Extended Data Figure 3**.
-
-<p align="left">
-  <img src="1_Phylogenomics_and_Transmission_Inference/Figure_module_scan_connection_and_city_level.png" width="600" alt="EDF3">
-</p>
-
-### Dissemination distance and velocity estimation
-
-Spatial dissemination dynamics were estimated following a phylogeny-based framework inspired by recent work from Belman et al. on bacterial transmission dynamics ([Nature, 2024](https://doi.org/10.1038/s41586-024-07626-3)).
-
-For each phylogenetic branch associated with a geographic transition,  
-transmission velocity was conservatively defined as:
-
-- geographic distance between inferred locations  
-- divided by the temporal interval between nodes  
-
-Geographic distances between cities were obtained via [the Baidu Map API](https://lbs.baidu.com/), a publicly accessible data source available upon application, and can be found in [PairwiseChinaCities.distance](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/PairwiseChinaCities.distance).
-
-We employed the script:
-
-- [`Speed.py`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/Speed.py)
-
-to implement a phylogeny-informed estimation framework that:
-
-- reconstructs time-resolved dissemination distance  
-- estimates annual transmission velocity trajectories  
-- quantifies temporal shifts in dissemination efficiency  
-
-This analysis produces two key outputs:
-
-1. cumulative dissemination distance as a function of evolutionary time (20-year scale)  
-2. comparative distribution of transmission velocities before and after 2019  
-
-These results form the core of **Figure 2 (China panel)**.
-
-<p align="left">
-  <img src="1_Phylogenomics_and_Transmission_Inference/F2.png" width="600" alt="F2">
-</p>
-
----
-
-## 2. Urban Drivers, Comparative Genomics, and Evolutionary Signatures
-
-This folder contains analyses linking transmission dynamics to healthcare infrastructure and genomic adaptation.
-
-Major components include:
-
-- association between clade prevalence and urban connectivity  
-- multivariate modelling of city-level drivers  
-- pseudogene identification and enrichment analysis  
-- mutational hotspot detection  
-
-
-### Network connectivity and clade prevalence
-
-Using the transmission network ([`China_Transmission_Normalization.tsv`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/China_Transmission_Normalization.tsv)
-),  
-we quantified the relationship between city connectivity and clade prevalence using:
-
-- [`Degree.py`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/2_Evolutionary_Signatures/Degree.py)
-
-This analysis evaluates:
-
-- correlation between node degree and detection rate of ESL2.4 and ESL2.5  
-- association between clade prevalence and healthcare mobility indices  
-
-Healthcare mobility data were derived from large-scale analyses of patient movement patterns in China by Zhao et al.([Nature cities, 2024](https://doi.org/10.1038/s44284-024-00185-8)).
-
-These analyses correspond to **Figure 3a-c**.
-
-<p align="left">
-  <img src="2_Evolutionary_Signatures/F31.png" width="600" alt="F31">
-</p>
-
-### Urban attributes and multivariate modelling
-
-We downloaded and manually curated a set of data most relevant to the local healthcare environment from [the China Statistical Yearbook](https://www.stats.gov.cn/zs/tjwh/tjkw/tjzl/202302/t20230220_1913734.html) and [the China Health Statistics Yearbook](https://www.nhc.gov.cn/mohwsbwstjxxzx/tjtjnj/202501/8193a8edda0f49df80eb5a8ef5e2547c.shtml), which are available in the file [`City_attribution.tsv`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/2_Evolutionary_Signatures/ChinaCityInfo.xlsx). Because more than half of the municipal health departments lack published statistics, we aggregated the number of inpatients and outpatient visits only at the provincial level ([`True_World_OI.tsv`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/2_Evolutionary_Signatures/TrueValueOI.xlsx)).
-
-The outpatient/inpatient ratio (**O/I ratio**) is a key concept in our study. The **O/I ratio** indicates the extent to which a region acts as a destination for cross-regional healthcare-seeking mobility. Using OI_dev.py, we show that the **O/I ratio** is strongly correlated with per capita GDP, as expected. Owing to China’s universal health insurance policy and the concentration of high-level medical resources, most patients tend to seek care at the best local hospitals or nearby regional medical centers rather than nearby general clinics, even for non‑severe conditions. 
-
-Consequently, first‑tier cities and provincial capitals bear a much higher outpatient burden, a considerable proportion of which consists of cross‑regional patients.
-As noted earlier, lineage 2.5 was more likely to be detected in highly connected cities. We therefore used [`City_Attr.py`]() to evaluate the Spearman correlation between the detection of 2.5 and various city attributes. Furthermore, we applied redundancy analysis (RDA) and structural equation modeling (SEM) to assess the effects of different factors on the detection rate of 2.5 across cities.
-
-These analyses constitute **Figure 3d-g**.
-
-<p align="left">
-  <img src="2_Evolutionary_Signatures/F32.png" width="600" alt="F32">
-</p>
-
-### Pseudogene identification and enrichment analysis
-
-Pan-genome reconstruction was performed using **PEPPAN (v1.0.5)** via following commands:
-
-```
-PEPPAN -P GCF_000187205.gff --min_cds 80 --nucl *.gff
-```
-
-Putative gene disruptions (pseudogenes) were classified based on structural criteria, including:
-
-- truncation  
-- frameshift mutations  
-- premature stop codons  
-
-Pseudogenes enriched in ESL2.5 were defined using a frequency-based criterion:
-
-- ≥50% presence in ESL2.5  
-- <50% presence in non-ESL2.5  
-
-Results are provided in:
-
-- [`Pseudogenes.tsv`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/2_Evolutionary_Signatures/ESL2.5_Pseudogenes.txt)
-
-Functional enrichment (COG and KEGG) was performed based on these gene sets.
-
-
-### Mutational hotspot identification
-
-Genomes were aligned to the MDR-TJ reference using EToKi (minimap2 backend).
-
-SNP density per Kb was calculated using sliding windows across the genome, and hotspots were defined as regions exceeding the 95th percentile of SNP density.
-
-Results are provided in:
-
-- [`Mutations_hotspot.tsv`](https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/2_Evolutionary_Signatures/ESL2.5_Mutations.txt)
-
-These analyses form **Figure 4a-c**.
-
-<p align="left">
-  <img src="2_Evolutionary_Signatures/F4.png" width="600" alt="F4">
-</p>
-
----
-
-## 3. Niche-Specific Transmission Model (`AB_network`)
-
-This folder contains a simulation framework modelling genotype competition under heterogeneous healthcare-network structures.
-
-The model implements the conceptual framework described in the manuscript,  
-in which distinct evolutionary strategies are favored in different healthcare environments.
-
-Major components include:
-
-- scale-free healthcare network construction  
-- genotype competition under heterogeneous outpatient/inpatient conditions  
-- perturbation analysis under mobility restriction scenarios (e.g., COVID-19)  
-- exploration of niche-specific coexistence dynamics  
-
-An interactive version of the simulation is available at:
-
-https://naclist.github.io/naclist-portfolio/sources/ab_china_transmission_simulation/
-
-## Requirements
-
-The repository primarily uses **Python 3** for data parsing, summarization, and simulation. Some analyses also rely on external phylogenetic and statistical tools.
-
-### Python packages
-Commonly used Python dependencies include:
-
-- `pandas`
-- `numpy`
-- `ete3`
-- `scipy`
-- `matplotlib`
-- `networkx`
-
-Depending on the specific module, additional packages may be required.
-
-### External tools
-Some analyses in this study were performed using external tools that are not bundled in this repository, including but not limited to:
-
-- **EToKi**
-- **IQ-TREE2**
-- **TreeTime**
-- **BEAST2**
-- **Gephi**
-- **R** (for selected downstream statistical analyses such as RDA and SEM)
-
-Please ensure that these tools are installed and accessible in your environment if full reproduction of the analysis is intended.
-
-## Reproduction
-
-Analyses are organized by scientific component rather than through a single
-top-level driver. Each analysis directory contains the available input tables,
-scripts and a short description of statistical units and assumptions.
-
-- [`1_Phylogenomics_and_Transmission_Inference`](1_Phylogenomics_and_Transmission_Inference/)
-  contains temporal-signal, recombination, SNP-distance and network-sampling
-  analyses.
-- [`2_Evolutionary_Signatures`](2_Evolutionary_Signatures/) contains city-level,
-  SNP-density, antimicrobial-susceptibility and A549 adhesion analyses.
-- [`3_AB_network`](3_AB_network/) contains the synthetic population-genetic
-  model.
+- Temporal signal is evaluated by lineage. Time-dependent estimates are not interpreted for ESL2.3 because no detectable signal was found.
+- Recombination is masked; the input alignment is not described as recombination-free.
+- Network and annual clade-proportion sensitivity analyses address unequal sampling among cities and years, but percentages remain conditional on the available genomes.
+- Nominal city-level associations and their FDR-adjusted results are both retained. The univariate tests and multivariate RDA/SEM address different questions.
+- The systemic-infection subset analysis is outcome-dependent and is documented as exploratory in its local README and selection table.
+- Empirical phylogeographic inference and the synthetic transmission model are separate analytical objects.
 
 ## Citation
 
-If you use this repository, its code, or processed source files in your work, please cite the accompanying paper:
+If you use this repository, its code or processed source data, please cite the accompanying paper:
 
-**Li S, Wu Y, Zhou Y, Zhong L, Jiang Y, Wang Y, Li J, Lin H, Li H, Xia S, Du H, Zhang R, Lou Y, Wang S, *et al.***  
-*Healthcare Infrastructure Shapes Evolutionary Trade-offs and Geographic Dissemination of Multidrug-Resistant Acinetobacter baumannii*.
+Li S, Wu Y, Zhou Y, Zhong L, Jiang Y, Wang Y, Li J, Lin H, Li H, Xia S, Du H, Zhang R, Lou Y, Wang S, *et al.* **Healthcare Infrastructure Shapes Evolutionary Trade-offs and Geographic Dissemination of Multidrug-Resistant *Acinetobacter baumannii*.**
 
-If appropriate, please also cite the software tools used in the analysis pipeline, including EToKi, IQ-TREE2, TreeTime, BEAST2, and other relevant packages described in the manuscript.
+Please also cite the original software and external data sources relevant to the analysis being reused.
 
-## Notes
+## License
 
-- This repository is intended to accompany the published study and therefore emphasizes **analysis transparency** and **figure reproducibility**, rather than providing a single-click end-to-end pipeline.
-- Some scripts represent intermediate processing utilities developed during analysis and may require adaptation to local file structures or naming conventions.
-- Large raw sequencing datasets are not stored directly in this repository; users should refer to the manuscript for accession numbers and public data availability statements.
-- Folder names and script names are retained where possible to preserve consistency with the original analysis workflow.
-- Users interested in reproducing a specific figure or result are encouraged to begin with the corresponding source-data tables and then trace the relevant upstream scripts.
+See [`LICENSE`](LICENSE).
