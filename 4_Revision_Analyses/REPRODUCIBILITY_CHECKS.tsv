@@ -1,0 +1,17 @@
+check	status	reference_file	regenerated_file	reference_rows	regenerated_rows	maximum_numeric_difference	note
+RF1 resistance tests	match	Rebuttal_Figure_1/data/SIR_resistance_rate_tests.tsv	Rebuttal_Figure_1/data/SIR_resistance_rate_tests_recalculated.tsv	14	14	0.0	
+RF2 date observed subsamples	match	Rebuttal_Figure_2/data/date_randomisation_observed_subsamples.tsv	Rebuttal_Figure_2/reproduced_date_randomisation/date_randomisation_observed_subsamples.tsv	40	40	0.0	
+RF2 date replicates	match	Rebuttal_Figure_2/data/date_randomisation_replicates.tsv	Rebuttal_Figure_2/reproduced_date_randomisation/date_randomisation_replicates.tsv	400	400	0.0	
+RF2 date summaries	match	Rebuttal_Figure_2/data/date_randomisation_summary.tsv	Rebuttal_Figure_2/reproduced_date_randomisation/date_randomisation_summary.tsv	4	4	0.0	
+RF3 adhesion summary	match	Rebuttal_Figure_3/data/selected_strains_MOI10_MOI20_logCFU_summary.tsv	Rebuttal_Figure_3/data/selected_strains_MOI10_MOI20_logCFU_summary_recalculated.tsv	12	12	3.300000000011627e-06	
+RF5 date replicates	match	Rebuttal_Figure_5/data/date_randomisation_replicates.tsv	Rebuttal_Figure_5/reproduced_date_randomisation/date_randomisation_replicates.tsv	400	400	0.0	
+RF5 date summaries	match	Rebuttal_Figure_5/data/date_randomisation_summary.tsv	Rebuttal_Figure_5/reproduced_date_randomisation/date_randomisation_summary.tsv	4	4	0.0	
+RF7 hotspot figure table	match	Rebuttal_Figure_7/data/mutation_hotspots_10kb_figure_data.tsv	Rebuttal_Figure_7/data/mutation_hotspots_10kb_figure_data_recalculated.tsv	794	794	0.0	
+RF8 Storey FDR	match	Rebuttal_Figure_8/data/storey_fdr_results.tsv	Rebuttal_Figure_8/data/storey_fdr_results_recalculated.tsv	21	21	0.0	
+RF9 sampling replicates	match	Rebuttal_Figure_9/data/sampling_bias_replicates.tsv	Rebuttal_Figure_9/reproduced_sampling_bias/rttd_sampling_bias_replicates.tsv	204	204	0.0	
+RF9 sampling summary	match	Rebuttal_Figure_9/data/sampling_bias_summary.tsv	Rebuttal_Figure_9/reproduced_sampling_bias/rttd_sampling_bias_summary.tsv	48	48	0.0	
+RF10 degree statistics	match	Rebuttal_Figure_10/data/degree_scatter_all_replicates.tsv	Rebuttal_Figure_10/data/degree_scatter_recalculated.tsv	4	4	0.0	
+RF12 annual replicates	match	Rebuttal_Figure_12/data/annual_clade_proportion_replicates.tsv	Rebuttal_Figure_12/reproduced_clade_composition/annual_clade_proportion_replicates.tsv	18000	18000	0.0	
+RF12 annual summary	match	Rebuttal_Figure_12/data/annual_clade_proportion_summary.tsv	Rebuttal_Figure_12/reproduced_clade_composition/annual_clade_proportion_summary.tsv	180	180	0.0	
+RF12 total summary	match	Rebuttal_Figure_12/data/total_clade_proportion_summary.tsv	Rebuttal_Figure_12/reproduced_clade_composition/total_clade_proportion_summary.tsv	12	12	0.0	
+RF11 workbook standardization	match	Rebuttal_Figure_11/data/source_recombination_mutation_events.xlsx	Rebuttal_Figure_11/data/recombination_mutation_events_10kb.tsv	399	399	0.0	

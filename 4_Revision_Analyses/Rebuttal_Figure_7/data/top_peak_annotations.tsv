@@ -1,0 +1,61 @@
+group	kb_bin	start_bp	end_bp	count	density_percent	top_genes	effect_counts
+ESL2.5	3897	3897000	3897999	65	4.253927	ABTJ_RS18615	{'synonymous': 54, 'protein-changing': 11}
+ESL2.5	3898	3898000	3898999	27	1.767016	ABTJ_RS18620,ABTJ_RS18625	{'regulatory/flanking': 7, 'protein-changing': 4, 'synonymous': 16}
+ESL2.5	3896	3896000	3896999	24	1.570681	ABTJ_RS18615,ABTJ_RS18610	{'synonymous': 21, 'protein-changing': 3}
+ESL2.5	3899	3899000	3899999	24	1.570681	ABTJ_RS18625,ABTJ_RS20780	{'synonymous': 7, 'protein-changing': 16, 'regulatory/flanking': 1}
+ESL2.5	2056	2056000	2056999	23	1.505236	ABTJ_RS09760,ABTJ_RS09755	{'synonymous': 4, 'protein-changing': 18, 'regulatory/flanking': 1}
+ESL2.5	2060	2060000	2060999	23	1.505236	ABTJ_RS09790	{'protein-changing': 22, 'synonymous': 1}
+ESL2.5	2063	2063000	2063999	20	1.308901	ABTJ_RS09810,ABTJ_RS09815	{'protein-changing': 15, 'synonymous': 2, 'regulatory/flanking': 3}
+ESL2.5	2055	2055000	2055999	18	1.178010	ABTJ_RS09755	{'protein-changing': 17, 'synonymous': 1}
+ESL2.5	2338	2338000	2338999	18	1.178010	ABTJ_RS11160,ABTJ_RS11165	{'protein-changing': 12, 'synonymous': 6}
+ESL2.5	726	726000	726999	17	1.112565	ABTJ_RS03510,ABTJ_RS03515	{'protein-changing': 13, 'synonymous': 4}
+ESL2.5	2708	2708000	2708999	17	1.112565	ABTJ_RS12900	{'protein-changing': 14, 'synonymous': 3}
+ESL2.5	3542	3542000	3542999	17	1.112565	ABTJ_RS16935	{'protein-changing': 16, 'synonymous': 1}
+ESL2.5	3904	3904000	3904999	17	1.112565	ABTJ_RS18645,ABTJ_RS18650	{'synonymous': 11, 'protein-changing': 5, 'regulatory/flanking': 1}
+ESL2.5	1274	1274000	1274999	16	1.047120	ABTJ_RS05980,ABTJ_RS05985	{'protein-changing': 13, 'synonymous': 3}
+ESL2.5	2064	2064000	2064999	15	0.981675	ABTJ_RS09815	{'protein-changing': 12, 'synonymous': 3}
+ESL2.5	727	727000	727999	14	0.916230	ABTJ_RS03520	{'synonymous': 5, 'protein-changing': 9}
+ESL2.5	1542	1542000	1542999	14	0.916230	ABTJ_RS07285	{'synonymous': 8, 'protein-changing': 6}
+ESL2.5	1275	1275000	1275999	13	0.850785	ABTJ_RS05985,ABTJ_RS05990	{'protein-changing': 12, 'synonymous': 1}
+ESL2.5	12	12000	12999	12	0.785340	ABTJ_RS00045,ABTJ_RS00050	{'protein-changing': 6, 'synonymous': 2, 'other': 1, 'regulatory/flanking': 3}
+ESL2.5	728	728000	728999	12	0.785340	ABTJ_RS03520,ABTJ_RS03525	{'protein-changing': 7, 'synonymous': 4, 'other': 1}
+ESL2.5	1272	1272000	1272999	11	0.719895	ABTJ_RS05970	{'protein-changing': 9, 'synonymous': 2}
+ESL2.5	2057	2057000	2057999	11	0.719895	ABTJ_RS09765,ABTJ_RS09770	{'protein-changing': 6, 'synonymous': 4, 'regulatory/flanking': 1}
+ESL2.5	3906	3906000	3906999	10	0.654450	ABTJ_RS18655,ABTJ_RS18660	{'synonymous': 6, 'protein-changing': 2, 'other': 1, 'regulatory/flanking': 1}
+ESL2.5	1519	1519000	1519999	9	0.589005	ABTJ_RS07170,ABTJ_RS07175	{'synonymous': 3, 'protein-changing': 5, 'regulatory/flanking': 1}
+ESL2.5	2061	2061000	2061999	9	0.589005	ABTJ_RS09795,ABTJ_RS09800	{'protein-changing': 8, 'synonymous': 1}
+ESL2.5	2337	2337000	2337999	9	0.589005	ABTJ_RS11160	{'synonymous': 2, 'protein-changing': 7}
+ESL2.5	3620	3620000	3620999	9	0.589005	ABTJ_RS17320	{'protein-changing': 5, 'synonymous': 4}
+ESL2.5	1270	1270000	1270999	8	0.523560	ABTJ_RS05965,ABTJ_RS05960	{'protein-changing': 7, 'synonymous': 1}
+ESL2.5	1271	1271000	1271999	8	0.523560	ABTJ_RS05965	{'protein-changing': 6, 'synonymous': 2}
+ESL2.5	1518	1518000	1518999	8	0.523560	ABTJ_RS07170	{'protein-changing': 6, 'synonymous': 2}
+non-ESL2.5	2970	2970000	2970999	266	0.967132	ABTJ_RS14290,ABTJ_RS14285	{'synonymous': 219, 'protein-changing': 43, 'regulatory/flanking': 4}
+non-ESL2.5	2969	2969000	2969999	248	0.901687	ABTJ_RS14285	{'synonymous': 219, 'protein-changing': 29}
+non-ESL2.5	2962	2962000	2962999	173	0.628999	ABTJ_RS14255	{'synonymous': 153, 'protein-changing': 20}
+non-ESL2.5	2964	2964000	2964999	162	0.589005	ABTJ_RS14260	{'synonymous': 135, 'protein-changing': 27}
+non-ESL2.5	2967	2967000	2967999	156	0.567190	ABTJ_RS14275,ABTJ_RS14280	{'protein-changing': 16, 'synonymous': 133, 'regulatory/flanking': 7}
+non-ESL2.5	2968	2968000	2968999	146	0.530832	ABTJ_RS14280,ABTJ_RS14285	{'protein-changing': 27, 'synonymous': 109, 'other': 5, 'regulatory/flanking': 5}
+non-ESL2.5	2963	2963000	2963999	126	0.458115	ABTJ_RS14260,ABTJ_RS14255	{'synonymous': 100, 'protein-changing': 20, 'other': 6}
+non-ESL2.5	2961	2961000	2961999	125	0.454479	ABTJ_RS14250,ABTJ_RS14255	{'regulatory/flanking': 3, 'protein-changing': 27, 'synonymous': 95}
+non-ESL2.5	2965	2965000	2965999	95	0.345404	ABTJ_RS14265,ABTJ_RS14260	{'synonymous': 73, 'protein-changing': 9, 'regulatory/flanking': 13}
+non-ESL2.5	3864	3864000	3864999	93	0.338133	ABTJ_RS18470	{'protein-changing': 9, 'synonymous': 84}
+non-ESL2.5	3904	3904000	3904999	77	0.279959	ABTJ_RS18645,ABTJ_RS18650	{'synonymous': 66, 'protein-changing': 10, 'regulatory/flanking': 1}
+non-ESL2.5	2960	2960000	2960999	70	0.254508	ABTJ_RS14245,ABTJ_RS14240	{'protein-changing': 31, 'synonymous': 38, 'regulatory/flanking': 1}
+non-ESL2.5	105	105000	105999	66	0.239965	ABTJ_RS00480	{'synonymous': 59, 'protein-changing': 7}
+non-ESL2.5	3896	3896000	3896999	59	0.214514	ABTJ_RS18615,ABTJ_RS18610	{'synonymous': 52, 'protein-changing': 7}
+non-ESL2.5	3861	3861000	3861999	51	0.185428	ABTJ_RS18460,ABTJ_RS18455	{'synonymous': 49, 'protein-changing': 2}
+non-ESL2.5	2959	2959000	2959999	50	0.181792	ABTJ_RS14240	{'synonymous': 42, 'protein-changing': 8}
+non-ESL2.5	3857	3857000	3857999	49	0.178156	ABTJ_RS18445	{'synonymous': 49}
+non-ESL2.5	3858	3858000	3858999	47	0.170884	ABTJ_RS18445	{'synonymous': 43, 'protein-changing': 4}
+non-ESL2.5	2951	2951000	2951999	46	0.167248	ABTJ_RS14215	{'synonymous': 42, 'protein-changing': 4}
+non-ESL2.5	3842	3842000	3842999	45	0.163613	ABTJ_RS18380,ABTJ_RS18385	{'synonymous': 25, 'protein-changing': 8, 'regulatory/flanking': 12}
+non-ESL2.5	3863	3863000	3863999	44	0.159977	ABTJ_RS18465,ABTJ_RS18470	{'synonymous': 41, 'protein-changing': 1, 'other': 2}
+non-ESL2.5	2299	2299000	2299999	43	0.156341	ABTJ_RS10965	{'other': 3, 'regulatory/flanking': 10, 'protein-changing': 23, 'synonymous': 7}
+non-ESL2.5	3838	3838000	3838999	41	0.149069	ABTJ_RS18360,ABTJ_RS18365	{'synonymous': 27, 'protein-changing': 14}
+non-ESL2.5	2187	2187000	2187999	40	0.145433	ABTJ_RS10410	{'protein-changing': 35, 'synonymous': 5}
+non-ESL2.5	3745	3745000	3745999	40	0.145433	ABTJ_RS17925,ABTJ_RS17920	{'protein-changing': 24, 'synonymous': 13, 'other': 3}
+non-ESL2.5	3839	3839000	3839999	40	0.145433	ABTJ_RS18365	{'synonymous': 33, 'protein-changing': 7}
+non-ESL2.5	2634	2634000	2634999	39	0.141798	ABTJ_RS12535	{'regulatory/flanking': 4, 'protein-changing': 28, 'synonymous': 7}
+non-ESL2.5	3824	3824000	3824999	39	0.141798	ABTJ_RS18305,ABTJ_RS18300	{'synonymous': 32, 'protein-changing': 4, 'regulatory/flanking': 3}
+non-ESL2.5	1678	1678000	1678999	37	0.134526	ABTJ_RS08040	{'protein-changing': 30, 'synonymous': 7}
+non-ESL2.5	1619	1619000	1619999	36	0.130890	ABTJ_RS07740,ABTJ_RS07735	{'protein-changing': 22, 'synonymous': 4, 'other': 10}

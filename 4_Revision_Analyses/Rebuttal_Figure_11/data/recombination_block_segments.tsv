@@ -1,0 +1,8 @@
+segment_id	recombination_block	start_window_index_10kb	end_window_index_10kb_inclusive	start_bp_0based	end_bp_exclusive	n_windows
+1	HRB1	0	70	0	710000	71
+2	MRB1	71	112	710000	1130000	42
+3	HRB2	113	120	1130000	1210000	8
+4	LRB	121	293	1210000	2940000	173
+5	HRB3	294	300	2940000	3010000	7
+6	MRB2	301	360	3010000	3610000	60
+7	HRB1	361	398	3610000	3990000	38

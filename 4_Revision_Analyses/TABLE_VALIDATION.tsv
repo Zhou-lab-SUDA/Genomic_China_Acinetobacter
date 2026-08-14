@@ -1,0 +1,105 @@
+file	status	rows	columns	column_names	completely_empty_cells	duplicate_rows	error
+Rebuttal_Figure_1/data/SIR_cleaned_long.tsv	ok	4583	4	Genome | ESL_lineage | drug | SIR	0	0	
+Rebuttal_Figure_1/data/SIR_lineage_tests.tsv	ok	14	17	drug | n_ESL2.4 | n_ESL2.5 | S_ESL2.4 | I_ESL2.4 | R_ESL2.4 | S_ESL2.5 | I_ESL2.5 | R_ESL2.5 | pearson_chi_square | df_for_statistic | monte_carlo_p | BH_q | significance | monte_carlo_replicates | seed | exact_duplicate_rows_removed	0	0	
+Rebuttal_Figure_1/data/SIR_percentage_summary.tsv	ok	84	6	drug | ESL_lineage | SIR | count | n_valid | percent	0	0	
+Rebuttal_Figure_1/data/SIR_raw_table.tsv	ok	401	16	Genome | ESL_lineage | Amikacin (AMK) | Co-trimoxazole (SXT) | Ciprofloxacin (CIP) | Gentamicin (GEN) | Cefepime (FEP) | Ceftazidime (CAZ) | Imipenem (IMP) | Levofloxacin (LEV) | Minocycline (MNO) | Ceftriaxone (CRO) | Tigecycline (TGC) | Tobramycin (TOB) | Doxycycline (DOX) | Colistin/Polymyxin (CST/POL)	1021	1	
+Rebuttal_Figure_1/data/SIR_resistance_rate_tests.tsv	ok	14	12	drug | R_ESL2.4 | nonR_ESL2.4 | R_ESL2.5 | nonR_ESL2.5 | resistance_percent_ESL2.4 | resistance_percent_ESL2.5 | difference_pp_ESL2.5_minus_ESL2.4 | odds_ratio_ESL2.4_vs_ESL2.5 | fisher_exact_p | BH_q | significance	0	0	
+Rebuttal_Figure_1/data/SIR_resistance_rate_tests_recalculated.tsv	ok	14	12	drug | R_ESL2.4 | nonR_ESL2.4 | R_ESL2.5 | nonR_ESL2.5 | resistance_percent_ESL2.4 | resistance_percent_ESL2.5 | difference_pp_ESL2.5_minus_ESL2.4 | odds_ratio_ESL2.4_vs_ESL2.5 | fisher_exact_p | BH_q | significance	0	0	
+Rebuttal_Figure_10/data/average_network_edges.tsv	ok	1494	4	strategy | source | target | mean_weight	0	0	
+Rebuttal_Figure_10/data/china_skeleton_nexus_display_edges.tsv	ok	1186	4	strategy | source | target | display_weight	0	0	
+Rebuttal_Figure_10/data/china_skeleton_nexus_network_metrics.tsv	ok	6	7	strategy | total_nodes | active_nodes | n_edges | n_modules | modularity_q | within_module_ratio	0	0	
+Rebuttal_Figure_10/data/china_skeleton_nexus_node_colours.tsv	ok	312	4	strategy | city | assignment | colour	0	0	
+Rebuttal_Figure_10/data/china_skeleton_removed_nodes.tsv	ok	9	1	removed_city	0	0	
+Rebuttal_Figure_10/data/China_Transmission_Normalization.tsv	ok	653	3	Source | Target | Weight	0	0	
+Rebuttal_Figure_10/data/Dates.tsv	ok	3525	2	genome | Year	0	0	
+Rebuttal_Figure_10/data/degree_replicates.tsv	ok	2652	5	strategy | replicate | city | original_degree | degree	0	0	
+Rebuttal_Figure_10/data/degree_scatter_all_replicates.tsv	ok	4	5	strategy | pearson_r | spearman_rho | r2 | n_cities	0	0	
+Rebuttal_Figure_10/data/degree_scatter_recalculated.tsv	ok	4	5	strategy | pearson_r | spearman_rho | r2 | n_cities	0	0	
+Rebuttal_Figure_10/data/genome_network_replicates.tsv	ok	51	16	strategy | replicate | n_tips | n_edges | n_nodes | n_modules | modularity_q | module_nmi | module_ari | top_edge_overlap | weighted_degree_spearman | within_module_ratio | weighted_long_distance_ratio_gt800km | mean_distance | median_distance | prop_long_distance_gt800	0	0	
+Rebuttal_Figure_10/data/genome_network_summary.tsv	ok	84	7	strategy | metric | replicates | mean | sd | spread_95_low | spread_95_high	0	0	
+Rebuttal_Figure_10/data/network_file_resampling/average_network_edges.tsv	ok	3050	4	strategy | source | target | mean_weight	0	0	
+Rebuttal_Figure_10/data/network_file_resampling/degree_replicates.tsv	ok	2501	5	strategy | replicate | city | original_degree | degree	0	0	
+Rebuttal_Figure_10/data/network_file_resampling/degree_scatter_all_replicates.tsv	ok	4	5	strategy | pearson_r | spearman_rho | r2 | n_cities	0	0	
+Rebuttal_Figure_10/data/network_file_resampling/genome_network_replicates.tsv	ok	41	12	strategy | replicate | n_nodes | n_edges | n_modules | modularity_q | module_nmi | module_ari | top_edge_overlap | weighted_degree_spearman | within_module_ratio | weighted_long_distance_ratio_gt800km	0	0	
+Rebuttal_Figure_10/data/network_file_resampling/network_file_replicates.tsv	ok	41	12	strategy | replicate | n_nodes | n_edges | n_modules | modularity_q | module_nmi | module_ari | top_edge_overlap | weighted_degree_spearman | within_module_ratio | weighted_long_distance_ratio_gt800km	0	0	
+Rebuttal_Figure_10/data/network_file_resampling/network_file_summary.tsv	ok	50	7	strategy | metric | replicates | mean | sd | spread_95_low | spread_95_high	0	0	
+Rebuttal_Figure_10/data/network_replicates_for_metric_plot.tsv	ok	51	16	strategy | replicate | n_tips | n_edges | n_nodes | n_modules | modularity_q | module_nmi | module_ari | top_edge_overlap | weighted_degree_spearman | within_module_ratio | weighted_long_distance_ratio_gt800km | mean_distance | median_distance | prop_long_distance_gt800	0	0	
+Rebuttal_Figure_10/data/nexus_average_network_communities.tsv	ok	312	5	strategy | city | community | mapped_geography_cluster | colour	52	0	
+Rebuttal_Figure_10/data/nexus_average_network_metrics.tsv	ok	6	7	strategy | n_nodes | n_edges | n_modules | modularity_q | within_module_ratio | weighted_long_distance_ratio_gt800km	0	0	
+Rebuttal_Figure_10/data/PairwiseChinaCities_distance.tsv	ok	1325	4	Beijing | Shanghai | 1070.161321 | 1229.959	0	0	
+Rebuttal_Figure_10/data/selected_network_metrics_ci.tsv	ok	30	5	metric | strategy | mean | ci_low | ci_high	0	0	
+Rebuttal_Figure_10/reproduced_network_skeleton/china_skeleton_nexus_display_edges.tsv	ok	1457	4	strategy | source | target | display_weight	0	0	
+Rebuttal_Figure_10/reproduced_network_skeleton/china_skeleton_nexus_network_metrics.tsv	ok	6	7	strategy | total_nodes | active_nodes | n_edges | n_modules | modularity_q | within_module_ratio	0	0	
+Rebuttal_Figure_10/reproduced_network_skeleton/china_skeleton_nexus_node_colours.tsv	ok	312	4	strategy | city | assignment | colour	0	0	
+Rebuttal_Figure_10/reproduced_network_skeleton/china_skeleton_removed_nodes.tsv	ok	9	1	removed_city	0	0	
+Rebuttal_Figure_11/data/recombination_block_segments.tsv	ok	7	7	segment_id | recombination_block | start_window_index_10kb | end_window_index_10kb_inclusive | start_bp_0based | end_bp_exclusive | n_windows	0	0	
+Rebuttal_Figure_11/data/recombination_mutation_block_summary.tsv	ok	24	14	recombination_block | event_class | method_or_measure | series_id | n_nonmissing | total_events | mean_events_per_10kb | median_events_per_10kb | sd_events_per_10kb | minimum_events_per_10kb | maximum_events_per_10kb | q1_events_per_10kb | q3_events_per_10kb | n_missing	0	0	
+Rebuttal_Figure_11/data/recombination_mutation_events_10kb.tsv	ok	399	9	window_index_10kb | window_start_bp_0based | window_end_bp_exclusive | window_midpoint_mb | recombination_block | rechmm_recombination_events | gubbins_recombination_events | clonalframeml_recombination_events | mutation_events	2	0	
+Rebuttal_Figure_11/data/recombination_mutation_events_10kb_long.tsv	ok	1596	9	window_index_10kb | window_start_bp_0based | window_end_bp_exclusive | window_midpoint_mb | recombination_block | event_class | method_or_measure | series_id | event_count	2	0	
+Rebuttal_Figure_11/data/source_data_quality.tsv	ok	9	8	field | rows | nonmissing | missing | unique_nonmissing | minimum | maximum | notes	10	0	
+Rebuttal_Figure_12/data/annual_clade_proportion_replicates.tsv	ok	18000	7	strategy | replicate | year | clade | n_clade | n_total | proportion	0	0	
+Rebuttal_Figure_12/data/annual_clade_proportion_summary.tsv	ok	180	7	strategy | year | clade | mean_proportion | lower95 | upper95 | mean_n_total	0	0	
+Rebuttal_Figure_12/data/ESL25_key_year_summary.tsv	ok	28	7	strategy | year | clade | mean_proportion | lower95 | upper95 | mean_n_total	0	0	
+Rebuttal_Figure_12/data/full_annual_clade_proportions.tsv	ok	45	7	strategy | replicate | year | clade | n_clade | n_total | proportion	0	0	
+Rebuttal_Figure_12/data/full_total_clade_proportions.tsv	ok	3	6	strategy | replicate | clade | n_clade | n_total | proportion	0	0	
+Rebuttal_Figure_12/data/total_clade_proportion_replicates.tsv	ok	1200	6	strategy | replicate | clade | n_clade | n_total | proportion	0	0	
+Rebuttal_Figure_12/data/total_clade_proportion_summary.tsv	ok	12	6	strategy | clade | mean_proportion | lower95 | upper95 | mean_n_total	0	0	
+Rebuttal_Figure_12/reproduced_clade_composition/annual_clade_proportion_replicates.tsv	ok	18000	7	strategy | replicate | year | clade | n_clade | n_total | proportion	0	0	
+Rebuttal_Figure_12/reproduced_clade_composition/annual_clade_proportion_summary.tsv	ok	180	7	strategy | year | clade | mean_proportion | lower95 | upper95 | mean_n_total	0	0	
+Rebuttal_Figure_12/reproduced_clade_composition/ESL25_key_year_summary.tsv	ok	28	7	strategy | year | clade | mean_proportion | lower95 | upper95 | mean_n_total	0	0	
+Rebuttal_Figure_12/reproduced_clade_composition/full_annual_clade_proportions.tsv	ok	45	7	strategy | replicate | year | clade | n_clade | n_total | proportion	0	0	
+Rebuttal_Figure_12/reproduced_clade_composition/full_total_clade_proportions.tsv	ok	3	6	strategy | replicate | clade | n_clade | n_total | proportion	0	0	
+Rebuttal_Figure_12/reproduced_clade_composition/total_clade_proportion_replicates.tsv	ok	1200	6	strategy | replicate | clade | n_clade | n_total | proportion	0	0	
+Rebuttal_Figure_12/reproduced_clade_composition/total_clade_proportion_summary.tsv	ok	12	6	strategy | clade | mean_proportion | lower95 | upper95 | mean_n_total	0	0	
+Rebuttal_Figure_2/data/date_randomisation_observed_subsamples.tsv	ok	40	4	group | subsample | n | r	0	0	
+Rebuttal_Figure_2/data/date_randomisation_randomisation_summaries.tsv	ok	40	9	group | randomisation | n | replicates | mean_r | sd_r | se_r | ci_low | ci_high	0	0	
+Rebuttal_Figure_2/data/date_randomisation_replicates.tsv	ok	400	5	group | randomisation | subsample | n | r	0	0	
+Rebuttal_Figure_2/data/date_randomisation_summary.tsv	ok	4	16	group | label | n_true | sample_fraction | n_subsample | observed_full_r | observed_subsample_mean_r | observed_subsample_ci_low | observed_subsample_ci_high | observed_plot_ci_low | observed_plot_ci_high | randomised_mean_of_means_r | randomised_10x_mean_sd_r | randomised_10x_mean_95_spread_low | randomised_10x_mean_95_spread_high | outside_randomised_10x_95_spread	0	0	
+Rebuttal_Figure_2/data/root_to_tip_distances.tsv	ok	1746	4	genome | year | root_to_tip | group	0	0	
+Rebuttal_Figure_2/date_randomisation_replicates.tsv	ok	400	5	group | randomisation | subsample | n | r	0	0	
+Rebuttal_Figure_2/date_randomisation_summary.tsv	ok	4	16	group | label | n_true | sample_fraction | n_subsample | observed_full_r | observed_subsample_mean_r | observed_subsample_ci_low | observed_subsample_ci_high | observed_plot_ci_low | observed_plot_ci_high | randomised_mean_of_means_r | randomised_10x_mean_sd_r | randomised_10x_mean_95_spread_low | randomised_10x_mean_95_spread_high | outside_randomised_10x_95_spread	0	0	
+Rebuttal_Figure_2/reproduced_date_randomisation/date_randomisation_observed_subsamples.tsv	ok	40	4	group | subsample | n | r	0	0	
+Rebuttal_Figure_2/reproduced_date_randomisation/date_randomisation_randomisation_summaries.tsv	ok	40	9	group | randomisation | n | replicates | mean_r | sd_r | se_r | ci_low | ci_high	0	0	
+Rebuttal_Figure_2/reproduced_date_randomisation/date_randomisation_replicates.tsv	ok	400	5	group | randomisation | subsample | n | r	0	0	
+Rebuttal_Figure_2/reproduced_date_randomisation/date_randomisation_summary.tsv	ok	4	16	group | label | n_true | sample_fraction | n_subsample | observed_full_r | observed_subsample_mean_r | observed_subsample_ci_low | observed_subsample_ci_high | observed_plot_ci_low | observed_plot_ci_high | randomised_mean_of_means_r | randomised_10x_mean_sd_r | randomised_10x_mean_95_spread_low | randomised_10x_mean_95_spread_high | outside_randomised_10x_95_spread	0	0	
+Rebuttal_Figure_3/data/selected_strains_MOI10_MOI20_logCFU.tsv	ok	36	7	lineage | strain | MOI | replicate | CFU | log10_CFU | sheet	0	0	
+Rebuttal_Figure_3/data/selected_strains_MOI10_MOI20_logCFU_summary.tsv	ok	12	6	MOI | lineage | strain | n | mean | sd	0	0	
+Rebuttal_Figure_3/data/selected_strains_MOI10_MOI20_logCFU_summary_recalculated.tsv	ok	12	6	MOI | lineage | strain | n | mean | sd	0	0	
+Rebuttal_Figure_4/data/root_to_tip_distances.tsv	ok	1746	4	genome | year | root_to_tip | group	0	0	
+Rebuttal_Figure_4/data/temporal_signal_results.tsv	ok	4	10	group | n | slope | intercept | r | r2 | rmse | permutation_p_two_sided | min_year | max_year	0	0	
+Rebuttal_Figure_5/data/date_randomisation_observed_subsamples.tsv	ok	40	4	group | subsample | n | r	0	0	
+Rebuttal_Figure_5/data/date_randomisation_randomisation_summaries.tsv	ok	40	9	group | randomisation | n | replicates | mean_r | sd_r | se_r | ci_low | ci_high	0	0	
+Rebuttal_Figure_5/data/date_randomisation_replicates.tsv	ok	400	5	group | randomisation | subsample | n | r	0	0	
+Rebuttal_Figure_5/data/date_randomisation_summary.tsv	ok	4	16	group | label | n_true | sample_fraction | n_subsample | observed_full_r | observed_subsample_mean_r | observed_subsample_ci_low | observed_subsample_ci_high | observed_plot_ci_low | observed_plot_ci_high | randomised_mean_of_means_r | randomised_10x_mean_sd_r | randomised_10x_mean_95_spread_low | randomised_10x_mean_95_spread_high | outside_randomised_10x_95_spread	0	0	
+Rebuttal_Figure_5/data/root_to_tip_distances.tsv	ok	1746	4	genome | year | root_to_tip | group	0	0	
+Rebuttal_Figure_5/reproduced_date_randomisation/date_randomisation_observed_subsamples.tsv	ok	40	4	group | subsample | n | r	0	0	
+Rebuttal_Figure_5/reproduced_date_randomisation/date_randomisation_randomisation_summaries.tsv	ok	40	9	group | randomisation | n | replicates | mean_r | sd_r | se_r | ci_low | ci_high	0	0	
+Rebuttal_Figure_5/reproduced_date_randomisation/date_randomisation_replicates.tsv	ok	400	5	group | randomisation | subsample | n | r	0	0	
+Rebuttal_Figure_5/reproduced_date_randomisation/date_randomisation_summary.tsv	ok	4	16	group | label | n_true | sample_fraction | n_subsample | observed_full_r | observed_subsample_mean_r | observed_subsample_ci_low | observed_subsample_ci_high | observed_plot_ci_low | observed_plot_ci_high | randomised_mean_of_means_r | randomised_10x_mean_sd_r | randomised_10x_mean_95_spread_low | randomised_10x_mean_95_spread_high | outside_randomised_10x_95_spread	0	0	
+Rebuttal_Figure_6/data/hybrid_snp_geographic_distance_binned.tsv	ok	63	9	group | snp_block | snp_bin_start | snp_bin_end | pairs | observed_pair_fraction | mean_geographic_km | subsample_lower95_km | subsample_upper95_km	0	0	
+Rebuttal_Figure_6/data/hybrid_snp_geographic_distance_correlation.tsv	ok	3	7	group | max_snp | pairs | observed_snp_pairs | proxy_filled_pairs | pearson_r | spearman_rho	0	0	
+Rebuttal_Figure_6/data/hybrid_snp_geographic_distance_threshold_summary.tsv	ok	12	9	threshold_snp | group | pairs | observed_snp_pairs | proxy_filled_pairs | mean_geographic_km | median_geographic_km | bootstrap_lower95_km | bootstrap_upper95_km	12	0	
+Rebuttal_Figure_6/data/hybrid_snp_treetime_correlation.tsv	ok	18	10	dataset | group | snp_threshold | pairs | observed_snp_pairs | proxy_filled_pairs | pearson_r | pearson_p | spearman_rho | spearman_p	0	0	
+Rebuttal_Figure_6/data/hybrid_snp_year_calibration.tsv	ok	1	10	model | calibration_pairs | maximum_calibration_snp | snp_per_year | years_per_snp | global_rttd_substitutions_per_site_per_year | core_genome_length | global_rttd_snp_per_year | rttd_vs_hybrid_relative_difference | display_maximum_snp	0	0	
+Rebuttal_Figure_6/data/period_km_per_snp_annual.tsv	ok	27	7	lineage | year | period | km_per_snp | median_km_per_snp | pair_count | observed_snp_pair_fraction	0	0	
+Rebuttal_Figure_6/data/period_km_per_snp_comparisons.tsv	ok	4	5	comparison | first_n_years | second_n_years | p_value | significance	0	0	
+Rebuttal_Figure_6/data/period_km_per_snp_sample_metadata.tsv	ok	3422	7	genome | alias | city | group | year | group_source | year_source	242	0	
+Rebuttal_Figure_6/data/period_km_per_snp_summary.tsv	ok	4	13	lineage | period | annual_points | pairs | mean_of_annual_means_km_per_snp | median_of_annual_means_km_per_snp | annual_standard_deviation | annual_sem | lower95_mean | upper95_mean | pooled_pair_mean_km_per_snp | pooled_pair_median_km_per_snp | observed_snp_pair_fraction	0	0	
+Rebuttal_Figure_6/data/snp_le100_vs_treetime_pairs.tsv	ok	262735	13	genome1 | genome2 | snp_distance | compared_sites | ESL1 | ESL2 | city1 | city2 | year1 | year2 | patristic_time_years | max_time_to_mrca_years | sampling_interval_years	0	0	
+Rebuttal_Figure_7/data/mutation_density_all.tsv	ok	7930	12	group | kb_bin | start_bp | end_bp | count | solid_count | density_percent | top_genes | protein_changing | synonymous | regulatory_flanking | other	4372	0	
+Rebuttal_Figure_7/data/mutation_density_nonsynonymous.tsv	ok	7930	12	group | kb_bin | start_bp | end_bp | count | solid_count | density_percent | top_genes | protein_changing | synonymous | regulatory_flanking | other	4912	0	
+Rebuttal_Figure_7/data/mutation_hotspots_10kb_figure_data.tsv	ok	794	8	group | block_start | block_end | all_snp_count | nonsyn_snp_count | nonsyn_fraction | all_snp_density_percent_per_10kb | nonsyn_fraction_density_percent_per_10kb	0	0	
+Rebuttal_Figure_7/data/mutation_hotspots_10kb_figure_data_recalculated.tsv	ok	794	8	group | block_start | block_end | all_snp_count | nonsyn_snp_count | nonsyn_fraction | all_snp_density_percent_per_10kb | nonsyn_fraction_density_percent_per_10kb	0	0	
+Rebuttal_Figure_7/data/top_peak_annotations.tsv	ok	60	8	group | kb_bin | start_bp | end_bp | count | density_percent | top_genes | effect_counts	0	0	
+Rebuttal_Figure_8/data/city_association_figure_table.tsv	ok	21	8	Variable | Spearman_rho_display | nominal_p | BH_adjusted_q | raw_p_lt_0.05 | BH_q_lt_0.05 | nominal_p_label | BH_adjusted_q_label	0	0	
+Rebuttal_Figure_8/data/city_association_multiple_testing.tsv	ok	21	6	Variable | n_cities | rho_to_report | nominal_p | BH_adjusted_q | Storey_FDR_q_lambda0.5	0	0	
+Rebuttal_Figure_8/data/city_association_multiple_testing_recalculated.tsv	ok	21	6	Variable | n_cities | rho_to_report | nominal_p | BH_adjusted_q | Storey_FDR_q_lambda0.5	0	0	
+Rebuttal_Figure_8/data/city_ESL25_spearman_permutation.tsv	ok	42	8	filter | Variable | n_cities | spearman_rho | permutation_p | BH_q | raw_p_lt_0.05 | BH_q_lt_0.05	0	0	
+Rebuttal_Figure_8/data/storey_fdr_results.tsv	ok	21	11	filter | Variable | n_cities | spearman_rho | nominal_p | BH_q | raw_p_lt_0.05 | BH_q_lt_0.05 | Storey_FDR_q_recalculated | raw_significant | storey_significant	0	0	
+Rebuttal_Figure_8/data/storey_fdr_results_recalculated.tsv	ok	21	11	filter | Variable | n_cities | spearman_rho | nominal_p | BH_q | raw_p_lt_0.05 | BH_q_lt_0.05 | Storey_FDR_q_recalculated | raw_significant | storey_significant	0	0	
+Rebuttal_Figure_8/RF8_city_association_multiple_testing_reproduced.tsv	ok	21	8	Variable | Spearman_rho_display | nominal_p | BH_adjusted_q | raw_p_lt_0.05 | BH_q_lt_0.05 | nominal_p_label | BH_adjusted_q_label	0	0	
+Rebuttal_Figure_9/data/root_to_tip_distances.tsv	ok	1746	4	genome | year | root_to_tip | group	0	0	
+Rebuttal_Figure_9/data/sampling_bias_replicates.tsv	ok	204	12	group | strategy | replicate | n | min_year | max_year | slope_clock_rate_proxy | r | n_cities | n_years | n_city_matched | city_matched_subset	0	0	
+Rebuttal_Figure_9/data/sampling_bias_summary.tsv	ok	48	8	group | strategy | metric | replicates | mean | sd | spread_95_low | spread_95_high	0	0	
+Rebuttal_Figure_9/reproduced_sampling_bias/rttd_sampling_bias_replicates.tsv	ok	204	12	group | strategy | replicate | n | min_year | max_year | slope_clock_rate_proxy | r | n_cities | n_years | n_city_matched | city_matched_subset	0	0	
+Rebuttal_Figure_9/reproduced_sampling_bias/rttd_sampling_bias_summary.tsv	ok	48	8	group | strategy | metric | replicates | mean | sd | spread_95_low | spread_95_high	0	0	

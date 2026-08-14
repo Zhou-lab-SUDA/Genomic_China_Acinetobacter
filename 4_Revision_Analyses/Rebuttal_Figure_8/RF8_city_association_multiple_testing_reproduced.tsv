@@ -1,0 +1,22 @@
+Variable	Spearman_rho_display	nominal_p	BH_adjusted_q	raw_p_lt_0.05	BH_q_lt_0.05	nominal_p_label	BH_adjusted_q_label
+Air pollution	-0.4	0.0048	0.1008	True	False	0.005	0.101
+1st industry ratio	-0.28	0.0533	0.279825	False	False	0.053	0.28
+Road mileage	-0.25	0.0904	0.37968	False	False	0.09	0.38
+Highway mileage	-0.2	0.1726	0.380864	False	False	0.173	0.381
+Hospital per inhabitant	-0.13	0.0235	0.1736	True	False	0.024	0.174
+Senior care coverage	-0.03	0.8137	0.899353	False	False	0.814	0.899
+Hospital bed per inhabitant	-0.02	0.1149	0.380864	False	False	0.115	0.381
+Passenger Volume	0.04	0.7943	0.899353	False	False	0.794	0.899
+3rd industry ratio	0.02	0.902	0.9471	False	False	0.902	0.947
+Total population	0.04	0.603	0.8442	False	False	0.603	0.844
+Medical personnel per inhabitant	0.04	0.794	0.899353	False	False	0.794	0.899
+Public transportation	0.04	0.9883	0.9883	False	False	0.988	0.988
+Medical level	0.04	0.7939	0.899353	False	False	0.794	0.899
+Patient mobility	0.1	0.5032	0.7548	False	False	0.503	0.755
+Social insurance coverage	0.15	0.2218	0.38815	False	False	0.222	0.388
+Urbanisation rate	0.15	0.2929	0.473146	False	False	0.293	0.473
+2nd industry ratio	0.19	0.1995	0.380864	False	False	0.2	0.381
+Water pollution	0.19	0.1913	0.380864	False	False	0.191	0.381
+Total GDP	0.2	0.1831	0.380864	False	False	0.183	0.381
+City level	0.2	0.1712	0.380864	False	False	0.171	0.381
+Medical insurance coverage	0.22	0.0248	0.1736	True	False	0.025	0.174
