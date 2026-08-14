@@ -1,0 +1,25 @@
+recombination_block	event_class	method_or_measure	series_id	n_nonmissing	total_events	mean_events_per_10kb	median_events_per_10kb	sd_events_per_10kb	minimum_events_per_10kb	maximum_events_per_10kb	q1_events_per_10kb	q3_events_per_10kb	n_missing
+HRB1	recombination	RecHMM	rechmm_recombination_events	109	6237	57.220183	25	87.958782	0	637	12	66	0
+MRB1	recombination	RecHMM	rechmm_recombination_events	42	541	12.880952	11	12.455193	0	61	5.25	15	0
+HRB2	recombination	RecHMM	rechmm_recombination_events	8	145	18.125	18.5	17.348837	0	41	0	30.25	0
+LRB	recombination	RecHMM	rechmm_recombination_events	173	665	3.8439306	3	4.7646873	0	39	0	6	0
+HRB3	recombination	RecHMM	rechmm_recombination_events	7	363	51.857143	34	56.031029	5	145	9.5	80	0
+MRB2	recombination	RecHMM	rechmm_recombination_events	60	312	5.2	5	3.8567572	0	24	2.75	7	0
+HRB1	recombination	Gubbins	gubbins_recombination_events	109	5747	52.724771	18	86.719521	0	409	7	54	0
+MRB1	recombination	Gubbins	gubbins_recombination_events	42	491	11.690476	7.5	13.210284	0	64	3	17.75	0
+HRB2	recombination	Gubbins	gubbins_recombination_events	8	181	22.625	9	31.599898	0	76	0	31.25	0
+LRB	recombination	Gubbins	gubbins_recombination_events	173	590	3.4104046	1	4.9929376	0	32	0	5	0
+HRB3	recombination	Gubbins	gubbins_recombination_events	7	571	81.571429	33	99.028375	1	221	4.5	153.5	0
+MRB2	recombination	Gubbins	gubbins_recombination_events	60	229	3.8166667	3	3.2598828	0	12	1	6	0
+HRB1	recombination	ClonalFrameML	clonalframeml_recombination_events	109	5217	47.862385	21	86.798667	0	753	9	53	0
+MRB1	recombination	ClonalFrameML	clonalframeml_recombination_events	42	437	10.404762	7.5	11.649473	0	66	3.25	13.75	0
+HRB2	recombination	ClonalFrameML	clonalframeml_recombination_events	8	120	15	11	16.962143	0	46	0	23	0
+LRB	recombination	ClonalFrameML	clonalframeml_recombination_events	173	481	2.7803468	2	4.0258274	0	25	0	4	0
+HRB3	recombination	ClonalFrameML	clonalframeml_recombination_events	7	353	50.428571	31	53.228617	3	128	9.5	86	0
+MRB2	recombination	ClonalFrameML	clonalframeml_recombination_events	60	196	3.2666667	3	2.576732	0	11	1	5	0
+HRB1	mutation	Published mutation-event count	mutation_events	107	11366	106.2243	102	108.53765	0	330	0	203	2
+MRB1	mutation	Published mutation-event count	mutation_events	42	6911	164.54762	186	86.435145	0	309	128	222	0
+HRB2	mutation	Published mutation-event count	mutation_events	8	921	115.125	114.5	113.93787	0	265	0	208.75	0
+LRB	mutation	Published mutation-event count	mutation_events	173	23711	137.0578	173	106.78634	0	331	0	220	0
+HRB3	mutation	Published mutation-event count	mutation_events	7	600	85.714286	56	92.263598	0	200	0	172	0
+MRB2	mutation	Published mutation-event count	mutation_events	60	10140	169	173.5	60.203046	0	292	149.25	201.25	0

@@ -255,7 +255,17 @@ Please ensure that these tools are installed and accessible in your environment 
 
 ## Reproduction
 
-We provide a reproducible workflow (`Main.py`), which integrates `Network.py`, `Speed.py`, `Degree.py`, and `City_Attr.py` as referenced earlier. Running this script reproduces most of the analytical results and figure visualizations presented in the paper.
+Analyses are organized by scientific component rather than through a single
+top-level driver. Each analysis directory contains the available input tables,
+scripts and a short description of statistical units and assumptions.
+
+- [`1_Phylogenomics_and_Transmission_Inference`](1_Phylogenomics_and_Transmission_Inference/)
+  contains temporal-signal, recombination, SNP-distance and network-sampling
+  analyses.
+- [`2_Evolutionary_Signatures`](2_Evolutionary_Signatures/) contains city-level,
+  SNP-density, antimicrobial-susceptibility and A549 adhesion analyses.
+- [`3_AB_network`](3_AB_network/) contains the synthetic population-genetic
+  model.
 
 ## Citation
 

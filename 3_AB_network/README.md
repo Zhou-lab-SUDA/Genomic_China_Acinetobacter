@@ -69,6 +69,17 @@ Filenames include timestamp and run parameters: `run_YYYYMMDD_HHMMSS_{scenario}_
 
 ## Model Overview
 
+### Relation to the empirical analyses
+
+This is a synthetic model, separate from the genomic transmission network in
+Fig. 2. Its nodes and mobility links are simulated rather than reconstructed
+from genomes or direct hospital-transfer records. The metropolitan/peripheral
+mobility contrast is motivated by observed outpatient-to-inpatient ratios, but
+the parameter values are not fitted to a specific patient-transfer network or
+to A. baumannii incidence data. The model tests whether hierarchical mobility
+and opposing colonisation/infection strategies are sufficient to maintain
+spatially structured ecotypes.
+
 Wright-Fisher population genetics + spatial network migration:
 
 1. **Genotypes**: 8 genotypes with τ-values (outpatient colonization capacity) and β-values (inpatient infection capacity)
