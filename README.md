@@ -255,26 +255,7 @@ Please ensure that these tools are installed and accessible in your environment 
 
 ## Reproduction
 
-Reproduction is organized by analytical module. The repository does not yet
-provide a single top-level workflow. Use the scripts and processed inputs in
-the first three analytical folders, and consult the figure-level instructions
-in [`4_Revision_Analyses`](4_Revision_Analyses/) for analyses added during peer
-review.
-
-Known missing inputs and workflows are recorded in
-[`4_Revision_Analyses/PLACEHOLDERS.md`](4_Revision_Analyses/PLACEHOLDERS.md)
-rather than represented as available files.
-
-## Revision analyses
-
-`4_Revision_Analyses` contains frozen source tables, analysis scripts,
-figure-specific notes, data provenance, table-validation results and file
-checksums for analyses added during peer review. These materials are organized
-by rebuttal-figure number to preserve their mapping to the response letter.
-
-The RF2 temporal-signal analysis is included. The RF2 survival panel and data
-are not included in this revision snapshot while documentation of the analysis
-cohort definition remains pending.
+We provide a reproducible workflow (`Main.py`), which integrates `Network.py`, `Speed.py`, `Degree.py`, and `City_Attr.py` as referenced earlier. Running this script reproduces most of the analytical results and figure visualizations presented in the paper.
 
 ## Citation
 

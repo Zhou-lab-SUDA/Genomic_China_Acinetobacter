@@ -1,2 +1,0 @@
-model	calibration_pairs	maximum_calibration_snp	snp_per_year	years_per_snp	global_rttd_substitutions_per_site_per_year	core_genome_length	global_rttd_snp_per_year	rttd_vs_hybrid_relative_difference	display_maximum_snp
-shared_SNP_per_year_through_origin	645152	100	1.0098410135913274	0.9902548881864784	4.4906827e-07	2350000	1.0553104345	0.045026316317821474	20
