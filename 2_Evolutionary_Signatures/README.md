@@ -9,10 +9,10 @@ gene disruptions cause the adhesion, colonisation or virulence phenotypes.
 
 ## Contents
 
-- `antimicrobial_susceptibility/`: categorical S/I/R profiles.
-- `a549_adhesion/`: epithelial-cell adhesion at MOI 10 and 20.
+- `phenotype_experiments/`: antimicrobial susceptibility, capsular
+  polysaccharide, gene-expression, A549 adhesion, nasal-colonisation and
+  systemic-infection experiments.
 - `snp_density/`: annotated lineage-associated SNP-density peaks.
 - `city_associations/`: univariate city associations and multiple-testing
   adjustment.
 - `Degree.py`: association between city connectivity and lineage prevalence.
-

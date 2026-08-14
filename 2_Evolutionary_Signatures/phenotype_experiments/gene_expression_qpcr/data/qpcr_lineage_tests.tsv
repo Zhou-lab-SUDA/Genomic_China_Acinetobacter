@@ -1,0 +1,5 @@
+target	n_esl2_4	n_esl2_5	mann_whitney_u	p_value	method	bh_adjusted_p
+abaI	3	3	1.0	0.2	scipy_exact	0.26666666666666666
+csuE	3	3	5.0	1.0	scipy_exact	1.0
+pilA	3	3	9.0	0.1	scipy_exact	0.2
+pilT	3	3	0.0	0.1	scipy_exact	0.2

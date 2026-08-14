@@ -1,0 +1,3 @@
+contrast	left_group	right_group	n_left	n_right	mann_whitney_u	two_sided_p	method
+lineage	ESL2.4	ESL2.5	7	8	47.0	0.032123288296735025	scipy_auto
+KL2_vs_KL3	KL2	KL3	7	5	35.0	0.005681256130682489	scipy_auto

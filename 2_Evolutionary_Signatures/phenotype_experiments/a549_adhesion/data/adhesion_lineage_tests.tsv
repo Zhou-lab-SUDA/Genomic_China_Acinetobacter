@@ -1,0 +1,3 @@
+moi	n_strains_esl2_4	n_strains_esl2_5	mann_whitney_u	two_sided_p	method
+10	3	3	0.0	0.1	scipy_exact
+20	3	3	0.0	0.1	scipy_exact

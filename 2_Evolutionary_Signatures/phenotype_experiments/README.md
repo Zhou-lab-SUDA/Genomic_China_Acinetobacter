@@ -1,0 +1,25 @@
+# Phenotype experiments
+
+This section groups the experimental measurements used to compare ESL2.4 and
+ESL2.5. Each quantitative analysis is kept in a separate directory with its
+input table, derived results, calculation script and definition of the
+independent experimental unit.
+
+- `antimicrobial_susceptibility/`: isolate-level clinical S/I/R calls.
+- `capsular_polysaccharide/`: uronic-acid measurements of capsular material.
+- `gene_expression_qpcr/`: target-gene Ct values normalized to 16S rRNA.
+- `a549_adhesion/`: epithelial-cell adhesion at MOI 10 and 20.
+- `nasal_colonisation/`: longitudinal nasal bacterial loads in mice.
+- `systemic_infection_survival/`: seven-day mouse-survival analysis.
+- `transmission_electron_microscopy/`: negative-stain imaging method.
+- `secretory_iga/`: nasal-mucus sIgA measurement method.
+
+The assays characterize representative isolates and do not by themselves
+establish that capsule type or a particular gene disruption causes a lineage-
+level difference in colonisation, transmission or virulence.
+
+Install the Python dependencies with:
+
+```bash
+python -m pip install -r requirements.txt
+```
