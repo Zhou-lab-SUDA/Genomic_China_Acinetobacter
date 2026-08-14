@@ -67,6 +67,17 @@ python model.py covid --generations 1500 --intervention-start 300 --recovery-sta
 
 Filenames include timestamp and run parameters: `run_YYYYMMDD_HHMMSS_{scenario}_h{hospitals}_m{metros}_g{generations}_s{seed}`
 
+## Figure placement
+
+> **Figure placeholder — model overview and scenarios**
+> Add `model_summary.png` here. The figure should combine the synthetic city network, lineage-frequency trajectories and the basic, invasion and three-phase mobility-intervention scenarios.
+
+The following example sensitivity figures are already distributed as PDF files:
+
+- [`example_res/sensitivity_results/sensitivity_analysis.pdf`](example_res/sensitivity_results/sensitivity_analysis.pdf)
+- [`example_res/sensitivity_results/fst_diversity_analysis.pdf`](example_res/sensitivity_results/fst_diversity_analysis.pdf)
+- [`example_res/sensitivity_results/coexistence_stability.pdf`](example_res/sensitivity_results/coexistence_stability.pdf)
+
 ## Model Overview
 
 ### Relation to the empirical analyses
