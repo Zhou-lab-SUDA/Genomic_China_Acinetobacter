@@ -18,8 +18,18 @@ The assays characterize representative isolates and do not by themselves
 establish that capsule type or a particular gene disruption causes a lineage-
 level difference in colonisation, transmission or virulence.
 
-Install the Python dependencies with:
+## Python dependencies
+
+The analysis scripts require Python 3.10 or later and the following packages:
+
+- NumPy 1.26 or later
+- pandas 2.1 or later
+- Matplotlib 3.8 or later
+- SciPy 1.11 or later
+- openpyxl 3.1 or later
+
+They can be installed with:
 
 ```bash
-python -m pip install -r requirements.txt
+python -m pip install "numpy>=1.26" "pandas>=2.1" "matplotlib>=3.8" "scipy>=1.11" "openpyxl>=3.1"
 ```
