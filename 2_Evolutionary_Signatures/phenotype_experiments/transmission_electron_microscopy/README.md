@@ -9,5 +9,5 @@ continuous-carbon grid for 10 min, washed with distilled water, stained with
 The protocol covers fixation, negative staining and image acquisition for the
 representative micrographs.
 
-> **Figure: transmission electron microscopy**
-> Add `transmission_electron_microscopy.png` here, containing representative micrographs and their original scale bars.
+> **Figure: capsule architecture and polysaccharide production**
+> This result is combined with the capsular-polysaccharide measurements in `../capsule_and_microscopy.png`.

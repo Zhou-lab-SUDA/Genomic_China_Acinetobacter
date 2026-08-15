@@ -110,13 +110,18 @@ The [evolutionary-signatures module](2_Evolutionary_Signatures/) links city char
 > **Figure: city-variable multiple testing**
 > Add `2_Evolutionary_Signatures/city_associations/city_association_multiple_testing.png` here. The figure should display the nominal permutation P values and Storey q-values for all 22 variables.
 
-### Gene disruptions and functional enrichment
+### Gene disruptions, functional enrichment and gene expression
 
-[`ESL2.5_Pseudogenes.txt`](2_Evolutionary_Signatures/ESL2.5_Pseudogenes.txt) records disruption frequencies across ESL2.1-ESL2.5 together with gene annotations and COG categories. These frequencies support the lineage comparison, COG heat map and KEGG enrichment panels; the mutation tables provide the chromosome-wide density series.
+[`ESL2.5_Pseudogenes.txt`](2_Evolutionary_Signatures/ESL2.5_Pseudogenes.txt) records disruption frequencies across ESL2.1-ESL2.5 together with gene annotations and COG categories. Putative disruptions comprise truncated coding sequences, frameshifts and premature stop codons. IS elements were identified with ISFinder, and 15 representative predictions were examined by PCR and bidirectional Sanger sequencing. Ancestral states were reconstructed on the dated phylogeny to distinguish early clade-associated events, parallel losses and recent terminal-branch losses. The disruption frequencies support the lineage comparison, COG heat map and KEGG enrichment panels; the mutation tables provide the chromosome-wide density series.
 
 <p align="left">
   <img src="2_Evolutionary_Signatures/F4.png" width="700" alt="Gene disruptions, functional enrichment and mutation density">
 </p>
+
+Expression of selected disruption-associated loci was assessed from technical-triplicate Ct measurements in three ESL2.4 and three ESL2.5 isolates. Ct values were averaged within each isolate, normalized to 16S rRNA and summarized as delta Ct and 2^-delta Ct. The isolate is the comparison unit. Source values, normalization and target-wise statistics are provided in [`gene_expression_qpcr/`](2_Evolutionary_Signatures/phenotype_experiments/gene_expression_qpcr/).
+
+> **Figure: expression of disruption-associated genes**
+> Add `2_Evolutionary_Signatures/phenotype_experiments/gene_expression_qpcr/gene_expression_qpcr.png` here. The figure should show isolate-level normalized expression of PilA, CsuE, AbaI and PilT in ESL2.4 and ESL2.5.
 
 ### Annotated SNP-density peaks
 
@@ -127,20 +132,35 @@ The [evolutionary-signatures module](2_Evolutionary_Signatures/) links city char
 
 ### Phenotype experiments
 
-The [phenotype-experiment section](2_Evolutionary_Signatures/phenotype_experiments/) is organized by assay:
+The [phenotype-experiment section](2_Evolutionary_Signatures/phenotype_experiments/) contains the processed measurements, statistical tables and calculation scripts for the following experimental comparisons.
 
-| Experiment | Available material | Figure position |
-| --- | --- | --- |
-| [Antimicrobial susceptibility](2_Evolutionary_Signatures/phenotype_experiments/antimicrobial_susceptibility/) | Isolate-level S/I/R calls, drug-level comparisons and FDR-adjusted statistics | `2_Evolutionary_Signatures/phenotype_experiments/antimicrobial_susceptibility/antimicrobial_susceptibility.png` |
-| [Capsular polysaccharide](2_Evolutionary_Signatures/phenotype_experiments/capsular_polysaccharide/) | Uronic-acid measurements, isolate summaries and lineage/KL-type comparisons | `2_Evolutionary_Signatures/phenotype_experiments/capsular_polysaccharide/capsular_polysaccharide.png` |
-| [Gene-expression qPCR](2_Evolutionary_Signatures/phenotype_experiments/gene_expression_qpcr/) | Technical Ct replicates, isolate-level normalization and target-wise comparisons | `2_Evolutionary_Signatures/phenotype_experiments/gene_expression_qpcr/gene_expression_qpcr.png` |
-| [A549-cell adhesion](2_Evolutionary_Signatures/phenotype_experiments/a549_adhesion/) | Source plate counts, focused isolate comparison and isolate-level statistics | `2_Evolutionary_Signatures/phenotype_experiments/a549_adhesion/a549_adhesion.png` |
-| [Mouse nasal colonisation](2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/) | Longitudinal mouse-level bacterial loads and time-point-specific comparisons | `2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/nasal_colonisation.png` |
-| [Systemic-infection survival](2_Evolutionary_Signatures/phenotype_experiments/systemic_infection_survival/) | Mouse-level event data, Kaplan-Meier estimates and log-rank analysis | `2_Evolutionary_Signatures/phenotype_experiments/systemic_infection_survival/systemic_infection_survival.png` |
-| [Transmission electron microscopy](2_Evolutionary_Signatures/phenotype_experiments/transmission_electron_microscopy/) | Experimental protocol and image-acquisition settings | `2_Evolutionary_Signatures/phenotype_experiments/transmission_electron_microscopy/transmission_electron_microscopy.png` |
-| [Nasal secretory IgA](2_Evolutionary_Signatures/phenotype_experiments/secretory_iga/) | Experimental protocol and ELISA readout procedure | `2_Evolutionary_Signatures/phenotype_experiments/secretory_iga/secretory_iga.png` |
+#### Antimicrobial susceptibility
 
-The independent experimental unit is defined in each assay README. A549 comparisons use the isolate mean, qPCR technical replicates are averaged within isolates, and longitudinal colonisation measurements retain the mouse as the unit.
+Clinical susceptible, intermediate and resistant calls were interpreted using the hospital microbiology records and CLSI M100 breakpoints. Resistance proportions were compared between ESL2.4 and ESL2.5 with two-sided Fisher exact tests, followed by Benjamini-Hochberg correction across antimicrobial agents. Isolate-level calls and drug-level summaries are in [`antimicrobial_susceptibility/`](2_Evolutionary_Signatures/phenotype_experiments/antimicrobial_susceptibility/).
+
+> **Figure: antimicrobial susceptibility**
+> Add `2_Evolutionary_Signatures/phenotype_experiments/antimicrobial_susceptibility/antimicrobial_susceptibility.png` here. The figure should show ESL2.4 and ESL2.5 S/I/R proportions by antimicrobial and the corresponding comparisons.
+
+#### Capsule architecture and capsular-polysaccharide production
+
+Capsule-associated surface structures were examined by negative-stain transmission electron microscopy. Overnight LB cultures were washed, fixed in 2.5% glutaraldehyde, applied to glow-discharged continuous-carbon grids, stained with 3% uranyl acetate and imaged on a Hitachi HT7800 at 80-100 kV. Capsular material from cultures normalized to approximately 10^9 CFU was extracted with 1% Zwittergent 3-14 in 100 mM citric acid and ethanol precipitation. Uronic acid was quantified by the sodium-tetraborate/carbazole reaction at 530 nm using K-type-matched standards. Protocol and measurement files are divided between [`transmission_electron_microscopy/`](2_Evolutionary_Signatures/phenotype_experiments/transmission_electron_microscopy/) and [`capsular_polysaccharide/`](2_Evolutionary_Signatures/phenotype_experiments/capsular_polysaccharide/).
+
+> **Figure: capsule architecture and polysaccharide production**
+> Add `2_Evolutionary_Signatures/phenotype_experiments/capsule_and_microscopy.png` here. The figure should combine representative ESL2.4-KL2 and ESL2.5-KL3 micrographs with the capsular-polysaccharide measurements.
+
+#### Mouse colonisation, mucosal immunity and systemic infection
+
+Three isolates from each lineage were examined in the nasal-colonisation model. Anaesthetized mice received 40 microlitres of bacterial suspension intranasally, and nasal tissues collected on days 1, 2, 3, 5, 7 and 14 were homogenized and plated for CFU enumeration. Nasal-mucus sIgA was quantified by ELISA at the specified sampling times and calculated from the assay standard curve. Systemic virulence was assessed in seven-week-old female C57BL/6J mice inoculated intraperitoneally with 5 x 10^7 CFU. Three isolates per lineage were tested in two laboratories, giving six mice per isolate and 18 mice per lineage; survival was monitored for seven days and compared by a two-sided log-rank test. Data and analysis details are in [`nasal_colonisation/`](2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/), [`secretory_iga/`](2_Evolutionary_Signatures/phenotype_experiments/secretory_iga/) and [`systemic_infection_survival/`](2_Evolutionary_Signatures/phenotype_experiments/systemic_infection_survival/).
+
+> **Figure: mouse colonisation, mucosal immunity and systemic infection**
+> Add `2_Evolutionary_Signatures/phenotype_experiments/animal_experiments.png` here. The figure should combine the nasal-colonisation design and bacterial loads, nasal sIgA measurements and seven-day systemic-infection survival curves.
+
+#### A549-cell adhesion
+
+A549 cells were maintained in DMEM with 10% fetal bovine serum and incubated with logarithmic-phase bacteria at MOI 10 or 20. After four hours, monolayers were washed five times, lysed with 1% Triton X-100 and plated for adherent CFU. Adhesion was calculated relative to the inoculum. Three isolates per lineage were measured in three independent experiments, and statistical comparisons use one mean per isolate at each MOI. Source plate counts and analysis scripts are in [`a549_adhesion/`](2_Evolutionary_Signatures/phenotype_experiments/a549_adhesion/).
+
+> **Figure: A549-cell adhesion**
+> Add `2_Evolutionary_Signatures/phenotype_experiments/a549_adhesion/a549_adhesion.png` here. The figure should show isolate-level adhesion at MOI 10 and MOI 20.
 
 ## 3. Spatial transmission model
 

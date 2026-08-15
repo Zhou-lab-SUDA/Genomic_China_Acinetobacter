@@ -16,5 +16,5 @@ The long-format input was extracted from worksheet `S7 Colonisation` in
 excluded from the corresponding time-point summary and test. All statistics use
 the observed bacterial-load values.
 
-> **Figure: mouse nasal colonisation**
-> Add `nasal_colonisation.png` here, showing the longitudinal log10 CFU trajectories or time-point summaries for ESL2.4 and ESL2.5.
+> **Figure: mouse colonisation, mucosal immunity and systemic infection**
+> This result is combined with nasal sIgA and systemic-infection survival in `../animal_experiments.png`.

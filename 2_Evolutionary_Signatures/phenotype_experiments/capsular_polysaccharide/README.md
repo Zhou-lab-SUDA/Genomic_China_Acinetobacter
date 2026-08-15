@@ -13,5 +13,5 @@ the lineage and KL-type summaries and the two-sided Mann-Whitney U comparisons.
 The input table is the `UA` worksheet from `Source_Data_Tablesv2.xlsx`, with
 column names standardized and the two measurements retained separately.
 
-> **Figure: capsular polysaccharide**
-> Add `capsular_polysaccharide.png` here, showing isolate-level capsular-polysaccharide measurements summarized by lineage and, where applicable, KL type.
+> **Figure: capsule architecture and polysaccharide production**
+> This result is combined with the representative electron micrographs in `../capsule_and_microscopy.png`.

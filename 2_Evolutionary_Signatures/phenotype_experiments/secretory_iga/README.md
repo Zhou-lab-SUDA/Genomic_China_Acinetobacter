@@ -9,5 +9,5 @@ were added sequentially with intervening washes. TMB development was read at
 The dilution, incubation, detection and standard-curve steps define the ELISA
 workflow used to quantify nasal-mucus sIgA.
 
-> **Figure: nasal secretory IgA**
-> Add `secretory_iga.png` here, showing the lineage comparison of sIgA concentrations.
+> **Figure: mouse colonisation, mucosal immunity and systemic infection**
+> This result is combined with nasal bacterial loads and systemic-infection survival in `../animal_experiments.png`.

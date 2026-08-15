@@ -25,24 +25,18 @@ The univariate analysis tests associations between ESL2.5 relative abundance and
 
 The SNP-density analysis summarizes recombination-masked variants in consecutive 10-kb windows. Separate all-variant and protein-changing profiles show the effect-type composition of each lineage-associated peak. The highest ESL2.5 window is 3,897,000-3,897,999 bp, with 65 variants (54 synonymous and 11 protein-changing); adjacent windows and gene annotations are reported in `snp_density/data/top_peak_annotations.tsv`.
 
-Putative pseudogenes are classified from structural disruptions such as truncations, frameshifts and premature stop codons. `ESL2.5_Pseudogenes.txt` records the lineage frequencies and annotations used for the COG and KEGG summaries.
+Putative pseudogenes are classified from structural disruptions such as truncations, frameshifts and premature stop codons. `ESL2.5_Pseudogenes.txt` records the lineage frequencies and annotations used for the COG and KEGG summaries. The associated [`gene_expression_qpcr/`](phenotype_experiments/gene_expression_qpcr/) analysis summarizes technical-triplicate Ct values for PilA, CsuE, AbaI and PilT relative to 16S rRNA, using the isolate as the independent unit.
 
 ## Phenotype experiments
 
-[`phenotype_experiments/`](phenotype_experiments/) contains eight assay-specific directories:
+[`phenotype_experiments/`](phenotype_experiments/) organizes the experimental comparisons into four result groups:
 
-- antimicrobial susceptibility;
-- capsular-polysaccharide quantification;
-- gene-expression qPCR;
-- A549-cell adhesion;
-- mouse nasal colonisation;
-- mouse systemic-infection survival;
-- transmission electron microscopy;
-- nasal secretory IgA.
+1. antimicrobial susceptibility;
+2. capsule architecture and capsular-polysaccharide production, combining transmission electron microscopy with uronic-acid measurements;
+3. mouse experiments, combining nasal colonisation, nasal sIgA and systemic-infection survival;
+4. A549-cell adhesion.
 
-For quantitative assays, each directory identifies the source table, independent experimental unit, derived outputs and analysis script. The microscopy and sIgA directories document the sample preparation, assay and readout procedures.
-
-The experiments compare representative ESL2.4 and ESL2.5 isolates across antimicrobial susceptibility, capsule production, gene expression, epithelial adhesion, nasal colonisation and systemic infection.
+For quantitative assays, each directory identifies the source table, independent experimental unit, derived outputs and analysis script. The microscopy and sIgA directories document sample preparation, acquisition and readout procedures. Gene-expression qPCR is presented with gene disruptions in the genomic-variation section above.
 
 ## Dependencies
 
