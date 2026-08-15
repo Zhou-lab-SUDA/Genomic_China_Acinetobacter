@@ -9,5 +9,4 @@ continuous-carbon grid for 10 min, washed with distilled water, stained with
 The protocol covers fixation, negative staining and image acquisition for the
 representative micrographs.
 
-> **Figure: capsule architecture and polysaccharide production**
-> This result is combined with the capsular-polysaccharide measurements in `../capsule_and_microscopy.png`.
+Representative ESL2.4-KL2 and ESL2.5-KL3 micrographs are shown in [`../capsule_and_microscopy.png`](../capsule_and_microscopy.png).

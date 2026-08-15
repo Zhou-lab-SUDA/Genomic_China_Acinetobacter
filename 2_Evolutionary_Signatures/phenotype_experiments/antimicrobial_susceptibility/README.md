@@ -15,5 +15,6 @@ two-sided Fisher exact test and adjusts the resulting P values across drugs.
 deduplicated isolate-level calls; the remaining TSV files are drug-level
 percentages and statistical comparisons derived by the scripts in `code/`.
 
-> **Figure: antimicrobial susceptibility**
-> Add `antimicrobial_susceptibility.png` here, showing ESL2.4 and ESL2.5 S/I/R proportions by antimicrobial and the corresponding statistical comparisons.
+<p align="left">
+  <img src="antimicrobial_susceptibility.png" width="900" alt="Antimicrobial susceptibility profiles of ESL2.4 and ESL2.5">
+</p>

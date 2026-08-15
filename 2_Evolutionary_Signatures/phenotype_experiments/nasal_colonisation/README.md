@@ -16,5 +16,4 @@ The long-format input was extracted from worksheet `S7 Colonisation` in
 excluded from the corresponding time-point summary and test. All statistics use
 the observed bacterial-load values.
 
-> **Figure: mouse colonisation, mucosal immunity and systemic infection**
-> This result is combined with nasal sIgA and systemic-infection survival in `../animal_experiments.png`.
+The nasal-colonisation design and bacterial-load results are shown with nasal sIgA in [`../animal_experiments.png`](../animal_experiments.png).

@@ -10,5 +10,6 @@ Early isolates are sparse. Year balancing therefore changes the weight of
 early observations, particularly for the combined dataset and ESL2.4. ESL2.5
 retains a positive temporal signal across all five schemes.
 
-> **Figure: temporal-signal sampling sensitivity**
-> Add `temporal_signal_sampling_sensitivity.png` here, showing lineage-specific temporal-signal estimates across the five sampling schemes.
+<p align="left">
+  <img src="temporal_signal_sampling_sensitivity.png" width="850" alt="Temporal-signal estimates under five sampling strategies">
+</p>

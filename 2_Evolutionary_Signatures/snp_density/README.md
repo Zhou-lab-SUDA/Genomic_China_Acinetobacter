@@ -14,5 +14,6 @@ ABTJ_RS09755, ABTJ_RS09760 and ABTJ_RS09790.
 `data/mutation_density_nonsynonymous.tsv` are the annotated SNP inputs. The
 10-kb peak and annotation tables are derived from those inputs.
 
-> **Figure: annotated SNP-density peaks**
-> Add `snp_density_peaks.png` here, comparing all-SNP and nonsynonymous 10-kb profiles and annotating the principal peaks, including the high-synonymous peak.
+<p align="left">
+  <img src="snp_density_peaks.png" width="900" alt="Chromosome-wide total and nonsynonymous SNP-density profiles">
+</p>

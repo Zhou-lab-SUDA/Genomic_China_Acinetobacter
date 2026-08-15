@@ -22,32 +22,33 @@ The [phylogenomics module](1_Phylogenomics_and_Transmission_Inference/) contains
 
 Root-to-tip regression is evaluated for the combined ESL2 collection and separately for ESL2.3, ESL2.4 and ESL2.5. ESL2.4 (R = 0.33, permutation P = 0.001) and ESL2.5 (R = 0.36, permutation P = 0.001) provide the lineage-specific temporal signal used for molecular dating. ESL2.3 yielded R = 0.01 and permutation P = 0.974 and is excluded from downstream temporal estimates. Data, summary statistics and plotting scripts are in [`temporal_signal/`](1_Phylogenomics_and_Transmission_Inference/temporal_signal/).
 
-> **Figure: lineage-specific temporal signal**
-
 <p align="left">
-  <img src="https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/temporal_signal/rttd.png" width="650" alt="RTTD">
+  <img src="1_Phylogenomics_and_Transmission_Inference/temporal_signal/rttd.png" width="700" alt="Lineage-specific root-to-tip temporal signal">
 </p>
 
 ### Date randomisation
 
 Sampling dates are permuted among tips ten times. Within each permutation, the correlation is evaluated in ten independent 50% subsamples, and the median of those ten correlations represents the permutation. The observed estimate and its sampling interval are retained separately from the null distribution.
 
-> **Figure: date randomisation**
-> Add `1_Phylogenomics_and_Transmission_Inference/temporal_signal/date_randomisation.png` here. The figure should compare the observed correlation and sampling interval with the ten permutation-level medians for each lineage.
+<p align="left">
+  <img src="1_Phylogenomics_and_Transmission_Inference/temporal_signal/date_randomisation.png" width="800" alt="Date-randomisation analysis by lineage">
+</p>
 
 ### Temporal-signal sampling sensitivity
 
 The same temporal-signal statistic is evaluated under random, population-weighted, year-balanced, city-balanced and combined city/year-balanced sampling in [`temporal_signal/sampling_sensitivity/`](1_Phylogenomics_and_Transmission_Inference/temporal_signal/sampling_sensitivity/).
 
-> **Figure: temporal-signal sampling sensitivity**
-> Add `1_Phylogenomics_and_Transmission_Inference/temporal_signal/sampling_sensitivity/temporal_signal_sampling_sensitivity.png` here. The figure should show lineage-specific estimates across all five sampling strategies.
+<p align="left">
+  <img src="1_Phylogenomics_and_Transmission_Inference/temporal_signal/sampling_sensitivity/temporal_signal_sampling_sensitivity.png" width="850" alt="Temporal-signal estimates under five sampling strategies">
+</p>
 
 ### Recombination masking
 
 [`recombination/`](1_Phylogenomics_and_Transmission_Inference/recombination/) contains chromosome-wide RecHMM, Gubbins and ClonalFrameML profiles summarized in consecutive 10-kb windows. The phylogenetic block spans NC_017847.1 positions 1,215,000-2,930,999; recombination masking reduced its SNP set from 35,609 to 23,524. The directory provides the source workbook, standardized event tables, block coordinates and scripts for regenerating the recombination landscape.
 
-> **Figure: recombination landscape**
-> Add `1_Phylogenomics_and_Transmission_Inference/recombination/recombination_landscape.png` here. The figure should show the three recombination profiles, mutation events and the low-recombination block used for phylogenetic reconstruction.
+<p align="left">
+  <img src="1_Phylogenomics_and_Transmission_Inference/recombination/recombination_landscape.png" width="850" alt="Chromosome-wide recombination landscape from RecHMM, ClonalFrameML and Gubbins">
+</p>
 
 ### Empirical transmission structure
 
@@ -63,8 +64,9 @@ The four panels below show the number of detected clusters and modularity Q acro
 
 [`network_sensitivity/`](1_Phylogenomics_and_Transmission_Inference/network_sensitivity/) reconstructs the empirical network under five geographic and temporal sampling strategies and compares network metrics and community assignments using NMI and ARI.
 
-> **Figure: transmission-network sampling sensitivity**
-> Add `1_Phylogenomics_and_Transmission_Inference/network_sensitivity/network_sampling_sensitivity.png` here. The figure should show the network-metric intervals and community-stability results across the five strategies.
+<p align="left">
+  <img src="1_Phylogenomics_and_Transmission_Inference/network_sensitivity/network_sampling_sensitivity.png" width="900" alt="Transmission-network sensitivity under five sampling strategies">
+</p>
 
 ### Dissemination distance and velocity
 
@@ -80,15 +82,17 @@ The left panel compares dissemination-speed estimates for ESL2.4 and ESL2.5 betw
 
 [`snp_distance_validation/`](1_Phylogenomics_and_Transmission_Inference/snp_distance_validation/) provides pair-level comparisons between divergence time and recombination-masked SNP distance, SNP-based year calibration, geographic-distance bins and period-specific kilometres-per-SNP summaries.
 
-> **Figure: SNP-distance validation**
-> Add `1_Phylogenomics_and_Transmission_Inference/snp_distance_validation/snp_distance_validation.png` here. The figure should summarize divergence time versus SNP distance, geographic spread versus SNP distance and the period-specific km-per-SNP comparison.
+<p align="left">
+  <img src="1_Phylogenomics_and_Transmission_Inference/snp_distance_validation/snp_distance_validation.png" width="850" alt="SNP-distance validation of lineage-specific dissemination">
+</p>
 
 ### Sampling sensitivity of lineage prevalence
 
 Annual and overall ESL2.3, ESL2.4 and ESL2.5 proportions are recalculated using random downsampling, year balancing, city balancing and combined city/year balancing in [`clade_prevalence_sensitivity/`](1_Phylogenomics_and_Transmission_Inference/clade_prevalence_sensitivity/).
 
-> **Figure: clade-prevalence sampling sensitivity**
-> Add `1_Phylogenomics_and_Transmission_Inference/clade_prevalence_sensitivity/clade_prevalence_sampling_sensitivity.png` here. The figure should compare the observed annual lineage proportions with the intervals from all four resampling schemes.
+<p align="left">
+  <img src="1_Phylogenomics_and_Transmission_Inference/clade_prevalence_sensitivity/clade_prevalence_sampling_sensitivity.png" width="900" alt="Clade-prevalence sensitivity under four sampling strategies">
+</p>
 
 ## 2. Evolutionary signatures and phenotype experiments
 
@@ -116,8 +120,9 @@ Panel d compares provincial outpatient-to-inpatient ratios with GDP per capita b
 
 [`city_associations/`](2_Evolutionary_Signatures/city_associations/) retains permutation-based Spearman tests for 22 city variables, nominal P values, Benjamini-Hochberg adjustment and Storey q-values. The smallest Storey q-value is 0.0768 for air pollution; the directory contains the complete table and plotting scripts.
 
-> **Figure: city-variable multiple testing**
-> Add `2_Evolutionary_Signatures/city_associations/city_association_multiple_testing.png` here. The figure should display the nominal permutation P values and Storey q-values for all 22 variables.
+<p align="left">
+  <img src="2_Evolutionary_Signatures/city_associations/city_association_multiple_testing.png" width="700" alt="Nominal P values and Storey q values for city-level associations">
+</p>
 
 ### Gene disruptions, functional enrichment and gene expression
 
@@ -129,17 +134,25 @@ Panel a compares gene-disruption frequencies in ESL2.5 and non-ESL2.5 lineages a
   <img src="2_Evolutionary_Signatures/F4.png" width="700" alt="Gene disruptions, functional enrichment and mutation density">
 </p>
 
+The phylogenetic distributions of representative nonsense mutations, truncated loci and insertion-mediated disruptions show when these events arose across ESL lineages.
+
+<p align="left">
+  <img src="2_Evolutionary_Signatures/gene_disruption_phylogenies.png" width="750" alt="Phylogenetic distribution of representative gene disruptions">
+</p>
+
 Expression of selected disruption-associated loci was assessed from technical-triplicate Ct measurements in three ESL2.4 and three ESL2.5 isolates. Ct values were averaged within each isolate, normalized to 16S rRNA and summarized as delta Ct and 2^-delta Ct. The isolate is the comparison unit. Source values, normalization and target-wise statistics are provided in [`gene_expression_qpcr/`](2_Evolutionary_Signatures/phenotype_experiments/gene_expression_qpcr/).
 
-> **Figure: expression of disruption-associated genes**
-> Add `2_Evolutionary_Signatures/phenotype_experiments/gene_expression_qpcr/gene_expression_qpcr.png` here. The figure should show isolate-level normalized expression of PilA, CsuE, AbaI and PilT in ESL2.4 and ESL2.5.
+<p align="left">
+  <img src="2_Evolutionary_Signatures/phenotype_experiments/gene_expression_qpcr/gene_expression_qpcr.png" width="850" alt="Ct values for PilA, csuE, AbaI and PilT in ESL2.4 and ESL2.5">
+</p>
 
 ### Annotated SNP-density peaks
 
 [`snp_density/`](2_Evolutionary_Signatures/snp_density/) provides parallel 10-kb profiles for all annotated SNPs and the protein-changing subset. The largest ESL2.5 peak, at 3,897,000-3,897,999 bp, contains 65 variants: 54 synonymous and 11 protein-changing. Effect-type counts and gene annotations are retained for every highlighted window so that the composition of each peak can be inspected directly.
 
-> **Figure: annotated SNP-density peaks**
-> Add `2_Evolutionary_Signatures/snp_density/snp_density_peaks.png` here. The figure should compare all-SNP and nonsynonymous profiles and annotate the principal peaks, including the high-synonymous peak.
+<p align="left">
+  <img src="2_Evolutionary_Signatures/snp_density/snp_density_peaks.png" width="900" alt="Chromosome-wide total and nonsynonymous SNP-density profiles">
+</p>
 
 ### Phenotype experiments
 
@@ -149,29 +162,37 @@ The [phenotype-experiment section](2_Evolutionary_Signatures/phenotype_experimen
 
 Clinical susceptible, intermediate and resistant calls were interpreted using the hospital microbiology records and CLSI M100 breakpoints. Resistance proportions were compared between ESL2.4 and ESL2.5 with two-sided Fisher exact tests, followed by Benjamini-Hochberg correction across antimicrobial agents. Isolate-level calls and drug-level summaries are in [`antimicrobial_susceptibility/`](2_Evolutionary_Signatures/phenotype_experiments/antimicrobial_susceptibility/).
 
-> **Figure: antimicrobial susceptibility**
-> Add `2_Evolutionary_Signatures/phenotype_experiments/antimicrobial_susceptibility/antimicrobial_susceptibility.png` here. The figure should show ESL2.4 and ESL2.5 S/I/R proportions by antimicrobial and the corresponding comparisons.
+<p align="left">
+  <img src="2_Evolutionary_Signatures/phenotype_experiments/antimicrobial_susceptibility/antimicrobial_susceptibility.png" width="900" alt="Antimicrobial susceptibility profiles of ESL2.4 and ESL2.5">
+</p>
 
 #### Capsule architecture and capsular-polysaccharide production
 
 Capsule-associated surface structures were examined by negative-stain transmission electron microscopy. Overnight LB cultures were washed, fixed in 2.5% glutaraldehyde, applied to glow-discharged continuous-carbon grids, stained with 3% uranyl acetate and imaged on a Hitachi HT7800 at 80-100 kV. Capsular material from cultures normalized to approximately 10^9 CFU was extracted with 1% Zwittergent 3-14 in 100 mM citric acid and ethanol precipitation. Uronic acid was quantified by the sodium-tetraborate/carbazole reaction at 530 nm using K-type-matched standards. Protocol and measurement files are divided between [`transmission_electron_microscopy/`](2_Evolutionary_Signatures/phenotype_experiments/transmission_electron_microscopy/) and [`capsular_polysaccharide/`](2_Evolutionary_Signatures/phenotype_experiments/capsular_polysaccharide/).
 
-> **Figure: capsule architecture and polysaccharide production**
-> Add `2_Evolutionary_Signatures/phenotype_experiments/capsule_and_microscopy.png` here. The figure should combine representative ESL2.4-KL2 and ESL2.5-KL3 micrographs with the capsular-polysaccharide measurements.
+<p align="left">
+  <img src="2_Evolutionary_Signatures/phenotype_experiments/capsule_and_microscopy.png" width="750" alt="Transmission electron micrographs of ESL2.4-KL2 and ESL2.5-KL3 capsule-associated surface layers">
+</p>
 
 #### Mouse colonisation, mucosal immunity and systemic infection
 
 Three isolates from each lineage were examined in the nasal-colonisation model. Anaesthetized mice received 40 microlitres of bacterial suspension intranasally, and nasal tissues collected on days 1, 2, 3, 5, 7 and 14 were homogenized and plated for CFU enumeration. Nasal-mucus sIgA was quantified by ELISA at the specified sampling times and calculated from the assay standard curve. Systemic virulence was assessed in seven-week-old female C57BL/6J mice inoculated intraperitoneally with 5 x 10^7 CFU. Three isolates per lineage were tested in two laboratories, giving six mice per isolate and 18 mice per lineage; survival was monitored for seven days and compared by a two-sided log-rank test. Data and analysis details are in [`nasal_colonisation/`](2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/), [`secretory_iga/`](2_Evolutionary_Signatures/phenotype_experiments/secretory_iga/) and [`systemic_infection_survival/`](2_Evolutionary_Signatures/phenotype_experiments/systemic_infection_survival/).
 
-> **Figure: mouse colonisation, mucosal immunity and systemic infection**
-> Add `2_Evolutionary_Signatures/phenotype_experiments/animal_experiments.png` here. The figure should combine the nasal-colonisation design and bacterial loads, nasal sIgA measurements and seven-day systemic-infection survival curves.
+<p align="left">
+  <img src="2_Evolutionary_Signatures/phenotype_experiments/animal_experiments.png" width="850" alt="Mouse nasal-colonisation design, bacterial loads and nasal secretory IgA">
+</p>
+
+<p align="left">
+  <img src="2_Evolutionary_Signatures/phenotype_experiments/systemic_infection_survival/systemic_infection_survival.png" width="500" alt="Seven-day systemic-infection survival of mice challenged with ESL2.4 and ESL2.5">
+</p>
 
 #### A549-cell adhesion
 
 A549 cells were maintained in DMEM with 10% fetal bovine serum and incubated with logarithmic-phase bacteria at MOI 10 or 20. After four hours, monolayers were washed five times, lysed with 1% Triton X-100 and plated for adherent CFU. Adhesion was calculated relative to the inoculum. Three isolates per lineage were measured in three independent experiments, and statistical comparisons use one mean per isolate at each MOI. Source plate counts and analysis scripts are in [`a549_adhesion/`](2_Evolutionary_Signatures/phenotype_experiments/a549_adhesion/).
 
-> **Figure: A549-cell adhesion**
-> Add `2_Evolutionary_Signatures/phenotype_experiments/a549_adhesion/a549_adhesion.png` here. The figure should show isolate-level adhesion at MOI 10 and MOI 20.
+<p align="left">
+  <img src="2_Evolutionary_Signatures/phenotype_experiments/a549_adhesion/a549_adhesion.png" width="500" alt="A549-cell attachment by isolate at two and four hours">
+</p>
 
 ## 3. Spatial transmission model
 
@@ -179,8 +200,11 @@ A549 cells were maintained in DMEM with 10% fetal bovine serum and incubated wit
 
 The simulation uses synthetic city nodes and mobility links to test how metropolitan/peripheral mobility structure and contrasting colonisation/infection strategies affect genotype persistence. Network construction, fitness parameters and migration rates are defined in [`config.py`](3_AB_network/config.py); the [model README](3_AB_network/README.md) describes the basic, invasion and three-phase mobility-intervention scenarios.
 
-> **Figure: spatial transmission model**
-> Add `3_AB_network/model_summary.png`. The figure should show the synthetic network, lineage-frequency trajectories and the basic/invasion/mobility-intervention scenarios. Existing sensitivity PDFs remain available under [`3_AB_network/example_res/sensitivity_results/`](3_AB_network/example_res/sensitivity_results/).
+<p align="left">
+  <img src="3_AB_network/model_summary.png" width="800" alt="Spatial transmission model and mobility knockdown scenarios">
+</p>
+
+Existing sensitivity PDFs remain available under [`3_AB_network/example_res/sensitivity_results/`](3_AB_network/example_res/sensitivity_results/).
 
 ## Reproducing an analysis
 

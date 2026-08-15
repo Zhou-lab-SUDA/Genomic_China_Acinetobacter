@@ -14,5 +14,6 @@ across the four targets.
 The input table was extracted from worksheet `qPCR` in
 `Source_Data_Tablesv2.xlsx`; all three technical Ct values are retained.
 
-> **Figure: gene-expression qPCR**
-> Add `gene_expression_qpcr.png` here, showing isolate-level normalized expression for the four targets.
+<p align="left">
+  <img src="gene_expression_qpcr.png" width="850" alt="Ct values for PilA, csuE, AbaI and PilT in ESL2.4 and ESL2.5">
+</p>

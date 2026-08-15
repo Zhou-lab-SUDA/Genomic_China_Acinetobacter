@@ -10,5 +10,6 @@ cities. The replicate intervals quantify how the observed temporal replacement
 pattern varies within the available genome collection under each sampling
 scheme.
 
-> **Figure: clade-prevalence sampling sensitivity**
-> Add `clade_prevalence_sampling_sensitivity.png` here, comparing observed annual lineage proportions with intervals from the four resampling schemes.
+<p align="left">
+  <img src="clade_prevalence_sampling_sensitivity.png" width="900" alt="Clade-prevalence sensitivity under four sampling strategies">
+</p>

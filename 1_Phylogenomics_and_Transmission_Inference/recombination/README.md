@@ -20,5 +20,6 @@ the distinction between an unreported value and a measured count of zero.
 `41467_2025_58106_MOESM7_ESM.xlsx`; the TSV files are standardized derivatives
 created by `code/prepare_recombination_mutation_data.py`.
 
-> **Figure: recombination landscape**
-> Add `recombination_landscape.png` here, showing the RecHMM, Gubbins and ClonalFrameML profiles, mutation events and the low-recombination block.
+<p align="left">
+  <img src="recombination_landscape.png" width="850" alt="Chromosome-wide recombination landscape from RecHMM, ClonalFrameML and Gubbins">
+</p>

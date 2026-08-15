@@ -16,5 +16,6 @@ and three independent experiments per isolate at each MOI, retained in
 of the six isolates, writes isolate and lineage summaries, and performs the
 two-sided exact Mann-Whitney U test at each MOI.
 
-> **Figure: A549-cell adhesion**
-> Add `a549_adhesion.png` here, showing MOI 10 and MOI 20 adhesion for the focused isolates and using isolate means as the comparison unit.
+<p align="left">
+  <img src="a549_adhesion.png" width="500" alt="A549-cell attachment by isolate at two and four hours">
+</p>

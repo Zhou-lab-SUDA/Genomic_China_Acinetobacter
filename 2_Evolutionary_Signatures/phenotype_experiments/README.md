@@ -10,8 +10,9 @@ calculation script and definition of the independent experimental unit.
 isolate-level clinical S/I/R calls, drug-level proportions, two-sided Fisher
 exact tests and Benjamini-Hochberg-adjusted results.
 
-> **Figure: antimicrobial susceptibility**
-> Add `antimicrobial_susceptibility/antimicrobial_susceptibility.png` here.
+<p align="left">
+  <img src="antimicrobial_susceptibility/antimicrobial_susceptibility.png" width="900" alt="Antimicrobial susceptibility profiles of ESL2.4 and ESL2.5">
+</p>
 
 ## Capsule architecture and capsular-polysaccharide production
 
@@ -20,8 +21,9 @@ documents fixation, negative staining and image acquisition.
 [`capsular_polysaccharide/`](capsular_polysaccharide/) contains uronic-acid
 measurements normalized to bacterial counts and summarized at isolate level.
 
-> **Figure: capsule architecture and polysaccharide production**
-> Add `capsule_and_microscopy.png` here, combining representative micrographs and capsular-polysaccharide measurements.
+<p align="left">
+  <img src="capsule_and_microscopy.png" width="750" alt="Transmission electron micrographs of ESL2.4-KL2 and ESL2.5-KL3 capsule-associated surface layers">
+</p>
 
 ## Mouse colonisation, mucosal immunity and systemic infection
 
@@ -31,16 +33,22 @@ documents the nasal-mucus ELISA, and
 [`systemic_infection_survival/`](systemic_infection_survival/) contains the
 seven-day survival data and Kaplan-Meier analysis.
 
-> **Figure: mouse colonisation, mucosal immunity and systemic infection**
-> Add `animal_experiments.png` here, combining nasal bacterial loads, sIgA measurements and systemic-infection survival.
+<p align="left">
+  <img src="animal_experiments.png" width="850" alt="Mouse nasal-colonisation design, bacterial loads and nasal secretory IgA">
+</p>
+
+<p align="left">
+  <img src="systemic_infection_survival/systemic_infection_survival.png" width="500" alt="Seven-day systemic-infection survival of mice challenged with ESL2.4 and ESL2.5">
+</p>
 
 ## A549-cell adhesion
 
 [`a549_adhesion/`](a549_adhesion/) contains source plate counts, isolate-level
 summaries and comparisons at MOI 10 and MOI 20.
 
-> **Figure: A549-cell adhesion**
-> Add `a549_adhesion/a549_adhesion.png` here.
+<p align="left">
+  <img src="a549_adhesion/a549_adhesion.png" width="500" alt="A549-cell attachment by isolate at two and four hours">
+</p>
 
 Gene-expression qPCR is retained in
 [`gene_expression_qpcr/`](gene_expression_qpcr/) and presented with the gene

@@ -21,5 +21,6 @@ the city-distance and date tables, and the shared `../sample_metadata.xlsx`.
 Replicate-level and summary TSV files are derived outputs of the scripts in
 `code/`.
 
-> **Figure: transmission-network sampling sensitivity**
-> Add `network_sampling_sensitivity.png` here, showing network-metric intervals and community stability, including NMI and ARI, across the five sampling strategies.
+<p align="left">
+  <img src="network_sampling_sensitivity.png" width="900" alt="Transmission-network sensitivity under five sampling strategies">
+</p>

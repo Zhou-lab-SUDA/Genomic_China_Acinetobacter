@@ -102,8 +102,9 @@ Wright-Fisher population genetics + spatial network migration:
    - **Invasion**: Clade 2.4 establishes first, then Clade 2.5 introduced
    - **COVID**: Three-phase intervention tests clade-specific resilience
 
-> **Figure: model overview and scenarios**
-> Add `model_summary.png` here, combining the synthetic city network, lineage-frequency trajectories and the basic, invasion and three-phase mobility-intervention scenarios.
+<p align="left">
+  <img src="model_summary.png" width="800" alt="Spatial transmission model and mobility knockdown scenarios">
+</p>
 
 Example sensitivity outputs are provided as
 [`sensitivity_analysis.pdf`](example_res/sensitivity_results/sensitivity_analysis.pdf),

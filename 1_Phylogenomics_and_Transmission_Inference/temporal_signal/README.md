@@ -8,8 +8,9 @@ permutation P = 0.974). Molecular-dating
 summaries use the two lineages with detectable temporal signal, ESL2.4 and
 ESL2.5.
 
-> **Figure: lineage-specific temporal signal**
-> Add `root_to_tip_temporal_signal.png` here, containing the combined, ESL2.3, ESL2.4 and ESL2.5 root-to-tip regression panels.
+<p align="left">
+  <img src="rttd.png" width="700" alt="Lineage-specific root-to-tip temporal signal">
+</p>
 
 ## Date randomisation
 
@@ -26,8 +27,9 @@ separately from ten 50% subsamples of the unpermuted data.
 permutation-level medians and intervals. Run `code/date_randomisation.py` to
 recalculate the tables.
 
-> **Figure: date randomisation**
-> Add `date_randomisation.png` here, comparing the observed correlation and sampling interval with the ten permutation-level medians for each lineage.
+<p align="left">
+  <img src="date_randomisation.png" width="800" alt="Date-randomisation analysis by lineage">
+</p>
 
 `sampling_sensitivity/` evaluates the same temporal-signal statistic under
 random, population-weighted, year-balanced, city-balanced and combined
