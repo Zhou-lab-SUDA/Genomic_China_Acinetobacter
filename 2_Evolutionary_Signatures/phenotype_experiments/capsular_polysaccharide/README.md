@@ -7,13 +7,11 @@ and carbazole reactions at 530 nm. K-type-matched material was used for the
 standard curves.
 
 `data/capsular_polysaccharide_measurements.tsv` contains two measurements for
-each of 15 isolates. The isolate mean is the independent unit. The calculation
-script reports lineage and KL-type summaries and two-sided Mann-Whitney U
-comparisons without treating the two assay measurements as independent
-isolates.
+each of 15 isolates. The isolate mean is the independent unit contributed to
+the lineage and KL-type summaries and the two-sided Mann-Whitney U comparisons.
 
 The input table is the `UA` worksheet from `Source_Data_Tablesv2.xlsx`, with
 column names standardized and the two measurements retained separately.
 
-> **Figure placeholder — capsular polysaccharide**
+> **Figure: capsular polysaccharide**
 > Add `capsular_polysaccharide.png` here, showing isolate-level capsular-polysaccharide measurements summarized by lineage and, where applicable, KL type.

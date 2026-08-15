@@ -14,5 +14,5 @@ across the four targets.
 The input table was extracted from worksheet `qPCR` in
 `Source_Data_Tablesv2.xlsx`; all three technical Ct values are retained.
 
-> **Figure placeholder — gene-expression qPCR**
-> Add `gene_expression_qpcr.png` here, showing isolate-level normalized expression for the four targets without treating technical replicates as independent isolates.
+> **Figure: gene-expression qPCR**
+> Add `gene_expression_qpcr.png` here, showing isolate-level normalized expression for the four targets.

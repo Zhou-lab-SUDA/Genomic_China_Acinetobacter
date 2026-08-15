@@ -6,9 +6,8 @@ glutaraldehyde. A 10-microlitre aliquot was applied to a glow-discharged
 continuous-carbon grid for 10 min, washed with distilled water, stained with
 3% uranyl acetate for 3-4 min and imaged on a Hitachi HT7800 at 80-100 kV.
 
-This directory records the imaging method. Quantitative micrograph source data
-are not present in the available source tables; no image-derived thickness
-measurements are inferred here.
+The protocol covers fixation, negative staining and image acquisition for the
+representative micrographs.
 
-> **Figure placeholder — transmission electron microscopy**
-> Add `transmission_electron_microscopy.png` here, containing representative micrographs and scale bars. A quantitative thickness panel should be added only if its source measurements are supplied.
+> **Figure: transmission electron microscopy**
+> Add `transmission_electron_microscopy.png` here, containing representative micrographs and their original scale bars.

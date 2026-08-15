@@ -35,67 +35,56 @@ python model.py covid --generations 1500 --intervention-start 300 --recovery-sta
 ## Key Parameters
 
 **Common:**
-- `--hospitals N`, `--metros M` — Network size (default: 100 cities, 35 metro)
-- `--generations G` — Simulation length (default: 1000)
-- `--seed S` — Random seed (default: 42)
-- `--metro-migration`, `--peripheral-migration` — Patient transfer rates (reflects O/I ratio differences)
-- `--output-dir PATH` — Output directory (default: `outputs/`)
+- `--hospitals N`, `--metros M`: network size (default: 100 cities, 35 metro)
+- `--generations G`: simulation length (default: 1000)
+- `--seed S`: random seed (default: 42)
+- `--metro-migration`, `--peripheral-migration`: patient transfer rates reflecting O/I ratio differences
+- `--output-dir PATH`: output directory (default: `outputs/`)
 
 **Invasion specific:**
-- `--introduction-time T` — When to introduce Clade 2.5 (must be < generations)
-- `--introduction-dose D` — Initial frequency (0.0-1.0, default: 0.05)
-- `--introduction-sites N` — Number of metro cities for introduction (default: 3)
+- `--introduction-time T`: generation at which Clade 2.5 is introduced
+- `--introduction-dose D`: initial frequency (0.0-1.0, default: 0.05)
+- `--introduction-sites N`: number of metro cities used for introduction (default: 3)
 
 **COVID specific:**
-- `--intervention-start T1` — Start of lockdown phase (must be < generations)
-- `--recovery-start T2` — Start of recovery phase (must be > T1 and < generations)
-- `--metro-closure`, `--periph-closure` — Migration reduction ratios
-- `--baseline-decay`, `--intervention-decay`, `--recovery-decay` — Distance decay per phase (km)
+- `--intervention-start T1`: start of the mobility-intervention phase
+- `--recovery-start T2`: start of the recovery phase
+- `--metro-closure`, `--periph-closure`: migration reduction ratios
+- `--baseline-decay`, `--intervention-decay`, `--recovery-decay`: distance decay per phase (km)
 
 ## Outputs
 
 **Data files** (`outputs/run_*/data/`):
-- `timeline.csv` — Time series of clade frequencies
-- `network_state.csv` — Final spatial distribution
-- `transfer_matrix*.csv` — Patient transfer networks between cities
-- `network_analysis.json` — Network metrics, degree statistics, and genotype parameters (TAU_VALUES, BETA_VALUES)
-- `run_config.json` — All parameters for reproducibility
+- `timeline.csv`: time series of clade frequencies
+- `network_state.csv`: final spatial distribution
+- `transfer_matrix*.csv`: patient transfer networks between cities
+- `network_analysis.json`: network metrics, degree statistics and genotype parameters (`TAU_VALUES`, `BETA_VALUES`)
+- `run_config.json`: complete parameter record for the run
 
 **Figures** (`outputs/run_*/figures/`):
-- `*.pdf` — Static plots (trajectories, networks, spatial spread)
-- `*.html` — Interactive Plotly visualizations
+- `*.pdf`: static plots of trajectories, networks and spatial spread
+- `*.html`: interactive Plotly visualizations
 
 Filenames include timestamp and run parameters: `run_YYYYMMDD_HHMMSS_{scenario}_h{hospitals}_m{metros}_g{generations}_s{seed}`
 
-## Figure placement
-
-> **Figure placeholder — model overview and scenarios**
-> Add `model_summary.png` here. The figure should combine the synthetic city network, lineage-frequency trajectories and the basic, invasion and three-phase mobility-intervention scenarios.
-
-The following example sensitivity figures are already distributed as PDF files:
-
-- [`example_res/sensitivity_results/sensitivity_analysis.pdf`](example_res/sensitivity_results/sensitivity_analysis.pdf)
-- [`example_res/sensitivity_results/fst_diversity_analysis.pdf`](example_res/sensitivity_results/fst_diversity_analysis.pdf)
-- [`example_res/sensitivity_results/coexistence_stability.pdf`](example_res/sensitivity_results/coexistence_stability.pdf)
-
 ## Model Overview
 
-### Relation to the empirical analyses
+### Network and parameterization
 
-This is a synthetic model, separate from the genomic transmission network in
-Fig. 2. Its nodes and mobility links are simulated rather than reconstructed
-from genomes or direct hospital-transfer records. The metropolitan/peripheral
-mobility contrast is motivated by observed outpatient-to-inpatient ratios, but
-the parameter values are not fitted to a specific patient-transfer network or
-to A. baumannii incidence data. The model tests whether hierarchical mobility
-and opposing colonisation/infection strategies are sufficient to maintain
-spatially structured ecotypes.
+The model operates on a synthetic city network. Nodes are assigned metropolitan
+or peripheral healthcare structure, and directed mobility links follow a
+distance-decay function with an upward-referral bias from peripheral to
+metropolitan nodes. The metropolitan/peripheral contrast is motivated by the
+observed outpatient-to-inpatient ratios. Genotype-specific colonisation and
+infection parameters then determine selection within nodes and dispersal among
+nodes. This design tests how hierarchical mobility and opposing transmission
+strategies influence the maintenance of spatially structured ecotypes.
 
 Wright-Fisher population genetics + spatial network migration:
 
 1. **Genotypes**: 8 genotypes with τ-values (outpatient colonization capacity) and β-values (inpatient infection capacity)
-   - τ > 0.6: Metro-oriented (Clade 2.5) — high dispersal via mobile outpatients
-   - τ < 0.4: Peripheral-oriented (Clade 2.4) — low dispersal, immobilized inpatients
+   - τ > 0.6: metro-oriented (Clade 2.5), with high dispersal via mobile outpatients
+   - τ < 0.4: peripheral-oriented (Clade 2.4), with low dispersal through immobilized inpatients
    - G0 (τ=0.5): Neutral background (susceptible population)
 
 2. **Selection**: Genotypes have differential fitness based on city healthcare structure
@@ -113,18 +102,25 @@ Wright-Fisher population genetics + spatial network migration:
    - **Invasion**: Clade 2.4 establishes first, then Clade 2.5 introduced
    - **COVID**: Three-phase intervention tests clade-specific resilience
 
+> **Figure: model overview and scenarios**
+> Add `model_summary.png` here, combining the synthetic city network, lineage-frequency trajectories and the basic, invasion and three-phase mobility-intervention scenarios.
+
+Example sensitivity outputs are provided as
+[`sensitivity_analysis.pdf`](example_res/sensitivity_results/sensitivity_analysis.pdf),
+[`fst_diversity_analysis.pdf`](example_res/sensitivity_results/fst_diversity_analysis.pdf)
+and [`coexistence_stability.pdf`](example_res/sensitivity_results/coexistence_stability.pdf).
+
 ## Requirements
 
 ```bash
 pip install numpy pandas matplotlib seaborn plotly networkx
 ```
 
-Or use `requirements.txt` if available.
+The same package list is provided in `requirements.txt`.
 
 ## Notes
 
-- All defaults in `config.py`
-- Parameter validation prevents runtime crashes (e.g., `intervention_start < generations`)
-- Use `--fixed-genotypes` for reproducible τ/β values across runs (otherwise randomized by seed)
-- COVID scenario requires 3 valid time points: 0 < intervention_start < recovery_start < generations
-- Invasion scenario requires: 0 < introduction_time < generations
+- `config.py` contains all default parameters.
+- `--fixed-genotypes` reuses the same τ/β values across runs; otherwise the seed controls their random generation.
+- The COVID scenario requires `0 < intervention_start < recovery_start < generations`.
+- The invasion scenario requires `0 < introduction_time < generations`.

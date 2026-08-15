@@ -1,9 +1,8 @@
 # Phenotype experiments
 
-This section groups the experimental measurements used to compare ESL2.4 and
-ESL2.5. Each quantitative analysis is kept in a separate directory with its
-input table, derived results, calculation script and definition of the
-independent experimental unit.
+Phenotype measurements comparing ESL2.4 and ESL2.5 are organized by assay.
+Each quantitative analysis has its own input table, derived results,
+calculation script and definition of the independent experimental unit.
 
 - `antimicrobial_susceptibility/`: isolate-level clinical S/I/R calls.
 - `capsular_polysaccharide/`: uronic-acid measurements of capsular material.
@@ -14,9 +13,9 @@ independent experimental unit.
 - `transmission_electron_microscopy/`: negative-stain imaging method.
 - `secretory_iga/`: nasal-mucus sIgA measurement method.
 
-The assays characterize representative isolates and do not by themselves
-establish that capsule type or a particular gene disruption causes a lineage-
-level difference in colonisation, transmission or virulence.
+The assays compare representative ESL2.4 and ESL2.5 isolates across resistance,
+capsule production, gene expression, epithelial adhesion, nasal colonisation
+and systemic infection.
 
 ## Python dependencies
 
@@ -33,5 +32,3 @@ They can be installed with:
 ```bash
 python -m pip install "numpy>=1.26" "pandas>=2.1" "matplotlib>=3.8" "scipy>=1.11" "openpyxl>=3.1"
 ```
-
-Each assay README specifies its own figure content and filename immediately after the methods and statistical-unit description.

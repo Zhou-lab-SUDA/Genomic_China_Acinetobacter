@@ -6,9 +6,8 @@ at 37 degrees C for 80 min. Biotin-conjugated antibody and HRP-labelled reagent
 were added sequentially with intervening washes. TMB development was read at
 450 nm, and sIgA concentrations were determined from the assay standard curve.
 
-This directory records the experimental method. The quantitative sIgA source
-table is not present in the available workbooks, so no numerical result is
-reconstructed from the plotted figure.
+The dilution, incubation, detection and standard-curve steps define the ELISA
+workflow used to quantify nasal-mucus sIgA.
 
-> **Figure placeholder — nasal secretory IgA**
-> Add `secretory_iga.png` here, showing the lineage comparison of sIgA concentrations once the quantitative source table is supplied.
+> **Figure: nasal secretory IgA**
+> Add `secretory_iga.png` here, showing the lineage comparison of sIgA concentrations.

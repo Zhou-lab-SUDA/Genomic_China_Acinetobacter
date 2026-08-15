@@ -13,13 +13,13 @@ the larger network organization.
 
 Two analysis snapshots are retained. The four degree-correlation summaries use
 `data/network_file_resampling/`. The five-scheme Nexus reconstruction uses the
-tables directly under `data/`. They are separate inputs and should not be
-interchanged.
+tables directly under `data/`. Use the first path for degree-correlation plots
+and the second for Nexus-based network and community comparisons.
 
 The five-scheme reconstruction starts from `data/treetime_annotated.nexus`,
 the city-distance and date tables, and the shared `../sample_metadata.xlsx`.
 Replicate-level and summary TSV files are derived outputs of the scripts in
 `code/`.
 
-> **Figure placeholder — transmission-network sampling sensitivity**
+> **Figure: transmission-network sampling sensitivity**
 > Add `network_sampling_sensitivity.png` here, showing network-metric intervals and community stability, including NMI and ARI, across the five sampling strategies.

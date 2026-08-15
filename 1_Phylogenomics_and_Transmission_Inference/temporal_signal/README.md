@@ -1,12 +1,14 @@
 # Temporal signal
 
 Root-to-tip distances were evaluated for the combined Chinese ESL2 collection
-and separately for ESL2.3, ESL2.4 and ESL2.5. ESL2.4 and ESL2.5 contain the
-lineage-specific temporal signal used for molecular dating. ESL2.3 showed no
-detectable temporal signal, so time-dependent estimates for that lineage were
-not interpreted.
+and separately for ESL2.3, ESL2.4 and ESL2.5. The analysis includes 1,004
+ESL2.4 genomes (R = 0.33, permutation P = 0.001), 709 ESL2.5 genomes
+(R = 0.36, permutation P = 0.001) and 33 ESL2.3 genomes (R = 0.01,
+permutation P = 0.974). Molecular-dating
+summaries use the two lineages with detectable temporal signal, ESL2.4 and
+ESL2.5.
 
-> **Figure placeholder — lineage-specific temporal signal**
+> **Figure: lineage-specific temporal signal**
 > Add `root_to_tip_temporal_signal.png` here, containing the combined, ESL2.3, ESL2.4 and ESL2.5 root-to-tip regression panels.
 
 ## Date randomisation
@@ -24,7 +26,7 @@ separately from ten 50% subsamples of the unpermuted data.
 permutation-level medians and intervals. Run `code/date_randomisation.py` to
 recalculate the tables.
 
-> **Figure placeholder — date randomisation**
+> **Figure: date randomisation**
 > Add `date_randomisation.png` here, comparing the observed correlation and sampling interval with the ten permutation-level medians for each lineage.
 
 `sampling_sensitivity/` evaluates the same temporal-signal statistic under

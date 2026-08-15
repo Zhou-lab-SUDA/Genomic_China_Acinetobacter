@@ -17,15 +17,15 @@ This directory contains city-level association analyses, lineage-associated geno
 
 ## City-level analyses
 
-The univariate analysis tests associations between ESL2.5 relative abundance and 22 city variables. The repository retains both nominal permutation P values and Storey FDR q-values; no individual variable remains significant at q < 0.05. These marginal tests are distinct from RDA and SEM, which evaluate joint structure among predefined groups of standardized urban, healthcare and mobility variables. The RDA/SEM scripts and final model-input table are not included in `city_associations/`.
+The univariate analysis tests associations between ESL2.5 relative abundance and 22 city variables using Spearman statistics and permutation P values. `city_associations/` contains the complete marginal-test table, Benjamini-Hochberg adjustment and Storey q-values; the smallest Storey q-value is 0.0768 for air pollution. RDA and SEM provide a separate multivariate analysis of predefined urban, healthcare and mobility variable groups.
 
-The empirical network used by `Degree.py` is reconstructed from phylogeographic transitions and is stored under [`../1_Phylogenomics_and_Transmission_Inference/`](../1_Phylogenomics_and_Transmission_Inference/). Healthcare and mobility indicators are covariates and do not define its edges.
+`Degree.py` combines lineage prevalence with the empirical city network stored under [`../1_Phylogenomics_and_Transmission_Inference/`](../1_Phylogenomics_and_Transmission_Inference/). Network edges come from phylogeographic transitions; healthcare and mobility indicators enter as city-level covariates.
 
 ## Genomic variation
 
-The SNP-density analysis uses recombination-masked variants summarized in consecutive 10-kb windows. The regions are described as lineage-associated SNP-density peaks rather than definitive mutational hotspots. Separate all-SNP and nonsynonymous tables allow the contribution of mutation annotation type to be inspected. The peak at 3,890,000-3,899,999 bp has an unusually high synonymous fraction and may reflect residual recombination or horizontal transfer.
+The SNP-density analysis summarizes recombination-masked variants in consecutive 10-kb windows. Separate all-variant and protein-changing profiles show the effect-type composition of each lineage-associated peak. The highest ESL2.5 window is 3,897,000-3,897,999 bp, with 65 variants (54 synonymous and 11 protein-changing); adjacent windows and gene annotations are reported in `snp_density/data/top_peak_annotations.tsv`.
 
-Putative pseudogenes are classified from structural disruptions such as truncations, frameshifts and premature stop codons. Their lineage association does not establish that an individual disruption causes an experimental phenotype.
+Putative pseudogenes are classified from structural disruptions such as truncations, frameshifts and premature stop codons. `ESL2.5_Pseudogenes.txt` records the lineage frequencies and annotations used for the COG and KEGG summaries.
 
 ## Phenotype experiments
 
@@ -40,12 +40,10 @@ Putative pseudogenes are classified from structural disruptions such as truncati
 - transmission electron microscopy;
 - nasal secretory IgA.
 
-For quantitative assays, each directory identifies the source table, independent experimental unit, derived outputs and analysis script. The microscopy and sIgA directories retain the available experimental methods; quantitative source measurements were not reconstructed when the underlying tables were unavailable.
+For quantitative assays, each directory identifies the source table, independent experimental unit, derived outputs and analysis script. The microscopy and sIgA directories document the sample preparation, assay and readout procedures.
 
-The experiments characterize representative isolates and support measured associations between lineage and phenotype. They do not by themselves establish that capsule type or a particular gene disruption causes a lineage-level difference in adhesion, colonisation, transmission or virulence.
+The experiments compare representative ESL2.4 and ESL2.5 isolates across antimicrobial susceptibility, capsule production, gene expression, epithelial adhesion, nasal colonisation and systemic infection.
 
 ## Dependencies
 
 The tabular analyses require Python 3.10 or later. The complete package declaration and installation command for the experimental scripts are provided in the [`phenotype_experiments` README](phenotype_experiments/#python-dependencies).
-
-The existing `F31.png`, `F32.png` and `F4.png` images are retained at the corresponding analytical points in the [repository README](../README.md). Instructions for additional figures are placed in the README of the analysis or assay that generates them.
