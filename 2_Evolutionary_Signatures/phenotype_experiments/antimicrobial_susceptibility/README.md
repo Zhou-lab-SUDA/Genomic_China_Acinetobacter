@@ -13,3 +13,6 @@ itself imply a clinically different susceptibility category.
 `data/SIR_raw_table.tsv` is the source table. `SIR_cleaned_long.tsv` contains
 deduplicated isolate-level calls; the remaining TSV files are drug-level
 percentages and statistical comparisons derived by the scripts in `code/`.
+
+> **Figure placeholder — antimicrobial susceptibility**
+> Add `antimicrobial_susceptibility.png` here, showing ESL2.4 and ESL2.5 S/I/R proportions by antimicrobial and the corresponding statistical comparisons.

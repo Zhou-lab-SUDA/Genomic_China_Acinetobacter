@@ -36,21 +36,4 @@ Temporal signal is assessed separately for the combined collection and ESL2.3, E
 
 Recombinant regions are masked before phylogenetic analysis. The documented low-recombination block spans NC_017847.1 positions 1,215,000-2,930,999 and retains 23,524 of 35,609 SNPs after masking; see [`recombination/`](recombination/) for software-specific profiles and coordinate conventions.
 
-## Figure placement
-
-Two existing overview images are retained in this directory:
-
-- `Figure_module_scan_connection_and_city_level.png`: network resolution, modularity, within/cross-module connectivity and city hierarchy.
-- `F2.png`: lineage-specific dissemination speed and distance over evolutionary time.
-
-Final images for the remaining analyses should be added at the following paths:
-
-| Path | Required content |
-| --- | --- |
-| `temporal_signal/root_to_tip_temporal_signal.png` | Four root-to-tip panels: combined ESL2, ESL2.3, ESL2.4 and ESL2.5 |
-| `temporal_signal/date_randomisation.png` | Observed correlations and sampling intervals versus permutation-level median null distributions |
-| `temporal_signal/sampling_sensitivity/temporal_signal_sampling_sensitivity.png` | Temporal-signal estimates under five sampling schemes |
-| `recombination/recombination_landscape.png` | Three recombination profiles, mutation events and low-recombination block |
-| `snp_distance_validation/snp_distance_validation.png` | SNP/time, SNP/geography and period-specific km-per-SNP validation |
-| `network_sensitivity/network_sampling_sensitivity.png` | Network-metric and community-stability results, including NMI and ARI |
-| `clade_prevalence_sensitivity/clade_prevalence_sampling_sensitivity.png` | Annual lineage proportions under four sampling-bias adjustments |
+The two existing overview images are retained at the points where they are discussed in the [repository README](../README.md): `Figure_module_scan_connection_and_city_level.png` for network structure and `F2.png` for dissemination speed and distance. Each additional image instruction is located in the README of its own analysis directory.

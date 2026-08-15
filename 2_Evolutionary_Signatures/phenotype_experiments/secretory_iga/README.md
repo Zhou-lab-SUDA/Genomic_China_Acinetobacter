@@ -9,3 +9,6 @@ were added sequentially with intervening washes. TMB development was read at
 This directory records the experimental method. The quantitative sIgA source
 table is not present in the available workbooks, so no numerical result is
 reconstructed from the plotted figure.
+
+> **Figure placeholder — nasal secretory IgA**
+> Add `secretory_iga.png` here, showing the lineage comparison of sIgA concentrations once the quantitative source table is supplied.

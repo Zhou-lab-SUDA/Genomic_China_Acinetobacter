@@ -14,3 +14,6 @@ isolates.
 
 The input table is the `UA` worksheet from `Source_Data_Tablesv2.xlsx`, with
 column names standardized and the two measurements retained separately.
+
+> **Figure placeholder — capsular polysaccharide**
+> Add `capsular_polysaccharide.png` here, showing isolate-level capsular-polysaccharide measurements summarized by lineage and, where applicable, KL type.

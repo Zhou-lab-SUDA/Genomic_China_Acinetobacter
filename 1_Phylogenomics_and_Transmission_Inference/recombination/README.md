@@ -20,3 +20,6 @@ stars in the associated figure.
 `data/source_recombination_mutation_events.xlsx` is the workbook supplied as
 `41467_2025_58106_MOESM7_ESM.xlsx`; the TSV files are standardized derivatives
 created by `code/prepare_recombination_mutation_data.py`.
+
+> **Figure placeholder — recombination landscape**
+> Add `recombination_landscape.png` here, showing the RecHMM, Gubbins and ClonalFrameML profiles, mutation events and the low-recombination block.

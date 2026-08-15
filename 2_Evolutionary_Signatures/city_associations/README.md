@@ -15,3 +15,6 @@ not part of this module.
 The permutation results in `data/city_ESL25_spearman_permutation.tsv` are the
 input to the multiple-testing scripts. The other TSV files retain the plotted
 values and Storey q-values.
+
+> **Figure placeholder — city-variable multiple testing**
+> Add `city_association_multiple_testing.png` here, displaying nominal permutation P values and Storey FDR q-values for all 22 city variables.

@@ -15,3 +15,6 @@ The long-format input was extracted from worksheet `S7 Colonisation` in
 `Supplementary_Tablesv3.xlsx`. Entries recorded as `NA` remain missing and are
 excluded from the corresponding time-point summary and test; no bacterial-load
 values are imputed.
+
+> **Figure placeholder — mouse nasal colonisation**
+> Add `nasal_colonisation.png` here, showing the longitudinal log10 CFU trajectories or time-point summaries for ESL2.4 and ESL2.5.

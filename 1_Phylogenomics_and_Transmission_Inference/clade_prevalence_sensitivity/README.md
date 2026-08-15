@@ -8,3 +8,6 @@ replicates.
 The resampling analysis addresses uneven numbers of genomes among years and
 cities. It supports the direction of the temporal replacement pattern; exact
 annual percentages remain conditional on the available samples.
+
+> **Figure placeholder — clade-prevalence sampling sensitivity**
+> Add `clade_prevalence_sampling_sensitivity.png` here, comparing observed annual lineage proportions with intervals from the four resampling schemes.

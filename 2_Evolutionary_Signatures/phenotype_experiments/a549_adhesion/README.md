@@ -19,3 +19,6 @@ Statistical comparisons use the mean of each of the six isolates, rather than
 treating replicate plate counts as independent observations.
 `code/analyse_adhesion.py` writes isolate summaries, lineage summaries and
 two-sided exact Mann-Whitney U tests for the focused comparison.
+
+> **Figure placeholder — A549-cell adhesion**
+> Add `a549_adhesion.png` here, showing MOI 10 and MOI 20 adhesion for the focused isolates and using isolate means as the comparison unit.

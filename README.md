@@ -18,112 +18,131 @@ Each analysis directory separates `data/` from `code/` where possible. Its local
 
 The [phylogenomics module](1_Phylogenomics_and_Transmission_Inference/) contains the shared genome metadata, dated tree, normalized city-to-city transmission table and the analyses used to assess their robustness.
 
-| Analysis | Contents |
-| --- | --- |
-| [Temporal signal](1_Phylogenomics_and_Transmission_Inference/temporal_signal/) | Root-to-tip regression for the combined collection and individual ESL2 lineages; 10 date permutations, each evaluated through 10 independent subsamples |
-| [Temporal-signal sampling sensitivity](1_Phylogenomics_and_Transmission_Inference/temporal_signal/sampling_sensitivity/) | Random, population-weighted, year-balanced, city-balanced and combined city/year-balanced sampling |
-| [Recombination](1_Phylogenomics_and_Transmission_Inference/recombination/) | RecHMM, Gubbins and ClonalFrameML profiles; low-recombination block coordinates; SNP counts before and after masking |
-| [SNP-distance validation](1_Phylogenomics_and_Transmission_Inference/snp_distance_validation/) | Pairwise recombination-masked SNP distance versus divergence time and geographic spread |
-| [Network sensitivity](1_Phylogenomics_and_Transmission_Inference/network_sensitivity/) | Five sampling strategies, replicate networks, normalized mutual information and adjusted Rand index |
-| [Clade-prevalence sensitivity](1_Phylogenomics_and_Transmission_Inference/clade_prevalence_sensitivity/) | Annual and overall lineage proportions under four metadata-resampling schemes |
+### Time-resolved phylogeny and temporal signal
 
-The empirical transmission network is inferred from changes in reconstructed geographic state along the dated phylogeny. Its nodes are sampled cities and its edges are inferred intercity transitions; it is not a directly observed hospital-transfer network. [`Network.py`](1_Phylogenomics_and_Transmission_Inference/Network.py) evaluates network community structure, while [`Speed.py`](1_Phylogenomics_and_Transmission_Inference/Speed.py) summarizes phylogeny-based dissemination distance and velocity.
+Root-to-tip temporal signal is evaluated for the combined ESL2 collection and separately for ESL2.3, ESL2.4 and ESL2.5. Time-dependent estimates are not interpreted for ESL2.3 because no detectable signal was found. Data and scripts are in [`temporal_signal/`](1_Phylogenomics_and_Transmission_Inference/temporal_signal/).
+
+> **Figure placeholder — lineage-specific temporal signal**
+> Add `1_Phylogenomics_and_Transmission_Inference/temporal_signal/root_to_tip_temporal_signal.png` here. The figure should contain the combined, ESL2.3, ESL2.4 and ESL2.5 root-to-tip regression panels.
+
+### Date randomisation
+
+Sampling dates are permuted among tips ten times. Within each permutation, the correlation is evaluated in ten independent 50% subsamples, and the median of those ten correlations represents the permutation. The observed estimate and its sampling interval are retained separately from the null distribution.
+
+> **Figure placeholder — date randomisation**
+> Add `1_Phylogenomics_and_Transmission_Inference/temporal_signal/date_randomisation.png` here. The figure should compare the observed correlation and sampling interval with the ten permutation-level medians for each lineage.
+
+### Temporal-signal sampling sensitivity
+
+The same temporal-signal statistic is evaluated under random, population-weighted, year-balanced, city-balanced and combined city/year-balanced sampling in [`temporal_signal/sampling_sensitivity/`](1_Phylogenomics_and_Transmission_Inference/temporal_signal/sampling_sensitivity/).
+
+> **Figure placeholder — temporal-signal sampling sensitivity**
+> Add `1_Phylogenomics_and_Transmission_Inference/temporal_signal/sampling_sensitivity/temporal_signal_sampling_sensitivity.png` here. The figure should show lineage-specific estimates across all five sampling strategies.
+
+### Recombination masking
+
+[`recombination/`](1_Phylogenomics_and_Transmission_Inference/recombination/) contains the chromosome-wide RecHMM, Gubbins and ClonalFrameML profiles, the low-recombination block coordinates and the SNP counts before and after masking. Recombinant regions are masked; the alignment is not treated as recombination-free.
+
+> **Figure placeholder — recombination landscape**
+> Add `1_Phylogenomics_and_Transmission_Inference/recombination/recombination_landscape.png` here. The figure should show the three recombination profiles, mutation events and the low-recombination block used for phylogenetic reconstruction.
 
 ### Empirical transmission structure
 
-The existing network figure shows the resolution scan, within- versus cross-module connection weights, the distribution of transmission events between city levels and transmission weight by city hierarchy.
+The empirical network is inferred from changes in reconstructed geographic state along the dated phylogeny. Its nodes are sampled cities and its edges are inferred intercity transitions; it is not a directly observed hospital-transfer network. [`Network.py`](1_Phylogenomics_and_Transmission_Inference/Network.py) evaluates the resolution scan, within- versus cross-module connection weights, transmission between city levels and transmission weight by city hierarchy.
 
 <p align="left">
   <img src="1_Phylogenomics_and_Transmission_Inference/Figure_module_scan_connection_and_city_level.png" width="650" alt="Transmission-network modularity and city hierarchy">
 </p>
 
+### Transmission-network sampling sensitivity
+
+[`network_sensitivity/`](1_Phylogenomics_and_Transmission_Inference/network_sensitivity/) reconstructs the empirical network under five geographic and temporal sampling strategies and compares network metrics and community assignments using NMI and ARI.
+
+> **Figure placeholder — transmission-network sampling sensitivity**
+> Add `1_Phylogenomics_and_Transmission_Inference/network_sensitivity/network_sampling_sensitivity.png` here. The figure should show the network-metric intervals and community-stability results across the five strategies.
+
 ### Dissemination distance and velocity
 
-The existing dissemination figure compares lineage-specific spread speeds between epidemiological periods and summarizes geographic distance over evolutionary time.
+[`Speed.py`](1_Phylogenomics_and_Transmission_Inference/Speed.py) summarizes phylogeny-based dissemination distance and velocity. The existing figure compares lineage-specific spread speeds between epidemiological periods and geographic distance over evolutionary time.
 
 <p align="left">
   <img src="1_Phylogenomics_and_Transmission_Inference/F2.png" width="650" alt="Phylogeny-based dissemination speed and distance">
 </p>
 
-### Additional phylogenomic figure positions
+### SNP-distance validation of spatial spread
 
-The following image positions are intentionally left open. Add each final image at the listed path; the adjacent analysis directory already contains its data and plotting code.
-
-> **Figure placeholder — lineage-specific temporal signal**
-> Add `1_Phylogenomics_and_Transmission_Inference/temporal_signal/root_to_tip_temporal_signal.png`. The figure should contain the combined, ESL2.3, ESL2.4 and ESL2.5 root-to-tip regression panels.
-
-> **Figure placeholder — date randomisation**
-> Add `1_Phylogenomics_and_Transmission_Inference/temporal_signal/date_randomisation.png`. The figure should compare the observed correlation and its sampling interval with the distribution of the ten permutation-level medians for each lineage.
-
-> **Figure placeholder — temporal-signal sampling sensitivity**
-> Add `1_Phylogenomics_and_Transmission_Inference/temporal_signal/sampling_sensitivity/temporal_signal_sampling_sensitivity.png`. The figure should show lineage-specific temporal-signal estimates across the five sampling strategies.
-
-> **Figure placeholder — recombination landscape**
-> Add `1_Phylogenomics_and_Transmission_Inference/recombination/recombination_landscape.png`. The figure should show chromosome-wide RecHMM, Gubbins and ClonalFrameML profiles, mutation events, and the low-recombination block used for phylogenetic reconstruction.
+[`snp_distance_validation/`](1_Phylogenomics_and_Transmission_Inference/snp_distance_validation/) compares divergence time with recombination-masked pairwise SNP distance and tests whether the spatial conclusions depend on molecular dating.
 
 > **Figure placeholder — SNP-distance validation**
-> Add `1_Phylogenomics_and_Transmission_Inference/snp_distance_validation/snp_distance_validation.png`. The figure should summarize divergence time versus recombination-masked SNP distance, geographic spread versus SNP distance and the period-specific km-per-SNP comparison.
+> Add `1_Phylogenomics_and_Transmission_Inference/snp_distance_validation/snp_distance_validation.png` here. The figure should summarize divergence time versus SNP distance, geographic spread versus SNP distance and the period-specific km-per-SNP comparison.
 
-> **Figure placeholder — transmission-network sampling sensitivity**
-> Add `1_Phylogenomics_and_Transmission_Inference/network_sensitivity/network_sampling_sensitivity.png`. The figure should compare network metrics and community stability across the five sampling strategies, including NMI and ARI.
+### Sampling sensitivity of lineage prevalence
+
+Annual and overall ESL2.3, ESL2.4 and ESL2.5 proportions are recalculated using random downsampling, year balancing, city balancing and combined city/year balancing in [`clade_prevalence_sensitivity/`](1_Phylogenomics_and_Transmission_Inference/clade_prevalence_sensitivity/).
 
 > **Figure placeholder — clade-prevalence sampling sensitivity**
-> Add `1_Phylogenomics_and_Transmission_Inference/clade_prevalence_sensitivity/clade_prevalence_sampling_sensitivity.png`. The figure should compare observed annual lineage proportions with intervals obtained under the four resampling schemes.
+> Add `1_Phylogenomics_and_Transmission_Inference/clade_prevalence_sensitivity/clade_prevalence_sampling_sensitivity.png` here. The figure should compare the observed annual lineage proportions with the intervals from all four resampling schemes.
 
 ## 2. Evolutionary signatures and phenotype experiments
 
 The [evolutionary-signatures module](2_Evolutionary_Signatures/) links city characteristics and genomic measurements to observed lineage distributions, and provides the experimental measurements used to compare ESL2.4 and ESL2.5.
 
-### Urban and genomic analyses
+### City connectivity and patient mobility
 
-- [City-level associations](2_Evolutionary_Signatures/city_associations/) retain permutation-based Spearman tests for 22 city variables and Storey FDR estimates. The marginal tests are documented separately from multivariate RDA and SEM.
-- [Lineage-associated SNP density](2_Evolutionary_Signatures/snp_density/) provides annotated 10-kb profiles for all SNPs and the nonsynonymous subset. These are reported as SNP-density peaks, with residual recombination considered for the exceptional high-synonymous peak.
-- [`Degree.py`](2_Evolutionary_Signatures/Degree.py) evaluates the association between empirical city-network connectivity and lineage prevalence.
-- The top-level tables in this module contain the city covariates, outpatient/inpatient indicators, pseudogene calls and lineage-associated mutation annotations used by the corresponding analyses.
-
-The existing city-connectivity figure contains the associations between inferred transmission events and ESL2.4/ESL2.5 prevalence, together with lineage prevalence across patient-mobility strata.
+[`Degree.py`](2_Evolutionary_Signatures/Degree.py) evaluates the association between empirical city-network connectivity and lineage prevalence. The existing figure contains the associations between inferred transmission events and ESL2.4/ESL2.5 prevalence, together with lineage prevalence across patient-mobility strata.
 
 <p align="left">
   <img src="2_Evolutionary_Signatures/F31.png" width="700" alt="City connectivity, patient mobility and lineage prevalence">
 </p>
 
-The existing urban-attribute figure contains the outpatient/inpatient comparison, ranked city-variable correlations, RDA and SEM.
+### Urban attributes and multivariate modelling
+
+The top-level city tables contain curated urban covariates and provincial outpatient/inpatient indicators. The existing figure contains the outpatient/inpatient comparison, ranked city-variable correlations, RDA and SEM.
 
 <p align="left">
   <img src="2_Evolutionary_Signatures/F32.png" width="700" alt="Urban attributes, RDA and structural equation model">
 </p>
 
-The existing genomic-signature figure contains lineage-associated gene disruptions, functional enrichment and chromosome-wide mutation-density profiles.
+### Multiple testing of city-level associations
+
+[`city_associations/`](2_Evolutionary_Signatures/city_associations/) retains permutation-based Spearman tests for 22 city variables, nominal P values and Storey FDR q-values. These marginal tests are documented separately from the multivariate RDA and SEM.
+
+> **Figure placeholder — city-variable multiple testing**
+> Add `2_Evolutionary_Signatures/city_associations/city_association_multiple_testing.png` here. The figure should display the nominal permutation P values and Storey q-values for all 22 variables.
+
+### Gene disruptions and functional enrichment
+
+The top-level pseudogene and mutation tables support the lineage-associated gene-disruption, COG/KEGG enrichment and chromosome-wide mutation-density summaries shown in the existing figure.
 
 <p align="left">
   <img src="2_Evolutionary_Signatures/F4.png" width="700" alt="Gene disruptions, functional enrichment and mutation density">
 </p>
 
-> **Figure placeholder — city-variable multiple testing**
-> Add `2_Evolutionary_Signatures/city_associations/city_association_multiple_testing.png`. The figure should display nominal permutation P values together with Storey FDR q-values for all 22 city variables.
+### Annotated SNP-density peaks
+
+[`snp_density/`](2_Evolutionary_Signatures/snp_density/) provides 10-kb profiles for all annotated SNPs and the nonsynonymous subset. The regions are reported as SNP-density peaks, with residual recombination considered for the exceptional high-synonymous peak.
 
 > **Figure placeholder — annotated SNP-density peaks**
-> Add `2_Evolutionary_Signatures/snp_density/snp_density_peaks.png`. The figure should compare all-SNP and nonsynonymous 10-kb density profiles and annotate the principal peaks, including the high-synonymous peak considered potentially affected by residual recombination.
+> Add `2_Evolutionary_Signatures/snp_density/snp_density_peaks.png` here. The figure should compare all-SNP and nonsynonymous profiles and annotate the principal peaks, including the high-synonymous peak.
 
 ### Phenotype experiments
 
 The [phenotype-experiment section](2_Evolutionary_Signatures/phenotype_experiments/) is organized by assay:
 
-| Experiment | Available material |
-| --- | --- |
-| [Antimicrobial susceptibility](2_Evolutionary_Signatures/phenotype_experiments/antimicrobial_susceptibility/) | Isolate-level S/I/R calls, drug-level comparisons and FDR-adjusted statistics |
-| [Capsular polysaccharide](2_Evolutionary_Signatures/phenotype_experiments/capsular_polysaccharide/) | Uronic-acid measurements, isolate summaries and lineage/KL-type comparisons |
-| [Gene-expression qPCR](2_Evolutionary_Signatures/phenotype_experiments/gene_expression_qpcr/) | Technical Ct replicates, isolate-level normalization and target-wise comparisons |
-| [A549-cell adhesion](2_Evolutionary_Signatures/phenotype_experiments/a549_adhesion/) | Source plate counts, focused isolate comparison and isolate-level statistics |
-| [Mouse nasal colonisation](2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/) | Longitudinal mouse-level bacterial loads and time-point-specific comparisons |
-| [Systemic-infection survival](2_Evolutionary_Signatures/phenotype_experiments/systemic_infection_survival/) | Mouse-level event data, Kaplan-Meier estimates, log-rank analysis and subset-selection record |
-| [Transmission electron microscopy](2_Evolutionary_Signatures/phenotype_experiments/transmission_electron_microscopy/) | Experimental method; quantitative micrograph measurements are not available |
-| [Nasal secretory IgA](2_Evolutionary_Signatures/phenotype_experiments/secretory_iga/) | Experimental method; the quantitative source table is not available |
+| Experiment | Available material | Figure position |
+| --- | --- | --- |
+| [Antimicrobial susceptibility](2_Evolutionary_Signatures/phenotype_experiments/antimicrobial_susceptibility/) | Isolate-level S/I/R calls, drug-level comparisons and FDR-adjusted statistics | `2_Evolutionary_Signatures/phenotype_experiments/antimicrobial_susceptibility/antimicrobial_susceptibility.png` |
+| [Capsular polysaccharide](2_Evolutionary_Signatures/phenotype_experiments/capsular_polysaccharide/) | Uronic-acid measurements, isolate summaries and lineage/KL-type comparisons | `2_Evolutionary_Signatures/phenotype_experiments/capsular_polysaccharide/capsular_polysaccharide.png` |
+| [Gene-expression qPCR](2_Evolutionary_Signatures/phenotype_experiments/gene_expression_qpcr/) | Technical Ct replicates, isolate-level normalization and target-wise comparisons | `2_Evolutionary_Signatures/phenotype_experiments/gene_expression_qpcr/gene_expression_qpcr.png` |
+| [A549-cell adhesion](2_Evolutionary_Signatures/phenotype_experiments/a549_adhesion/) | Source plate counts, focused isolate comparison and isolate-level statistics | `2_Evolutionary_Signatures/phenotype_experiments/a549_adhesion/a549_adhesion.png` |
+| [Mouse nasal colonisation](2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/) | Longitudinal mouse-level bacterial loads and time-point-specific comparisons | `2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/nasal_colonisation.png` |
+| [Systemic-infection survival](2_Evolutionary_Signatures/phenotype_experiments/systemic_infection_survival/) | Mouse-level event data, Kaplan-Meier estimates and log-rank analysis | `2_Evolutionary_Signatures/phenotype_experiments/systemic_infection_survival/systemic_infection_survival.png` |
+| [Transmission electron microscopy](2_Evolutionary_Signatures/phenotype_experiments/transmission_electron_microscopy/) | Experimental method; quantitative micrograph measurements are not available | `2_Evolutionary_Signatures/phenotype_experiments/transmission_electron_microscopy/transmission_electron_microscopy.png` |
+| [Nasal secretory IgA](2_Evolutionary_Signatures/phenotype_experiments/secretory_iga/) | Experimental method; the quantitative source table is not available | `2_Evolutionary_Signatures/phenotype_experiments/secretory_iga/secretory_iga.png` |
 
 The independent experimental unit is defined in each assay README. In particular, A549 comparisons use the isolate mean, qPCR technical replicates are averaged within isolates, and longitudinal colonisation measurements retain the mouse as the unit. These experiments establish measured associations in representative isolates; they do not by themselves establish that capsule type or a particular gene disruption causes a lineage-level phenotype.
 
-> **Figure placeholders — phenotype experiments**
-> Final panels should be added under their corresponding assay directories. The required panel contents and suggested filenames are listed in the [phenotype figure-placement table](2_Evolutionary_Signatures/phenotype_experiments/#figure-placement).
+Each assay README places its figure instruction immediately after the corresponding methods and statistical-unit description.
 
 ## 3. Spatial transmission model
 

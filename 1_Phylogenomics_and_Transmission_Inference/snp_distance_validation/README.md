@@ -14,3 +14,5 @@ The upstream scripts require the full SNP matrix, sample index, dated tree,
 sampling dates, city-distance matrix and genome metadata. Figure-level derived
 tables are included under `data/`.
 
+> **Figure placeholder — SNP-distance validation**
+> Add `snp_distance_validation.png` here, summarizing divergence time versus masked SNP distance, geographic spread versus SNP distance and the period-specific km-per-SNP comparison.

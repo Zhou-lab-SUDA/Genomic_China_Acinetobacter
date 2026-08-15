@@ -9,3 +9,6 @@ continuous-carbon grid for 10 min, washed with distilled water, stained with
 This directory records the imaging method. Quantitative micrograph source data
 are not present in the available source tables; no image-derived thickness
 measurements are inferred here.
+
+> **Figure placeholder — transmission electron microscopy**
+> Add `transmission_electron_microscopy.png` here, containing representative micrographs and scale bars. A quantitative thickness panel should be added only if its source measurements are supplied.

@@ -12,3 +12,6 @@ fraction and may contain residual recombination or horizontal transfer.
 `data/mutation_density_all.tsv` and
 `data/mutation_density_nonsynonymous.tsv` are the annotated SNP inputs. The
 10-kb peak and annotation tables are derived from those inputs.
+
+> **Figure placeholder — annotated SNP-density peaks**
+> Add `snp_density_peaks.png` here, comparing all-SNP and nonsynonymous 10-kb profiles and annotating the principal peaks, including the high-synonymous peak.

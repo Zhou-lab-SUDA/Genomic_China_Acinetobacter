@@ -20,3 +20,6 @@ The five-scheme reconstruction starts from `data/treetime_annotated.nexus`,
 the city-distance and date tables, and the shared `../sample_metadata.xlsx`.
 Replicate-level and summary TSV files are derived outputs of the scripts in
 `code/`.
+
+> **Figure placeholder — transmission-network sampling sensitivity**
+> Add `network_sampling_sensitivity.png` here, showing network-metric intervals and community stability, including NMI and ARI, across the five sampling strategies.

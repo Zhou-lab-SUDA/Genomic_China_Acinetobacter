@@ -48,19 +48,4 @@ The experiments characterize representative isolates and support measured associ
 
 The tabular analyses require Python 3.10 or later. The complete package declaration and installation command for the experimental scripts are provided in the [`phenotype_experiments` README](phenotype_experiments/#python-dependencies).
 
-## Figure placement
-
-The following existing overview images are retained at this level:
-
-- `F31.png`: transmission events, lineage prevalence and patient-mobility strata.
-- `F32.png`: outpatient/inpatient burden, urban correlates, RDA and SEM.
-- `F4.png`: lineage-associated gene disruptions, functional enrichment and mutation density.
-
-Additional final images should be added at these paths:
-
-| Path | Required content |
-| --- | --- |
-| `city_associations/city_association_multiple_testing.png` | Nominal permutation P values and Storey FDR q-values for 22 city variables |
-| `snp_density/snp_density_peaks.png` | All-SNP and nonsynonymous 10-kb density profiles with peak annotations |
-
-Assay-specific image positions are listed in the [`phenotype_experiments` README](phenotype_experiments/#figure-placement).
+The existing `F31.png`, `F32.png` and `F4.png` images are retained at the corresponding analytical points in the [repository README](../README.md). Instructions for additional figures are placed in the README of the analysis or assay that generates them.
