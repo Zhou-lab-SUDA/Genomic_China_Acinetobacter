@@ -48,7 +48,9 @@ The same temporal-signal statistic is evaluated under random, population-weighte
 
 ### Empirical transmission structure
 
-The empirical network is a city-level phylogeographic transition network reconstructed from changes in geographic state along the dated phylogeny. Nodes represent sampled cities, directed edges represent inferred intercity transitions and edge weights record normalized transition counts. [`Network.py`](1_Phylogenomics_and_Transmission_Inference/Network.py) evaluates the resolution scan, within- versus cross-module connection weights, transmission between city levels and transmission weight by city hierarchy.
+The empirical network is a city-level phylogeographic transition network reconstructed from changes in geographic state along the dated phylogeny. Nodes represent sampled cities, directed edges represent inferred intercity transitions and edge weights record normalized transition counts. [`Network.py`](1_Phylogenomics_and_Transmission_Inference/Network.py) applies Louvain community detection and scans the resolution parameter to evaluate alternative community partitions.
+
+The four panels below show the number of detected clusters and modularity Q across the resolution scan, the distribution of within-module and cross-module transmission weights, the proportions of events occurring within and across city-hierarchy levels, and transmission weight per city for mega-cities, provincial cities and non-provincial cities. The city hierarchy follows the [official urban classification cited in the study](https://www.ndrc.gov.cn/xwdt/ztzl/xxczhjs/ghzc/201605/t20160509_971910.html). These panels form part of the extended-data analysis of the modular and hierarchical structure of the China transmission network.
 
 <p align="left">
   <img src="1_Phylogenomics_and_Transmission_Inference/Figure_module_scan_connection_and_city_level.png" width="650" alt="Transmission-network modularity and city hierarchy">
@@ -63,7 +65,9 @@ The empirical network is a city-level phylogeographic transition network reconst
 
 ### Dissemination distance and velocity
 
-[`Speed.py`](1_Phylogenomics_and_Transmission_Inference/Speed.py) combines geographic distance between reconstructed parent/descendant locations with the corresponding branch-time interval. It reports lineage-specific spread-speed distributions for 2010-2019 and 2020-2023 and cumulative geographic distance over 20 years of evolutionary time.
+[`Speed.py`](1_Phylogenomics_and_Transmission_Inference/Speed.py) combines geographic distance between reconstructed parent and descendant locations with the corresponding branch-time interval, following the phylogeny-based framework described by [Belman et al.](https://doi.org/10.1038/s41586-024-07626-3). Pairwise distances between Chinese cities were obtained through the Baidu Map API and are retained in [`PairwiseChinaCities.distance`](1_Phylogenomics_and_Transmission_Inference/PairwiseChinaCities.distance).
+
+The left panel compares dissemination-speed estimates for ESL2.4 and ESL2.5 between 2010-2019 and 2020-2023. The right panel shows accumulated geographic spread distance over 20 years of evolutionary time for ESL2.4, ESL2.5 and the combined IC2 collection, with uncertainty intervals. These panels correspond to Fig. 2c and Fig. 2d, respectively.
 
 <p align="left">
   <img src="1_Phylogenomics_and_Transmission_Inference/F2.png" width="650" alt="Phylogeny-based dissemination speed and distance">
@@ -89,7 +93,7 @@ The [evolutionary-signatures module](2_Evolutionary_Signatures/) links city char
 
 ### City connectivity and patient mobility
 
-[`Degree.py`](2_Evolutionary_Signatures/Degree.py) joins normalized city-level transmission counts with lineage prevalence and calculates Spearman associations for ESL2.4 and ESL2.5. The same city table assigns patient-mobility strata for the lineage-prevalence comparison shown in the third panel.
+[`Degree.py`](2_Evolutionary_Signatures/Degree.py) joins normalized city-level transmission counts with lineage prevalence and calculates Spearman associations for ESL2.4 and ESL2.5. Panels a and b show the negative association between transmission connectivity and ESL2.4 prevalence (Spearman ρ = -0.32, P = 0.017) and the positive association with ESL2.5 prevalence (ρ = 0.61, P < 0.001). Panel c compares the prevalence of both lineages across patient-mobility levels I-IV. The healthcare mobility classification was derived from the national healthcare supply-demand and intercity mobility analysis reported by [Zhao et al.](https://doi.org/10.1038/s44284-024-00185-8). These panels correspond to Fig. 3a-c.
 
 <p align="left">
   <img src="2_Evolutionary_Signatures/F31.png" width="700" alt="City connectivity, patient mobility and lineage prevalence">
@@ -97,7 +101,9 @@ The [evolutionary-signatures module](2_Evolutionary_Signatures/) links city char
 
 ### Urban attributes and multivariate modelling
 
-[`ChinaCityInfo.xlsx`](2_Evolutionary_Signatures/ChinaCityInfo.xlsx) contains the curated city attributes, and [`TrueValueOI.xlsx`](2_Evolutionary_Signatures/TrueValueOI.xlsx) contains the provincial outpatient/inpatient indicators. The analyses rank univariate Spearman correlations, summarize joint variation by RDA and estimate the grouped development, mobility, medical-quality and medical-pressure paths by SEM.
+[`ChinaCityInfo.xlsx`](2_Evolutionary_Signatures/ChinaCityInfo.xlsx) contains socioeconomic, demographic and healthcare variables curated from the [China Statistical Yearbook](https://www.stats.gov.cn) and the [China Health Statistical Yearbook](https://www.nhc.gov.cn/mohwsbwstjxxzx/tjnj). [`TrueValueOI.xlsx`](2_Evolutionary_Signatures/TrueValueOI.xlsx) contains provincial outpatient and inpatient indicators. The outpatient-to-inpatient ratio is calculated from outpatient visits and inpatient admissions and summarizes the relative throughput of ambulatory and inpatient healthcare use.
+
+Panel d compares provincial outpatient-to-inpatient ratios with GDP per capita before and after the COVID-19 pandemic. Panel e ranks Spearman correlations between ESL2.5 prevalence and 22 city-level variables. Panel f summarizes their joint structure by redundancy analysis, and panel g shows the structural equation model linking development, patient mobility, medical quality and medical pressure to ESL2.5 prevalence. These panels correspond to Fig. 3d-g.
 
 <p align="left">
   <img src="2_Evolutionary_Signatures/F32.png" width="700" alt="Urban attributes, RDA and structural equation model">
@@ -113,6 +119,8 @@ The [evolutionary-signatures module](2_Evolutionary_Signatures/) links city char
 ### Gene disruptions, functional enrichment and gene expression
 
 [`ESL2.5_Pseudogenes.txt`](2_Evolutionary_Signatures/ESL2.5_Pseudogenes.txt) records disruption frequencies across ESL2.1-ESL2.5 together with gene annotations and COG categories. Putative disruptions comprise truncated coding sequences, frameshifts and premature stop codons. IS elements were identified with ISFinder, and 15 representative predictions were examined by PCR and bidirectional Sanger sequencing. Ancestral states were reconstructed on the dated phylogeny to distinguish early clade-associated events, parallel losses and recent terminal-branch losses. The disruption frequencies support the lineage comparison, COG heat map and KEGG enrichment panels; the mutation tables provide the chromosome-wide density series.
+
+Panel a compares gene-disruption frequencies in ESL2.5 and non-ESL2.5 lineages and summarizes selected loci across COG categories. Panel b shows KEGG enrichment among genes preferentially disrupted in ESL2.5. Panel c compares chromosome-wide mutation density in ESL2.5 and non-ESL2.5 populations and labels selected high-density loci and gene disruptions. The composite corresponds to Fig. 4a-c; effect-type counts and annotations for the highlighted SNP-density peaks are described in the following section.
 
 <p align="left">
   <img src="2_Evolutionary_Signatures/F4.png" width="700" alt="Gene disruptions, functional enrichment and mutation density">
