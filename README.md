@@ -23,7 +23,10 @@ The [phylogenomics module](1_Phylogenomics_and_Transmission_Inference/) contains
 Root-to-tip regression is evaluated for the combined ESL2 collection and separately for ESL2.3, ESL2.4 and ESL2.5. ESL2.4 (R = 0.33, permutation P = 0.001) and ESL2.5 (R = 0.36, permutation P = 0.001) provide the lineage-specific temporal signal used for molecular dating. ESL2.3 yielded R = 0.01 and permutation P = 0.974 and is excluded from downstream temporal estimates. Data, summary statistics and plotting scripts are in [`temporal_signal/`](1_Phylogenomics_and_Transmission_Inference/temporal_signal/).
 
 > **Figure: lineage-specific temporal signal**
-> Add `1_Phylogenomics_and_Transmission_Inference/temporal_signal/root_to_tip_temporal_signal.png` here. The figure should contain the combined, ESL2.3, ESL2.4 and ESL2.5 root-to-tip regression panels.
+
+<p align="left">
+  <img src="https://github.com/Zhou-lab-SUDA/Genomic_China_Acinetobacter/blob/main/1_Phylogenomics_and_Transmission_Inference/temporal_signal/rttd.png" width="650" alt="RTTD">
+</p>
 
 ### Date randomisation
 
