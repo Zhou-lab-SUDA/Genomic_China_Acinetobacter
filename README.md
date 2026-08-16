@@ -148,7 +148,7 @@ Expression of selected disruption-associated loci was assessed from technical-tr
 
 ### Annotated SNP-density peaks
 
-[`snp_density/`](2_Evolutionary_Signatures/snp_density/) provides parallel 10-kb profiles for all annotated SNPs and the protein-changing subset. The largest ESL2.5 peak, at 3,897,000-3,897,999 bp, contains 65 variants: 54 synonymous and 11 protein-changing. Effect-type counts and gene annotations are retained for every highlighted window so that the composition of each peak can be inspected directly.
+[`snp_density/`](2_Evolutionary_Signatures/snp_density/) provides parallel 10-kb profiles for all annotated SNPs and the protein-changing subset. The largest ESL2.5 peak, at 3,897,000-3,897,999 bp, contains 65 variants: 54 synonymous and 11 protein-changing. Effect-type counts and gene annotations are retained for every highlighted window so that the composition of each peak can be inspected directly. We also provide [an interactional version of this figure](https://naclist.github.io/naclist-portfolio/sources/ab_mutation_annotations/).
 
 <p align="left">
   <img src="2_Evolutionary_Signatures/snp_density/snp_density_peaks.png" width="900" alt="Chromosome-wide total and nonsynonymous SNP-density profiles">
