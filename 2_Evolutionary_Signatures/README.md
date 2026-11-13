@@ -33,7 +33,7 @@ Putative pseudogenes are classified from structural disruptions such as truncati
 
 1. antimicrobial susceptibility;
 2. capsule architecture and capsular-polysaccharide production, combining transmission electron microscopy with uronic-acid measurements;
-3. mouse experiments, combining nasal colonisation, nasal sIgA and systemic-infection survival;
+3. mouse experiments, combining nasal colonisation and nasal sIgA;
 4. A549-cell adhesion.
 
 For quantitative assays, each directory identifies the source table, independent experimental unit, derived outputs and analysis script. The microscopy and sIgA directories document sample preparation, acquisition and readout procedures. Gene-expression qPCR is presented with gene disruptions in the genomic-variation section above.

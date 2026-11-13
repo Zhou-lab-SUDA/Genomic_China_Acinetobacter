@@ -174,16 +174,12 @@ Capsule-associated surface structures were examined by negative-stain transmissi
   <img src="2_Evolutionary_Signatures/phenotype_experiments/capsule_and_microscopy.png" width="750" alt="Transmission electron micrographs of ESL2.4-KL2 and ESL2.5-KL3 capsule-associated surface layers">
 </p>
 
-#### Mouse colonisation, mucosal immunity and systemic infection
+#### Mouse colonisation and mucosal immunity
 
-Three isolates from each lineage were examined in the nasal-colonisation model. Anaesthetized mice received 40 microlitres of bacterial suspension intranasally, and nasal tissues collected on days 1, 2, 3, 5, 7 and 14 were homogenized and plated for CFU enumeration. Nasal-mucus sIgA was quantified by ELISA at the specified sampling times and calculated from the assay standard curve. Systemic virulence was assessed in seven-week-old female C57BL/6J mice inoculated intraperitoneally with 5 x 10^7 CFU. Three isolates per lineage were tested in two laboratories, giving six mice per isolate and 18 mice per lineage; survival was monitored for seven days and compared by a two-sided log-rank test. Data and analysis details are in [`nasal_colonisation/`](2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/), [`secretory_iga/`](2_Evolutionary_Signatures/phenotype_experiments/secretory_iga/) and [`systemic_infection_survival/`](2_Evolutionary_Signatures/phenotype_experiments/systemic_infection_survival/). The composite corresponds to Fig. 4h-j&l.
+Three isolates from each lineage were examined in the nasal-colonisation model. Anaesthetized mice received 40 microlitres of bacterial suspension intranasally, and nasal tissues collected on days 1, 2, 3, 5, 7 and 14 were homogenized and plated for CFU enumeration. Nasal-mucus sIgA was quantified by ELISA at the specified sampling times and calculated from the assay standard curve. Data and analysis details are in [`nasal_colonisation/`](2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/) and [`secretory_iga/`](2_Evolutionary_Signatures/phenotype_experiments/secretory_iga/). The composite corresponds to Fig. 4h-j.
 
 <p align="left">
   <img src="2_Evolutionary_Signatures/phenotype_experiments/animal_experiments.png" width="850" alt="Mouse nasal-colonisation design, bacterial loads and nasal secretory IgA">
-</p>
-
-<p align="left">
-  <img src="2_Evolutionary_Signatures/phenotype_experiments/systemic_infection_survival/systemic_infection_survival.png" width="500" alt="Seven-day systemic-infection survival of mice challenged with ESL2.4 and ESL2.5">
 </p>
 
 #### A549-cell adhesion

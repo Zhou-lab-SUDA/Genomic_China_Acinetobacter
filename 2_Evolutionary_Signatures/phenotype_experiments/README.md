@@ -25,20 +25,14 @@ measurements normalized to bacterial counts and summarized at isolate level.
   <img src="capsule_and_microscopy.png" width="750" alt="Transmission electron micrographs of ESL2.4-KL2 and ESL2.5-KL3 capsule-associated surface layers">
 </p>
 
-## Mouse colonisation, mucosal immunity and systemic infection
+## Mouse colonisation and mucosal immunity
 
 [`nasal_colonisation/`](nasal_colonisation/) contains mouse-level nasal CFU
 measurements across six time points. [`secretory_iga/`](secretory_iga/)
-documents the nasal-mucus ELISA, and
-[`systemic_infection_survival/`](systemic_infection_survival/) contains the
-seven-day survival data and Kaplan-Meier analysis.
+documents the nasal-mucus ELISA.
 
 <p align="left">
   <img src="animal_experiments.png" width="850" alt="Mouse nasal-colonisation design, bacterial loads and nasal secretory IgA">
-</p>
-
-<p align="left">
-  <img src="systemic_infection_survival/systemic_infection_survival.png" width="500" alt="Seven-day systemic-infection survival of mice challenged with ESL2.4 and ESL2.5">
 </p>
 
 ## A549-cell adhesion
