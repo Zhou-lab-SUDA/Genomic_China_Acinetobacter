@@ -6,4 +6,4 @@ Fig. 3d–e and Extended Data Fig. 6 use PCA of 15 transformed variables in 60 c
 python code/analysis.py --out /tmp/ab-urban-pca --plot
 ```
 
-The results include the standardized matrix, scores, eigenvector loadings and active-variable correlations. The supplied tables retain the verified source PCA results and projection vectors. Plotting code draws panels from those analytical values. Fig. 3f uses provincial GDP and outpatient-to-inpatient ratios from [TrueValueOI.xlsx](../TrueValueOI.xlsx).
+The results include the standardized matrix, scores, eigenvector loadings and active-variable correlations. [Fig3de_plot_values.tsv](data/Fig3de_plot_values.tsv) contains the display values for Fig. 3d–e. The computed PCA results and the projection vectors used for Extended Data Fig. 6 are archived separately. Fig. 3f uses provincial GDP and outpatient-to-inpatient ratios from [TrueValueOI.xlsx](../TrueValueOI.xlsx).

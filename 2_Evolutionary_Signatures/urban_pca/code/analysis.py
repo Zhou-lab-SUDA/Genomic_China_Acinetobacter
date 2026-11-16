@@ -60,7 +60,10 @@ def outcome_blind_pca() -> tuple[pd.DataFrame, pd.DataFrame, np.ndarray]:
 
 def draw(out, scores, explained):
     vectors = pd.read_csv(DATA / "S2c_Supplementary_PCA_vectors.tsv", sep="\t")
-    for key, arrows in [("fig_3d", vectors.loc[vectors.Display_label.isin(["Population", "Total GDP", "Urbanisation rate"])]),
+    display = pd.read_csv(DATA / "Fig3de_plot_values.tsv", sep="\t", index_col="Variable")
+    display = display.join(vectors.set_index("Variable")["Display_label"], validate="one_to_one")
+    main_arrows = display.rename(columns={"PC1": "PC1_correlation_loading", "PC2": "PC2_correlation_loading"})
+    for key, arrows in [("fig_3d", main_arrows.loc[main_arrows.Display_label.isin(["Population", "Total GDP", "Urbanisation rate"])]),
                         ("extended_data_fig_6", vectors)]:
         fig, ax = plt.subplots(figsize=(8, 7), layout="constrained")
         shown = scores.ESL25_prevalence_Fig3.gt(0)
@@ -78,14 +81,13 @@ def draw(out, scores, explained):
         ax.set_box_aspect(1)
         fig.savefig(out / f"{key}.svg")
         plt.close(fig)
-    heat = vectors.loc[~vectors.Display_label.str.contains("Road|Highway", case=False)]
-    matrix = heat[["PC1_correlation_loading", "PC2_correlation_loading"]].to_numpy()
+    matrix = display[["PC1", "PC2"]].to_numpy()
     fig, ax = plt.subplots(figsize=(6, 8), layout="constrained")
     im = ax.imshow(matrix, cmap="RdBu_r", vmin=-1, vmax=1, aspect="auto")
-    ax.set(xticks=[0, 1], xticklabels=["PC1", "PC2"], yticks=range(len(heat)), yticklabels=heat.Display_label)
+    ax.set(xticks=[0, 1], xticklabels=["PC1", "PC2"], yticks=range(len(display)), yticklabels=display.Display_label)
     for (i, j), value in np.ndenumerate(matrix):
         ax.text(j, i, f"{value:+.2f}", ha="center", va="center", color="white" if abs(value) > .65 else "black")
-    fig.colorbar(im, ax=ax, label="Variable–PC correlation")
+    fig.colorbar(im, ax=ax, label="Plotted coefficient")
     fig.savefig(out / "fig_3e.svg")
 
 
