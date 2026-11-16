@@ -17,3 +17,11 @@ excluded from the corresponding time-point summary and test. All statistics use
 the observed bacterial-load values.
 
 The nasal-colonisation design and bacterial-load results are shown with nasal sIgA in [`../animal_experiments.png`](../animal_experiments.png).
+
+## Isolate-level view
+
+Supplementary Fig. 6a shows nasal colonisation by isolate. The input contains 180 slots and 175 measured log10 CFU values across six isolates. Each point is a measurement at one time point. Lines connect isolate means across days, with SEM bars. Tissue collection is terminal and the display treats sampling days as separate groups.
+
+```sh
+python code/plot_isolates.py --input data/nasal_colonisation_measurements.tsv --output-dir /tmp/ab-nasal
+```

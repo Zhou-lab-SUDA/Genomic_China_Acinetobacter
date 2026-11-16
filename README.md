@@ -1,6 +1,6 @@
-# Healthcare Infrastructure Shapes Evolutionary Trade-offs and Geographic Dissemination of Multidrug-Resistant *Acinetobacter baumannii*
+# Healthcare connectivity and ecological differentiation of multidrug-resistant *Acinetobacter baumannii*
 
-This repository contains the analysis code, processed data and model implementation accompanying the study **Healthcare Infrastructure Shapes Evolutionary Trade-offs and Geographic Dissemination of Multidrug-Resistant *Acinetobacter baumannii***.
+This repository contains the analysis code, processed data and model implementation accompanying the study **Healthcare connectivity and ecological differentiation of multidrug-resistant *Acinetobacter baumannii***.
 
 The study combines phylogenomics, phylogeography, sampling-sensitivity analyses, urban healthcare indicators, lineage-associated genomic variation, phenotype experiments and a spatial population-genetic model to examine the dissemination and ecological differentiation of the major ESL2 lineages in China.
 
@@ -72,11 +72,18 @@ The four panels below show the number of detected clusters and modularity Q acro
 
 [`Speed.py`](1_Phylogenomics_and_Transmission_Inference/Speed.py) combines geographic distance between reconstructed parent and descendant locations with the corresponding branch-time interval, following the phylogeny-based framework described by [Belman et al.](https://doi.org/10.1038/s41586-024-07626-3). Pairwise distances between Chinese cities were obtained through the Baidu Map API and are retained in [`PairwiseChinaCities.distance`](1_Phylogenomics_and_Transmission_Inference/PairwiseChinaCities.distance).
 
-The left panel compares dissemination-speed estimates for ESL2.4 and ESL2.5 between 2010-2019 and 2020-2023. The right panel shows accumulated geographic spread distance over 20 years of evolutionary time for ESL2.4, ESL2.5 and the combined IC2 collection, with uncertainty intervals. These panels correspond to Fig. 2c and Fig. 2d, respectively.
+This legacy composite shows the earlier velocity estimates alongside accumulated geographic spread. Revised Fig. 2c uses fitted lineage estimates from the sampling-adjustment module. Fig. 2d shows the accumulated spread distance over evolutionary time.
 
 <p align="left">
   <img src="1_Phylogenomics_and_Transmission_Inference/F2.png" width="650" alt="Phylogeny-based dissemination speed and distance">
 </p>
+
+### Pandemic-period dissemination and sampling adjustment
+
+The [sampling-adjustment analysis](1_Phylogenomics_and_Transmission_Inference/covid_sampling_adjustment/) accounts for annual genomic sampling intensity and sampled-city counts. The estimated changes were −36.4% for ESL2.4 (P = 0.219) and −54.7% for ESL2.5 (P = 0.016). The difference in change between lineages was imprecise. Speed estimates and CIs are conditional on fixed lineage-specific clock factors.
+
+<!-- FIGURE_PLACEHOLDER: Supplementary Fig. 7a–d -->
+<p align="center"><em>[Figure placeholder: Supplementary Fig. 7a–d — Sampling-adjusted dissemination and placebo contrasts — 1_Phylogenomics_and_Transmission_Inference/covid_sampling_adjustment/supp_fig_7.png]</em></p>
 
 ### SNP-distance validation of spatial spread
 
@@ -106,15 +113,35 @@ The [evolutionary-signatures module](2_Evolutionary_Signatures/) links city char
   <img src="2_Evolutionary_Signatures/F31.png" width="700" alt="City connectivity, patient mobility and lineage prevalence">
 </p>
 
-### Urban attributes and multivariate modelling
+### Genomic sampling depth and specimen ascertainment
 
-[`ChinaCityInfo.xlsx`](2_Evolutionary_Signatures/ChinaCityInfo.xlsx) contains socioeconomic, demographic and healthcare variables curated from the [China Statistical Yearbook](https://www.stats.gov.cn) and the [China Health Statistical Yearbook](https://www.nhc.gov.cn/mohwsbwstjxxzx/tjnj). [`TrueValueOI.xlsx`](2_Evolutionary_Signatures/TrueValueOI.xlsx) contains provincial outpatient and inpatient indicators. The outpatient-to-inpatient ratio is calculated from outpatient visits and inpatient admissions and summarizes the relative throughput of ambulatory and inpatient healthcare use.
+[City-level sampling sensitivity](2_Evolutionary_Signatures/network_sampling_bias/) found a positive association of network degree with sampling depth (Spearman ρ = 0.559, 48 cities). The degree–prevalence association weakened in the common 47-city sample after adjustment for sampling and urban characteristics. [Specimen ascertainment](2_Evolutionary_Signatures/specimen_ascertainment/) compares invasive-specimen proportions and summarizes bloodstream-only lineage composition descriptively.
 
-Panel d compares provincial outpatient-to-inpatient ratios with GDP per capita before and after the COVID-19 pandemic. Panel e ranks Spearman correlations between ESL2.5 prevalence and 22 city-level variables. Panel f summarizes their joint structure by redundancy analysis, and panel g shows the structural equation model linking development, patient mobility, medical quality and medical pressure to ESL2.5 prevalence. These panels correspond to Fig. 3d-g.
+<!-- FIGURE_PLACEHOLDER: Supplementary Fig. 3a–c -->
+<p align="center"><em>[Figure placeholder: Supplementary Fig. 3a–c — Genomic sampling-depth sensitivity — 2_Evolutionary_Signatures/network_sampling_bias/supp_fig_3abc.png]</em></p>
 
-<p align="left">
-  <img src="2_Evolutionary_Signatures/F32.png" width="700" alt="Urban attributes, RDA and structural equation model">
-</p>
+<!-- FIGURE_PLACEHOLDER: Supplementary Fig. 3d–f -->
+<p align="center"><em>[Figure placeholder: Supplementary Fig. 3d–f — Specimen ascertainment — 2_Evolutionary_Signatures/specimen_ascertainment/supp_fig_3def.png]</em></p>
+
+<!-- FIGURE_PLACEHOLDER: Supplementary Fig. 3g -->
+<p align="center"><em>[Figure placeholder: Supplementary Fig. 3g — Fractional-logit models — 2_Evolutionary_Signatures/network_sampling_bias/adjusted_models/supp_fig_3g.png]</em></p>
+
+### Urban attributes and principal component analysis
+
+[ChinaCityInfo.xlsx](2_Evolutionary_Signatures/ChinaCityInfo.xlsx) contains demographic, socioeconomic and healthcare variables curated from the [China Statistical Yearbook](https://www.stats.gov.cn) and the [China Health Statistical Yearbook](https://www.nhc.gov.cn/mohwsbwstjxxzx/tjnj). The [urban PCA](2_Evolutionary_Signatures/urban_pca/) was fitted to 15 transformed predictors in 60 cities. PC1 and PC2 explain 55.9% and 16.1% of variance in those predictors. ESL2.5 prevalence is added after fitting. Fig. 3f compares provincial GDP per capita with outpatient-to-inpatient ratios using [TrueValueOI.xlsx](2_Evolutionary_Signatures/TrueValueOI.xlsx). These ratios summarize relative outpatient visits and inpatient admissions.
+
+<!-- FIGURE_PLACEHOLDER: Fig. 3d–f -->
+<p align="center"><em>[Figure placeholder: Fig. 3d–f — Urban PCA and provincial outpatient-to-inpatient ratios — 2_Evolutionary_Signatures/urban_pca/fig_3def.png]</em></p>
+
+<!-- FIGURE_PLACEHOLDER: Extended Data Fig. 6 -->
+<p align="center"><em>[Figure placeholder: Extended Data Fig. 6 — Full urban PCA projection — 2_Evolutionary_Signatures/urban_pca/extended_data_fig_6.png]</em></p>
+
+### Historical urban-characteristic sensitivity
+
+[Historical matching](2_Evolutionary_Signatures/historical_urban_attributes/) compares contemporary attributes with 2010–2017 observed values for 18 cities and 1,477 genomes. Matched PC1 scores correlate at ρ = 0.740, while some healthcare associations vary with the measurement period. None of the 13 historical correlations passed BH correction.
+
+<!-- FIGURE_PLACEHOLDER: Supplementary Fig. 8a–c -->
+<p align="center"><em>[Figure placeholder: Supplementary Fig. 8a–c — Historical PCA and matched-vintage comparison — 2_Evolutionary_Signatures/historical_urban_attributes/supp_fig_8.png]</em></p>
 
 ### Multiple testing of city-level associations
 
@@ -123,6 +150,8 @@ Panel d compares provincial outpatient-to-inpatient ratios with GDP per capita b
 <p align="left">
   <img src="2_Evolutionary_Signatures/city_associations/city_association_multiple_testing.png" width="700" alt="Nominal P values and Storey q values for city-level associations">
 </p>
+
+No city variable passed the reported 5% Storey FDR threshold in Supplementary Fig. 4.
 
 ### Gene disruptions, functional enrichment and gene expression
 
@@ -182,6 +211,9 @@ Three isolates from each lineage were examined in the nasal-colonisation model. 
   <img src="2_Evolutionary_Signatures/phenotype_experiments/animal_experiments.png" width="850" alt="Mouse nasal-colonisation design, bacterial loads and nasal secretory IgA">
 </p>
 
+<!-- FIGURE_PLACEHOLDER: Supplementary Fig. 6a -->
+<p align="center"><em>[Figure placeholder: Supplementary Fig. 6a — Six-isolate nasal colonisation — 2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/supp_fig_6a.png]</em></p>
+
 #### A549-cell adhesion
 
 A549 cells were maintained in DMEM with 10% fetal bovine serum and incubated with logarithmic-phase bacteria at MOI 10 or 20. After four hours, monolayers were washed five times, lysed with 1% Triton X-100 and plated for adherent CFU. Adhesion was calculated relative to the inoculum. Three isolates per lineage were measured in three independent experiments, and statistical comparisons use one mean per isolate at each MOI. Source plate counts and analysis scripts are in [`a549_adhesion/`](2_Evolutionary_Signatures/phenotype_experiments/a549_adhesion/). This figure corresponds to Fig. 4k.
@@ -202,6 +234,21 @@ The simulation uses synthetic city nodes and mobility links to test how metropol
 
 Existing sensitivity PDFs remain available under [`3_AB_network/example_res/sensitivity_results/`](3_AB_network/example_res/sensitivity_results/).
 
+## Figure-to-code map
+
+| Figure | Analysis |
+| --- | --- |
+| Fig. 2c and Fig. 5j (fitted lineage series), Supplementary Fig. 7 | [Dissemination adjustment](1_Phylogenomics_and_Transmission_Inference/covid_sampling_adjustment/) |
+| Fig. 3a–c | [Degree and mobility](2_Evolutionary_Signatures/Degree.py) |
+| Fig. 3d–e and Extended Data Fig. 6 | [Urban PCA](2_Evolutionary_Signatures/urban_pca/) |
+| Fig. 3f | [Provincial outpatient-to-inpatient data](2_Evolutionary_Signatures/TrueValueOI.xlsx) |
+| Supplementary Fig. 3a–c | [Network sampling bias](2_Evolutionary_Signatures/network_sampling_bias/) |
+| Supplementary Fig. 3d–f | [Specimen ascertainment](2_Evolutionary_Signatures/specimen_ascertainment/) |
+| Supplementary Fig. 3g | [Fractional-logit models](2_Evolutionary_Signatures/network_sampling_bias/adjusted_models/) |
+| Supplementary Fig. 4 | [Univariate city associations](2_Evolutionary_Signatures/city_associations/) |
+| Supplementary Fig. 6a–b | [Nasal colonisation](2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/) and [A549 adhesion](2_Evolutionary_Signatures/phenotype_experiments/a549_adhesion/) |
+| Supplementary Fig. 8a–c | [Historical urban attributes](2_Evolutionary_Signatures/historical_urban_attributes/) |
+
 ## Reproducing an analysis
 
 Reproduction is organized by analysis module. For a specific result:
@@ -215,7 +262,7 @@ Large raw sequencing files and the low-recombination-block FASTA remain external
 
 ## Software requirements
 
-Most tabular analyses use Python 3.10 or later. Common packages are:
+Most tabular analyses use Python 3.10 or later. Install revision dependencies with `python -m pip install -r requirements-revision.txt`. Consult the [source and reproducibility checks](REVISION_SYNC_DISCREPANCIES.md) for unresolved differences. Common packages are:
 
 - NumPy, pandas and SciPy
 - Matplotlib and seaborn
@@ -231,7 +278,7 @@ Upstream phylogenomic reconstruction additionally used EToKi, IQ-TREE 2, RecHMM,
 
 If you use this repository, its code or processed source data, please cite the accompanying paper:
 
-Li S, Wu Y, Zhou Y, Zhong L, Jiang Y, Wang Y, Li J, Lin H, Li H, Xia S, Du H, Zhang R, Lou Y, Wang S, *et al.* **Healthcare Infrastructure Shapes Evolutionary Trade-offs and Geographic Dissemination of Multidrug-Resistant *Acinetobacter baumannii*.**
+Li S, Wu Y, Zhou Y, Zhong L, Jiang Y, Wang Y, Li J, Lin H, Li H, Xia S, Du H, Zhang R, Lou Y, Wang S, *et al.* **Healthcare connectivity and ecological differentiation of multidrug-resistant *Acinetobacter baumannii*.**
 
 Please also cite the original software and external data sources relevant to the analysis being reused.
 

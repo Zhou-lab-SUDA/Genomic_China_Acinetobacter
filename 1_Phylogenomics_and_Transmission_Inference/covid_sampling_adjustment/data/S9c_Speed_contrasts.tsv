@@ -1,0 +1,6 @@
+comparison_id	group1	group2	estimate_difference_km_per_year	ci_lower_km_per_year	ci_upper_km_per_year	p_value
+within_ESL2.4	ESL2.4 pre	ESL2.4 npi	-9.96452099	-26.32703674	6.397994764	0.2185506249
+within_ESL2.5	ESL2.5 pre	ESL2.5 npi	-26.30580714	-47.17174777	-5.439866524	0.01605647023
+between_pre	ESL2.4 pre	ESL2.5 pre	20.75232379	3.211567787	38.2930798	0.02273721607
+between_npi	ESL2.4 npi	ESL2.5 npi	4.411037639	-14.05358882	22.8756641	0.6236953662
+difference_in_change	ESL2.4 (npi - pre)	ESL2.5 (npi - pre)	-16.34128615	-40.99807592	8.315503613	0.1820711325

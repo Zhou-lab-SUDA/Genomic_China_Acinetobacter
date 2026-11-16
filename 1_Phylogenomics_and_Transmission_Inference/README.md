@@ -21,6 +21,7 @@ This directory contains the dated phylogeny, empirical city-level transmission n
 | [`snp_distance_validation/`](snp_distance_validation/) | Pairwise SNP/time and SNP/geography calibration | Pair-level, annual and geographic-bin summaries |
 | [`network_sensitivity/`](network_sensitivity/) | Network reconstruction under geographic and temporal resampling | Replicate networks, NMI, ARI and network-metric summaries |
 | [`clade_prevalence_sensitivity/`](clade_prevalence_sensitivity/) | Annual lineage composition under four resampling schemes | Annual and overall replicate proportions and intervals |
+| [`covid_sampling_adjustment/`](covid_sampling_adjustment/) | Lineage-year sampling adjustment and placebo | Fixed-clock annual fits and contrasts, Supplementary Fig. 7 |
 
 Each subdirectory contains a README describing its design and the provenance of its tables. Code and data are separated within the subdirectory.
 
