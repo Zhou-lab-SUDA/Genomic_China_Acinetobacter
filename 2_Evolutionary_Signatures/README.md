@@ -8,7 +8,7 @@ This directory contains city-level association analyses, lineage-associated geno
 | --- | --- |
 | [`network_sampling_bias/`](network_sampling_bias/) | Genomic sampling-depth sensitivity and fractional-logit regressions |
 | [`specimen_ascertainment/`](specimen_ascertainment/) | Invasive-specimen and bloodstream-only comparisons |
-| [`urban_pca/`](urban_pca/) | Outcome-blind PCA and variable–PC correlations |
+| [`urban_pca/`](urban_pca/) | Display values for Fig. 3d–e |
 | [`historical_urban_attributes/`](historical_urban_attributes/) | Matched 2010–2017 and contemporary sensitivity analysis |
 | [`city_associations/`](city_associations/) | Permutation-based Spearman tests for 22 city variables, nominal P values, Storey q-values and plotting tables |
 | [`snp_density/`](snp_density/) | Recombination-masked 10-kb SNP-density profiles for all annotated SNPs and the nonsynonymous subset |

@@ -240,7 +240,7 @@ Existing sensitivity PDFs remain available under [`3_AB_network/example_res/sens
 | --- | --- |
 | Fig. 2c and Fig. 5j (fitted lineage series), Supplementary Fig. 7 | [Dissemination adjustment](1_Phylogenomics_and_Transmission_Inference/covid_sampling_adjustment/) |
 | Fig. 3a–c | [Degree and mobility](2_Evolutionary_Signatures/Degree.py) |
-| Fig. 3d–e and Extended Data Fig. 6 | [Urban PCA](2_Evolutionary_Signatures/urban_pca/) |
+| Fig. 3d–e (display values) | [Figure data](2_Evolutionary_Signatures/urban_pca/data/Fig3de_plot_values.tsv) |
 | Fig. 3f | [Provincial outpatient-to-inpatient data](2_Evolutionary_Signatures/TrueValueOI.xlsx) |
 | Supplementary Fig. 3a–c | [Network sampling bias](2_Evolutionary_Signatures/network_sampling_bias/) |
 | Supplementary Fig. 3d–f | [Specimen ascertainment](2_Evolutionary_Signatures/specimen_ascertainment/) |
