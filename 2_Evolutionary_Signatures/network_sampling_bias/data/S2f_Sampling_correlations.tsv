@@ -1,0 +1,21 @@
+analysis	sampling_group	n_cities	spearman_rho	ci95_low_bootstrap	ci95_high_bootstrap	p_value	prevalence_definition	mean_prevalence	mean_difference	BH_q
+Degree vs sampling depth	All cities	48.0	0.5589623096846128	0.2969575836824148	0.7532147070294619	3.638209763050341e-05	original Figure 3 ESL2.5 prevalence; denominator is all genomes in the original figure	NA	NA	NA
+Degree vs ESL2.5 prevalence	All cities	48.0	0.4828676912416683	0.217352502757662	0.6828712552663072	0.0005088523024679	original Figure 3 ESL2.5 prevalence; denominator is all genomes in the original figure	NA	NA	NA
+Degree vs ESL2.5 prevalence	N < 20	25.0	0.5566710565340669	0.1681924639505349	0.8058766415263677	0.0038507646663179	original Figure 3 ESL2.5 prevalence; denominator is all genomes in the original figure	NA	NA	NA
+Degree vs ESL2.5 prevalence	20 <= N < 50	9.0	0.401677156202747	-0.5194853871537359	0.8532110091743119	0.2838999763379956	original Figure 3 ESL2.5 prevalence; denominator is all genomes in the original figure	NA	NA	NA
+Degree vs ESL2.5 prevalence	N >= 50	14.0	-0.3333365821012382	-0.8284529386171672	0.3491769944259352	0.2441652157199476	original Figure 3 ESL2.5 prevalence; denominator is all genomes in the original figure	NA	NA	NA
+City-equal mean ESL24 prevalence	0 ≤ N < 20	26.0		0.5025769231	0.6991923077		original Figure 3 lineage prevalence; city-equal mean	0.6006923077	NA	NA
+City-equal mean ESL25 prevalence	0 ≤ N < 20	26.0		0.1047692308	0.2877692308		original Figure 3 lineage prevalence; city-equal mean	0.1918461538	NA	NA
+Within-city ESL2.5 minus ESL2.4 prevalence	0 ≤ N < 20	26.0		-0.5736153846	-0.2371144231	0.000171999828	paired city-equal ESL2.5 minus ESL2.4 prevalence		-0.4088461538	0.000515999484
+City-equal mean ESL24 prevalence	20 ≤ N < 50	9.0		0.1734444444	0.3786666667		original Figure 3 lineage prevalence; city-equal mean	0.2776666667	NA	NA
+City-equal mean ESL25 prevalence	20 ≤ N < 50	9.0		0.5354444444	0.7805555556		original Figure 3 lineage prevalence; city-equal mean	0.6574444444	NA	NA
+Within-city ESL2.5 minus ESL2.4 prevalence	20 ≤ N < 50	9.0		0.1637777778	0.60445	0.015625	paired city-equal ESL2.5 minus ESL2.4 prevalence		0.3797777778	0.0234375
+City-equal mean ESL24 prevalence	N ≥ 50	14.0		0.2605	0.4545714286		original Figure 3 lineage prevalence; city-equal mean	0.3592142857	NA	NA
+City-equal mean ESL25 prevalence	N ≥ 50	14.0		0.3916428571	0.5898571429		original Figure 3 lineage prevalence; city-equal mean	0.4864285714	NA	NA
+Within-city ESL2.5 minus ESL2.4 prevalence	N ≥ 50	14.0		-0.05121428571	0.3175714286	0.2203369141	paired city-equal ESL2.5 minus ESL2.4 prevalence		0.1272142857	0.2203369141
+ESL2.4 mean prevalence: 0 ≤ N < 20 vs 20 ≤ N < 50	0 ≤ N < 20 vs 20 ≤ N < 50					0.001627996744	city-equal difference in original Figure 3 prevalence		0.323025641	0.003255993488
+ESL2.4 mean prevalence: 20 ≤ N < 50 vs N ≥ 50	20 ≤ N < 50 vs N ≥ 50					0.3089473821	city-equal difference in original Figure 3 prevalence		-0.08154761905	0.3089473821
+ESL2.4 mean prevalence: 0 ≤ N < 20 vs N ≥ 50	0 ≤ N < 20 vs N ≥ 50					0.004657990684	city-equal difference in original Figure 3 prevalence		0.241478022	0.006986986026
+ESL2.5 mean prevalence: 0 ≤ N < 20 vs 20 ≤ N < 50	0 ≤ N < 20 vs 20 ≤ N < 50					1.7999964e-05	city-equal difference in original Figure 3 prevalence		-0.4655982906	0.000107999784
+ESL2.5 mean prevalence: 20 ≤ N < 50 vs N ≥ 50	20 ≤ N < 50 vs N ≥ 50					0.05721588557	city-equal difference in original Figure 3 prevalence		0.171015873	0.06865906268
+ESL2.5 mean prevalence: 0 ≤ N < 20 vs N ≥ 50	0 ≤ N < 20 vs N ≥ 50					0.000453999092	city-equal difference in original Figure 3 prevalence		-0.2945824176	0.001361997276

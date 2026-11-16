@@ -1,0 +1,14 @@
+variable	variable_label	rho	permutation_p	n_cities	permutations	BH_q
+hospitals_per_100k	Hospitals per 100,000	-0.4252471546412485	0.08107	18	99999	0.8703825
+total_population	Total population	-0.1883089589895553	0.45181	18	99999	0.8703825
+primary_industry	Primary industry (%)	-0.0972584733242758	0.69958	18	99999	0.98866
+beds_per_100k	Hospital beds per 100,000	-0.0693225288587923	0.78074	18	99999	0.98866
+water_pipe_km	Drainage pipe length	0.0041386584393308	0.98866	18	99999	0.98866
+secondary_industry	Secondary industry (%)	0.0134506399278253	0.95816	18	99999	0.98866
+tertiary_industry	Tertiary industry (%)	0.0186239629769889	0.9424	18	99999	0.98866
+medical_insurance_per_100k	Medical insurance enrolment per 100,000	0.1541650268650755	0.53562	18	99999	0.8703825
+gdp_per_capita	GDP per capita	0.1748583190617299	0.48478	18	99999	0.8703825
+road_km	Road mileage	0.1810663067207263	0.46885	18	99999	0.8703825
+doctors_per_100k	Licensed doctors per 100,000	0.1903782882092208	0.44453	18	99999	0.8703825
+total_gdp	Total GDP	0.1924476174288862	0.44269	18	99999	0.8703825
+pension_insurance_per_100k	Pension insurance enrolment per 100,000	0.3145380413891473	0.20158	18	99999	0.8703825

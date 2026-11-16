@@ -1,0 +1,16 @@
+Variable	PC1	PC2
+CityLevel_ordinal	0.7224590155	0.3003072748
+GDP (100M rmb)	0.7797035458	-0.05463580927
+GDP_per_capita_log	0.801018143	-0.2598060893
+Urbanization_rate	0.921330905	-0.2062188803
+Population (10K)	0.711000535	0.5
+FirstIndustry_pct	-0.8481726687	0.2749444551
+ThirdIndustry_pct	0.7472925933	0.411667826
+SocialInsurance_per_capita_log	0.8701145891	-0.09112121866
+MedInsurance_per_capita_log	0.8705133644	-0.2624907731
+Mobility	0.8962872789	0.009532474982
+PublicTransportation_per_capita_log	0.8632811272	0.2093819856
+MedicalLevel	0.580829074	0.268979935
+Hospital_per_capita_log	0.07463690468	0.777321921
+HospitalBed_per_capita_log	0.2722901653	0.80418571
+HealthCarePro_per_capita_log	0.6626107114	0.5192936643

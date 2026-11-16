@@ -1,0 +1,235 @@
+City	Province	Indicator	Historical_value	Unit	Observed_years_numerator	Observed_years_denominator
+Beijing	Beijing	Total population	1318.7625	10,000 persons	8	NA
+Beijing	Beijing	Total GDP	20607.74	100 million RMB	6	NA
+Beijing	Beijing	GDP per capita	15.626574155695208	10,000 RMB/person	6	8.0
+Beijing	Beijing	Primary industry	0.73	% of GDP	6	NA
+Beijing	Beijing	Secondary industry	21.403333333333332	% of GDP	6	NA
+Beijing	Beijing	Tertiary industry	77.86833333333333	% of GDP	6	NA
+Beijing	Beijing	Hospitals	4.84924313513616	per 100,000 persons	8	8.0
+Beijing	Beijing	Hospital beds	770.2628411105109	per 100,000 persons	8	8.0
+Beijing	Beijing	Licensed doctors	638.4555596629416	per 100,000 persons	8	8.0
+Beijing	Beijing	Pension insurance enrolment	101798.09805458852	per 100,000 persons	7	8.0
+Beijing	Beijing	Medical insurance enrolment	109854.82222917318	per 100,000 persons	7	8.0
+Beijing	Beijing	Road mileage	7646.421249999999	km	8	NA
+Beijing	Beijing	Drainage pipe length	13867.75625	km	8	NA
+Chengdu	Sichuan	Total population	1243.3025	10,000 persons	8	NA
+Chengdu	Sichuan	Total GDP	9521.7337	100 million RMB	6	NA
+Chengdu	Sichuan	GDP per capita	7.658420778531371	10,000 RMB/person	6	8.0
+Chengdu	Sichuan	Primary industry	3.973333333333333	% of GDP	6	NA
+Chengdu	Sichuan	Secondary industry	44.931666666666665	% of GDP	6	NA
+Chengdu	Sichuan	Tertiary industry	51.096666666666664	% of GDP	6	NA
+Chengdu	Sichuan	Hospitals	5.96194409646888	per 100,000 persons	8	8.0
+Chengdu	Sichuan	Hospital beds	785.2091506290706	per 100,000 persons	8	8.0
+Chengdu	Sichuan	Licensed doctors	377.2050647368601	per 100,000 persons	8	8.0
+Chengdu	Sichuan	Pension insurance enrolment	41919.28888316936	per 100,000 persons	6	8.0
+Chengdu	Sichuan	Medical insurance enrolment	43530.035262268575	per 100,000 persons	6	8.0
+Chengdu	Sichuan	Road mileage	3001.7887499999997	km	8	NA
+Chengdu	Sichuan	Drainage pipe length	7444.72625	km	8	NA
+Chongqing	Chongqing	Total population	3358.01125	10,000 persons	8	NA
+Chongqing	Chongqing	Total GDP	13633.02	100 million RMB	6	NA
+Chongqing	Chongqing	GDP per capita	4.059849412356793	10,000 RMB/person	6	8.0
+Chongqing	Chongqing	Primary industry	7.785	% of GDP	6	NA
+Chongqing	Chongqing	Secondary industry	48.928333333333335	% of GDP	6	NA
+Chongqing	Chongqing	Tertiary industry	44.068	% of GDP	5	NA
+Chongqing	Chongqing	Hospitals	4.167645358543692	per 100,000 persons	8	8.0
+Chongqing	Chongqing	Hospital beds	410.39208847200854	per 100,000 persons	8	8.0
+Chongqing	Chongqing	Licensed doctors	168.96831420680914	per 100,000 persons	8	8.0
+Chongqing	Chongqing	Pension insurance enrolment	23829.07017190181	per 100,000 persons	7	8.0
+Chongqing	Chongqing	Medical insurance enrolment	28013.28613774001	per 100,000 persons	7	8.0
+Chongqing	Chongqing	Road mileage	6901.14875	km	8	NA
+Chongqing	Chongqing	Drainage pipe length	11314.27375	km	8	NA
+Foshan	Guangdong	Total population	387.445	10,000 persons	8	NA
+Foshan	Guangdong	Total GDP	7379.832549999999	100 million RMB	6	NA
+Foshan	Guangdong	GDP per capita	19.047432667862537	10,000 RMB/person	6	8.0
+Foshan	Guangdong	Primary industry	1.8216666666666663	% of GDP	6	NA
+Foshan	Guangdong	Secondary industry	61.61166666666667	% of GDP	6	NA
+Foshan	Guangdong	Tertiary industry	36.565	% of GDP	6	NA
+Foshan	Guangdong	Hospitals	2.822981326381809	per 100,000 persons	8	8.0
+Foshan	Guangdong	Hospital beds	717.276000464582	per 100,000 persons	8	8.0
+Foshan	Guangdong	Licensed doctors	377.7955580792113	per 100,000 persons	8	8.0
+Foshan	Guangdong	Pension insurance enrolment	94951.61156514382	per 100,000 persons	7	8.0
+Foshan	Guangdong	Medical insurance enrolment	92101.91308259424	per 100,000 persons	7	8.0
+Foshan	Guangdong	Road mileage	1686.7325	km	8	NA
+Foshan	Guangdong	Drainage pipe length	2304.71	km	8	NA
+Guangzhou	Guangdong	Total population	842.49125	10,000 persons	8	NA
+Guangzhou	Guangdong	Total GDP	15958.25285	100 million RMB	6	NA
+Guangzhou	Guangdong	GDP per capita	18.94174313383077	10,000 RMB/person	6	8.0
+Guangzhou	Guangdong	Primary industry	1.415	% of GDP	6	NA
+Guangzhou	Guangdong	Secondary industry	33.35166666666667	% of GDP	6	NA
+Guangzhou	Guangdong	Tertiary industry	65.235	% of GDP	6	NA
+Guangzhou	Guangdong	Hospitals	3.041998528598538	per 100,000 persons	7	8.0
+Guangzhou	Guangdong	Hospital beds	833.5940750550399	per 100,000 persons	7	8.0
+Guangzhou	Guangdong	Licensed doctors	489.4650241174611	per 100,000 persons	7	8.0
+Guangzhou	Guangdong	Pension insurance enrolment	100953.88103861189	per 100,000 persons	7	8.0
+Guangzhou	Guangdong	Medical insurance enrolment	85032.60673966304	per 100,000 persons	7	8.0
+Guangzhou	Guangdong	Road mileage	7288.82375	km	8	NA
+Guangzhou	Guangdong	Drainage pipe length	11036.6625	km	8	NA
+Hangzhou	Zhejiang	Total population	715.15875	10,000 persons	8	NA
+Hangzhou	Zhejiang	Total GDP	8955.779416666666	100 million RMB	6	NA
+Hangzhou	Zhejiang	GDP per capita	12.522785209111497	10,000 RMB/person	6	8.0
+Hangzhou	Zhejiang	Primary industry	3.06	% of GDP	6	NA
+Hangzhou	Zhejiang	Secondary industry	42.35166666666667	% of GDP	6	NA
+Hangzhou	Zhejiang	Tertiary industry	54.586666666666666	% of GDP	6	NA
+Hangzhou	Zhejiang	Hospitals	4.343441228957906	per 100,000 persons	8	8.0
+Hangzhou	Zhejiang	Hospital beds	725.2603005975946	per 100,000 persons	8	8.0
+Hangzhou	Zhejiang	Licensed doctors	443.9346508729705	per 100,000 persons	8	8.0
+Hangzhou	Zhejiang	Pension insurance enrolment	75593.85940534182	per 100,000 persons	7	8.0
+Hangzhou	Zhejiang	Medical insurance enrolment	81694.754586207	per 100,000 persons	7	8.0
+Hangzhou	Zhejiang	Road mileage	2697.36125	km	8	NA
+Hangzhou	Zhejiang	Drainage pipe length	5154.785	km	8	NA
+Harbin	Heilongjiang	Total population	977.7842857142856	10,000 persons	7	NA
+Harbin	Heilongjiang	Total GDP	5167.057833333333	100 million RMB	6	NA
+Harbin	Heilongjiang	GDP per capita	5.284455793394882	10,000 RMB/person	6	7.0
+Harbin	Heilongjiang	Primary industry	11.355	% of GDP	6	NA
+Harbin	Heilongjiang	Secondary industry	34.415	% of GDP	6	NA
+Harbin	Heilongjiang	Tertiary industry	54.23	% of GDP	6	NA
+Harbin	Heilongjiang	Hospitals	4.429658016886576	per 100,000 persons	8	7.0
+Harbin	Heilongjiang	Hospital beds	623.4286630559764	per 100,000 persons	8	7.0
+Harbin	Heilongjiang	Licensed doctors	221.75392176772849	per 100,000 persons	8	7.0
+Harbin	Heilongjiang	Pension insurance enrolment	17575.926036855923	per 100,000 persons	7	7.0
+Harbin	Heilongjiang	Medical insurance enrolment	26750.928118822587	per 100,000 persons	7	7.0
+Harbin	Heilongjiang	Road mileage	2468.57875	km	8	NA
+Harbin	Heilongjiang	Drainage pipe length	2691.72625	km	8	NA
+Hefei	Anhui	Total population	690.82125	10,000 persons	8	NA
+Hefei	Anhui	Total GDP	4931.509616666667	100 million RMB	6	NA
+Hefei	Anhui	GDP per capita	7.138618878134782	10,000 RMB/person	6	8.0
+Hefei	Anhui	Primary industry	5.058333333333334	% of GDP	6	NA
+Hefei	Anhui	Secondary industry	54.03666666666667	% of GDP	6	NA
+Hefei	Anhui	Tertiary industry	40.905	% of GDP	6	NA
+Hefei	Anhui	Hospitals	6.202762291982188	per 100,000 persons	8	8.0
+Hefei	Anhui	Hospital beds	543.5523299261567	per 100,000 persons	8	8.0
+Hefei	Anhui	Licensed doctors	238.18390068342575	per 100,000 persons	8	8.0
+Hefei	Anhui	Pension insurance enrolment	20744.77918233449	per 100,000 persons	7	8.0
+Hefei	Anhui	Medical insurance enrolment	29687.133765996423	per 100,000 persons	7	8.0
+Hefei	Anhui	Road mileage	2189.52125	km	8	NA
+Hefei	Anhui	Drainage pipe length	5985.99625	km	8	NA
+Nanchang	Jiangxi	Total population	513.91625	10,000 persons	8	NA
+Nanchang	Jiangxi	Total GDP	3508.06545	100 million RMB	6	NA
+Nanchang	Jiangxi	GDP per capita	6.826142294585937	10,000 RMB/person	6	8.0
+Nanchang	Jiangxi	Primary industry	4.588333333333334	% of GDP	6	NA
+Nanchang	Jiangxi	Secondary industry	55.52	% of GDP	6	NA
+Nanchang	Jiangxi	Tertiary industry	39.89333333333334	% of GDP	6	NA
+Nanchang	Jiangxi	Hospitals	3.480625491021154	per 100,000 persons	8	8.0
+Nanchang	Jiangxi	Hospital beds	471.5481364911111	per 100,000 persons	8	8.0
+Nanchang	Jiangxi	Licensed doctors	218.45971984734865	per 100,000 persons	8	8.0
+Nanchang	Jiangxi	Pension insurance enrolment	27723.208096372015	per 100,000 persons	7	8.0
+Nanchang	Jiangxi	Medical insurance enrolment	23937.78864051987	per 100,000 persons	7	8.0
+Nanchang	Jiangxi	Road mileage	1278.97875	km	8	NA
+Nanchang	Jiangxi	Drainage pipe length	2179.93125	km	8	NA
+Nanning	Guangxi	Total population	729.4625	10,000 persons	8	NA
+Nanning	Guangxi	Total GDP	2963.312433333333	100 million RMB	6	NA
+Nanning	Guangxi	GDP per capita	4.062323194589624	10,000 RMB/person	6	8.0
+Nanning	Guangxi	Primary industry	12.081666666666663	% of GDP	6	NA
+Nanning	Guangxi	Secondary industry	38.873333333333335	% of GDP	6	NA
+Nanning	Guangxi	Tertiary industry	49.04333333333333	% of GDP	6	NA
+Nanning	Guangxi	Hospitals	2.7126137395685177	per 100,000 persons	8	8.0
+Nanning	Guangxi	Hospital beds	449.4850660589133	per 100,000 persons	8	8.0
+Nanning	Guangxi	Licensed doctors	257.4858200387272	per 100,000 persons	8	8.0
+Nanning	Guangxi	Pension insurance enrolment	13299.767196492525	per 100,000 persons	7	8.0
+Nanning	Guangxi	Medical insurance enrolment	17397.567191106955	per 100,000 persons	7	8.0
+Nanning	Guangxi	Road mileage	1494.925	km	8	NA
+Nanning	Guangxi	Drainage pipe length	1076.88	km	8	NA
+Nanyang	Henan	Total population	1191.22375	10,000 persons	8	NA
+Nanyang	Henan	Total GDP	2616.60185	100 million RMB	6	NA
+Nanyang	Henan	GDP per capita	2.1965662202419987	10,000 RMB/person	6	8.0
+Nanyang	Henan	Primary industry	17.761666666666667	% of GDP	6	NA
+Nanyang	Henan	Secondary industry	48.38333333333333	% of GDP	6	NA
+Nanyang	Henan	Tertiary industry	33.855	% of GDP	6	NA
+Nanyang	Henan	Hospitals	2.69995456353183	per 100,000 persons	8	8.0
+Nanyang	Henan	Hospital beds	285.018872399077	per 100,000 persons	8	8.0
+Nanyang	Henan	Licensed doctors	145.3232442687614	per 100,000 persons	8	8.0
+Nanyang	Henan	Pension insurance enrolment	7126.541688146927	per 100,000 persons	7	8.0
+Nanyang	Henan	Medical insurance enrolment	9708.135376390395	per 100,000 persons	7	8.0
+Nanyang	Henan	Road mileage	1211.1025	km	8	NA
+Nanyang	Henan	Drainage pipe length	1206.0225	km	8	NA
+Qingyang	Gansu	Total population	265.04875	10,000 persons	8	NA
+Qingyang	Gansu	Total GDP	577.53335	100 million RMB	6	NA
+Qingyang	Gansu	GDP per capita	2.1789702837685523	10,000 RMB/person	6	8.0
+Qingyang	Gansu	Primary industry	13.125	% of GDP	6	NA
+Qingyang	Gansu	Secondary industry	57.623333333333335	% of GDP	6	NA
+Qingyang	Gansu	Tertiary industry	29.251666666666665	% of GDP	6	NA
+Qingyang	Gansu	Hospitals	5.10755096939714	per 100,000 persons	8	8.0
+Qingyang	Gansu	Hospital beds	277.24145086517103	per 100,000 persons	8	8.0
+Qingyang	Gansu	Licensed doctors	127.9953216153632	per 100,000 persons	8	8.0
+Qingyang	Gansu	Pension insurance enrolment	2831.543792819785	per 100,000 persons	7	8.0
+Qingyang	Gansu	Medical insurance enrolment	6763.537435498727	per 100,000 persons	7	8.0
+Qingyang	Gansu	Road mileage	156.17875	km	8	NA
+Qingyang	Gansu	Drainage pipe length	195.8125	km	8	NA
+Shanghai	Shanghai	Total population	1435.0414285714287	10,000 persons	7	NA
+Shanghai	Shanghai	Total GDP	22974.888333333336	100 million RMB	6	NA
+Shanghai	Shanghai	GDP per capita	16.009912937638767	10,000 RMB/person	6	7.0
+Shanghai	Shanghai	Primary industry	0.54	% of GDP	6	NA
+Shanghai	Shanghai	Secondary industry	35.61333333333333	% of GDP	6	NA
+Shanghai	Shanghai	Tertiary industry	63.85	% of GDP	6	NA
+Shanghai	Shanghai	Hospitals	4.145350706649584	per 100,000 persons	8	7.0
+Shanghai	Shanghai	Hospital beds	790.8830904832016	per 100,000 persons	8	7.0
+Shanghai	Shanghai	Licensed doctors	358.87117245992897	per 100,000 persons	8	7.0
+Shanghai	Shanghai	Pension insurance enrolment	93096.56565415232	per 100,000 persons	7	7.0
+Shanghai	Shanghai	Medical insurance enrolment	100138.771503859	per 100,000 persons	7	7.0
+Shanghai	Shanghai	Road mileage	4906.75	km	8	NA
+Shanghai	Shanghai	Drainage pipe length	17905.9925	km	8	NA
+Shenzhen	Guangdong	Total population	329.1325	10,000 persons	8	NA
+Shenzhen	Guangdong	Total GDP	15325.517566666667	100 million RMB	6	NA
+Shenzhen	Guangdong	GDP per capita	46.56336753941549	10,000 RMB/person	6	8.0
+Shenzhen	Guangdong	Primary industry	0.0433333333333333	% of GDP	6	NA
+Shenzhen	Guangdong	Secondary industry	42.97333333333333	% of GDP	6	NA
+Shenzhen	Guangdong	Tertiary industry	56.98499999999999	% of GDP	6	NA
+Shenzhen	Guangdong	Hospitals	3.6953202737499335	per 100,000 persons	8	8.0
+Shenzhen	Guangdong	Hospital beds	901.8594335108202	per 100,000 persons	8	8.0
+Shenzhen	Guangdong	Licensed doctors	811.952633058115	per 100,000 persons	8	8.0
+Shenzhen	Guangdong	Pension insurance enrolment	275421.7786801017	per 100,000 persons	7	8.0
+Shenzhen	Guangdong	Medical insurance enrolment	282150.41488935746	per 100,000 persons	7	8.0
+Shenzhen	Guangdong	Road mileage	8639.630000000001	km	8	NA
+Shenzhen	Guangdong	Drainage pipe length	12713.222857142857	km	7	NA
+Taizhou	Zhejiang	Total population	594.19125	10,000 persons	8	NA
+Taizhou	Zhejiang	Total GDP	3276.4839833333335	100 million RMB	6	NA
+Taizhou	Zhejiang	GDP per capita	5.514190899535013	10,000 RMB/person	6	8.0
+Taizhou	Zhejiang	Primary industry	6.646666666666667	% of GDP	6	NA
+Taizhou	Zhejiang	Secondary industry	46.92166666666666	% of GDP	6	NA
+Taizhou	Zhejiang	Tertiary industry	46.428333333333335	% of GDP	6	NA
+Taizhou	Zhejiang	Hospitals	3.41220103796547	per 100,000 persons	8	8.0
+Taizhou	Zhejiang	Hospital beds	346.31736835572724	per 100,000 persons	8	8.0
+Taizhou	Zhejiang	Licensed doctors	240.38977349464503	per 100,000 persons	8	8.0
+Taizhou	Zhejiang	Pension insurance enrolment	29137.32861984372	per 100,000 persons	7	8.0
+Taizhou	Zhejiang	Medical insurance enrolment	23493.04441721656	per 100,000 persons	7	8.0
+Taizhou	Zhejiang	Road mileage	2168.61	km	8	NA
+Taizhou	Zhejiang	Drainage pipe length	2097.12375	km	8	NA
+Tianjin	Tianjin	Total population	1014.50625	10,000 persons	8	NA
+Tianjin	Tianjin	Total GDP	14786.971666666666	100 million RMB	6	NA
+Tianjin	Tianjin	GDP per capita	14.57553530761064	10,000 RMB/person	6	8.0
+Tianjin	Tianjin	Primary industry	1.3033333333333337	% of GDP	6	NA
+Tianjin	Tianjin	Secondary industry	48.84	% of GDP	6	NA
+Tianjin	Tianjin	Tertiary industry	49.855	% of GDP	6	NA
+Tianjin	Tianjin	Hospitals	5.094842934678815	per 100,000 persons	8	8.0
+Tianjin	Tianjin	Hospital beds	535.489554647889	per 100,000 persons	8	8.0
+Tianjin	Tianjin	Licensed doctors	331.71555128418385	per 100,000 persons	8	8.0
+Tianjin	Tianjin	Pension insurance enrolment	56130.530773678605	per 100,000 persons	7	8.0
+Tianjin	Tianjin	Medical insurance enrolment	64554.176688695334	per 100,000 persons	7	8.0
+Tianjin	Tianjin	Road mileage	6945.68625	km	8	NA
+Tianjin	Tianjin	Drainage pipe length	18571.69125	km	8	NA
+Urumqi	Xinjiang	Total population	254.7325	10,000 persons	8	NA
+Urumqi	Xinjiang	Total GDP	2241.5080166666667	100 million RMB	6	NA
+Urumqi	Xinjiang	GDP per capita	8.799458320656637	10,000 RMB/person	6	8.0
+Urumqi	Xinjiang	Primary industry	1.2	% of GDP	6	NA
+Urumqi	Xinjiang	Secondary industry	36.895	% of GDP	6	NA
+Urumqi	Xinjiang	Tertiary industry	61.905	% of GDP	6	NA
+Urumqi	Xinjiang	Hospitals	6.393962293778769	per 100,000 persons	8	8.0
+Urumqi	Xinjiang	Hospital beds	1024.5747990539096	per 100,000 persons	8	8.0
+Urumqi	Xinjiang	Licensed doctors	507.17419253530664	per 100,000 persons	8	8.0
+Urumqi	Xinjiang	Pension insurance enrolment	40237.54891335589	per 100,000 persons	7	8.0
+Urumqi	Xinjiang	Medical insurance enrolment	50836.779759159115	per 100,000 persons	7	8.0
+Urumqi	Xinjiang	Road mileage	2014.715	km	8	NA
+Urumqi	Xinjiang	Drainage pipe length	1495.0	km	8	NA
+Wenzhou	Zhejiang	Total population	807.56375	10,000 persons	8	NA
+Wenzhou	Zhejiang	Total GDP	4185.709766666667	100 million RMB	6	NA
+Wenzhou	Zhejiang	GDP per capita	5.183132312051732	10,000 RMB/person	6	8.0
+Wenzhou	Zhejiang	Primary industry	2.9066666666666667	% of GDP	6	NA
+Wenzhou	Zhejiang	Secondary industry	47.40166666666667	% of GDP	6	NA
+Wenzhou	Zhejiang	Tertiary industry	49.695	% of GDP	6	NA
+Wenzhou	Zhejiang	Hospitals	4.337118896186214	per 100,000 persons	8	8.0
+Wenzhou	Zhejiang	Hospital beds	365.8395389837645	per 100,000 persons	8	8.0
+Wenzhou	Zhejiang	Licensed doctors	271.87791675889366	per 100,000 persons	8	8.0
+Wenzhou	Zhejiang	Pension insurance enrolment	31050.24923950055	per 100,000 persons	7	8.0
+Wenzhou	Zhejiang	Medical insurance enrolment	27857.712250492383	per 100,000 persons	7	8.0
+Wenzhou	Zhejiang	Road mileage	1400.95125	km	8	NA
+Wenzhou	Zhejiang	Drainage pipe length	2595.3925	km	8	NA
