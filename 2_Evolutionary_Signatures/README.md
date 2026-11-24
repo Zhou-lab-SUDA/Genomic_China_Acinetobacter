@@ -10,7 +10,7 @@ This directory contains city-level association analyses, lineage-associated geno
 | [`specimen_ascertainment/`](specimen_ascertainment/) | Invasive-specimen and bloodstream-only comparisons |
 | [`urban_pca/`](urban_pca/) | Display values for Fig. 3d–e |
 | [`historical_urban_attributes/`](historical_urban_attributes/) | Matched 2010–2017 and contemporary sensitivity analysis |
-| [`city_associations/`](city_associations/) | Permutation-based Spearman tests for 22 city variables, nominal P values, Storey q-values and plotting tables |
+| [`city_associations/`](city_associations/) | Permutation-based Spearman tests for 21 city variables, nominal P values, Storey q-values and plotting tables |
 | [`snp_density/`](snp_density/) | Recombination-masked 10-kb SNP-density profiles for all annotated SNPs and the nonsynonymous subset |
 | [`phenotype_experiments/`](phenotype_experiments/) | Source measurements, derived tables and calculation scripts for experimental phenotype comparisons |
 | `Degree.py` | Association between empirical city-network connectivity and lineage prevalence |
@@ -21,7 +21,7 @@ This directory contains city-level association analyses, lineage-associated geno
 
 ## City-level analyses
 
-The univariate analysis tests associations between ESL2.5 relative abundance and 22 city variables using Spearman statistics and permutation P values. `city_associations/` contains the complete marginal-test table, Benjamini-Hochberg adjustment and Storey q-values; the smallest Storey q-value is 0.0768 for air pollution. The [urban PCA](urban_pca/) summarizes standardized predictors independently of lineage prevalence. Fig. 3f uses provincial outpatient-to-inpatient ratios. The [historical analysis](historical_urban_attributes/) checks sensitivity to the period of covariate measurement.
+The univariate analysis tests associations between ESL2.5 relative abundance and 21 city variables using Spearman statistics and permutation P values. `city_associations/` contains the complete marginal-test table, Benjamini-Hochberg adjustment and Storey q-values; the smallest Storey q-value is 0.0768 for air pollution. The [urban PCA](urban_pca/) summarizes standardized predictors independently of lineage prevalence. Fig. 3f uses provincial outpatient-to-inpatient ratios. The [historical analysis](historical_urban_attributes/) checks sensitivity to the period of covariate measurement.
 
 `Degree.py` combines lineage prevalence with the empirical city network stored under [`../1_Phylogenomics_and_Transmission_Inference/`](../1_Phylogenomics_and_Transmission_Inference/). Network edges come from phylogeographic transitions; healthcare and mobility indicators enter as city-level covariates.
 
