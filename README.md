@@ -1,6 +1,6 @@
 # Healthcare connectivity and ecological differentiation of multidrug-resistant *Acinetobacter baumannii*
 
-This repository contains the analysis code, processed data and model implementation accompanying the study **Healthcare connectivity and ecological differentiation of multidrug-resistant *Acinetobacter baumannii***.
+This repository contains the analysis code, processed data and model implementation accompanying the study **Healthcare connectivity and ecological differentiation of multidrug-resistant *Acinetobacter baumannii*** (Old name as **Healthcare connectivity and ecological differentiation of multidrug-resistant *Acinetobacter baumannii***).
 
 The study combines phylogenomics, phylogeography, sampling-sensitivity analyses, urban healthcare indicators, lineage-associated genomic variation, phenotype experiments and a spatial population-genetic model to examine the dissemination and ecological differentiation of the major ESL2 lineages in China.
 
