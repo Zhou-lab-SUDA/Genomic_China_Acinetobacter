@@ -1,0 +1,10 @@
+Statistic	Value
+Historical PC1 variance explained	0.5904813076785851
+Historical PC2 variance explained	0.16145885393397558
+Contemporary PC1 variance explained	0.4522549769438719
+Contemporary PC2 variance explained	0.32353621384711395
+Historical versus contemporary PC1 Spearman rho	0.7399380804953559
+PC1 correlation permutation P	0.00069
+PC1 OLS R squared	0.570204568158314
+PC1 OLS slope	0.7551189099461846
+PC1 OLS intercept	3.995234940291548e-17

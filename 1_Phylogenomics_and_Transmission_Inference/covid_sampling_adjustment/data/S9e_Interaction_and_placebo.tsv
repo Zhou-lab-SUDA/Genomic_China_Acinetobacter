@@ -1,0 +1,3 @@
+analysis	contrast	estimate_km_per_year	ci95_low	ci95_high	p_value
+actual_covid	ESL2.5 minus ESL2.4 difference-in-change	-16.341286154451538	-40.99807592208923	8.315503613186152	0.1820711325007389
+prepandemic_placebo	ESL2.5 minus ESL2.4 difference-in-change	-7.075630814741659	-86.95383964260958	72.80257801312626	0.843246151165142

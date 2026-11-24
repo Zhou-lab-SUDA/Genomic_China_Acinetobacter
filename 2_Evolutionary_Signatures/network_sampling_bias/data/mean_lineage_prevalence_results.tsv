@@ -1,0 +1,4 @@
+sampling_group	n_cities	mean_esl24_prevalence	esl24_mean_ci95_low_bootstrap	esl24_mean_ci95_high_bootstrap	mean_esl25_prevalence	esl25_mean_ci95_low_bootstrap	esl25_mean_ci95_high_bootstrap	mean_paired_difference_esl25_minus_esl24	paired_difference_ci95_low_bootstrap	paired_difference_ci95_high_bootstrap	paired_signflip_p	permutation_method	permutations	paired_signflip_q_BH
+0 ≤ N < 20	26	0.6006923077	0.5025769231	0.6991923077	0.1918461538	0.1047692308	0.2877692308	-0.4088461538	-0.5736153846	-0.2371144231	0.000171999828	Monte Carlo sign-flip	1000000	0.000515999484
+20 ≤ N < 50	9	0.2776666667	0.1734444444	0.3786666667	0.6574444444	0.5354444444	0.7805555556	0.3797777778	0.1637777778	0.60445	0.015625	exact sign-flip	512	0.0234375
+N ≥ 50	14	0.3592142857	0.2605	0.4545714286	0.4864285714	0.3916428571	0.5898571429	0.1272142857	-0.05121428571	0.3175714286	0.2203369141	exact sign-flip	16384	0.2203369141
