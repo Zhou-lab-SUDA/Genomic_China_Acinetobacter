@@ -119,7 +119,7 @@ The [evolutionary-signatures module](2_Evolutionary_Signatures/) links city char
 [City-level sampling sensitivity](2_Evolutionary_Signatures/network_sampling_bias/) found a positive association of network degree with sampling depth (Spearman ρ = 0.559, 48 cities). The degree–prevalence association weakened in the common 47-city sample after adjustment for sampling and urban characteristics. [Specimen ascertainment](2_Evolutionary_Signatures/specimen_ascertainment/) compares invasive-specimen proportions and summarizes bloodstream-only lineage composition descriptively.
 
 <p align="left">
-  <img src="2_Evolutionary_Signatures/network_sampling_bias/adjusted_models/supp_fig_3.png" width="700" alt="adjusted_models">
+  <img src="2_Evolutionary_Signatures/network_sampling_bias/adjusted_models/supp_fig_3all.png" width="700" alt="adjusted_models">
 </p>
 
 ### Urban attributes and principal component analysis
