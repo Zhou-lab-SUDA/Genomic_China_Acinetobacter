@@ -82,8 +82,9 @@ This legacy composite shows the earlier velocity estimates alongside accumulated
 
 The [sampling-adjustment analysis](1_Phylogenomics_and_Transmission_Inference/covid_sampling_adjustment/) accounts for annual genomic sampling intensity and sampled-city counts. The estimated changes were −36.4% for ESL2.4 (P = 0.219) and −54.7% for ESL2.5 (P = 0.016). The difference in change between lineages was imprecise. Speed estimates and CIs are conditional on fixed lineage-specific clock factors.
 
-<!-- FIGURE_PLACEHOLDER: Supplementary Fig. 7a–d -->
-<p align="center"><em>[1_Phylogenomics_and_Transmission_Inference/covid_sampling_adjustment/supp_fig_7.png]</em></p>
+<p align="left">
+  <img src="1_Phylogenomics_and_Transmission_Inference/covid_sampling_adjustment/supp_fig_7.png" width="800" alt="covid_sampling_adjustment">
+</p>
 
 ### SNP-distance validation of spatial spread
 
@@ -117,23 +118,26 @@ The [evolutionary-signatures module](2_Evolutionary_Signatures/) links city char
 
 [City-level sampling sensitivity](2_Evolutionary_Signatures/network_sampling_bias/) found a positive association of network degree with sampling depth (Spearman ρ = 0.559, 48 cities). The degree–prevalence association weakened in the common 47-city sample after adjustment for sampling and urban characteristics. [Specimen ascertainment](2_Evolutionary_Signatures/specimen_ascertainment/) compares invasive-specimen proportions and summarizes bloodstream-only lineage composition descriptively.
 
-<!-- FIGURE_PLACEHOLDER: Supplementary Fig. 3a–c -->
-<p align="center"><em>[2_Evolutionary_Signatures/network_sampling_bias/adjusted_models/supp_fig_3.png]</em></p>
+<p align="left">
+  <img src="2_Evolutionary_Signatures/network_sampling_bias/adjusted_models/supp_fig_3.png" width="700" alt="adjusted_models">
+</p>
 
 ### Urban attributes and principal component analysis
 
 [ChinaCityInfo.xlsx](2_Evolutionary_Signatures/ChinaCityInfo.xlsx) contains demographic, socioeconomic and healthcare variables curated from the [China Statistical Yearbook](https://www.stats.gov.cn) and the [China Health Statistical Yearbook](https://www.nhc.gov.cn/mohwsbwstjxxzx/tjnj). The [urban PCA](2_Evolutionary_Signatures/urban_pca/) was fitted to 15 transformed predictors in 60 cities. PC1 and PC2 explain 55.9% and 16.1% of variance in those predictors. ESL2.5 prevalence is added after fitting. Fig. 3f compares provincial GDP per capita with outpatient-to-inpatient ratios using [TrueValueOI.xlsx](2_Evolutionary_Signatures/TrueValueOI.xlsx). These ratios summarize relative outpatient visits and inpatient admissions.
 
-<!-- FIGURE_PLACEHOLDER: Fig. 3d–f -->
-<p align="center"><em>[2_Evolutionary_Signatures/urban_pca/fig_3def.png]</em></p>
+<p align="left">
+  <img src="2_Evolutionary_Signatures/urban_pca/fig_3def.png" width="700" alt="New urban PCA">
+</p>
 
 
 ### Historical urban-characteristic sensitivity
 
 [Historical matching](2_Evolutionary_Signatures/historical_urban_attributes/) compares contemporary attributes with 2010–2017 observed values for 18 cities and 1,477 genomes. Matched PC1 scores correlate at ρ = 0.740, while some healthcare associations vary with the measurement period. None of the 13 historical correlations passed BH correction.
 
-<!-- FIGURE_PLACEHOLDER: Supplementary Fig. 8a–c -->
-<p align="center"><em>[Figure placeholder: Supplementary Fig. 8a–c — Historical PCA and matched-vintage comparison — 2_Evolutionary_Signatures/historical_urban_attributes/supp_fig_8.png]</em></p>
+<p align="left">
+  <img src="2_Evolutionary_Signatures/historical_urban_attributes/supp_fig_8.png" width="700" alt="Historical urban PCA">
+</p>
 
 ### Multiple testing of city-level associations
 
@@ -203,8 +207,9 @@ Three isolates from each lineage were examined in the nasal-colonisation model. 
   <img src="2_Evolutionary_Signatures/phenotype_experiments/animal_experiments.png" width="850" alt="Mouse nasal-colonisation design, bacterial loads and nasal secretory IgA">
 </p>
 
-<!-- FIGURE_PLACEHOLDER: Supplementary Fig. 6a -->
-<p align="center"><em>[2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/supp_fig_6a.png]</em></p>
+<p align="left">
+  <img src="2_Evolutionary_Signatures/phenotype_experiments/nasal_colonisation/supp_fig_6a.png" width="850" alt="Mouse nasal-colonisation design, bacterial loads">
+</p>
 
 #### A549-cell adhesion
 
