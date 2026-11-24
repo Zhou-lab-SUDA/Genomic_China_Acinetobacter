@@ -1,6 +1,6 @@
 # Healthcare connectivity and ecological differentiation of multidrug-resistant *Acinetobacter baumannii*
 
-This repository contains the analysis code, processed data and model implementation accompanying the study **Healthcare connectivity and ecological differentiation of multidrug-resistant *Acinetobacter baumannii*** (Old name as **Healthcare connectivity and ecological differentiation of multidrug-resistant *Acinetobacter baumannii***).
+This repository contains the analysis code, processed data and model implementation accompanying the study **Healthcare connectivity and ecological differentiation of multidrug-resistant *Acinetobacter baumannii*** (Old name as **Healthcare Infrastructure Shapes Evolutionary Trade-offs and Geographic Dissemination of Multidrug-Resistant *Acinetobacter baumannii***).
 
 The study combines phylogenomics, phylogeography, sampling-sensitivity analyses, urban healthcare indicators, lineage-associated genomic variation, phenotype experiments and a spatial population-genetic model to examine the dissemination and ecological differentiation of the major ESL2 lineages in China.
 
@@ -259,7 +259,7 @@ Large raw sequencing files and the low-recombination-block FASTA remain external
 
 ## Software requirements
 
-Most tabular analyses use Python 3.10 or later. Install revision dependencies with `python -m pip install -r requirements-revision.txt`. Consult the [source and reproducibility checks](REVISION_SYNC_DISCREPANCIES.md) for unresolved differences. Common packages are:
+Most tabular analyses use Python 3.10 or later. Install revision dependencies with `python -m pip install -r requirements-revision.txt`. Common packages are:
 
 - NumPy, pandas and SciPy
 - Matplotlib and seaborn
