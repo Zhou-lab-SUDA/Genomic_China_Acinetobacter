@@ -11,7 +11,7 @@ sensitive to reassignment of individual cities. A reduction in ARI with a
 relatively stable NMI therefore indicates local module changes without loss of
 the larger network organization.
 
-Two analysis snapshots are retained. The four degree-correlation summaries use
+The four degree-correlation summaries use
 `data/network_file_resampling/`. The five-scheme Nexus reconstruction uses the
 tables directly under `data/`. Use the first path for degree-correlation plots
 and the second for Nexus-based network and community comparisons.
