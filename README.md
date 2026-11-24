@@ -141,7 +141,7 @@ The [evolutionary-signatures module](2_Evolutionary_Signatures/) links city char
 
 ### Multiple testing of city-level associations
 
-[`city_associations/`](2_Evolutionary_Signatures/city_associations/) retains permutation-based Spearman tests for 22 city variables, nominal P values, Benjamini-Hochberg adjustment and Storey q-values. The smallest Storey q-value is 0.0768 for air pollution; the directory contains the complete table and plotting scripts.
+[`city_associations/`](2_Evolutionary_Signatures/city_associations/) retains permutation-based Spearman tests for 21 city variables, nominal P values, Benjamini-Hochberg adjustment and Storey q-values. The smallest Storey q-value is 0.0768 for air pollution; the directory contains the complete table and plotting scripts.
 
 <p align="left">
   <img src="2_Evolutionary_Signatures/city_associations/city_association_multiple_testing.png" width="700" alt="Nominal P values and Storey q values for city-level associations">

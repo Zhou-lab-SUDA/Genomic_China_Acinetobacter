@@ -1,13 +1,13 @@
 # City-level associations
 
 The univariate analysis tests Spearman associations between ESL2.5 relative
-abundance and 22 city variables. Nominal permutation P values and Storey FDR
+abundance and 21 city variables. Nominal permutation P values and Storey FDR
 q-values are retained in the result tables. The smallest Storey q-value is
 0.0768, for air pollution.
 
-The FDR adjustment applies to 22 separate marginal tests. RDA and SEM evaluate
-joint structure among predefined groups of standardized urban, healthcare and
-mobility variables and are reported as multivariate analyses in the manuscript.
+The FDR adjustment applies to 21 separate marginal tests. These exploratory
+associations are presented in Supplementary Fig. 4. Statistical significance
+was not used to select variables for the urban principal component analysis.
 
 The permutation results in `data/city_ESL25_spearman_permutation.tsv` are the
 input to the multiple-testing scripts. The other TSV files retain the plotted
